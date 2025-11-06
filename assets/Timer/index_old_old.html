@@ -1,0 +1,103 @@
+<!DOCYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" initial-scale = "1.0">
+    <title>Count Down</title>
+    <style>
+      body{
+        background: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #clock-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        width: 500px;
+        height: 200px;
+        background: darkblue;
+        max-width: 100%; /* - 100px);*/
+        border-radius: 20px;
+        box-shadow: 2px 2px 3px #000000a3, -2px -2px 3px #000000a3;
+        color: white;
+        font-size: 50px;
+      }
+      
+      
+      #clock-container div{
+        /* flex-basis: 50px; */
+        flex-grow: 2;
+        background: black;
+        text-align: center;
+      }
+      
+      #clock-container .colon{
+        /*flex-grow: 0.5;*/
+        background: red;
+        text-align: left;
+        
+        /* border: 3px solid red; */
+        flex-grow: 1;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div id="clock-container">
+      <!-- <div>01</div>
+      <div class = "colon">:</div>
+      <div>59</div>
+      <div class = "colon">:</div>
+      <div>59</div> -->
+    </div>
+  </body>
+  <!--<script>
+    var clockContainer = document.getElementById("clock-container");
+    
+    var hour = clockContainer.getElementsByTagName("div")[0];
+    
+    var minute = clockContainer.getElementsByTagName("div")[2];
+    
+    var second = clockContainer.getElementsByTagName("div")[4];
+    
+    function countSec()){
+      if (second.innerHTML != 0){second.innerHTML --;}
+      else{second.innerHTML = 59;}
+    }
+    
+    function countSec()){
+      if (second.innerHTML != 0){second.innerHTML --;}
+      else{second.innerHTML = 59;}
+    }
+    function countHour(){
+      if (hour.innerHTML != 0){hour.innerHTML --;}
+      else if(second.innerHTML == 0){
+        clearInterval(intervalIdSec);
+        clearInterval(intervalIdMin);
+        clearInterval(intervalIdHour);
+      }
+    }
+    
+    /*function countSec(){second.innerHTML = countDigit(second.innerHTML);}
+    
+    function countMin(){minute.innerHTML = countDigit(minute.innerHTML);}*/
+    
+    var speedUpFactor = 1/5;
+    
+    var intervalIdSec = setInterval(countSec, 1000*speedUpFactor);
+    var intervalIdMin = setInterval(countMin, 60000*speedUpFactor);
+    var intervalIdHour = setInterval(countHour, 3600000*speedUpFactor);
+    //alert(second.innerHTML);
+    
+  </script>-->
+  <script>
+    var time = new Date(0, 0, 0, 1, 2, 57);
+    
+    //alert(time.getHours());
+    
+    setInterval()
+  </script>
+</html>

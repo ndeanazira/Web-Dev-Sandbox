@@ -1,0 +1,76 @@
+@use "sass:math";
+@use "sass:list";
+@use "sass:color";
+@use "abstracts/_variables" as *;
+
+@mixin bubble-base(){
+		border-radius: 100%;
+		overflow: hidden;
+		padding: 0.5 rem;
+			
+		position: absolute;
+		bottom: 0px;
+		
+		transform-origin: center center;
+			
+		 div{
+			width: 50%;
+			height: 50%;
+			overflow: hidden;
+			img{
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+		}
+		
+		/* &:hover{
+			animation: bubble-inflate 
+		} */
+}
+
+@for $i from 1 through 5{
+	$bubble-size:math.clamp(50, math.random(200), 200);
+	$bubble-left: #{"calc( #{math.random(100)}vw - #{$bubble-size}px)"};
+	
+	$bubble-duration:#{math.clamp(10, math.random(20), 10)}s;
+
+	.bubble-size-#{$i}{
+		 @include bubble-base();
+		 height: #{$bubble-size}px;
+		 width: #{$bubble-size}px;
+		 
+		 left: min( $bubble-left, #{$bubble-size}px );
+		 
+		i{
+	 	font-size: #{$bubble-size*0.25}px;
+	}
+	
+	}
+	.bubble-animation{
+		&.bubble-animation-#{$i}{
+			animation: bubble-flow-#{$i} $bubble-duration linear infinite;
+		
+		}
+	}
+}
+	
+.bubble-inflation{
+	animation: bubble-inflate 1.5s;
+}	
+
+ .bubble-icon{
+	 	height: 75%;
+	 	width: auto;
+	}
+
+@for $i from 1 through list.length($bubble-border-colors){
+	.bubble-color-#{$i}{
+		background: list.nth($bubble-core-colors, $i);
+		border: 3px solid list.nth($bubble-border-colors, $i);
+		
+		&:active{
+			background: list.nth($bubble-border-colors, $i);
+		}
+	}
+}

@@ -1,0 +1,29 @@
+body{
+        background: lightgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      body #clock{
+        width: 500px;
+        padding: 60px 0px;
+        background: darkblue;
+        max-width: 100%; /* - 100px);*/
+        border-radius: 20px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #000000a3, -2px -2px 3px #000000a3;
+        color: white;
+        font-size: 25px;
+      }
+      
+      .finished{
+        animation: 0.5s color-flash linear;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes color-flash{
+        0%{color: white;}
+        50%{color: red;}
+        100%{color: white;}
+      }

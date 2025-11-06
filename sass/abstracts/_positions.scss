@@ -1,0 +1,17 @@
+.relative{
+	position: relative !important;
+}
+
+.absolute{
+	position: absolute !important;
+}
+
+@for $p from 0 to 5{
+	$position:($p*25);
+	.top-#{$position}{
+		top: #{$position}%;
+	}
+	.left-#{$position}{
+		left: #{$position}%;
+	}
+}

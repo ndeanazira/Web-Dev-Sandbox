@@ -1,0 +1,22 @@
+@use "abstracts/displays" as *;
+@use "abstracts/variables" as *;
+
+$cur-size:5;
+@each $item in $sizes{
+	.exit-btn-#{$item}{
+		@include flex-base("center", "center");
+		background: red;
+		color: white;
+		font-weight: bold;
+		height: #{$cur-size}px;
+		width: #{$cur-size}px;
+		&.rounded{
+			border-radius: 1000px;
+		}
+		
+		&:active{
+			background: black;
+		}
+	}
+	$cur-size:($cur-size + 15);
+}

@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pages{
+  height: 100vh;
+  /* background: #f0f0f0; */
+}
+
+.nav-bar img{
+  height: 100%;
+  width: auto;
+}
+
+.nav-bar, .dropdown li{
+  list-style-type: none;
+  line-height: 45px;
+}
+
+
+.nav-bar div{
+  /* border: 1px solid black !important; */
+}
+
+
+.dropdown .expanded .bi-caret-up-square-fill{
+  transform:  rotate(540deg);
+  transition: 1s;
+}
+
+.dropdown .bi-caret-up-square-fill{
+  transform:  rotate(0deg);
+  transition: 1s;
+}
+
+#carouselExample div{
+  background: grey;
+}
+
+.slideshow img{
+  object-fit: cover;
+}
+
+.slideshow .slide-media.thin{
+  height: 20vh !important;
+}
+
+.slideshow .slide-media.thick{
+  height: 27vh !important;
+}
+
+.slideshow .slide-media.full{
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+
+
+@media only screen and (min-width: 500px){
+  .slideshow img.thin, .slideshow img.thick{
+  height: 30vh !important;
+}
+}
+
+.log-in.page div:last-child{
+  width: 100vw;
+  height: 75vh;
+  
+  
+}

@@ -1,0 +1,26 @@
+@use "abstracts/variables" as *;
+
+h1{
+	font-size: 25px;
+}
+
+h2{
+	font-size: 15px;
+}
+
+.h-full{
+	height: 100%;
+}
+
+.w-full{
+	width: 100%;
+}
+
+@each $size in $sizes-percentage{
+	.h-#{$size}{
+		height: #{$size}%;
+	}
+	.w-#{$size}{
+		width: #{$size}%;
+	}
+}

@@ -1,0 +1,69 @@
+#options{
+  position: absolute;
+  top: 0px;
+  left: -1000px;
+  height: 100vh;
+  width: 70vw;
+  z-index: 1;
+  background: #ffffffa7;
+  overflow: none scroll;
+  padding: 10px 20px;
+  color: black;
+}
+
+@keyframes opt-slide{
+  from{left:-500px;}
+  to{left:0px;}
+}
+
+#close-opt{
+  text-align: right;
+  font-weight: 700;
+}
+
+#close-opt:active{
+  color: #882020;
+}
+
+.open{
+  display: initial;
+  overflow: hidden scroll;
+  animation: opt-slide 1s 0.1s forwards ease-out;
+}
+
+.hidden{
+  display: none;
+  transition: display 1s 0.1s;
+  overflow: scroll scroll;
+}
+
+#loc-list{
+  list-style: none;
+}
+
+#loc-list li{
+  margin: 20px 0px;
+}
+
+#loc-list li:active{
+  background: #808080b9;
+  color: white;
+}
+
+#opt-button{
+  line-height: 7px;
+  font-size: 350%;
+  font-weight: 250;
+}
+
+#enter-loc{
+  border: none;
+  height: 25px;
+  width: 90%;
+  background: #ffffff5c;
+  border-bottom: 2px solid black;
+}
+
+#enter-loc:focus{
+  outline: none;
+}

@@ -1,0 +1,57 @@
+@use "abstracts/_variables" as *;
+
+body{
+	background: #4b4b4b;
+	font-size: 12px;
+	font-family: "Montserrat", sans-serif;
+	text-wrap: wrap;
+	text-align: center;
+	margin: 0px !important;
+}
+
+nav{
+	height:$nav-height;
+}
+
+	a{
+	text-decoration: none;
+	color: inherit;
+	
+	&:active{
+		background: inherit;
+		-webkit-tap-highlight-color: transparent !important;
+	}
+	
+	&:visted{
+		background: inherit;
+	}
+}
+
+header > nav{
+	height: 100%;
+}
+
+main.home{
+	height:calc(100vh - $nav-height);
+	/* height: 100vh; */
+}
+
+main section:nth-child(1){
+	height: 125px;
+	color: $text-grey;
+}
+main section:nth-child(2){
+	height: calc(100% - 125px);
+}
+
+h1{
+	text-align: center;
+	font-size: 25px !important;
+}
+
+h2{
+	text-align: center;
+	font-size: 15px !important;
+	font-weight: 500;
+}
+

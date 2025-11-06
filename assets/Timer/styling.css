@@ -1,0 +1,85 @@
+body, .button-container, .button-container > *, #clock, form, #clock > *:not(p){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+      }
+      
+  #clock > *:not(p){
+  	border: 3px solid white;
+  	border-radius: 5px;
+  	margin: 0px 5px;
+  	height: 45px;
+  	width: 45px;
+  	background: none;
+  	color: white;
+  	text-align: center;
+  }
+  
+  #clock > input{
+  	border: 3px dashed white;
+  	transition: border 0.5s;
+  	transition: background 0.5s;
+  	/* background: blue; */
+  }
+      
+  form{
+  	height:100%;
+  	width: 100%;
+  	flex-direction: column;
+  }
+      
+  body{
+    background: lightgreen;
+    flex-direction: column;
+  	
+  }
+  
+  .button-container > *{
+  	height: 45px;
+  	width: 45px;
+  	color: white;
+  	outline: none;
+  	border: none;
+  }
+  
+  .button-container > *:active{
+  	background: grey !important;
+  	box-shadow: none;
+  }
+      
+     #clock, .button-container > *{
+        text-align: center;
+        box-shadow: 2px 2px 3px #000000a3, -2px -2px 3px #000000a3;
+        color: white;
+        font-size: 25px;
+  			margin: 10px;
+      }
+      
+      #clock{
+        border-radius: 20px;
+        padding: 60px 0px;
+        width: 500px;
+        max-width: 100%; /* - 100px);*/
+        background: darkblue;
+      	
+      }
+      
+      
+      .button-container > *{
+      	border-radius: 15px;
+      	font-size: 1.3em
+      }
+      
+      
+      
+      .finished{
+        animation: 0.5s color-flash linear;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes color-flash{
+        0%{color: white;}
+        50%{color: red;}
+        100%{color: white;}
+      }

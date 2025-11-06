@@ -1,0 +1,33 @@
+@use "components/pop-up" as *;
+
+@media (orientation: landscape){
+	#pop-up{
+		@include pop-up-mixin(100vh);
+	}
+}
+
+@media screen and (min-width: 768px){
+	nav{
+
+		.nav-btn{
+		
+			&.dropdown{
+				position: relative;
+				&.clicked{
+					.dropdown-list{
+						position: absolute;
+						top: 25px;
+						width: 100px;
+					}
+				}
+			}
+			
+				a{
+					height: 35px;
+					width: 100%;
+				}
+			}
+		}
+		
+}
+

@@ -1,0 +1,64 @@
+[
+	{
+		"name":"Home",
+		"dropdown":false,
+		"href":"/"
+	},
+	
+	{
+		"name":"Pages",
+		"dropdown":[
+			
+			{
+		"name":"Calculator",
+		"description":"This is another obvious contender for using the grid display type and ended up being easier than expected, thanks to the use of the \"eval\" function that made use of the \"innerText\" of the calculator buttons, with a few exceptions.",
+		"href":"/tasks/Calculator",
+		"styling":"/assets/Calculator/styling.css"
+	},
+	{
+		"name":"Timer",
+		"description": "This is the first (mini) website I created and it was done,without using any JavaScript fameworks. I was getting to grips with css diplay types and was introduced to setTimeout and setInterval functions. It also introduced me to \"callback functions\" which are what these two functions are. Initially it didn't allow the user to input a value into the timer, but that was later added.",
+		"href":"/tasks/Timer",
+		"styling":"/assets/Timer/styling.css"
+	},
+	{
+		"name":"Tic Tac Toe",
+		"description":"This was the first web-game that I created. I had to think of all the possible outcomes (which weren't a huge amount) when it came to checking the winner, done via another .js file. For the css, I decided to try out the grid display type, for the first time, given the asthetic nature of Tic Tac Toe.",
+		"href":"/tasks/Tic-Tac-Toe",
+		"styling":"/assets/Tic-Tac-Toe/styling.css"
+			
+	},
+	{
+		"name":"Simon Says",
+		"description":"This was the first website I made, to feature sound. More of the work went into the JavaScript, as opposed to the css or the hmtl. As you maybe aware, it's a game that tests one's memory by asking you to matched the sequence of sounds genereted from certain squares.",
+		"href":"/tasks/Simon-Says",
+		"styling":"/assets/Simon-Says/styling.css"
+		
+	},
+	{
+		"name":"To Do List",
+		"description":"For this website, I was exploring the addition (and removal) of elements for a list. The list items could also be edited. I also added a filter feature for the list, which was tigured by a \"keydown\" even. I also made use of the browser's local storage. Here, is where I implemented \"Event Bubbling\" so that new list items would also be subject to click events, for deletion and editing.",
+		"href":"/tasks/To-Do-List",
+		"styling":"/assets/To-Do-List/styling.css"
+	},
+	 
+	 {
+	  "name":"Weather App (React)",
+	  "description":"This is the first website I did, using React. It was the next stage into my web development journey and one I learned a lot from. It made use of api's, for location search and one for weather. I was intoduced to new outconecepts such as: hooks, states, components and using operators for logical rendering. I also made some of my own svg icons for the weather symbols.",
+	  "href":""
+	 	
+	 },
+	 {
+	  "name":"By My Car (React)",
+	  "description":"This website was kind of a hybrid between Autotrader and Amazon, in the sense that you could search for a car (like Autotrader) while also being able to add it to your basket (like Amazon). This website took my React skills to the next level by delving into React Router, for multiple pages. It also used Firebase for authentication and storage of data such as cars and user profiles. Buckets were used for the storage of pcitures also. Redux was used, alongside Firebase, for globalisation of states, such as authentication and other things. For the payment side of things, Stripe was implemented in the back-end (via node js) and cors was used to allow for node js to be on a seprate port. I also used a Python script to extract car brands and models, to add to the website. Another thing I got indroduced to was a css framework, Bootstrap, that was used for the toolbar functionality, the icons and the carousel.",
+	  "href":""
+	 }
+	]
+	},
+	
+	{
+		"name":"About",
+		"dropdown":false,
+		"href":"/about"
+	}
+]

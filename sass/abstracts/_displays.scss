@@ -1,0 +1,38 @@
+@use "sass:map";
+@use "variables" as *;
+
+/* FLEX DISPLAY TYPES START */
+
+@mixin flex-base($x-flex:center, $y-flex:center){
+	display: flex;
+	justify-content: $x-flex;
+	align-items: $y-flex !important;
+}
+
+	@each $key-0, $item-0 in $position-map{
+		@each $key-1, $item-1 in $position-map{
+			@if $key-0 == $key-1{
+				.f-#{$key-0}{
+					@include flex-base($item-0, $item-1);
+					&.rev-flow{
+						flex-flow: column;
+					}
+				}
+			}
+			@else{
+				.f-#{$key-0}-#{$key-1}{
+					@include flex-base($item-0, $item-1);
+					&.rev-flow{
+						flex-flow: column;
+					}
+				}
+			}
+		}
+	}
+	
+
+/* FLEX DISPLAY TYPES END */
+
+/* GRID DISPLAY TYPES START */
+
+/* GRID DISPLAY TYPES END */

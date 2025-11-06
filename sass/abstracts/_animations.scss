@@ -1,0 +1,61 @@
+@use "sass:math";
+@use "sass:list";
+@use "variables" as *;
+
+
+/*    BUBBLE START     */
+
+/** floating animation start **/
+@for $i from 1 through 5{
+	$x:[];
+	$y:[];
+	
+	@for $i from 1 through 5{
+		$x:list.append($x,#{math.random(100)}vw);
+		$y:list.append($y,-#{math.random(100)}vh);
+	}
+	
+	@keyframes bubble-flow-#{$i}{
+		0%{transform: translate(list.nth($x,1),list.nth($y,1));}
+		25%{transform: translate(list.nth($x,2),list.nth($y,2));}
+		50%{transform: translate(list.nth($x,3),list.nth($y,3));}
+		75%{transform: translate(list.nth($x,4),list.nth($y,4));}
+		100%{transform: translate(list.nth($x,5),list.nth($y,5));}
+	}
+}
+
+/** floating animation end **/
+
+/** inflation animation start **/
+@keyframes bubble-inflate{
+	from{transform: scale(1); top: initial; left: initial; opacity: 100;}
+	to{transform: scale(5); top: 50%; left:50%; background: white; border: none; opacity: 0;}
+}
+
+/** inflation animation end **/
+
+/*    BUBBLE END     */
+
+/*    POPUP START    */
+
+@each $color0 in $bubble-border-colors{
+	@keyframes color-pulse-#{$color0}{
+		0% {border: 3px solid white;}
+		50% {border: 3px solid $color0;}
+		100% {border: 3px solid white;}
+	}
+}
+
+/*    POPUP END    */
+
+/* DROPDOWN START   */
+@keyframes grow-down{
+	from{transform: scaleY(0);}
+	to{transform: scaleY(1);}
+}
+
+@keyframes shrink-up{
+	from{transform: scaleY(1); display: block;}
+	to{transform: scaleY(0); display: none;}
+}
+/* DROPDOWN END   */

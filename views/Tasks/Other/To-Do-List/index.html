@@ -1,0 +1,38 @@
+<!DOCYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" initial-scale = "1.0">
+    <title>Check List</title>
+    <link rel="stylesheet" href="/assets/To-Do-List/styling.css"/>   
+  </head>
+  <body>
+    <div id="list-box">
+      <h>To-Do List</h>
+      <div id="input-div">
+          <input id="input-field" type="text" placeholder="Add-To-List e.g.Tomatoes"><button id="add-button">+</button>
+      </div>
+      <form id="tick-list">
+        <section>
+          <!-- <input type="text" placeholder="fudjdj"> -->
+        </section>
+    
+      </form>
+      <div id="list-template" class='flex-list-item'>
+          <div>
+            <input class="checkbox" type='checkbox'/><p>list-input</p>
+            <input type="text" class="edit-input">
+          </div>
+        <div>
+          <div class='button edit'>Edit</div>
+          <div class='button del'>Delete</div>
+          </div>
+        </div>
+      </div>
+  
+  </body>
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src = "/assets/To-Do-List/DataStorage.js"></script>
+  <script src = "/assets/To-Do-List/script.js"></script>
+  <!-- <script src = "/Test.ts"></script> -->
+
+</html>

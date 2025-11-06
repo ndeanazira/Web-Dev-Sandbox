@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, interactive-widget=resizes-content">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Weather</title>
+    <link rel="stylesheet" href="/styling.css">
+    <link rel="stylesheet" href="/options-styling.css">
+  </head>
+  <body>
+    <div id="main-temp-data">
+      <div id="loc-group">
+        <div id="opt-button">-<br>-<br>-<br><br></div>
+        <div id="location">No location found</div>
+      </div>
+      <div id="temp" class="celcius">n/a</div>
+      <div>Status</div>
+      <div>Max/Min Feels Like "temp"</div>
+      <div>Last Updated: n/a</div>
+    </div>
+    <div id="hourly">
+
+    </div>
+    <div id="daily">
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+      <div class="day">
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <div id="grid-container">
+      <div>
+        <span>UV Index</span>
+        <span id="uv">n/a</span>
+      </div>
+      <div>
+        <span>Humidity</span>
+        <span id="humidity">n/a</span>
+      </div>
+      <div>
+        <span>Wind</span>
+        <span id="wind">n/a</span>
+      </div>
+      <div>
+        <span>Dew Point</span>
+        <span id="dew-point">n/a</span>
+      </div>
+      <div>
+        <span>Pressure</span>
+        <span id="pressure">n/a</span>
+      </div>
+      <div>
+        <span>Visibility</span>
+        <span id="visibility">n/a</span>
+      </div>
+    </div>
+    
+    <section id="options" class="hidden">
+      <div id="close-opt">X</div>
+      <form>
+      <input id="enter-loc" type="text" placeholder="e.g. London">
+      </form>
+      <ul id="loc-list"></ul>
+    </section>
+  </body>
+  <!-- <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script> -->
+  <!-- <script src="/sound-script.js"></script> -->
+  <script src="/scripts/async-script.js"></script>
+  <script src="/scripts/weather-data-funcs.js"></script>
+  <script src="/scripts/gen-weather-data.js"></script>
+  <script src="/scripts/loc-search.js"></script>
+
+</html>
+
+
+<!-- <iframe
+    width="600"
+    height="450"
+    style="border:0"
+    loading="lazy"
+    allowfullscreen
+    referrerpolicy="no-referrer-when-downgrade"
+    src="https://www.google.com/maps/embed/v1/place">
+    </iframe> -->

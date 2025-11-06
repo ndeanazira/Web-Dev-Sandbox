@@ -1,0 +1,38 @@
+h1{
+	background: ##9f9f9f;
+	color: green;
+}
+
+.full-size{
+	height: 100%;
+	width: 100%;
+}
+
+.full-size-vp{
+	height: 100vh;
+	width: 100vw;
+}
+
+.f-center{
+	display: flex;
+	justify-content: center;
+}
+
+.f-center.center{
+	align-items: center;
+}
+
+.f-center.start{
+	align-items: start;
+}
+
+.f-center.start{
+	align-items: end;
+}
+
+.bubble{
+	width:75px;
+	height:auto;
+	border: 3px solid teal;
+	border-radius: 25px;
+}

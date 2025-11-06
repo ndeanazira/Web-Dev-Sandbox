@@ -1,0 +1,174 @@
+body{
+  /* background: linear-gradient(#c6f5c6 0%,lightgreen 20%, lightgreen 80%, #c6f5c6 100%); */
+  background: linear-gradient(red 0%,#861313 20%, #861313 80%, red 100%);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#list-box{
+  width: calc(100vw - 10px);
+  background: white;
+  overflow: scroll;
+  padding: 0px 10px;
+  min-height: 25vh;
+  max-height: 75%;
+  border-radius: 10px;
+  /* opacity: 70%; */
+  /* border: 2px outset white; */
+}
+
+#tick-list{
+  overflow: scroll;
+}
+
+#list-box h{
+  display: block;
+  text-align: center;
+  width: 180px;
+  margin: 5px auto;
+  font-size: 35px;
+  font-weight: 300;
+  border-radius: 10px;
+  text-decoration: underline 1px dashed;
+  background: #80808028;
+  box-shadow: 0px 5px 5px #80808028, 0px -5px 5px #80808028, 5px 0px 5px #80808028, -5px 0px 5px #80808028;
+  /* position: fixed; */
+}
+
+#input-div{
+  height: 35px;
+  margin: 50px calc((100% - (70vw + 37px))/2);
+}
+
+
+#input-div *{
+  height: 100%;
+  border: none;
+  background: #a3a3a3;
+  /* position: fixed; */
+}
+
+#input-field{
+  width: 70vw;
+  height: 35px;
+  border-radius: 5px 0px 0px 5px;
+  background: #e0e0e0;
+  padding: 0px 10px;
+  /* z-index: 1; */
+}
+
+
+.button{
+  display: inline-block;
+  margin: 0px 10px;
+  padding: 5px;
+  /* width: 100px; */
+  font-size: 0.75em;
+  /* background: grey; */
+  /* border: 1px solid black; */
+  border: none;
+  user-select: none;
+  border-radius: 5px;
+}
+
+#list-template{
+  display: none;
+}
+
+.save{
+  font-size: 1em;
+  background: blue;
+  color: white;
+  width: 75px;
+  margin: 0px calc((100% - 75px)/2);
+}
+
+.button:hover{
+  box-shadow: 0px 3px 3px lightgrey;
+}
+
+.button:active{
+  background: #8080809d;
+}
+
+.edit{
+  background: #97eecb;
+}
+
+.edit-done{
+  background: #08a408;
+  color: white;
+}
+
+.del{
+  background: orange;
+}
+
+#input-field:focus{
+  background: #add8e6a6;
+}
+
+#add-button{
+  width: 35px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+#add-button:hover{
+  background:blue ;
+  color: white;
+}
+
+.flex-list-item, .flex-list-item-done{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0px;
+}
+
+.flex-list-item p{
+  display: inline-block;
+}
+
+.flex-list-item input[type=text]{
+  display: none;
+}
+
+.flex-list-item-done p{
+  display: none;
+}
+
+.flex-list-item-done input[type=text]{
+  display: inline-block;
+}
+
+.edit-input{
+  display: none;
+  height: 25px;
+  width: 150px;
+  margin: auto 0px; /*calc((100% - 25px)/2)*/
+  z-index: 1;
+}
+
+#add-button:active{
+  background: #000000c4;
+  color: white;
+}
+
+
+@media screen and (orientation: landscape){
+  #list-box{
+    width: 50%;
+    min-height: 100vh;
+  }
+  
+  #input-div{
+    margin: 50px calc((100% - (35vw + 37px))/2);
+  }
+  
+  #input-field{
+    width: 35vw;
+  }
+  
+}

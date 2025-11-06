@@ -1,0 +1,17 @@
+<nav class="mob f-spa-ctr">
+	<% navData.forEach((btn)=>{ %>
+		<% if(btn.dropdown){ %>
+			
+			<div class="nav-btn dropdown f-ctr loaded">
+				<span><%= btn.name %></span>
+				<div class="dropdown-list">
+					<% btn.dropdown.forEach((dropItem)=>{ %>
+						<a href="<%= dropItem.href %>" class="f-ctr"><%= dropItem.name %></a>
+						<% }) %>
+				</div>
+			</div>
+		<% } else{ %>
+			<a href="<%= btn.href %>" class="nav-btn f-ctr"><%= btn.name %></a>
+		<% } %>
+	<% }) %>
+</nav>

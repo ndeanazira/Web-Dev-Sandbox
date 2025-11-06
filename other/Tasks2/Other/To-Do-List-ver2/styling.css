@@ -1,0 +1,169 @@
+body{
+  background: lightgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Fauna One", serif;
+}
+
+#shopping-list{
+  width: calc(100vw - 35px);
+  height: 75vh;
+  background: white;
+  border-radius: 15px;
+  padding: 25px;
+  flex-direction: column;
+  overflow: hidden scroll;
+}
+
+.input-field{
+  margin: 10px 12.5%;
+  height: 35px;
+  width: 75%;
+}
+
+input[type="text"]{
+  background: lightgrey;
+  padding: 0px 10px
+  border: none;
+}
+
+input[type="text"]:focus{
+  outline: none;
+  border: none;
+}
+
+input[type="submit"]{
+  width: 32px;
+  height: 35px;
+  margin: 0px -5px 0px -5px;
+  border-radius: 0px 20px 20px 0px;
+  border: none;
+}
+
+#filter-box{
+  border: none;
+  border-radius: 20px;
+  margin-top: 25px;
+}
+
+#input-area input[type="text"]{
+  border-radius: 20px 0px 0px 20px;
+  border: none;
+  height: 100%;
+  margin-top: 0px;
+  width: calc(100% - 49px);
+}
+
+input[type="submit"]:hover{
+  color: white;
+  background: blue;
+}
+
+input[type="submit"]:active, .button:active{
+  background: grey;
+}
+
+#shopping-list h{
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 550;
+  text-decoration: underline 1px dashed;
+}
+
+.button{
+  max-height: 15px;
+  /* width: 35px; */
+  border-radius: 15px;
+  margin: 0px 5px;
+  padding: 5px;
+  /* background: orange; */
+  font-size: 0.8em;
+  text-align: center;
+  /* align-content: center; */
+  /* webkit-align-content: center; */
+}
+
+#list-box{
+  height: 55vh;
+  width: 100%;
+  /* background: grey; */
+  overflow: hidden scroll;
+  /* overflow-x: hidden; */
+  
+}
+
+#list-box ul{
+  list-style: none;
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  /* background: grey; */
+}
+
+li{
+  /* line-height: 50px; */
+  margin-left: -5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 35px;
+  width: 80%;
+  /* background: lightgrey; */
+  /* margin 50px */
+}
+
+span{
+  /* flex-grow: 1; */
+  width: 100%; /*calc(100% - 90px);*/
+  /* background: red; */
+}
+
+span input[type="checkbox"]{
+  /* width: 20px; */
+  margin: 0px 100px;
+}
+
+span input[type="text"]{
+  width: 75%;
+}
+
+.del{
+  color: white;
+  background: red;
+}
+
+.del:after{
+  content: "delete";
+}
+
+.edit{
+  /* color: white; */
+  background: orange;
+}
+
+.edit:after{
+  content: "edit";
+}
+
+.edit-done{
+  color: white;
+  background: blue;
+}
+
+.edit-done:after{
+  content: "done";
+}
+
+@media screen and (orientation:landscape){
+  #shopping-list{
+    width: 60vw;
+    height: 100vh;
+  }
+  li{
+    margin-left: 5px;
+  }
+}

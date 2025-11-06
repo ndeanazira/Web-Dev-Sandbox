@@ -1,0 +1,140 @@
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* background: #84cbe0; */
+  background: #45e0e7;
+  /*height: 100vh;*/
+  font-family: "Nunito", sans-serif;
+  color: white;
+  padding: 0px 10px;
+}
+
+.night{
+  background: linear-gradient(0deg, rgba(110,0,255,1) 0%, rgba(110,0,255,1) 50%, rgba(55,0,255,1) 100%);
+ );
+}
+
+#loc-group{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* background: grey; */
+}
+
+#loc-group div{
+  margin: 0px 5px;
+  /* background: green; */
+}
+
+#opt-button:active{
+  outline-color: black;
+  color: black;
+}
+
+#main-temp-data{
+  height: 40vh;
+  min-height: 300px;
+  /* border: 3px solid black; */
+  
+}
+
+#main-temp-data div{
+  /* border: 3px solid black; */
+  
+  
+}
+
+#temp{
+  font-size: 500%;
+  font-weight: 300;
+}
+
+.celcius:after{
+  content: "\00b0 C";
+  /* content: "C"; */
+}
+
+.farenheit:after{
+  content: "\00b0 F";
+  /* content: "C"; */
+}
+
+#location{
+  font-size: 150%;
+  font-weight: 600;
+}
+
+#grid-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* height: 15vh; */
+  grid-gap: 10px;
+}
+
+#grid-container div{
+  padding: 5px;
+}
+
+#grid-container span{
+  display: block;
+  text-align: center;
+}
+
+#grid-container span:first-child{
+  /* text-decoration: underline 1px solid; */
+  color: #f1f1f1;
+}
+
+#grid-container span:last-child{
+  font-size: 200%;
+}
+
+/* div:nth-child(2n){
+  background: #80808066;
+} */
+
+#grid-container div, #daily, #hourly{
+  border-radius: 10px;
+  background: #80808023;
+}
+
+#grid-container div{
+  height: 15vh;
+}
+
+#daily, #hourly{
+  margin: 10px 0px;
+}
+
+#hourly{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 25vh;
+  overflow: scroll;
+  padding: 5px 0px;
+}
+
+#hourly div{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* border: 1px solid black; */
+  margin: 5px;
+}
+
+#daily .day{
+  /* border: 1px solid black; */
+  height: calc((100% - 10px)/ 7);
+  padding: 0px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#daily{
+  height: 50vh;
+  min-height: 300px;
+}

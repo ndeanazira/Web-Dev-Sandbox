@@ -1,0 +1,32 @@
+@use "sass:map";
+@use "sass:list";
+@use "sass:color";
+
+$nav-height:50px;
+
+$bubble-border-colors:[red, blue, green, orange, purple, gray];
+
+$sizes:["xs", "sm", "md", "lg"];
+
+$sizes-percentage:[0, 15, 25, 50, 75, 100];
+
+$text-grey: #aea9a9;
+
+$bubble-core-colors:[]; /* Lightned and Transparent version of $bubble-border-colors*/
+
+@each $cur-color in $bubble-border-colors{
+	$cur-color:lighten($cur-color, 30%);
+	$cur-color:transparentize($cur-color, 0.25);
+	$bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
+}
+
+
+
+$position-map:(
+	"ctr":center,
+	"st":start,
+	"ed":end,
+	"spb":space-between,
+	"spa":space-around,
+	"spe":space-evenly
+);
