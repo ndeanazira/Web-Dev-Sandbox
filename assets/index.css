@@ -21,12 +21,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 27vw - 50px), 50px);
+  height: 76px;
+  width: 76px;
+  left: min(calc( 66vw - 76px), 76px);
 }
 .bubble-size-1 i {
-  font-size: 12.5px;
+  font-size: 19px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -55,12 +55,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 83px;
-  width: 83px;
-  left: min(calc( 44vw - 83px), 83px);
+  height: 189px;
+  width: 189px;
+  left: min(calc( 22vw - 189px), 189px);
 }
 .bubble-size-2 i {
-  font-size: 20.75px;
+  font-size: 47.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -89,12 +89,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 73vw - 50px), 50px);
+  height: 160px;
+  width: 160px;
+  left: min(calc( 44vw - 160px), 160px);
 }
 .bubble-size-3 i {
-  font-size: 12.5px;
+  font-size: 40px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -123,12 +123,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 184px;
-  width: 184px;
-  left: min(calc( 28vw - 184px), 184px);
+  height: 155px;
+  width: 155px;
+  left: min(calc( 60vw - 155px), 155px);
 }
 .bubble-size-4 i {
-  font-size: 46px;
+  font-size: 38.75px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -157,12 +157,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 86px;
-  width: 86px;
-  left: min(calc( 87vw - 86px), 86px);
+  height: 163px;
+  width: 163px;
+  left: min(calc( 43vw - 163px), 163px);
 }
 .bubble-size-5 i {
-  font-size: 21.5px;
+  font-size: 40.75px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -789,87 +789,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(18vw, -55vh);
+    transform: translate(96vw, -29vh);
   }
   25% {
-    transform: translate(49vw, -44vh);
+    transform: translate(34vw, -71vh);
   }
   50% {
-    transform: translate(45vw, -73vh);
+    transform: translate(17vw, -90vh);
   }
   75% {
-    transform: translate(9vw, -84vh);
+    transform: translate(4vw, -78vh);
   }
   100% {
-    transform: translate(85vw, -63vh);
+    transform: translate(41vw, -45vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(37vw, -11vh);
+    transform: translate(27vw, -18vh);
   }
   25% {
-    transform: translate(47vw, -7vh);
+    transform: translate(93vw, -8vh);
   }
   50% {
-    transform: translate(93vw, -19vh);
+    transform: translate(21vw, -90vh);
   }
   75% {
-    transform: translate(77vw, -6vh);
+    transform: translate(36vw, -17vh);
   }
   100% {
-    transform: translate(31vw, -71vh);
+    transform: translate(36vw, -46vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(23vw, -17vh);
+    transform: translate(21vw, -85vh);
   }
   25% {
-    transform: translate(30vw, -9vh);
+    transform: translate(84vw, -90vh);
   }
   50% {
-    transform: translate(56vw, -83vh);
+    transform: translate(97vw, -84vh);
   }
   75% {
-    transform: translate(56vw, -37vh);
+    transform: translate(25vw, -71vh);
   }
   100% {
-    transform: translate(67vw, -48vh);
+    transform: translate(90vw, -51vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(51vw, -18vh);
+    transform: translate(97vw, -90vh);
   }
   25% {
-    transform: translate(31vw, -33vh);
+    transform: translate(51vw, -17vh);
   }
   50% {
-    transform: translate(1vw, -39vh);
+    transform: translate(72vw, -6vh);
   }
   75% {
-    transform: translate(41vw, -96vh);
+    transform: translate(29vw, -5vh);
   }
   100% {
-    transform: translate(60vw, -43vh);
+    transform: translate(95vw, -16vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(84vw, -31vh);
+    transform: translate(100vw, -69vh);
   }
   25% {
-    transform: translate(17vw, -46vh);
+    transform: translate(62vw, -99vh);
   }
   50% {
-    transform: translate(51vw, -9vh);
+    transform: translate(63vw, -8vh);
   }
   75% {
-    transform: translate(65vw, -20vh);
+    transform: translate(55vw, -94vh);
   }
   100% {
-    transform: translate(52vw, -87vh);
+    transform: translate(92vw, -100vh);
   }
 }
 /** floating animation end **/
@@ -877,17 +877,16 @@ nav .nav-btn:active {
 @keyframes bubble-inflate {
   from {
     transform: scale(1);
-    top: initial;
-    left: initial;
     opacity: 100;
   }
   to {
     transform: scale(5);
-    top: 50%;
-    left: 50%;
+    transform: translate(50%, 50%);
     background: white;
     border: none;
     opacity: 0;
+    top: 50%;
+    left: 50%;
   }
 }
 /** inflation animation end **/
