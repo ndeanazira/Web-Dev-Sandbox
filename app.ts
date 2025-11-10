@@ -3,7 +3,7 @@ const ejs = require("ejs");
 // const bubbles = require("./assets/bubble_list.json")
 const navData = require("./assets/nav-data.json")
 
-const bubbles = navData.filter((item)=>item.name=="Pages")[0].dropdown
+const bubbles = navData.find((item)=>item.name=="Pages").dropdown
 
 // console.log(bubbles);
 
@@ -19,15 +19,21 @@ app.use(ejsLayout);
 app.set("view engine", "ejs");
 
 app.get("/", (req, res)=>{
-	res.render("home", {title:"Home", bubbles, cssLinkPath:null, navData});
+	const { url } = req;
+	res.render("home", {title:"Home", bubbles, cssLinkPath:null, navData, url});
 })
 
 app.get("/tasks/:taskPageName", (req, res)=>{
 	const {taskPageName} = req.params;
+	const { url } = req;
 	res.render("Tasks/" + taskPageName.toLowerCase(), 
-	{title:taskPageName, cssLinkPath:"/assets/" + taskPageName + "/styling.css", navData});
+	{title:taskPageName, cssLinkPath:"/assets/" + taskPageName + "/styling.css", navData, url});
 });
 
+app.get("/about", (req, res)=>{
+	const { url } = req;
+	res.render("about", {title:"About", cssLinkPath:null, bubbles, navData, url});
+})
 
 app.listen(port, ()=>{
 	console.log("Server is now running at port: " + port);

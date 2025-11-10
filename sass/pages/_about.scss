@@ -1,0 +1,25 @@
+@use "abstracts/variables" as *;
+
+main.about{
+	section.description{
+		/* border-bottom: 1px solid $text-grey; */
+		padding: 15px 10px;
+		animation: unfade 1s both linear;
+		animation-timeline: view(block 0% 10%);
+		min-height: 75vh;
+		position: relative;
+		background-size: 100% auto !important;
+		
+	}
+	
+	img.background{
+		height: 100%;
+		object-fit: cover;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	article{
+		color: white;
+	}
+}

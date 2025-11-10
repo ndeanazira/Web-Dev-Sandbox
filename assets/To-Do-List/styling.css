@@ -116,7 +116,7 @@ li{
   /* margin 50px */
 }
 
-span{
+#list-box span{
   /* flex-grow: 1; */
   width: 100%; /*calc(100% - 90px);*/
   /* background: red; */

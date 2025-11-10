@@ -1,3 +1,6 @@
-main{
+@use "abstracts/variables" as *;
+
+main.home{
 	overflow: hidden !important;
+	height:calc(100vh - $nav-height);
 }

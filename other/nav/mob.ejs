@@ -1,0 +1,21 @@
+<nav class="mob f-spa-ctr">
+	<% navData.forEach((btn)=>{ %>
+	
+		<% if(btn.dropdown){ %>
+			
+			<div class="nav-btn dropdown f-ctr loaded">
+				<span><%= btn.name %></span>
+				<div class="dropdown-list">
+					<% btn.dropdown.forEach((dropItem)=>{ %>
+						<% const isActive = (url == dropItem.href) %>
+						<% console.log(url) %>
+						<a href="<%= dropItem.href %>" class="f-ctr <%= isActive?"active":"" %> "><%= dropItem.name %></a>
+						<% }) %>
+				</div>
+			</div>
+		<% } else{ %>
+		<% const isActive = (url == btn.href) %>
+			<a href="<%= btn.href %>" class="nav-btn f-ctr <%= isActive?"active":"" %>"><%= btn.name %></a>
+		<% } %>
+	<% }) %>
+</nav>

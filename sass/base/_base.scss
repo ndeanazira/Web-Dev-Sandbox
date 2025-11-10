@@ -1,7 +1,8 @@
 @use "abstracts/_variables" as *;
 
 body{
-	background: #4b4b4b;
+	/* background: #4b4b4b; */
+	background: black;
 	font-size: 12px;
 	font-family: "Montserrat", sans-serif;
 	text-wrap: wrap;
@@ -29,11 +30,6 @@ nav{
 
 header > nav{
 	height: 100%;
-}
-
-main.home{
-	height:calc(100vh - $nav-height);
-	/* height: 100vh; */
 }
 
 main section:nth-child(1){
