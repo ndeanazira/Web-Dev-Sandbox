@@ -5,7 +5,7 @@
   padding: 0.5 rem;
   position: absolute;
   bottom: 0px;
-  transform-origin: center center;
+  transform-origin: center;
 }
 .bubble-size-1 div {
   width: 50%;
@@ -21,12 +21,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 76px;
-  width: 76px;
-  left: min(calc( 66vw - 76px), 76px);
+  height: 115px;
+  width: 115px;
+  left: min(calc( 24vw - 115px), 115px);
 }
 .bubble-size-1 i {
-  font-size: 19px;
+  font-size: 28.75px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -39,7 +39,7 @@
   padding: 0.5 rem;
   position: absolute;
   bottom: 0px;
-  transform-origin: center center;
+  transform-origin: center;
 }
 .bubble-size-2 div {
   width: 50%;
@@ -55,12 +55,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 189px;
-  width: 189px;
-  left: min(calc( 22vw - 189px), 189px);
+  height: 73px;
+  width: 73px;
+  left: min(calc( 13vw - 73px), 73px);
 }
 .bubble-size-2 i {
-  font-size: 47.25px;
+  font-size: 18.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -73,7 +73,7 @@
   padding: 0.5 rem;
   position: absolute;
   bottom: 0px;
-  transform-origin: center center;
+  transform-origin: center;
 }
 .bubble-size-3 div {
   width: 50%;
@@ -89,12 +89,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 160px;
-  width: 160px;
-  left: min(calc( 44vw - 160px), 160px);
+  height: 191px;
+  width: 191px;
+  left: min(calc( 27vw - 191px), 191px);
 }
 .bubble-size-3 i {
-  font-size: 40px;
+  font-size: 47.75px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -107,7 +107,7 @@
   padding: 0.5 rem;
   position: absolute;
   bottom: 0px;
-  transform-origin: center center;
+  transform-origin: center;
 }
 .bubble-size-4 div {
   width: 50%;
@@ -123,12 +123,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 155px;
-  width: 155px;
-  left: min(calc( 60vw - 155px), 155px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 37vw - 50px), 50px);
 }
 .bubble-size-4 i {
-  font-size: 38.75px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -141,7 +141,7 @@
   padding: 0.5 rem;
   position: absolute;
   bottom: 0px;
-  transform-origin: center center;
+  transform-origin: center;
 }
 .bubble-size-5 div {
   width: 50%;
@@ -157,12 +157,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 163px;
-  width: 163px;
-  left: min(calc( 43vw - 163px), 163px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 23vw - 50px), 50px);
 }
 .bubble-size-5 i {
-  font-size: 40.75px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -682,15 +682,19 @@ nav {
   width: 100vw;
   height: 50px;
   /* border: 1px solid green; */
-  background: #8c8c8c;
+  background: #5c5c5c;
 }
 nav .nav-btn {
   /* margin: 10px 15px; */
   background: #ec5169;
   color: white;
   /* height: 100%; */
-  height: 25px;
+  height: 30px;
   width: 100px;
+  border-radius: 5px;
+}
+nav .nav-btn.active {
+  border: 3px solid white;
 }
 nav .nav-btn.dropdown {
   /* position: relative; */
@@ -701,6 +705,7 @@ nav .nav-btn.dropdown .dropdown-list {
   width: 100vw;
   top: 50px;
   left: 0px;
+  z-index: 10;
 }
 nav .nav-btn.dropdown.opened .dropdown-list {
   animation: grow-down 0.5s linear;
@@ -728,6 +733,11 @@ nav .nav-btn.dropdown a {
 }
 nav .nav-btn.dropdown a:not(:last-child) {
   border-bottom: 1px solid #1c1c1c;
+}
+nav .nav-btn.dropdown a:not(:last-child).active {
+  background: white;
+  color: black;
+  font-weight: bold;
 }
 nav .nav-btn.dropdown a:not(:last-child):active {
   background: black;
@@ -789,87 +799,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(96vw, -29vh);
+    transform: translate(7vw, -76vh);
   }
   25% {
-    transform: translate(34vw, -71vh);
+    transform: translate(11vw, -42vh);
   }
   50% {
-    transform: translate(17vw, -90vh);
+    transform: translate(58vw, -1vh);
   }
   75% {
-    transform: translate(4vw, -78vh);
+    transform: translate(96vw, -23vh);
   }
   100% {
-    transform: translate(41vw, -45vh);
+    transform: translate(17vw, -86vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(27vw, -18vh);
+    transform: translate(83vw, -52vh);
   }
   25% {
-    transform: translate(93vw, -8vh);
+    transform: translate(56vw, -6vh);
   }
   50% {
-    transform: translate(21vw, -90vh);
+    transform: translate(36vw, -20vh);
   }
   75% {
-    transform: translate(36vw, -17vh);
+    transform: translate(52vw, -20vh);
   }
   100% {
-    transform: translate(36vw, -46vh);
+    transform: translate(48vw, -23vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(21vw, -85vh);
+    transform: translate(21vw, -29vh);
   }
   25% {
-    transform: translate(84vw, -90vh);
+    transform: translate(89vw, -84vh);
   }
   50% {
-    transform: translate(97vw, -84vh);
+    transform: translate(9vw, -49vh);
   }
   75% {
-    transform: translate(25vw, -71vh);
+    transform: translate(77vw, -95vh);
   }
   100% {
-    transform: translate(90vw, -51vh);
+    transform: translate(41vw, -54vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(97vw, -90vh);
+    transform: translate(54vw, -86vh);
   }
   25% {
-    transform: translate(51vw, -17vh);
+    transform: translate(87vw, -63vh);
   }
   50% {
-    transform: translate(72vw, -6vh);
+    transform: translate(100vw, -27vh);
   }
   75% {
-    transform: translate(29vw, -5vh);
+    transform: translate(87vw, -44vh);
   }
   100% {
-    transform: translate(95vw, -16vh);
+    transform: translate(32vw, -86vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(100vw, -69vh);
+    transform: translate(40vw, -7vh);
   }
   25% {
-    transform: translate(62vw, -99vh);
+    transform: translate(2vw, -48vh);
   }
   50% {
-    transform: translate(63vw, -8vh);
+    transform: translate(80vw, -25vh);
   }
   75% {
-    transform: translate(55vw, -94vh);
+    transform: translate(92vw, -32vh);
   }
   100% {
-    transform: translate(92vw, -100vh);
+    transform: translate(89vw, -97vh);
   }
 }
 /** floating animation end **/
@@ -878,10 +888,11 @@ nav .nav-btn:active {
   from {
     transform: scale(1);
     opacity: 100;
+    top: 50%;
+    left: 50%;
   }
   to {
     transform: scale(5);
-    transform: translate(50%, 50%);
     background: white;
     border: none;
     opacity: 0;
@@ -979,6 +990,25 @@ nav .nav-btn:active {
   }
 }
 /* DROPDOWN END   */
+@keyframes grow {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes unfade {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 h1 {
   font-size: 25px;
 }
@@ -1106,7 +1136,8 @@ h2 {
   }
 }
 body {
-  background: #4b4b4b;
+  /* background: #4b4b4b; */
+  background: black;
   font-size: 12px;
   font-family: "Montserrat", sans-serif;
   text-wrap: wrap;
@@ -1134,11 +1165,6 @@ header > nav {
   height: 100%;
 }
 
-main.home {
-  height: calc(100vh - 50px);
-  /* height: 100vh; */
-}
-
 main section:nth-child(1) {
   height: 125px;
   color: #aea9a9;
@@ -1157,4 +1183,29 @@ h2 {
   text-align: center;
   font-size: 15px !important;
   font-weight: 500;
+}
+
+main.home {
+  overflow: hidden !important;
+  height: calc(100vh - 50px);
+}
+
+main.about section.description {
+  /* border-bottom: 1px solid $text-grey; */
+  padding: 15px 10px;
+  animation: unfade 1s both linear;
+  animation-timeline: view(block 0% 10%);
+  min-height: 75vh;
+  position: relative;
+  background-size: 100% auto !important;
+}
+main.about img.background {
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+main.about article {
+  color: white;
 }

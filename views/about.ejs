@@ -1,0 +1,15 @@
+<main class=about>
+<section>
+	<h1>About</h1>
+	<h2>Come and have a look at the <q>About</q> page to learn more about this website, plus other pages (and websites) that I have created, as well as a bit about myself</h2>
+</section>
+	
+	<% bubbles.forEach((item)=>{ %>
+		<section style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg') center;" class="description">
+				<article style="color:white;"><%= item.description %></article>
+				
+				<!--<img src="/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg" alt="<%= item.name %>" class="background">-->
+		</section>
+		<% }) %>
+	
+</main>

@@ -52,6 +52,11 @@
 	  "name":"By My Car (React)",
 	  "description":"This website was kind of a hybrid between Autotrader and Amazon, in the sense that you could search for a car (like Autotrader) while also being able to add it to your basket (like Amazon). This website took my React skills to the next level by delving into React Router, for multiple pages. It also used Firebase for authentication and storage of data such as cars and user profiles. Buckets were used for the storage of pcitures also. Redux was used, alongside Firebase, for globalisation of states, such as authentication and other things. For the payment side of things, Stripe was implemented in the back-end (via node js) and cors was used to allow for node js to be on a seprate port. I also used a Python script to extract car brands and models, to add to the website. Another thing I got indroduced to was a css framework, Bootstrap, that was used for the toolbar functionality, the icons and the carousel.",
 	  "href":""
+	 },
+	 {
+	  "name":"My Project (NextJs)",
+	  "description":"This was the first website I made, using NextJs and also the biggest one I had made. It was used for managing projects and showed them on a calender, while also allowing users to chat to eachother. This website introduced me to server side rendering, of which I tried to utilise. I also used middleware for cookies, for recently visited tasks and chats. I also made use of more open source react/nextjs libraries for this website. For the Dashboard, I used slots for parts such as the Calendar and others. This is also the first website to use MongoDB. For the messaging page, I used a websocket library called pusher. This libarary was also used for online status of other users as well as recieving notifications live. More react hooks, such as useRef, useMemo, etc were utilised. For the authentication, next-auth was used. For the styling two new things were used: CSS modules and tailwind. The use of Tailwind and eslint helped me in being more thoughtful and self aware when it cmae to creating readable and efficient code.",
+	  "href":"https://project-manager-gamma-three.vercel.app/"
 	 }
 	]
 	},
