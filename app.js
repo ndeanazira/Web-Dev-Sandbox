@@ -1,9 +1,6 @@
 var express = require("express");
-var ejs = require("ejs");
-// const bubbles = require("./assets/bubble_list.json")
 var navData = require("./assets/nav-data.json");
 var bubbles = navData.find(function (item) { return item.name == "Pages"; }).dropdown;
-// console.log(bubbles);
 var ejsLayout = require("express-ejs-layouts");
 var app = express();
 var port = 8369;

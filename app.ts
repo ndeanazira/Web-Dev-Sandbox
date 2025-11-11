@@ -1,12 +1,7 @@
 const express = require("express");
-const ejs = require("ejs");
-// const bubbles = require("./assets/bubble_list.json")
 const navData = require("./assets/nav-data.json")
 
 const bubbles = navData.find((item)=>item.name=="Pages").dropdown
-
-// console.log(bubbles);
-
 const ejsLayout = require("express-ejs-layouts");
 
 const app = express();
