@@ -5,11 +5,28 @@
 </section>
 	
 	<% bubbles.forEach((item)=>{ %>
-		<section style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg') center;" class="description">
+		<div style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg') center;" 
+		class="description f-ctr rev-flow">
 				<article style="color:white;"><%= item.description %></article>
 				
-				<!--<img src="/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg" alt="<%= item.name %>" class="background">-->
-		</section>
+			<h3>improvements</h3>
+			<ul class="improvements">
+				<% item.improvements?.forEach((imp, i)=>{ %>
+						<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(70% 10%);"><%= imp %></li>
+					<% })%>
+			</ul>
+			
+			<h3>Skills I learned</h3>
+			<ul class="skills">
+				<% item.skills?.forEach((curSkill, i)=>{ %>
+						<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(70% 10%);">
+							<span><%= curSkill %></span>
+							<img src="/assets/About/<%= curSkill %>.svg" alt="<%= curSkill %>">
+						</li>
+					<% })%>
+			</ul>
+				
+		</div>
 		<% }) %>
 	
 </main>

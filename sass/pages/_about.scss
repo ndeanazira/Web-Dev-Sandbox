@@ -1,7 +1,10 @@
 @use "abstracts/variables" as *;
 
 main.about{
-	section.description{
+	
+	color: white;
+	
+	div.description{
 		/* border-bottom: 1px solid $text-grey; */
 		padding: 15px 10px;
 		animation: unfade 1s both linear;
@@ -19,7 +22,24 @@ main.about{
 		top: 0px;
 		left: 0px;
 	}
-	article{
-		color: white;
+	
+	h3{
+		margin-top: 50px;
 	}
+	
+	ul{
+		li{
+			animation-timeline: view(block 0% 10%);
+			transform: translateY(1000vh);
+		}
+	&.skills{
+	li{
+		img{
+			height: 15px;
+			width: 15px;
+		}
+	}
+	} 
+	} 
+
 }

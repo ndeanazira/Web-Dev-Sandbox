@@ -12,12 +12,16 @@
 			{
 		"name":"Calculator",
 		"description":"This is another obvious contender for using the grid display type and ended up being easier than expected, thanks to the use of the \"eval\" function that made use of the \"innerText\" of the calculator buttons, with a few exceptions.",
+		"improvements":["Could turn it into a scientific Calculator"],
+		"skills":["HTML5", "CSS3", "JavaScript"],
 		"href":"/tasks/Calculator",
 		"styling":"/assets/Calculator/styling.css"
 	},
 	{
 		"name":"Timer",
 		"description": "This is the first (mini) website I created and it was done,without using any JavaScript fameworks. I was getting to grips with css diplay types and was introduced to setTimeout and setInterval functions. It also introduced me to \"callback functions\" which are what these two functions are. Initially it didn't allow the user to input a value into the timer, but that was later added.",
+		"improvements":["Could add a \"Days\" field for the time input."],
+		"skills":["HTML5", "CSS3", "JavaScript"],
 		"href":"/tasks/Timer",
 		"styling":"/assets/Timer/styling.css"
 	},

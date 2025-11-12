@@ -70,3 +70,8 @@
 	50%{opacity: 1;}
 	100%{opacity: 0;}
 }
+
+@keyframes rise{
+	from{transform: translateY(150vh);}
+	to{transform: translateY(0);}
+}

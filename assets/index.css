@@ -21,12 +21,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 115px;
-  width: 115px;
-  left: min(calc( 24vw - 115px), 115px);
+  height: 73px;
+  width: 73px;
+  left: min(calc( 69vw - 73px), 73px);
 }
 .bubble-size-1 i {
-  font-size: 28.75px;
+  font-size: 18.25px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -55,12 +55,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 73px;
-  width: 73px;
-  left: min(calc( 13vw - 73px), 73px);
+  height: 111px;
+  width: 111px;
+  left: min(calc( 75vw - 111px), 111px);
 }
 .bubble-size-2 i {
-  font-size: 18.25px;
+  font-size: 27.75px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -89,12 +89,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 191px;
-  width: 191px;
-  left: min(calc( 27vw - 191px), 191px);
+  height: 173px;
+  width: 173px;
+  left: min(calc( 78vw - 173px), 173px);
 }
 .bubble-size-3 i {
-  font-size: 47.75px;
+  font-size: 43.25px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -123,12 +123,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 37vw - 50px), 50px);
+  height: 56px;
+  width: 56px;
+  left: min(calc( 11vw - 56px), 56px);
 }
 .bubble-size-4 i {
-  font-size: 12.5px;
+  font-size: 14px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -157,12 +157,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 23vw - 50px), 50px);
+  height: 168px;
+  width: 168px;
+  left: min(calc( 71vw - 168px), 168px);
 }
 .bubble-size-5 i {
-  font-size: 12.5px;
+  font-size: 42px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -799,87 +799,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(7vw, -76vh);
+    transform: translate(90vw, -29vh);
   }
   25% {
-    transform: translate(11vw, -42vh);
+    transform: translate(19vw, -38vh);
   }
   50% {
-    transform: translate(58vw, -1vh);
+    transform: translate(77vw, -89vh);
   }
   75% {
-    transform: translate(96vw, -23vh);
+    transform: translate(37vw, -93vh);
   }
   100% {
-    transform: translate(17vw, -86vh);
+    transform: translate(32vw, -22vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(83vw, -52vh);
+    transform: translate(85vw, -47vh);
   }
   25% {
-    transform: translate(56vw, -6vh);
+    transform: translate(65vw, -34vh);
   }
   50% {
-    transform: translate(36vw, -20vh);
+    transform: translate(97vw, -50vh);
   }
   75% {
-    transform: translate(52vw, -20vh);
+    transform: translate(61vw, -25vh);
   }
   100% {
-    transform: translate(48vw, -23vh);
+    transform: translate(83vw, -85vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(21vw, -29vh);
+    transform: translate(66vw, -2vh);
   }
   25% {
-    transform: translate(89vw, -84vh);
+    transform: translate(88vw, -8vh);
   }
   50% {
-    transform: translate(9vw, -49vh);
+    transform: translate(98vw, -60vh);
   }
   75% {
-    transform: translate(77vw, -95vh);
+    transform: translate(94vw, -87vh);
   }
   100% {
-    transform: translate(41vw, -54vh);
+    transform: translate(39vw, -81vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(54vw, -86vh);
+    transform: translate(67vw, -75vh);
   }
   25% {
-    transform: translate(87vw, -63vh);
+    transform: translate(6vw, -29vh);
   }
   50% {
-    transform: translate(100vw, -27vh);
+    transform: translate(70vw, -85vh);
   }
   75% {
-    transform: translate(87vw, -44vh);
+    transform: translate(37vw, -52vh);
   }
   100% {
-    transform: translate(32vw, -86vh);
+    transform: translate(70vw, -10vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(40vw, -7vh);
+    transform: translate(72vw, -92vh);
   }
   25% {
-    transform: translate(2vw, -48vh);
+    transform: translate(35vw, -77vh);
   }
   50% {
-    transform: translate(80vw, -25vh);
+    transform: translate(46vw, -85vh);
   }
   75% {
-    transform: translate(92vw, -32vh);
+    transform: translate(20vw, -93vh);
   }
   100% {
-    transform: translate(89vw, -97vh);
+    transform: translate(28vw, -16vh);
   }
 }
 /** floating animation end **/
@@ -1007,6 +1007,14 @@ nav .nav-btn:active {
   }
   100% {
     opacity: 0;
+  }
+}
+@keyframes rise {
+  from {
+    transform: translateY(150vh);
+  }
+  to {
+    transform: translateY(0);
   }
 }
 h1 {
@@ -1190,7 +1198,10 @@ main.home {
   height: calc(100vh - 50px);
 }
 
-main.about section.description {
+main.about {
+  color: white;
+}
+main.about div.description {
   /* border-bottom: 1px solid $text-grey; */
   padding: 15px 10px;
   animation: unfade 1s both linear;
@@ -1206,6 +1217,14 @@ main.about img.background {
   top: 0px;
   left: 0px;
 }
-main.about article {
-  color: white;
+main.about h3 {
+  margin-top: 50px;
+}
+main.about ul li {
+  animation-timeline: view(block 0% 10%);
+  transform: translateY(1000vh);
+}
+main.about ul.skills li img {
+  height: 15px;
+  width: 15px;
 }
