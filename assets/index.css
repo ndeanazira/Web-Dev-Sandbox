@@ -21,12 +21,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 73px;
-  width: 73px;
-  left: min(calc( 69vw - 73px), 73px);
+  height: 67px;
+  width: 67px;
+  left: min(calc( 31vw - 67px), 67px);
 }
 .bubble-size-1 i {
-  font-size: 18.25px;
+  font-size: 16.75px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -55,12 +55,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 111px;
-  width: 111px;
-  left: min(calc( 75vw - 111px), 111px);
+  height: 81px;
+  width: 81px;
+  left: min(calc( 41vw - 81px), 81px);
 }
 .bubble-size-2 i {
-  font-size: 27.75px;
+  font-size: 20.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -89,12 +89,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 173px;
-  width: 173px;
-  left: min(calc( 78vw - 173px), 173px);
+  height: 76px;
+  width: 76px;
+  left: min(calc( 30vw - 76px), 76px);
 }
 .bubble-size-3 i {
-  font-size: 43.25px;
+  font-size: 19px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -123,12 +123,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 56px;
-  width: 56px;
-  left: min(calc( 11vw - 56px), 56px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 51vw - 50px), 50px);
 }
 .bubble-size-4 i {
-  font-size: 14px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -157,12 +157,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 168px;
-  width: 168px;
-  left: min(calc( 71vw - 168px), 168px);
+  height: 167px;
+  width: 167px;
+  left: min(calc( 86vw - 167px), 167px);
 }
 .bubble-size-5 i {
-  font-size: 42px;
+  font-size: 41.75px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -799,87 +799,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(90vw, -29vh);
+    transform: translate(26vw, -83vh);
   }
   25% {
-    transform: translate(19vw, -38vh);
+    transform: translate(95vw, -24vh);
   }
   50% {
-    transform: translate(77vw, -89vh);
+    transform: translate(46vw, -73vh);
   }
   75% {
-    transform: translate(37vw, -93vh);
+    transform: translate(96vw, -18vh);
   }
   100% {
-    transform: translate(32vw, -22vh);
+    transform: translate(7vw, -83vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(85vw, -47vh);
+    transform: translate(38vw, -23vh);
   }
   25% {
-    transform: translate(65vw, -34vh);
+    transform: translate(32vw, -79vh);
   }
   50% {
-    transform: translate(97vw, -50vh);
+    transform: translate(93vw, -13vh);
   }
   75% {
-    transform: translate(61vw, -25vh);
+    transform: translate(61vw, -6vh);
   }
   100% {
-    transform: translate(83vw, -85vh);
+    transform: translate(38vw, -38vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(66vw, -2vh);
+    transform: translate(89vw, -57vh);
   }
   25% {
-    transform: translate(88vw, -8vh);
+    transform: translate(51vw, -49vh);
   }
   50% {
-    transform: translate(98vw, -60vh);
+    transform: translate(56vw, -21vh);
   }
   75% {
-    transform: translate(94vw, -87vh);
+    transform: translate(94vw, -1vh);
   }
   100% {
-    transform: translate(39vw, -81vh);
+    transform: translate(13vw, -51vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(67vw, -75vh);
+    transform: translate(27vw, -27vh);
   }
   25% {
-    transform: translate(6vw, -29vh);
+    transform: translate(3vw, -2vh);
   }
   50% {
-    transform: translate(70vw, -85vh);
+    transform: translate(42vw, -44vh);
   }
   75% {
-    transform: translate(37vw, -52vh);
+    transform: translate(47vw, -68vh);
   }
   100% {
-    transform: translate(70vw, -10vh);
+    transform: translate(76vw, -98vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(72vw, -92vh);
+    transform: translate(40vw, -32vh);
   }
   25% {
-    transform: translate(35vw, -77vh);
+    transform: translate(31vw, -19vh);
   }
   50% {
-    transform: translate(46vw, -85vh);
+    transform: translate(36vw, -41vh);
   }
   75% {
-    transform: translate(20vw, -93vh);
+    transform: translate(77vw, -37vh);
   }
   100% {
-    transform: translate(28vw, -16vh);
+    transform: translate(17vw, -27vh);
   }
 }
 /** floating animation end **/
@@ -998,6 +998,20 @@ nav .nav-btn:active {
     height: 50vh;
   }
 }
+@keyframes unblur {
+  0% {
+    filter: blur(15px);
+  }
+  35% {
+    filter: blur(0px);
+  }
+  65% {
+    filter: blur(0px);
+  }
+  100% {
+    filter: blur(15px);
+  }
+}
 @keyframes unfade {
   0% {
     opacity: 0;
@@ -1011,7 +1025,7 @@ nav .nav-btn:active {
 }
 @keyframes rise {
   from {
-    transform: translateY(150vh);
+    transform: translateY(100vh);
   }
   to {
     transform: translateY(0);
@@ -1203,12 +1217,19 @@ main.about {
 }
 main.about div.description {
   /* border-bottom: 1px solid $text-grey; */
-  padding: 15px 10px;
-  animation: unfade 1s both linear;
-  animation-timeline: view(block 0% 10%);
-  min-height: 75vh;
+  padding: 15px 10px 150px 10px;
+  animation: unblur 1s both linear;
+  animation-timeline: view();
+  min-height: 100vh;
   position: relative;
   background-size: 100% auto !important;
+  mask-image: linear-gradient(from top, black 30%, transparent 100%), linear-gradient(to bottom, black 60%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 45%, transparent 100%);
+}
+main.about article {
+  backdrop-filter: blur(5px);
+  padding: 5px;
+  border-radius: 10px;
 }
 main.about img.background {
   height: 100%;
@@ -1218,13 +1239,21 @@ main.about img.background {
   left: 0px;
 }
 main.about h3 {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 main.about ul li {
   animation-timeline: view(block 0% 10%);
-  transform: translateY(1000vh);
+  transform: translateY(150vh);
+  margin: 5px 0px;
+}
+main.about ul.improvements li {
+  text-align: left;
 }
 main.about ul.skills li img {
   height: 15px;
   width: 15px;
+}
+
+.last-block {
+  height: 150px;
 }

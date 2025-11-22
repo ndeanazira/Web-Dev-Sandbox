@@ -28,6 +28,8 @@
 	{
 		"name":"Tic Tac Toe",
 		"description":"This was the first web-game that I created. I had to think of all the possible outcomes (which weren't a huge amount) when it came to checking the winner, done via another .js file. For the css, I decided to try out the grid display type, for the first time, given the asthetic nature of Tic Tac Toe.",
+		"improvements":["Better choice of colours", "Sound effects", "A score system for number of wins", "More animations"],
+		"skills":["HTML5", "CSS3", "JavaScript"],
 		"href":"/tasks/Tic-Tac-Toe",
 		"styling":"/assets/Tic-Tac-Toe/styling.css"
 			
@@ -35,6 +37,8 @@
 	{
 		"name":"Simon Says",
 		"description":"This was the first website I made, to feature sound. More of the work went into the JavaScript, as opposed to the css or the hmtl. As you maybe aware, it's a game that tests one's memory by asking you to matched the sequence of sounds genereted from certain squares.",
+		"improvements":["Different colour for each square", "A custom pop-up, instead of an alert.", "Score system.", "More files for seperating and organising functions."],
+		"skills":["HTML5", "CSS3", "JavaScript"],
 		"href":"/tasks/Simon-Says",
 		"styling":"/assets/Simon-Says/styling.css"
 		
@@ -42,6 +46,8 @@
 	{
 		"name":"To Do List",
 		"description":"For this website, I was exploring the addition (and removal) of elements for a list. The list items could also be edited. I also added a filter feature for the list, which was tigured by a \"keydown\" even. I also made use of the browser's local storage. Here, is where I implemented \"Event Bubbling\" so that new list items would also be subject to click events, for deletion and editing.",
+		"improvements":["Could Improve Styling.", "Better colour scheme.", "Maybe improve logic for filter to include fuzzy logic."],
+		"skills":["HTML5", "CSS3", "JavaScript"],
 		"href":"/tasks/To-Do-List",
 		"styling":"/assets/To-Do-List/styling.css"
 	},
@@ -49,17 +55,23 @@
 	 {
 	  "name":"Weather App (React)",
 	  "description":"This is the first website I did, using React. It was the next stage into my web development journey and one I learned a lot from. It made use of api's, for location search and one for weather. I was intoduced to new outconecepts such as: hooks, states, components and using operators for logical rendering. I also made some of my own svg icons for the weather symbols.",
-	  "href":""
+	  "improvements":["Functions that parse an index number as a string, such as \"UV Index\" could have been put in another .js file.", "Prop-Drilling was present with states and even functions. A state management library such as Redux or Context could be used.", "As this was my first React App, a multi-page website was not (yet) a top priority, having said that, I would add a Settings page.", "Use of the \"public\" folder for images", "Optional chaining with variables and constants, to increase efficiency", "More efficient ways of fetching weather data, without triggering errors (requiring try/catch statements) can be used"],
+		"skills":["HTML5", "CSS3", "JavaScript","React", "Git"],
+	  "href":"https://react-weather-two-eta.vercel.app/"
 	 	
 	 },
 	 {
-	  "name":"By My Car (React)",
+	  "name":"Buy My Car (React)",
 	  "description":"This website was kind of a hybrid between Autotrader and Amazon, in the sense that you could search for a car (like Autotrader) while also being able to add it to your basket (like Amazon). This website took my React skills to the next level by delving into React Router, for multiple pages. It also used Firebase for authentication and storage of data such as cars and user profiles. Buckets were used for the storage of pcitures also. Redux was used, alongside Firebase, for globalisation of states, such as authentication and other things. For the payment side of things, Stripe was implemented in the back-end (via node js) and cors was used to allow for node js to be on a seprate port. I also used a Python script to extract car brands and models, to add to the website. Another thing I got indroduced to was a css framework, Bootstrap, that was used for the toolbar functionality, the icons and the carousel.",
-	  "href":""
+	  "improvements":["Perhaps the use of a different database, such as mongoDB", "The styling rules for the home page tiles could be improved so that they behave in a more predictable manor.", "The toolbar could do with some more effects, when clicking or hovering.", "The code is more organised than the Weather App, but there is still much room for improvement. Also one or two repeated bits of code could be eliminated", "Implement a shipping/delivery system for when vehicles are purchased.", "Use a newer version of Redux, without firbase, which would simplify the project.", "More properties to filter, when searching for a car.", "Use of Tailwind", "Better responsiveness, when in desktop mode: which comes down to css not being effient enough for mobile, default, view-port width)."],
+		"skills":["HTML5", "CSS3", "JavaScript","React", "Firebase", "Bootstrap", "Git", "NodeJS"],
+	  "href":"https://its-my-car-client.vercel.app/"
 	 },
 	 {
 	  "name":"My Project (NextJs)",
 	  "description":"This was the first website I made, using NextJs and also the biggest one I had made. It was used for managing projects and showed them on a calender, while also allowing users to chat to eachother. This website introduced me to server side rendering, of which I tried to utilise. I also used middleware for cookies, for recently visited tasks and chats. I also made use of more open source react/nextjs libraries for this website. For the Dashboard, I used slots for parts such as the Calendar and others. This is also the first website to use MongoDB. For the messaging page, I used a websocket library called pusher. This libarary was also used for online status of other users as well as recieving notifications live. More react hooks, such as useRef, useMemo, etc were utilised. For the authentication, next-auth was used. For the styling two new things were used: CSS modules and tailwind. The use of Tailwind and eslint helped me in being more thoughtful and self aware when it cmae to creating readable and efficient code.",
+	  "improvements":["An auto-email prompt system to alert the user of upcoming deadlines, messages, etc.", "The Calendar might have been better as client rendered slot, but functions well as a server rendered slot.", "Finding a way for the web-socket requsts to use less resources", "Account verification, when signing up", "More consistent naming of files,  variables, etc"],
+		"skills":["HTML5", "CSS3", "TypeScript","React", "NextJS", "MongoDB", "Tailwind", "Git"],
 	  "href":"https://project-manager-gamma-three.vercel.app/"
 	 }
 	]

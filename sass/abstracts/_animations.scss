@@ -65,6 +65,13 @@
 	to{height: 50vh;}
 }
 
+@keyframes unblur{
+	0%{filter: blur(15px);}
+	35%{filter: blur(0px);}
+	65%{filter: blur(0px);}
+	100%{filter: blur(15px);}
+}
+
 @keyframes unfade{
 	0%{opacity: 0;}
 	50%{opacity: 1;}
@@ -72,6 +79,6 @@
 }
 
 @keyframes rise{
-	from{transform: translateY(150vh);}
+	from{transform: translateY(100vh);}
 	to{transform: translateY(0);}
 }
