@@ -1,25 +1,29 @@
-var express = require("express");
-var navData = require("./assets/nav-data.json");
-var bubbles = navData.find(function (item) { return item.name == "Pages"; }).dropdown;
-var ejsLayout = require("express-ejs-layouts");
-var app = express();
-var port = 8369;
-app.use('/assets', express.static("assets"));
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express = require("express");
+const navData = require("./assets/nav-data.json");
+const bubbles = navData.find((item) => item.name == "Pages").dropdown;
+const ejsLayout = require("express-ejs-layouts");
+const app = express();
+const port = 8369;
+const baseUrlGlobal = process.env.URL;
+app.use(baseUrlGlobal + '/assets', express.static("assets"));
 app.use(ejsLayout);
 app.set("view engine", "ejs");
-app.get("/", function (req, res) {
-    var url = req.url;
-    res.render("home", { title: "Home", bubbles: bubbles, cssLinkPath: null, navData: navData, url: url });
+app.get("/", (req, res) => {
+    const { url } = req;
+    res.render("home", { title: "Home", bubbles, cssLinkPath: null, navData, url });
 });
-app.get("/tasks/:taskPageName", function (req, res) {
-    var taskPageName = req.params.taskPageName;
-    var url = req.url;
-    res.render("Tasks/" + taskPageName.toLowerCase(), { title: taskPageName, cssLinkPath: "/assets/" + taskPageName + "/styling.css", navData: navData, url: url });
+app.get("/tasks/:taskPageName", (req, res) => {
+    const { taskPageName } = req.params;
+    const { url } = req;
+    res.render("Tasks/" + taskPageName.toLowerCase(), { title: taskPageName, cssLinkPath: "/assets/" + taskPageName + "/styling.css", navData, url });
 });
-app.get("/about", function (req, res) {
-    var url = req.url;
-    res.render("about", { title: "About", cssLinkPath: null, bubbles: bubbles, navData: navData, url: url });
+app.get("/about", (req, res) => {
+    const { url } = req;
+    res.render("about", { title: "About", cssLinkPath: null, bubbles, navData, url });
 });
-app.listen(port, function () {
+app.listen(port, () => {
     console.log("Server is now running at port: " + port);
 });
+//# sourceMappingURL=index.js.map
