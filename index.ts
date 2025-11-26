@@ -7,7 +7,7 @@ const ejsLayout = require("express-ejs-layouts");
 
 const app = express();
 const port:number = 8369;
-const baseUrlGlobal:string = process.env.URL;
+const baseUrlGlobal:string = process?.env?.URL??"";
 
 app.use(baseUrlGlobal + '/assets', express.static("assets"));
 

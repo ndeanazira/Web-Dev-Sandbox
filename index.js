@@ -7,7 +7,7 @@ const bubbles = navData.find((item) => item.name == "Pages").dropdown;
 const ejsLayout = require("express-ejs-layouts");
 const app = express();
 const port = 8369;
-const baseUrlGlobal = process.env.URL;
+const baseUrlGlobal = process?.env?.URL ?? "";
 app.use(baseUrlGlobal + '/assets', express.static("assets"));
 app.use(ejsLayout);
 app.set("view engine", "ejs");
