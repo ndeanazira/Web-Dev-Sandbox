@@ -1,5 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
+require("dotenv").config();
 const express = require("express");
 const navData = require("./assets/nav-data.json");
 const bubbles = navData.find((item) => item.name == "Pages").dropdown;

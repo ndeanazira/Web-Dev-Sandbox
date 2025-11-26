@@ -1,3 +1,4 @@
+require("dotenv").config();
 const express = require("express");
 const navData = require("./assets/nav-data.json")
 
