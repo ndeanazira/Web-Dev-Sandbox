@@ -1,15 +1,18 @@
 require("dotenv").config();
 const express = require("express");
 const navData = require("./assets/nav-data.json")
-
+const path = require("path");
 const bubbles = navData.find((item)=>item.name=="Pages").dropdown
 const ejsLayout = require("express-ejs-layouts");
 
 const app = express();
 const port:number = 8369;
-const baseUrlGlobal:string = process?.env?.URL??"";
+// const baseUrlGlobal:string = process?.env?.URL??"";
 
-app.use(baseUrlGlobal + '/assets', express.static("assets"));
+//app.use("/assets", express.static("assets"));
+
+app.use("/assets", express.static(path.join(__dirname, "assets")));
+
 
 app.use(ejsLayout);
 

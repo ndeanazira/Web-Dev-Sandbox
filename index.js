@@ -3,12 +3,14 @@ Object.defineProperty(exports, "__esModule", { value: true });
 require("dotenv").config();
 const express = require("express");
 const navData = require("./assets/nav-data.json");
+const path = require("path");
 const bubbles = navData.find((item) => item.name == "Pages").dropdown;
 const ejsLayout = require("express-ejs-layouts");
 const app = express();
 const port = 8369;
-const baseUrlGlobal = process?.env?.URL ?? "";
-app.use(baseUrlGlobal + '/assets', express.static("assets"));
+// const baseUrlGlobal:string = process?.env?.URL??"";
+//app.use("/assets", express.static("assets"));
+app.use("/assets", express.static(path.join(__dirname, "assets")));
 app.use(ejsLayout);
 app.set("view engine", "ejs");
 app.get("/", (req, res) => {
