@@ -21,12 +21,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 67px;
-  width: 67px;
-  left: min(calc( 31vw - 67px), 67px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 23vw - 50px), 50px);
 }
 .bubble-size-1 i {
-  font-size: 16.75px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -55,12 +55,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 81px;
-  width: 81px;
-  left: min(calc( 41vw - 81px), 81px);
+  height: 88px;
+  width: 88px;
+  left: min(calc( 83vw - 88px), 88px);
 }
 .bubble-size-2 i {
-  font-size: 20.25px;
+  font-size: 22px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -89,12 +89,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 76px;
-  width: 76px;
-  left: min(calc( 30vw - 76px), 76px);
+  height: 171px;
+  width: 171px;
+  left: min(calc( 13vw - 171px), 171px);
 }
 .bubble-size-3 i {
-  font-size: 19px;
+  font-size: 42.75px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -125,7 +125,7 @@
   } */
   height: 50px;
   width: 50px;
-  left: min(calc( 51vw - 50px), 50px);
+  left: min(calc( 65vw - 50px), 50px);
 }
 .bubble-size-4 i {
   font-size: 12.5px;
@@ -157,12 +157,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 167px;
-  width: 167px;
-  left: min(calc( 86vw - 167px), 167px);
+  height: 136px;
+  width: 136px;
+  left: min(calc( 25vw - 136px), 136px);
 }
 .bubble-size-5 i {
-  font-size: 41.75px;
+  font-size: 34px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -799,87 +799,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(26vw, -83vh);
+    transform: translate(14vw, -26vh);
   }
   25% {
-    transform: translate(95vw, -24vh);
+    transform: translate(90vw, -16vh);
   }
   50% {
-    transform: translate(46vw, -73vh);
+    transform: translate(34vw, -90vh);
   }
   75% {
-    transform: translate(96vw, -18vh);
+    transform: translate(39vw, -62vh);
   }
   100% {
-    transform: translate(7vw, -83vh);
+    transform: translate(79vw, -24vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(38vw, -23vh);
+    transform: translate(85vw, -38vh);
   }
   25% {
-    transform: translate(32vw, -79vh);
+    transform: translate(13vw, -58vh);
   }
   50% {
-    transform: translate(93vw, -13vh);
+    transform: translate(83vw, -38vh);
   }
   75% {
-    transform: translate(61vw, -6vh);
+    transform: translate(32vw, -26vh);
   }
   100% {
-    transform: translate(38vw, -38vh);
+    transform: translate(45vw, -66vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(89vw, -57vh);
+    transform: translate(72vw, -44vh);
   }
   25% {
-    transform: translate(51vw, -49vh);
+    transform: translate(94vw, -40vh);
   }
   50% {
-    transform: translate(56vw, -21vh);
+    transform: translate(21vw, -75vh);
   }
   75% {
-    transform: translate(94vw, -1vh);
+    transform: translate(33vw, -63vh);
   }
   100% {
-    transform: translate(13vw, -51vh);
+    transform: translate(33vw, -60vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(27vw, -27vh);
+    transform: translate(4vw, -50vh);
   }
   25% {
-    transform: translate(3vw, -2vh);
+    transform: translate(23vw, -100vh);
   }
   50% {
-    transform: translate(42vw, -44vh);
+    transform: translate(28vw, -45vh);
   }
   75% {
-    transform: translate(47vw, -68vh);
+    transform: translate(12vw, -42vh);
   }
   100% {
-    transform: translate(76vw, -98vh);
+    transform: translate(50vw, -41vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(40vw, -32vh);
+    transform: translate(97vw, -85vh);
   }
   25% {
-    transform: translate(31vw, -19vh);
+    transform: translate(44vw, -61vh);
   }
   50% {
-    transform: translate(36vw, -41vh);
+    transform: translate(14vw, -81vh);
   }
   75% {
-    transform: translate(77vw, -37vh);
+    transform: translate(27vw, -77vh);
   }
   100% {
-    transform: translate(17vw, -27vh);
+    transform: translate(68vw, -66vh);
   }
 }
 /** floating animation end **/
@@ -1147,14 +1147,17 @@ h2 {
   nav .nav-btn.dropdown {
     position: relative;
   }
-  nav .nav-btn.dropdown.clicked .dropdown-list {
-    position: absolute;
-    top: 25px;
-    width: 100px;
+  nav .nav-btn.dropdown .dropdown-list {
+    width: 200px !important;
+    top: 40px;
+    left: -50px;
   }
   nav .nav-btn a {
-    height: 35px;
+    height: 30px !important;
     width: 100%;
+  }
+  main.about > .container {
+    max-width: 650px;
   }
 }
 body {

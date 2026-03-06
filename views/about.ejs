@@ -1,40 +1,43 @@
-<main class=about>
-<section>
-	<h1>About</h1>
-	<h2>Come and have a look at the <q>About</q> page to learn more about this website, plus other pages (and websites) that I have created, as well as a bit about myself</h2>
-</section>
-	I feel most comfortable in front of a computer and have a logical (programming) mindset so being a Web Developer is something which I enjoy and would like to pursue as a career.
-<section>
-	
-</section>
-	
-	<% bubbles.forEach((item)=>{ %>
-		<div style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg') center;" 
-		class="description f-ctr rev-flow">
-				<article style="color:white;"><%= item.description %></article>
-				
-			<h3>improvements</h3>
-			<ul class="improvements">
-				<% item.improvements?.forEach((imp, i)=>{ %>
-						<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(80% 0%);"><%= imp %></li>
-					<% })%>
-			</ul>
+<main class="about f-ctr">
+	<div class="container">
+
+		<section>
+			<h1>About</h1>
+			<h2>Come and have a look at the <q>About</q> page to learn more about this website, plus other pages (and websites) that I have created, as well as a bit about myself</h2>
+		</section>
+			I feel most comfortable in front of a computer and have a logical (programming) mindset so being a Web Developer is something which I enjoy and would like to pursue as a career.
+		<section>
 			
-			<h3>Skills I learned</h3>
-			<ul class="skills f-ctr rev-flow">
-				<% item.skills?.forEach((curSkill, i)=>{ %>
-						<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(80% 0%);">
-							<span><%= curSkill %></span>
-							<img src="/assets/About/<%= curSkill %>.svg" alt="<%= curSkill %>">
-						</li>
-					<% })%>
-			</ul>
+		</section>
+			
+			<% bubbles.forEach((item)=>{ %>
+				<div style="background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url('/assets/Pictures/<%= item.name.replaceAll(" ", "-") %>.jpg') center;" 
+				class="description f-ctr rev-flow">
+						<article style="color:white;"><%= item.description %></article>
+						
+					<h3>improvements</h3>
+					<ul class="improvements">
+						<% item.improvements?.forEach((imp, i)=>{ %>
+								<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(80% 0%);"><%= imp %></li>
+							<% })%>
+					</ul>
+					
+					<h3>Skills I learned</h3>
+					<ul class="skills f-ctr rev-flow">
+						<% item.skills?.forEach((curSkill, i)=>{ %>
+								<li style="animation: rise 0.85s <%= i*0.3%>s both; animation-timeline: view(80% 0%);">
+									<span><%= curSkill %></span>
+									<img src="/assets/About/<%= curSkill %>.svg" alt="<%= curSkill %>">
+								</li>
+							<% })%>
+					</ul>
+						
+				</div>
+				<% }) %>
 				
-		</div>
-		<% }) %>
-		
-	<div class="last-block">
-		.
+			<div class="last-block">
+				.
+			</div>
+			
 	</div>
-	
 </main>

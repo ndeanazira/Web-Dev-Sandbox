@@ -13,21 +13,24 @@
 		
 			&.dropdown{
 				position: relative;
-				&.clicked{
 					.dropdown-list{
-						position: absolute;
-						top: 25px;
-						width: 100px;
+						width: 200px !important;
+						// position: absolute;
+						top: 40px;
+						left: -50px;
 					}
-				}
 			}
 			
 				a{
-					height: 35px;
+					height: 30px !important;
 					width: 100%;
 				}
 			}
 		}
+
+	main.about > .container{
+		max-width: 650px;
+	}
 		
 }
 
