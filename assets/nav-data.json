@@ -8,7 +8,7 @@
 	{
 		"name":"Pages",
 		"dropdown":[
-		z	
+		
 			{
 			"name":"Calculator",
 		"description":"This is another obvious contender for using the grid display type and ended up being easier than fexpected, thanks to the use of the x7iiu7\"eval\" function that made use of the \"innerText\" of the calculator buttons, with a few exceptions.",
