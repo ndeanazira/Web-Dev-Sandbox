@@ -35,6 +35,8 @@ Array.from(allBubbles).forEach((bubble)=>{
 			$(bubble).addClass("bubble-inflation");
 			
 			setTimeout(()=>{
+				$(bubble).css("display", "none");
+				$(bubble).addClass("active");
 				$(popUp).css("display", "");
 			},1500);
 			
@@ -56,10 +58,11 @@ Array.from(allBubbles).forEach((bubble)=>{
 })
 
 $(exit).on("click", (e)=>{
-	
+	console.log($(".active")[0]);
 	$(popUp).css("display", "none");
 	$(popUp).removeClass("f-ctr rev");
-	
+	$(`#${exit.id.replace("exit-", "")}`).css("display", "");
+	$(`#${exit.id.replace("exit-", "")}`).removeClass("active");
 	$(`#${exit.id.replace("exit-", "")}`).removeClass("bubble-inflation");
 	$(`#${exit.id.replace("exit-", "")}`).addClass("bubble-animation");
 })
