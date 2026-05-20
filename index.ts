@@ -35,6 +35,11 @@ app.get("/about", (req, res)=>{
 	res.render("about", {title:"About", cssLinkPath:null, bubbles, navData, url});
 })
 
+app.get("/about/me", (req, res)=>{
+	const { url } = req;
+	res.render("about-this-site", {title:"About Me", cssLinkPath:null, bubbles, navData, url});
+})
+
 app.listen(port, ()=>{
 	console.log("Server is now running at port: " + port);
 });
