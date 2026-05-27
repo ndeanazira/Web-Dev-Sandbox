@@ -6,7 +6,7 @@
 <section class="f-ctr-spa w-full relative">
   <% bubbles.forEach((item)=>{ %>
   <% let sizeIndex = Math.floor(Math.random()*4) + 1 %>
-  <% let colorIndex = Math.floor(Math.random()*5) + 1 %>
+  <% let colorIndex = Math.floor(Math.random()*9) + 1 %>
   <% let animationIndex = Math.floor(Math.random()*4) + 1 %>
   <div id="<%= item.name.replaceAll(" ", "-") %>" class="bubble bubble-size-<%=sizeIndex%> bubble-color-<%= colorIndex %> bubble-animation bubble-animation-<%= animationIndex %> f-ctr rev-flow">
   <div>

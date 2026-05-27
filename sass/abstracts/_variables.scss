@@ -4,23 +4,29 @@
 
 $nav-height:50px;
 
-$bubble-border-colors:[red, blue, green, orange, purple, gray];
+$bubble-border-colors:(red, blue, green, orange, purple, grey,yellow, pink, brown);
+
+/* $colors:$bubble-border-colors; */
+$colors:list.append($bubble-border-colors,"black", $separator:comma);
 
 $sizes:["xs", "sm", "md", "lg"];
 
-$sizes-percentage:[0, 15, 25, 50, 75, 100];
+$sizes-percentage:[0, 15, 25, 35, 50, 75, 100];
 
 $text-grey: #aea9a9;
 
 $bubble-core-colors:[]; /* Lightned and Transparent version of $bubble-border-colors*/
+$lightened-colors:(); /* Lightned and Transparent version of $bubble-border-colors*/
 
 @each $cur-color in $bubble-border-colors{
+  $color-name:"light-#{$cur-color}";
+  @debug $color-name;
+  @debug $cur-color;
 	$cur-color:lighten($cur-color, 30%);
+	$lightened-colors:map.set($lightened-colors, $color-name, $cur-color);
 	$cur-color:transparentize($cur-color, 0.25);
 	$bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
 }
-
-
 
 $position-map:(
 	"ctr":center,

@@ -1,3 +1,5 @@
+/* $colors:$bubble-border-colors; */
+/* Lightned and Transparent version of $bubble-border-colors*/
 /* Lightned and Transparent version of $bubble-border-colors*/
 .bubble-size-1 {
   border-radius: 100%;
@@ -21,12 +23,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 23vw - 50px), 50px);
+  height: 164px;
+  width: 164px;
+  left: min(calc( 57vw - 164px), 164px);
 }
 .bubble-size-1 i {
-  font-size: 12.5px;
+  font-size: 41px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -55,12 +57,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 88px;
-  width: 88px;
-  left: min(calc( 83vw - 88px), 88px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 71vw - 50px), 50px);
 }
 .bubble-size-2 i {
-  font-size: 22px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -89,12 +91,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 171px;
-  width: 171px;
-  left: min(calc( 13vw - 171px), 171px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 62vw - 50px), 50px);
 }
 .bubble-size-3 i {
-  font-size: 42.75px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -125,7 +127,7 @@
   } */
   height: 50px;
   width: 50px;
-  left: min(calc( 65vw - 50px), 50px);
+  left: min(calc( 32vw - 50px), 50px);
 }
 .bubble-size-4 i {
   font-size: 12.5px;
@@ -157,12 +159,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 136px;
-  width: 136px;
-  left: min(calc( 25vw - 136px), 136px);
+  height: 116px;
+  width: 116px;
+  left: min(calc( 75vw - 116px), 116px);
 }
 .bubble-size-5 i {
-  font-size: 34px;
+  font-size: 29px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -220,10 +222,34 @@
 
 .bubble-color-6 {
   background: rgba(204.5, 204.5, 204.5, 0.75);
-  border: 3px solid gray;
+  border: 3px solid grey;
 }
 .bubble-color-6:active {
-  background: gray;
+  background: grey;
+}
+
+.bubble-color-7 {
+  background: rgba(255, 255, 153, 0.75);
+  border: 3px solid yellow;
+}
+.bubble-color-7:active {
+  background: yellow;
+}
+
+.bubble-color-8 {
+  background: rgba(255, 255, 255, 0.75);
+  border: 3px solid pink;
+}
+.bubble-color-8:active {
+  background: pink;
+}
+
+.bubble-color-9 {
+  background: rgba(224.5652173913, 135.4347826087, 135.4347826087, 0.75);
+  border: 3px solid brown;
+}
+.bubble-color-9:active {
+  background: brown;
 }
 
 /* FLEX DISPLAY TYPES START */
@@ -551,6 +577,10 @@
   flex-flow: column;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 /* FLEX DISPLAY TYPES END */
 /* GRID DISPLAY TYPES START */
 /* GRID DISPLAY TYPES END */
@@ -747,6 +777,3997 @@ nav .nav-btn:active {
 }
 
 /* } */
+/* $sizes-px:[25, 50, 150, 250, 350, 500]; */
+.red-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-0-card {
+  height: 0vw;
+  width: 0vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-5-card {
+  height: 5vw;
+  width: 5vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-10-card {
+  height: 10vw;
+  width: 10vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-15-card {
+  height: 15vw;
+  width: 15vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-20-card {
+  height: 20vw;
+  width: 20vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-25-card {
+  height: 25vw;
+  width: 25vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-30-card {
+  height: 30vw;
+  width: 30vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-35-card {
+  height: 35vw;
+  width: 35vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-40-card {
+  height: 40vw;
+  width: 40vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-45-card {
+  height: 45vw;
+  width: 45vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-50-card {
+  height: 50vw;
+  width: 50vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-55-card {
+  height: 55vw;
+  width: 55vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-60-card {
+  height: 60vw;
+  width: 60vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-65-card {
+  height: 65vw;
+  width: 65vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-70-card {
+  height: 70vw;
+  width: 70vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-75-card {
+  height: 75vw;
+  width: 75vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-80-card {
+  height: 80vw;
+  width: 80vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-85-card {
+  height: 85vw;
+  width: 85vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-90-card {
+  height: 90vw;
+  width: 90vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-95-card {
+  height: 95vw;
+  width: 95vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.red-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: red;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.blue-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: blue;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.green-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: green;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.orange-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: orange;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.purple-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: purple;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.grey-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: grey;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.yellow-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: yellow;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.pink-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: pink;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.brown-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: brown;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.black-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: "black";
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-red-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #ff9999;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-blue-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #9999ff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-green-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #1aff1a;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-orange-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #ffdb99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-purple-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #ff1aff;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-grey-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: rgb(204.5, 204.5, 204.5);
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-yellow-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: #ffff99;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-pink-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: white;
+  /* &:active{
+    background: ;
+  } */
+}
+
+.light-brown-100-card {
+  height: 100vw;
+  width: 100vw;
+  border-radius: 25px;
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087);
+  /* &:active{
+    background: ;
+  } */
+}
+
 .relative {
   position: relative !important;
 }
@@ -799,87 +4820,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(14vw, -26vh);
+    transform: translate(18vw, -72vh);
   }
   25% {
-    transform: translate(90vw, -16vh);
+    transform: translate(34vw, -14vh);
   }
   50% {
-    transform: translate(34vw, -90vh);
+    transform: translate(96vw, -17vh);
   }
   75% {
-    transform: translate(39vw, -62vh);
+    transform: translate(58vw, -84vh);
   }
   100% {
-    transform: translate(79vw, -24vh);
+    transform: translate(56vw, -50vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(85vw, -38vh);
+    transform: translate(91vw, -56vh);
   }
   25% {
-    transform: translate(13vw, -58vh);
+    transform: translate(56vw, -38vh);
   }
   50% {
-    transform: translate(83vw, -38vh);
+    transform: translate(81vw, -50vh);
   }
   75% {
-    transform: translate(32vw, -26vh);
+    transform: translate(53vw, -88vh);
   }
   100% {
-    transform: translate(45vw, -66vh);
+    transform: translate(57vw, -35vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(72vw, -44vh);
+    transform: translate(93vw, -46vh);
   }
   25% {
-    transform: translate(94vw, -40vh);
+    transform: translate(89vw, -94vh);
   }
   50% {
-    transform: translate(21vw, -75vh);
+    transform: translate(59vw, -20vh);
   }
   75% {
-    transform: translate(33vw, -63vh);
+    transform: translate(65vw, -34vh);
   }
   100% {
-    transform: translate(33vw, -60vh);
+    transform: translate(37vw, -41vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(4vw, -50vh);
+    transform: translate(84vw, -55vh);
   }
   25% {
-    transform: translate(23vw, -100vh);
+    transform: translate(22vw, -28vh);
   }
   50% {
-    transform: translate(28vw, -45vh);
+    transform: translate(61vw, -47vh);
   }
   75% {
-    transform: translate(12vw, -42vh);
+    transform: translate(75vw, -35vh);
   }
   100% {
-    transform: translate(50vw, -41vh);
+    transform: translate(97vw, -44vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(97vw, -85vh);
+    transform: translate(48vw, -55vh);
   }
   25% {
-    transform: translate(44vw, -61vh);
+    transform: translate(94vw, -29vh);
   }
   50% {
-    transform: translate(14vw, -81vh);
+    transform: translate(78vw, -59vh);
   }
   75% {
-    transform: translate(27vw, -77vh);
+    transform: translate(31vw, -57vh);
   }
   100% {
-    transform: translate(68vw, -66vh);
+    transform: translate(17vw, -55vh);
   }
 }
 /** floating animation end **/
@@ -958,12 +4979,45 @@ nav .nav-btn:active {
     border: 3px solid white;
   }
 }
-@keyframes color-pulse-gray {
+@keyframes color-pulse-grey {
   0% {
     border: 3px solid white;
   }
   50% {
-    border: 3px solid gray;
+    border: 3px solid grey;
+  }
+  100% {
+    border: 3px solid white;
+  }
+}
+@keyframes color-pulse-yellow {
+  0% {
+    border: 3px solid white;
+  }
+  50% {
+    border: 3px solid yellow;
+  }
+  100% {
+    border: 3px solid white;
+  }
+}
+@keyframes color-pulse-pink {
+  0% {
+    border: 3px solid white;
+  }
+  50% {
+    border: 3px solid pink;
+  }
+  100% {
+    border: 3px solid white;
+  }
+}
+@keyframes color-pulse-brown {
+  0% {
+    border: 3px solid white;
+  }
+  50% {
+    border: 3px solid brown;
   }
   100% {
     border: 3px solid white;
@@ -1047,6 +5101,14 @@ h2 {
   width: 100%;
 }
 
+.h-auto {
+  height: auto;
+}
+
+.w-auto {
+  width: auto;
+}
+
 .h-0 {
   height: 0 %;
 }
@@ -1071,6 +5133,14 @@ h2 {
   width: 25 %;
 }
 
+.h-35 {
+  height: 35 %;
+}
+
+.w-35 {
+  width: 35 %;
+}
+
 .h-50 {
   height: 50 %;
 }
@@ -1093,6 +5163,38 @@ h2 {
 
 .w-100 {
   width: 100 %;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: 5px;
+}
+
+.m-2 {
+  margin: 10px;
+}
+
+.m-3 {
+  margin: 15px;
+}
+
+.m-4 {
+  margin: 20px;
+}
+
+.m-5 {
+  margin: 25px;
+}
+
+.m-6 {
+  margin: 30px;
+}
+
+.m-7 {
+  margin: 35px;
 }
 
 @media (orientation: landscape) {
@@ -1199,6 +5301,10 @@ main section:nth-child(2) {
   height: calc(100% - 125px);
 }
 
+main > section {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
   font-size: 25px !important;
@@ -1260,3 +5366,39 @@ main.about ul.skills li img {
 .last-block {
   height: 150px;
 }
+
+main.about-me section {
+  height: auto;
+}
+
+ul {
+  display: flex;
+  place-items: center;
+  flex-flow: column;
+  text-align: center !important;
+  /* list-style-type: none; */
+  width: 100%;
+  padding: 0px;
+}
+
+ul > li {
+  width: 100%;
+  list-style-position: inside;
+}
+
+.max-card-size {
+  min-height: 175px;
+  min-width: 175px;
+}
+
+/* div:has(ul){
+  border: 1px solid green;
+}
+
+li{
+  border: 1px solid blue;
+}
+
+ul{
+  border: 1px solid red;
+} */

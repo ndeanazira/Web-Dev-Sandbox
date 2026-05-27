@@ -16,6 +16,14 @@ h2{
 	width: 100%;
 }
 
+.h-auto{
+  height: auto;
+}
+
+.w-auto{
+  width: auto;
+}
+
 @each $size in $sizes-percentage{
 	.h-#{$size}{
 		height: #{$size}%;
@@ -23,4 +31,10 @@ h2{
 	.w-#{$size}{
 		width: #{$size}%;
 	}
+}
+
+@for $i from 0 through 7{
+  .m-#{$i}{
+    margin: #{$i*5}px;
+  }
 }

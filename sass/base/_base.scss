@@ -40,6 +40,10 @@ main section:nth-child(2){
 	height: calc(100% - 125px);
 }
 
+main > section{
+  width: 100%;
+}
+
 h1{
 	text-align: center;
 	font-size: 25px !important;

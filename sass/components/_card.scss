@@ -1,0 +1,32 @@
+@use "sass:color";
+@use "abstracts/variables" as *;
+
+/* $sizes-px:[25, 50, 150, 250, 350, 500]; */
+
+@mixin card-base($size, $border-radius, $color){
+  height: #{$size}vw;
+  width: #{$size}vw;
+  border-radius: #{$border-radius}px;
+  background: $color;
+  /* &:active{
+    background: ;
+  } */
+}
+
+@debug $lightened-colors;
+
+@for $cur-size from 0 through 20{
+  @each $cur-color in $colors{
+    .#{$cur-color}-#{$cur-size*5}-card{
+      @include card-base($cur-size*5, 25, $cur-color);
+    }
+  }
+    
+  @each $color-name, $cur-color in $lightened-colors{
+    .#{$color-name}-#{$cur-size*5}-card{
+      @include card-base($cur-size*5, 25, $cur-color);
+    }
+  }
+  
+
+}
