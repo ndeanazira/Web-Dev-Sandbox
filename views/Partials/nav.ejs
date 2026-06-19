@@ -3,19 +3,19 @@
 	
 		<% if(btn.dropdown){ %>
 			
-			<div class="nav-btn dropdown f-ctr loaded">
+			<div class="nav-btn dropdown f-ctr loaded bg-<%= chosenColor %>-70">
 				<span><%= btn.name %></span>
 				<div class="dropdown-list">
 					<% btn.dropdown.forEach((dropItem)=>{ %>
 						<% const isActive = (url == dropItem.href) %>
 						<% console.log(url) %>
-						<a href="<%= dropItem.href %>" class="f-ctr <%= isActive?"active":"" %> "><%= dropItem.name %></a>
+						<a href="<%= dropItem.href %>" class="f-ctr bg-<%=chosenColor%>-100 <%= isActive?"active":"" %> "><%= dropItem.name %></a>
 						<% }) %>
 				</div>
 			</div>
 		<% } else{ %>
 		<% const isActive = (url == btn.href) %>
-			<a href="<%= btn.href %>" class="nav-btn f-ctr <%= isActive?"active":"" %>"><%= btn.name %></a>
+			<a href="<%= btn.href %>" class="nav-btn f-ctr bg-<%= chosenColor %>-70 <%= isActive?"active":"" %>"><%= btn.name %></a>
 		<% } %>
 	<% }) %>
 </nav>

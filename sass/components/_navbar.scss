@@ -1,7 +1,9 @@
 @use "sass:color";
+@use "abstracts/variables" as *;
+@use "sass:map";
 
 
-	$nav-btn-color:#ec5169;
+	$nav-btn-color:map.get($color-level-theme, "primary");
 	
 	nav{
 		width: 100vw;
@@ -12,7 +14,8 @@
 	
 		.nav-btn{
 			/* margin: 10px 15px; */
-			background: $nav-btn-color;
+			/* background: $nav-btn-color; */
+			/* @extend .bg-primary; */
 			color: white;
 			/* height: 100%; */
 			height: 30px;
@@ -70,14 +73,14 @@
 			
 		
 				a{
-					background: darken($nav-btn-color, 30%);
+					/* background: darken($nav-btn-color, 30%); */
 					height: 45px;
 					width: 100%;
 					&:not(:last-child){
 						border-bottom: 1px solid #1c1c1c;
 						
 				&.active{
-					background: white;
+					/* background: white; */
 					color: black;
 					font-weight: bold;
 				}

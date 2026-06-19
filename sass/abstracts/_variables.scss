@@ -1,16 +1,20 @@
 @use "sass:map";
 @use "sass:list";
 @use "sass:color";
+@use "sass:math";
 
 $nav-height:50px;
 
-$bubble-border-colors:(red, blue, green, orange, purple, grey,yellow, pink, brown);
+$bubble-border-colors:(red, blue, green, orange, purple, grey,gold, pink, brown);
+
+$nav-btn-color:#ec5169;
 
 /* $colors:$bubble-border-colors; */
 $colors:list.append($bubble-border-colors,"black", $separator:comma);
 
 $sizes:["xs", "sm", "md", "lg"];
 
+$color-level-names:["primary","secondary", "light"];
 $sizes-percentage:[0, 15, 25, 35, 50, 75, 100];
 
 $text-grey: #aea9a9;
@@ -18,15 +22,10 @@ $text-grey: #aea9a9;
 $bubble-core-colors:[]; /* Lightned and Transparent version of $bubble-border-colors*/
 $lightened-colors:(); /* Lightned and Transparent version of $bubble-border-colors*/
 
-@each $cur-color in $bubble-border-colors{
-  $color-name:"light-#{$cur-color}";
-  @debug $color-name;
-  @debug $cur-color;
-	$cur-color:lighten($cur-color, 30%);
-	$lightened-colors:map.set($lightened-colors, $color-name, $cur-color);
-	$cur-color:transparentize($cur-color, 0.25);
-	$bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
-}
+$color-level-theme:();
+$color-map:();
+
+///////// LOGIC BELOW ///////
 
 $position-map:(
 	"ctr":center,
@@ -36,3 +35,51 @@ $position-map:(
 	"spa":space-around,
 	"spe":space-evenly
 );
+
+
+
+@each $cur-color in $bubble-border-colors{
+  $cur-org-color:$cur-color;
+  $color-org-name:$cur-color;
+  $color-name:"light-#{$cur-color}";
+	$cur-color:lighten($cur-color, 30%);
+	
+	
+	$lightened-colors:map.set($lightened-colors, $color-name, $cur-color);
+	
+	$cur-color:transparentize($cur-color, 0.25);
+	
+	$bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
+  
+  @for $i from -5 to 5{
+    $cur-color:$cur-org-color;
+    $color-name:$color-org-name;
+    $index:10*$i;
+    $percent:math.abs(10%*$i);
+    @if($i>0){
+      	  $cur-color:lighten($cur-color, $percent);
+    }@else{
+	    $cur-color:darken($cur-color, $percent);
+    }
+  	$color-name:"#{$color-name}-#{50-$index}";
+    @debug "#{$color-name}: #{$cur-color}";
+  	$color-map:map.set($color-map, $color-name, $cur-color);
+  }
+	
+}
+$cur-color-value:#e0db0e;
+@each $cur-color-name in $color-level-names{
+  $color-level-theme:map.set($color-level-theme, $cur-color-name, $cur-color-value);
+  $cur-color-value:lighten($cur-color-value, 15%);
+}
+
+$color-level-theme:map.set($color-level-theme, "black", black);
+$color-level-theme:map.set($color-level-theme, "white", white);
+
+@each $cur-color-name, $cur-color-value in $color-level-theme{
+  .bg-#{$cur-color-name}{
+    background: $cur-color-value;
+  }
+}
+
+@debug $color-map;

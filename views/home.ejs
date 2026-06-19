@@ -9,11 +9,11 @@
   <% let colorIndex = Math.floor(Math.random()*9) + 1 %>
   <% let animationIndex = Math.floor(Math.random()*4) + 1 %>
   <div id="<%= item.name.replaceAll(" ", "-") %>" class="bubble bubble-size-<%=sizeIndex%> bubble-color-<%= colorIndex %> bubble-animation bubble-animation-<%= animationIndex %> f-ctr rev-flow">
-  <div>
-  	<img src="/assets/Pictures/<%=item.name.replaceAll(" ", "-")%>.jpg" alt="<%=item.name%>"/>
-  </div>
+  <!-- <div> -->
+    <img src="/assets/Pictures/<%=item.name.replaceAll(" ", "-")%>.jpg" alt="<%=item.name%>"/>
+  <!--</div> -->
   	<!--<i class="<%=item.img%>"></i>-->
-  	<p><%= item.name %></p>
+  	<p style="display:none;"><%= item.name %></p>
   	
   	<!--href= "/tasks/<%=item.name.replaceAll(" ", "-")%>"-->
   </div>

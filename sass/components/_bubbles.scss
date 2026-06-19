@@ -6,23 +6,28 @@
 @mixin bubble-base(){
 		border-radius: 100%;
 		overflow: hidden;
-		padding: 0.5 rem;
+		/* padding: 0.5 rem; */
 			
 		position: absolute;
 		bottom: 0px;
 		
 		transform-origin: center;
 			
-		 div{
-			width: 50%;
-			height: 50%;
-			overflow: hidden;
-			img{
-				height: 100%;
-				width: 100%;
-				object-fit: cover;
-			}
-		}
+		 /* div{
+		       width: 50%;
+		       height: 50%;
+		       overflow: hidden;
+		       img{
+		         height: 100%;
+		         width: 100%;
+		         object-fit: cover;
+		       } */
+		       img{
+		         /* height: 50%; */
+		         width: 100%;
+		         object-fit: cover;
+		       }
+		/* } */
 		
 		/* &:hover{
 			animation: bubble-inflate 
@@ -67,7 +72,7 @@
 @for $i from 1 through list.length($bubble-border-colors){
 	.bubble-color-#{$i}{
 		background: list.nth($bubble-core-colors, $i);
-		border: 3px solid list.nth($bubble-border-colors, $i);
+		border: 1px solid list.nth($bubble-border-colors, $i);
 		
 		&:active{
 			background: list.nth($bubble-border-colors, $i);

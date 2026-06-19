@@ -40,3 +40,15 @@
 /* GRID DISPLAY TYPES START */
 
 /* GRID DISPLAY TYPES END */
+
+/* COLORS START */
+@each $color-name, $color-value in $color-map{
+  .bg-#{$color-name}{
+    background: $color-value;
+  }
+  .text-#{$color-name}{
+    color: $color-value;
+  }
+  
+}
+/* COLORS END */

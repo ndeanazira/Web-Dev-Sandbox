@@ -23,8 +23,9 @@ Array.from(allBubbles).forEach((bubble)=>{
 	$(bubble).on("click", (e)=>{
 		
 		const bubbleName = $("p", bubble)[0].innerText
+		// const bubbleName = bubble.id
 		
-		exit.id = "exit-" + bubble.id;
+		exit.id = "exit-" + bubbleName;
 			
 		const bubbleData = bubbleJSON.find((item)=>item.name == bubbleName);
 		

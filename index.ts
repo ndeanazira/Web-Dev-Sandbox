@@ -18,6 +18,12 @@ app.use(ejsLayout);
 
 app.set("view engine", "ejs");
 
+app.locals = {
+  colorArray:["red", "blue", "green", "orange", "purple", "grey", "yellow", "pink", "brown"],
+  chosenColorIndex:Math.floor(9*Math.random())
+}
+
+
 app.get("/", (req, res)=>{
 	const { url } = req;
 	res.render("home", {title:"Home", bubbles, cssLinkPath:null, navData, url});

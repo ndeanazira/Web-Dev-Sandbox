@@ -3,7 +3,13 @@
     border: 1px solid lightgreen;
   }
 </style> -->
+
+<% console.log("chosenColorIndex = " + chosenColorIndex);
+%>
 <main style="border:1px solid white;" class="about-me">
+  <% for(let i=0;i<100;i=i+10){%>
+  <div style="height:25px;" class="bg-#color#-<%=i%> w-full">.</div>
+  <% } %>
   <section class="h-auto">
      <h1><i>Name here</i> | Full-Stack Developer & Systems Engineer</h1>
      <h3>Applying 5 years of low-level optimization and reverse-engineering discipline to modern full-stack web architecture.</h3>
@@ -11,7 +17,7 @@
   
       <h1 style="display: block; color:white;">Skills</h1>
   <section style="color:white;" class="f-spa wrap">
-    <div class="light-red-35-card max-card-size m-3">
+    <div class="card-#color#-10-r15-h35  skill-card">
       <h5>Frontend</h5>
       <ul>
         <li>React (Hooks, Context)</li>
@@ -25,7 +31,7 @@
       </ul>
     </div>
   
-    <div class="light-blue-35-card max-card-size m-3">
+    <div class="card-#color#-10-r15-h35  skill-card">
       
       <h5>Backend & DB</h5>
       <ul>
@@ -40,7 +46,7 @@
       </ul>
     </div>
   
-    <div style="color:black;" class="light-green-35-card max-card-size m-3">
+    <div class="card-#color#-10-r15-h35  skill-card">
       
       <h5>Tools/Dev Ops</h5>
       <ul>
@@ -52,13 +58,13 @@
       </ul>
     </div>
     
-    <div style="color:black;" class="light-yellow-35-card max-card-size m-3">
+    <div class="card-#color#-10-r15-h35  skill-card">
       
       <h5>Low Level & Others</h5>
       <ul>
         <li>linux</li>
         <li>windows</li>
-        <li>terminal</li>
+          <li>terminal</li>
         <li>C/C++</li>
         <li>C#</li>
         <li>Ida Pro</li>
@@ -70,8 +76,34 @@
   
   <section>
     <h5>My Projects</h5>
+     <p>Beyond my production-focused projects, I maintain a collection of laboratory experiments. This library documents my journey through vanilla JavaScript, PHP, and server-side logic, serving as a dedicated environment for stress-testing fundamentals and exploring SaaS architectural concepts</p>
     <a href="/about" class="view-projects f-ctr" style="height:150px; width:150px; border:1px solid green; border-radius:100%; overflow: hidden;">
       <img src="/assets/About-Me/view-projects.gif" alt="View Projects GIF" class="h-full w-full">
     </a>
+    <div>Click Here to go view my projects</div>
   </section>
+  
+  <section>
+    <h5>Professional Experience</h5>
+    
+    <div>HP Tuners - Vehicle Software Engineer (5 Years)</div>
+    <div>I took initiative in building a training program by communicating with our parent company, in the US, thus establishing a training plan for myself and (then) future employees.
+    </div>
+    <div>Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%.
+    </div>
+    <div>Added an algorithm to our system to bypass the security protocol of an ECM, without the help of AI or any other existing algorithms.
+    </div>
+    <div>Also created other tools for binary patching and analysis, such as byte copying (in ida pro) and tools for finding unique id’s of different operating systems from different car brands. These tools reduce time spent on analysis when patching, adding support or maintaining our product, by as much as 35%,
+</div>
+<div>
+  I helped train many engineers that joined after me, which allowed us to almost double our work output, after they had been trained.
+
+</div>
+<div>
+  I have worked with a lot of customers who have needed support or extra features added, for them to tune their vehicles with our products.
+
+</div>
+
+  </section>
+  
 </main>
