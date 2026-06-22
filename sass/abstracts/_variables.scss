@@ -41,15 +41,6 @@ $position-map:(
 @each $cur-color in $bubble-border-colors{
   $cur-org-color:$cur-color;
   $color-org-name:$cur-color;
-  $color-name:"light-#{$cur-color}";
-	$cur-color:lighten($cur-color, 30%);
-	
-	
-	$lightened-colors:map.set($lightened-colors, $color-name, $cur-color);
-	
-	$cur-color:transparentize($cur-color, 0.25);
-	
-	$bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
   
   @for $i from -5 to 5{
     $cur-color:$cur-org-color;

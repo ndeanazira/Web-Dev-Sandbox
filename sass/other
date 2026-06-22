@@ -1,0 +1,36 @@
+/* @for $i from 1 through list.length($bubble-border-colors){
+  .bubble-color-#{$i}{
+    background: list.nth($bubble-core-colors, $i);
+    border: 1px solid list.nth($bubble-border-colors, $i);
+    
+    &:active{
+      background: list.nth($bubble-border-colors, $i);
+    }
+  } 
+  
+}*/
+
+
+/* $color-name:"light-#{$cur-color}";
+    $cur-color:lighten($cur-color, 30%);
+    
+    
+    $lightened-colors:map.set($lightened-colors, $color-name, $cur-color);
+    
+    $cur-color:transparentize($cur-color, 0.25);
+    
+    $bubble-core-colors:list.append($bubble-core-colors, $cur-color, $separator:comma);
+  */
+  
+  
+  <%- include("./Partials/trapezium.ejs", 
+    
+      {className:"", color:"fill-#color#-50", reflect:false,
+      
+      content:"I took initiative in building a training program by communicating with our parent company, in the US, thus establishing a training plan for myself and (then) future employees."}) %>
+    
+    <%- include("./Partials/trapezium.ejs", 
+    
+      {className:"", color:"fill-#color#-50", reflect:true,
+      
+      content:"Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%."}) %>

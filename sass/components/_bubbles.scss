@@ -69,13 +69,3 @@
 	 	width: auto;
 	}
 
-@for $i from 1 through list.length($bubble-border-colors){
-	.bubble-color-#{$i}{
-		background: list.nth($bubble-core-colors, $i);
-		border: 1px solid list.nth($bubble-border-colors, $i);
-		
-		&:active{
-			background: list.nth($bubble-border-colors, $i);
-		}
-	}
-}

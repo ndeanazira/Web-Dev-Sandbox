@@ -46,6 +46,9 @@
   .bg-#{$color-name}{
     background: $color-value;
   }
+  .fill-#{$color-name}{
+    fill: $color-value;
+  }
   .text-#{$color-name}{
     color: $color-value;
   }
