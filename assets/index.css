@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 84px;
-  width: 84px;
-  left: min(calc( 50vw - 84px), 84px);
+  height: 121px;
+  width: 121px;
+  left: min(calc( 52vw - 121px), 121px);
 }
 .bubble-size-1 i {
-  font-size: 21px;
+  font-size: 30.25px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 143px;
-  width: 143px;
-  left: min(calc( 60vw - 143px), 143px);
+  height: 110px;
+  width: 110px;
+  left: min(calc( 6vw - 110px), 110px);
 }
 .bubble-size-2 i {
-  font-size: 35.75px;
+  font-size: 27.5px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 53px;
-  width: 53px;
-  left: min(calc( 75vw - 53px), 53px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 1vw - 50px), 50px);
 }
 .bubble-size-3 i {
-  font-size: 13.25px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 67px;
-  width: 67px;
-  left: min(calc( 7vw - 67px), 67px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 64vw - 50px), 50px);
 }
 .bubble-size-4 i {
-  font-size: 16.75px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -204,12 +204,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 124px;
-  width: 124px;
-  left: min(calc( 4vw - 124px), 124px);
+  height: 199px;
+  width: 199px;
+  left: min(calc( 37vw - 199px), 199px);
 }
 .bubble-size-5 i {
-  font-size: 31px;
+  font-size: 49.75px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -153086,87 +153086,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(82vw, -95vh);
+    transform: translate(66vw, -47vh);
   }
   25% {
-    transform: translate(18vw, -98vh);
+    transform: translate(6vw, -39vh);
   }
   50% {
-    transform: translate(1vw, -41vh);
+    transform: translate(85vw, -30vh);
   }
   75% {
-    transform: translate(38vw, -71vh);
+    transform: translate(86vw, -57vh);
   }
   100% {
-    transform: translate(50vw, -96vh);
+    transform: translate(12vw, -13vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(51vw, -61vh);
+    transform: translate(10vw, -92vh);
   }
   25% {
-    transform: translate(85vw, -47vh);
+    transform: translate(8vw, -47vh);
   }
   50% {
-    transform: translate(6vw, -35vh);
+    transform: translate(36vw, -92vh);
   }
   75% {
-    transform: translate(59vw, -56vh);
+    transform: translate(65vw, -99vh);
   }
   100% {
-    transform: translate(11vw, -44vh);
+    transform: translate(28vw, -92vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(51vw, -51vh);
+    transform: translate(30vw, -25vh);
   }
   25% {
-    transform: translate(15vw, -34vh);
+    transform: translate(85vw, -95vh);
   }
   50% {
-    transform: translate(25vw, -82vh);
+    transform: translate(57vw, -57vh);
   }
   75% {
-    transform: translate(21vw, -48vh);
+    transform: translate(40vw, -22vh);
   }
   100% {
-    transform: translate(24vw, -3vh);
+    transform: translate(58vw, -87vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(88vw, -28vh);
+    transform: translate(82vw, -94vh);
   }
   25% {
-    transform: translate(95vw, -88vh);
+    transform: translate(16vw, -7vh);
   }
   50% {
-    transform: translate(20vw, -32vh);
+    transform: translate(38vw, -93vh);
   }
   75% {
-    transform: translate(82vw, -55vh);
+    transform: translate(9vw, -45vh);
   }
   100% {
-    transform: translate(30vw, -39vh);
+    transform: translate(56vw, -60vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(96vw, -81vh);
+    transform: translate(71vw, -53vh);
   }
   25% {
-    transform: translate(28vw, -91vh);
+    transform: translate(79vw, -19vh);
   }
   50% {
-    transform: translate(49vw, -40vh);
+    transform: translate(75vw, -16vh);
   }
   75% {
-    transform: translate(96vw, -80vh);
+    transform: translate(90vw, -88vh);
   }
   100% {
-    transform: translate(64vw, -25vh);
+    transform: translate(7vw, -66vh);
   }
 }
 /** floating animation end **/
@@ -153676,27 +153676,25 @@ main.about-me .skill-card ul {
   padding-top: 25px;
   overflow: hidden scroll;
 }
-main.about-me .trapezium {
+main.about-me .trapezium-container {
   height: auto;
-  width: 100%;
+  width: auto;
   position: relative !important;
-  /* overflow-y: hidden; */
+  margin: 15px 0px;
 }
-main.about-me .trapezium svg {
-  /* @extend .w-full; */
-  /* overflow-y: hidden; */
-}
-main.about-me .trapezium polygon {
-  /* @extend .full; */
+main.about-me .trapezium-container polygon {
   z-index: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
-main.about-me .trapezium p {
+main.about-me .trapezium-container p {
   z-index: 2;
   position: absolute;
   top: 0px;
   left: 0px;
   text-align: left;
 }
-main.about-me .trapezium.reflect p {
+main.about-me .trapezium-container:nth-child(2n+1) p {
   text-align: right !important;
 }

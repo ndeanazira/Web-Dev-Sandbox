@@ -81,13 +81,7 @@
   
   <section>
     <h5>My Projects</h5>
-    <%for(let i=0; i<experience.length;i++){ %>
-      <%- include("./Partials/trapezium.ejs", 
     
-      {className:"", color:`fill-#color#-${(experience.length-i)*10}`, reflect:i%2,
-      
-      content:experience[i]})%>
-    <% } %>
      <p>Beyond my production-focused projects, I maintain a collection of laboratory experiments. This library documents my journey through vanilla JavaScript, PHP, and server-side logic, serving as a dedicated environment for stress-testing fundamentals and exploring SaaS architectural concepts</p>
     <a href="/about" class="view-projects f-ctr" style="height:150px; width:150px; border:1px solid green; border-radius:100%; overflow: hidden;">
       <img src="/assets/About-Me/view-projects.gif" alt="View Projects GIF" class="h-full w-full">
@@ -97,26 +91,38 @@
   
   <section>
     <h5>Professional Experience</h5>
+    <%for(let i=0; i<experience.length;i++){ %>
+      <%- include("./Partials/trapezium.ejs", 
     
-    
-    <div>HP Tuners - Vehicle Software Engineer (5 Years)</div>
-    <div>I took initiative in building a training program by communicating with our parent company, in the US, thus establishing a training plan for myself and (then) future employees.
-    </div>
-    <div>Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%.
-    </div>
-    <div>Added an algorithm to our system to bypass the security protocol of an ECM, without the help of AI or any other existing algorithms.
-    </div>
-    <div>Also created other tools for binary patching and analysis, such as byte copying (in ida pro) and tools for finding unique id’s of different operating systems from different car brands. These tools reduce time spent on analysis when patching, adding support or maintaining our product, by as much as 35%,
-</div>
-<div>
-  I helped train many engineers that joined after me, which allowed us to almost double our work output, after they had been trained.
-
-</div>
-<div>
-  I have worked with a lot of customers who have needed support or extra features added, for them to tune their vehicles with our products.
-
-</div>
+      {className:"", color:`fill-#color#-${(experience.length-i)*10}`, 
+      
+      content:experience[i]})%>
+    <% } %>
 
   </section>
+  <script>
+    
+    const trapezium = $(".trapezium");
+    h = 150; //window.innerHeight;
+    w = window.innerWidth;
+    
+    $(trapezium).attr({
+      "height":h,
+      "width":w,
+      "viewBox":`0 0 ${w} ${h}`
+    });
+    
+    
+    $(".trapezium-container:nth-child(2n) polygon").attr(
+      "points", `0,0 0,${w} ${0.75*w},${h} ${w},0`
+      );
+      
+      console.log($(".trapezium-container:nth-child(2n) polygon").length);
+      
+    $(".trapezium-container:nth-child(2n+1) polygon").attr(
+      "points", `0,0 ${0.25*w},${h} ${w},${h} ${w},0`
+      );
+  
+  </script>
   
 </main>

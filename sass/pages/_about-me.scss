@@ -66,20 +66,15 @@ ul > li{
   left: 0px;
 }
 
-.trapezium{
+.trapezium-container{
   height:auto;
-  width : 100%;
+  width : auto;
   position: relative !important;
-  /* overflow-y: hidden; */
-  
-  svg{
-    /* @extend .w-full; */
-    /* overflow-y: hidden; */
-  }
-  
+  margin: 15px 0px;
+
   polygon{
-    /* @extend .full; */
     z-index: 1;
+    @include top-corner();
   }
   
   p{
@@ -88,7 +83,7 @@ ul > li{
     text-align: left;
   }
   
-  &.reflect {
+  &:nth-child(2n+1){
     p{
       text-align: right !important;
     }
