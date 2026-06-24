@@ -5,11 +5,24 @@
 </style> -->
 
 <% 
-  const experience = ["HP Tuners - Vehicle Software Engineer (5 Years)", "I took initiative in building a training program by communicating with our parent company, in the US, thus establishing a training plan for myself and (then) future employees.", "Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%.", "Added an algorithm to our system to bypass the security protocol of an ECM, without the help of AI or any other existing algorithms.", "Also created other tools for binary patching and analysis, such as byte copying (in ida pro) and tools for finding unique id’s of different operating systems from different car brands. These tools reduce time spent on analysis when patching, adding support or maintaining our product, by as much as 35%.",
+  /*const experience = ["HP Tuners - Vehicle Software Engineer (5 Years)", "I took initiative in building a training program by communicating with our parent company, in the US, thus establishing a training plan for myself and (then) future employees.", "Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%.", "Added an algorithm to our system to bypass the security protocol of an ECM, without the help of AI or any other existing algorithms.", "Also created other tools for binary patching and analysis, such as byte copying (in ida pro) and tools for finding unique id’s of different operating systems from different car brands. These tools reduce time spent on analysis when patching, adding support or maintaining our product, by as much as 35%.",
 
   "I helped train many engineers that joined after me, which allowed us to almost double our work output, after they had been trained.",
 
-  "I have worked with a lot of customers who have needed support or extra features added, for them to tune their vehicles with our products."]
+  "I have worked with a lot of customers who have needed support or extra features added, for them to tune their vehicles with our products."]*/
+  
+  const experience = ["HP Tuners | Vehicle Software Engineer | 18th March 2020 - present",
+
+  "Process Optimization: Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%.",
+
+"Security & Logic: Engineered a proprietary algorithm to bypass ECM security protocols, moving beyond standard existing methodologies.",
+
+"Tool Development: Created specialized tools for binary patching and OS identification, reducing analysis time for product maintenance by 35%.",
+
+"Leadership: Spearheaded a comprehensive technical training program in collaboration with the US parent company; mentored subsequent engineering hires, resulting in a 2x increase in team output.",
+
+"Client Relations: Provided high-level technical support and custom feature development for professional vehicle calibrators."
+];
 %>
 <main style="border:1px solid white;" class="about-me">
   <% for(let i=0;i<100;i=i+10){%>
@@ -92,9 +105,12 @@
   <section>
     <h5>Professional Experience</h5>
     <%for(let i=0; i<experience.length;i++){ %>
+      <%  const len = experience.length; %>
       <%- include("./Partials/trapezium.ejs", 
-    
-      {className:"", color:`fill-#color#-${(experience.length-i)*10}`, 
+        
+      {className:"", 
+        bgColor:`fill-#color#-${Math.max(Math.min((len-i)*10,80),10)}`, 
+        textColor:`text-#color#-${(i<Math.ceil(len/2))?(10):(100)}`,
       
       content:experience[i]})%>
     <% } %>

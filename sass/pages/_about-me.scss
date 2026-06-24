@@ -60,10 +60,17 @@ ul > li{
   }
 }
 
-@mixin top-corner(){
+@mixin top-corner($direction:"left"){
   position: absolute;
   top: 0px;
-  left: 0px;
+  @if($direction=="left"){
+    left: 0px;
+  }@else if($direction=="right"){
+    right: 0px;
+  }
+  @else{
+    @error("$direction can either be left or right");
+  }
 }
 
 .trapezium-container{
@@ -77,16 +84,24 @@ ul > li{
     @include top-corner();
   }
   
-  p{
-    z-index: 2;
-    @include top-corner();
-    text-align: left;
-  }
   
   &:nth-child(2n+1){
     p{
+      @include top-corner("right");
       text-align: right !important;
+      /* margin-left: 35px; */
     }
+  }
+  &:nth-child(2n){
+    p{
+      @include top-corner("left");
+      text-align: left !important;
+      /* margin-right: 35px; */
+    }
+  }
+  p{
+    z-index: 2;
+    width: 75%;
   }
 }
 }
