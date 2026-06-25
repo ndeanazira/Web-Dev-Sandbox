@@ -5,6 +5,19 @@
 @debug map.get($color-level-theme, "secondary");
 
 main.about-me{
+  overflow-x: hidden;
+  #me{
+    /* width: 100vw; */
+    height: 70vh;
+    object-fit: cover;
+
+     mask-image: linear-gradient(to bottom, black 45%, transparent 100%);
+     -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+     
+    &.animate{
+      animation: 3s grow-70-100 forwards ease-out;
+    }
+  }
   section{
     height:auto;
     @extend .f-ctr;
@@ -100,6 +113,7 @@ ul > li{
     }
   }
   p{
+    padding: 0px 5px;
     z-index: 2;
     width: 75%;
   }

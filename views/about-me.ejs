@@ -26,11 +26,15 @@
 %>
 <main style="border:1px solid white;" class="about-me">
   <% for(let i=0;i<100;i=i+10){%>
-  <div style="height:25px;" class="bg-#color#-<%=i%> w-full">.</div>
+  <div style="height:12px;" class="bg-#color#-<%=i%> text-#color#-<%=i%>  w-full">.</div>
   <% } %>
   <section class="h-auto">
      <h1><i>Name here</i> | Full-Stack Developer & Systems Engineer</h1>
+     <img id="me" src="/assets/About-Me/Me.png" alt="Me"/>
      <h3>Applying 5 years of low-level optimization and reverse-engineering discipline to modern full-stack web architecture.</h3>
+     
+     <p>First-class MEng Automotive Engineer with 5 years of experience in high-stakes embedded software and reverse engineering. Transitioning into Full-Stack Web Development with technical mastery in React, Next.js, and TypeScript. Expert at optimizing complex logic and reducing process times—seeking to apply low-level efficiency mindsets to modern web architecture.
+</p>
   </section>
   
       <h1 style="display: block; color:white;">Skills</h1>
@@ -116,6 +120,10 @@
     <% } %>
 
   </section>
+  <section>
+    <h5>Education</h5>
+    
+  </section>
   <script>
     
     const trapezium = $(".trapezium");
@@ -139,6 +147,19 @@
       "points", `0,0 ${0.25*w},${h} ${w},${h} ${w},0`
       );
   
+  </script>
+  <script>
+    
+    $(window).on("scroll", (e)=>{
+      
+      fullVh = window.scrollY/window.innerHeight;
+  
+      if(fullVh>0.10){
+        $("#me").addClass("animate");
+      }else{
+        $("#me").removeClass("animate");
+      }
+    })
   </script>
   
 </main>

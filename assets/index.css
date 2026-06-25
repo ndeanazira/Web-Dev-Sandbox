@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 50vw - 50px), 50px);
+  height: 171px;
+  width: 171px;
+  left: min(calc( 33vw - 171px), 171px);
 }
 .bubble-size-1 i {
-  font-size: 12.5px;
+  font-size: 42.75px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 145px;
-  width: 145px;
-  left: min(calc( 73vw - 145px), 145px);
+  height: 182px;
+  width: 182px;
+  left: min(calc( 43vw - 182px), 182px);
 }
 .bubble-size-2 i {
-  font-size: 36.25px;
+  font-size: 45.5px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 84px;
-  width: 84px;
-  left: min(calc( 41vw - 84px), 84px);
+  height: 153px;
+  width: 153px;
+  left: min(calc( 18vw - 153px), 153px);
 }
 .bubble-size-3 i {
-  font-size: 21px;
+  font-size: 38.25px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 59vw - 50px), 50px);
+  height: 69px;
+  width: 69px;
+  left: min(calc( 51vw - 69px), 69px);
 }
 .bubble-size-4 i {
-  font-size: 12.5px;
+  font-size: 17.25px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -206,7 +206,7 @@
   } */
   height: 50px;
   width: 50px;
-  left: min(calc( 94vw - 50px), 50px);
+  left: min(calc( 84vw - 50px), 50px);
 }
 .bubble-size-5 i {
   font-size: 12.5px;
@@ -153086,87 +153086,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(41vw, -41vh);
+    transform: translate(48vw, -58vh);
   }
   25% {
-    transform: translate(17vw, -9vh);
+    transform: translate(8vw, -2vh);
   }
   50% {
-    transform: translate(12vw, -73vh);
+    transform: translate(23vw, -19vh);
   }
   75% {
-    transform: translate(83vw, -66vh);
+    transform: translate(38vw, -18vh);
   }
   100% {
-    transform: translate(36vw, -23vh);
+    transform: translate(22vw, -18vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(51vw, -96vh);
+    transform: translate(39vw, -15vh);
   }
   25% {
-    transform: translate(91vw, -15vh);
+    transform: translate(59vw, -77vh);
   }
   50% {
-    transform: translate(10vw, -15vh);
+    transform: translate(78vw, -69vh);
   }
   75% {
-    transform: translate(63vw, -70vh);
+    transform: translate(71vw, -38vh);
   }
   100% {
-    transform: translate(55vw, -45vh);
+    transform: translate(25vw, -21vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(20vw, -23vh);
+    transform: translate(89vw, -37vh);
   }
   25% {
-    transform: translate(97vw, -83vh);
+    transform: translate(40vw, -33vh);
   }
   50% {
-    transform: translate(48vw, -54vh);
+    transform: translate(82vw, -44vh);
   }
   75% {
-    transform: translate(26vw, -23vh);
+    transform: translate(7vw, -45vh);
   }
   100% {
-    transform: translate(42vw, -84vh);
+    transform: translate(14vw, -66vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(63vw, -67vh);
+    transform: translate(80vw, -54vh);
   }
   25% {
-    transform: translate(84vw, -61vh);
+    transform: translate(42vw, -6vh);
   }
   50% {
-    transform: translate(48vw, -92vh);
+    transform: translate(41vw, -23vh);
   }
   75% {
-    transform: translate(31vw, -100vh);
+    transform: translate(55vw, -66vh);
   }
   100% {
-    transform: translate(50vw, -7vh);
+    transform: translate(71vw, -5vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(99vw, -17vh);
+    transform: translate(91vw, -94vh);
   }
   25% {
-    transform: translate(76vw, -57vh);
+    transform: translate(44vw, -20vh);
   }
   50% {
-    transform: translate(59vw, -21vh);
+    transform: translate(51vw, -4vh);
   }
   75% {
-    transform: translate(82vw, -57vh);
+    transform: translate(95vw, -82vh);
   }
   100% {
-    transform: translate(18vw, -4vh);
+    transform: translate(63vw, -87vh);
   }
 }
 /** floating animation end **/
@@ -153310,6 +153310,974 @@ nav .nav-btn:active {
   }
 }
 /* DROPDOWN END   */
+@keyframes grow-0-0 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-0-10 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-0-20 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-0-30 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-0-40 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-0-50 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-0-60 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-0-70 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-0-80 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-0-90 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-0-100 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-10-0 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-10-10 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-10-20 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-10-30 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-10-40 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-10-50 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-10-60 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-10-70 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-10-80 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-10-90 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-10-100 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-20-0 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-20-10 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-20-20 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-20-30 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-20-40 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-20-50 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-20-60 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-20-70 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-20-80 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-20-90 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-20-100 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-30-0 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-30-10 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-30-20 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-30-30 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-30-40 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-30-50 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-30-60 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-30-70 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-30-80 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-30-90 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-30-100 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-40-0 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-40-10 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-40-20 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-40-30 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-40-40 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-40-50 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-40-60 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-40-70 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-40-80 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-40-90 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-40-100 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-50-0 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-50-10 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-50-20 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-50-30 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-50-40 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-50-50 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-50-60 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-50-70 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-50-80 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-50-90 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-50-100 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-60-0 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-60-10 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-60-20 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-60-30 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-60-40 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-60-50 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-60-60 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-60-70 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-60-80 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-60-90 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-60-100 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-70-0 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-70-10 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-70-20 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-70-30 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-70-40 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-70-50 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-70-60 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-70-70 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-70-80 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-70-90 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-70-100 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-80-0 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-80-10 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-80-20 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-80-30 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-80-40 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-80-50 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-80-60 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-80-70 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-80-80 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-80-90 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-80-100 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-90-0 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-90-10 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-90-20 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-90-30 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-90-40 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-90-50 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-90-60 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-90-70 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-90-80 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-90-90 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-90-100 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes grow-100-0 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes grow-100-10 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes grow-100-20 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes grow-100-30 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes grow-100-40 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes grow-100-50 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes grow-100-60 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes grow-100-70 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes grow-100-80 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes grow-100-90 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes grow-100-100 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
 @keyframes grow {
   from {
     height: 0vh;
@@ -153349,6 +154317,30 @@ nav .nav-btn:active {
   }
   to {
     transform: translateY(0);
+  }
+}
+@keyframes fall {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes right {
+  from {
+    transform: translateX(0vw);
+  }
+  to {
+    transform: translateY(100vw);
+  }
+}
+@keyframes left {
+  from {
+    transform: translateX(100vw);
+  }
+  to {
+    transform: translateX(100vw);
   }
 }
 h1 {
@@ -153638,6 +154630,19 @@ main.about ul.skills li img {
   height: 150px;
 }
 
+main.about-me {
+  overflow-x: hidden;
+}
+main.about-me #me {
+  /* width: 100vw; */
+  height: 70vh;
+  object-fit: cover;
+  mask-image: linear-gradient(to bottom, black 45%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+main.about-me #me.animate {
+  animation: 3s grow-70-100 forwards ease-out;
+}
 main.about-me section {
   height: auto;
   color: white;
@@ -153703,6 +154708,7 @@ main.about-me .trapezium-container:nth-child(2n) p {
   /* margin-right: 35px; */
 }
 main.about-me .trapezium-container p {
+  padding: 0px 5px;
   z-index: 2;
   width: 75%;
 }

@@ -10,7 +10,7 @@
 	$x:[];
 	$y:[];
 	
-	@for $i from 1 through 5{
+	@for $i from 1 through 10{
 		$x:list.append($x,#{math.random(100)}vw);
 		$y:list.append($y,-#{math.random(100)}vh);
 	}
@@ -60,6 +60,22 @@
 }
 /* DROPDOWN END   */
 
+@mixin mix-grow($init:initial, $final){
+  @keyframes grow-#{$init}-#{$final}{
+  	from{height: #{$init}vh;}
+  	to{height: #{$final}vh;}
+  }
+}
+
+@for $i from 0 through 10{
+  $i:10*$i;
+  @debug($i);
+  @for $j from 0 through 10{
+      $j:10*$j;
+    @include mix-grow($i,$j);
+  }
+}
+
 @keyframes grow{
 	from{height: 0vh;}
 	to{height: 50vh;}
@@ -81,4 +97,19 @@
 @keyframes rise{
 	from{transform: translateY(100vh);}
 	to{transform: translateY(0);}
+}
+
+@keyframes fall{
+	from{transform: translateY(0vh);}
+	to{transform: translateY(100vh);}
+}
+
+@keyframes right{
+	from{transform: translateX(0vw);}
+	to{transform: translateY(100vw);}
+}
+
+@keyframes left{
+	from{transform: translateX(100vw);}
+	to{transform: translateX(100vw);}
 }
