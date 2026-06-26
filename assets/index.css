@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 171px;
-  width: 171px;
-  left: min(calc( 33vw - 171px), 171px);
+  height: 75px;
+  width: 75px;
+  left: min(calc( 41vw - 75px), 75px);
 }
 .bubble-size-1 i {
-  font-size: 42.75px;
+  font-size: 18.75px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 182px;
-  width: 182px;
-  left: min(calc( 43vw - 182px), 182px);
+  height: 125px;
+  width: 125px;
+  left: min(calc( 11vw - 125px), 125px);
 }
 .bubble-size-2 i {
-  font-size: 45.5px;
+  font-size: 31.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 153px;
-  width: 153px;
-  left: min(calc( 18vw - 153px), 153px);
+  height: 65px;
+  width: 65px;
+  left: min(calc( 66vw - 65px), 65px);
 }
 .bubble-size-3 i {
-  font-size: 38.25px;
+  font-size: 16.25px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 69px;
-  width: 69px;
-  left: min(calc( 51vw - 69px), 69px);
+  height: 85px;
+  width: 85px;
+  left: min(calc( 99vw - 85px), 85px);
 }
 .bubble-size-4 i {
-  font-size: 17.25px;
+  font-size: 21.25px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -204,12 +204,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 84vw - 50px), 50px);
+  height: 136px;
+  width: 136px;
+  left: min(calc( 77vw - 136px), 136px);
 }
 .bubble-size-5 i {
-  font-size: 12.5px;
+  font-size: 34px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -153086,87 +153086,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(48vw, -58vh);
+    transform: translate(52vw, -99vh);
   }
   25% {
-    transform: translate(8vw, -2vh);
+    transform: translate(6vw, -56vh);
   }
   50% {
-    transform: translate(23vw, -19vh);
+    transform: translate(2vw, -55vh);
   }
   75% {
-    transform: translate(38vw, -18vh);
+    transform: translate(14vw, -72vh);
   }
   100% {
-    transform: translate(22vw, -18vh);
+    transform: translate(5vw, -69vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(39vw, -15vh);
+    transform: translate(35vw, -60vh);
   }
   25% {
-    transform: translate(59vw, -77vh);
+    transform: translate(10vw, -82vh);
   }
   50% {
-    transform: translate(78vw, -69vh);
+    transform: translate(26vw, -6vh);
   }
   75% {
-    transform: translate(71vw, -38vh);
+    transform: translate(78vw, -61vh);
   }
   100% {
-    transform: translate(25vw, -21vh);
+    transform: translate(99vw, -65vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(89vw, -37vh);
+    transform: translate(63vw, -6vh);
   }
   25% {
-    transform: translate(40vw, -33vh);
+    transform: translate(57vw, -53vh);
   }
   50% {
-    transform: translate(82vw, -44vh);
+    transform: translate(87vw, -7vh);
   }
   75% {
-    transform: translate(7vw, -45vh);
+    transform: translate(31vw, -80vh);
   }
   100% {
-    transform: translate(14vw, -66vh);
+    transform: translate(5vw, -81vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(80vw, -54vh);
+    transform: translate(1vw, -20vh);
   }
   25% {
-    transform: translate(42vw, -6vh);
+    transform: translate(86vw, -31vh);
   }
   50% {
-    transform: translate(41vw, -23vh);
+    transform: translate(38vw, -85vh);
   }
   75% {
-    transform: translate(55vw, -66vh);
+    transform: translate(74vw, -56vh);
   }
   100% {
-    transform: translate(71vw, -5vh);
+    transform: translate(17vw, -94vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(91vw, -94vh);
+    transform: translate(49vw, -100vh);
   }
   25% {
-    transform: translate(44vw, -20vh);
+    transform: translate(58vw, -53vh);
   }
   50% {
-    transform: translate(51vw, -4vh);
+    transform: translate(89vw, -4vh);
   }
   75% {
-    transform: translate(95vw, -82vh);
+    transform: translate(78vw, -49vh);
   }
   100% {
-    transform: translate(63vw, -87vh);
+    transform: translate(31vw, -29vh);
   }
 }
 /** floating animation end **/
@@ -153310,974 +153310,6 @@ nav .nav-btn:active {
   }
 }
 /* DROPDOWN END   */
-@keyframes grow-0-0 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-0-10 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-0-20 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-0-30 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-0-40 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-0-50 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-0-60 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-0-70 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-0-80 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-0-90 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-0-100 {
-  from {
-    height: 0vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-10-0 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-10-10 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-10-20 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-10-30 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-10-40 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-10-50 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-10-60 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-10-70 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-10-80 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-10-90 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-10-100 {
-  from {
-    height: 10vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-20-0 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-20-10 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-20-20 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-20-30 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-20-40 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-20-50 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-20-60 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-20-70 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-20-80 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-20-90 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-20-100 {
-  from {
-    height: 20vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-30-0 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-30-10 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-30-20 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-30-30 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-30-40 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-30-50 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-30-60 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-30-70 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-30-80 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-30-90 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-30-100 {
-  from {
-    height: 30vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-40-0 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-40-10 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-40-20 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-40-30 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-40-40 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-40-50 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-40-60 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-40-70 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-40-80 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-40-90 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-40-100 {
-  from {
-    height: 40vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-50-0 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-50-10 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-50-20 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-50-30 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-50-40 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-50-50 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-50-60 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-50-70 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-50-80 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-50-90 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-50-100 {
-  from {
-    height: 50vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-60-0 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-60-10 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-60-20 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-60-30 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-60-40 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-60-50 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-60-60 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-60-70 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-60-80 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-60-90 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-60-100 {
-  from {
-    height: 60vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-70-0 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-70-10 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-70-20 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-70-30 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-70-40 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-70-50 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-70-60 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-70-70 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-70-80 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-70-90 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-70-100 {
-  from {
-    height: 70vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-80-0 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-80-10 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-80-20 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-80-30 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-80-40 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-80-50 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-80-60 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-80-70 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-80-80 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-80-90 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-80-100 {
-  from {
-    height: 80vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-90-0 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-90-10 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-90-20 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-90-30 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-90-40 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-90-50 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-90-60 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-90-70 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-90-80 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-90-90 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-90-100 {
-  from {
-    height: 90vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
-@keyframes grow-100-0 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 0vh;
-  }
-}
-@keyframes grow-100-10 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 10vh;
-  }
-}
-@keyframes grow-100-20 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 20vh;
-  }
-}
-@keyframes grow-100-30 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 30vh;
-  }
-}
-@keyframes grow-100-40 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 40vh;
-  }
-}
-@keyframes grow-100-50 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 50vh;
-  }
-}
-@keyframes grow-100-60 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 60vh;
-  }
-}
-@keyframes grow-100-70 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 70vh;
-  }
-}
-@keyframes grow-100-80 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 80vh;
-  }
-}
-@keyframes grow-100-90 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 90vh;
-  }
-}
-@keyframes grow-100-100 {
-  from {
-    height: 100vh;
-  }
-  to {
-    height: 100vh;
-  }
-}
 @keyframes grow {
   from {
     height: 0vh;
@@ -154311,6 +153343,14 @@ nav .nav-btn:active {
     opacity: 0;
   }
 }
+@keyframes unfade2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 @keyframes rise {
   from {
     transform: translateY(100vh);
@@ -154341,6 +153381,4846 @@ nav .nav-btn:active {
   }
   to {
     transform: translateX(100vw);
+  }
+}
+@keyframes grow-0-0 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-0-0 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-0-0 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-0-0 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-0-0 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-0-10 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-0-10 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-0-10 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-0-10 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-0-10 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-0-20 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-0-20 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-0-20 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-0-20 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-0-20 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-0-30 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-0-30 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-0-30 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-0-30 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-0-30 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-0-40 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-0-40 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-0-40 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-0-40 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-0-40 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-0-50 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-0-50 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-0-50 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-0-50 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-0-50 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-0-60 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-0-60 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-0-60 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-0-60 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-0-60 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-0-70 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-0-70 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-0-70 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-0-70 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-0-70 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-0-80 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-0-80 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-0-80 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-0-80 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-0-80 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-0-90 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-0-90 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-0-90 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-0-90 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-0-90 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-0-100 {
+  from {
+    height: 0vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-0-100 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-0-100 {
+  from {
+    transform: translateY(0vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-0-100 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-0-100 {
+  from {
+    transform: translateX(0vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-10-0 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-10-0 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-10-0 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-10-0 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-10-0 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-10-10 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-10-10 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-10-10 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-10-10 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-10-10 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-10-20 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-10-20 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-10-20 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-10-20 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-10-20 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-10-30 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-10-30 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-10-30 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-10-30 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-10-30 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-10-40 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-10-40 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-10-40 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-10-40 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-10-40 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-10-50 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-10-50 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-10-50 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-10-50 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-10-50 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-10-60 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-10-60 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-10-60 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-10-60 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-10-60 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-10-70 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-10-70 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-10-70 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-10-70 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-10-70 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-10-80 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-10-80 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-10-80 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-10-80 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-10-80 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-10-90 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-10-90 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-10-90 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-10-90 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-10-90 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-10-100 {
+  from {
+    height: 10vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-10-100 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-10-100 {
+  from {
+    transform: translateY(10vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-10-100 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-10-100 {
+  from {
+    transform: translateX(10vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-20-0 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-20-0 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-20-0 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-20-0 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-20-0 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-20-10 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-20-10 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-20-10 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-20-10 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-20-10 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-20-20 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-20-20 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-20-20 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-20-20 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-20-20 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-20-30 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-20-30 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-20-30 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-20-30 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-20-30 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-20-40 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-20-40 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-20-40 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-20-40 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-20-40 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-20-50 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-20-50 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-20-50 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-20-50 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-20-50 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-20-60 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-20-60 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-20-60 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-20-60 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-20-60 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-20-70 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-20-70 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-20-70 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-20-70 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-20-70 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-20-80 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-20-80 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-20-80 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-20-80 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-20-80 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-20-90 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-20-90 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-20-90 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-20-90 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-20-90 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-20-100 {
+  from {
+    height: 20vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-20-100 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-20-100 {
+  from {
+    transform: translateY(20vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-20-100 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-20-100 {
+  from {
+    transform: translateX(20vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-30-0 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-30-0 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-30-0 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-30-0 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-30-0 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-30-10 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-30-10 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-30-10 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-30-10 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-30-10 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-30-20 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-30-20 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-30-20 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-30-20 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-30-20 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-30-30 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-30-30 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-30-30 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-30-30 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-30-30 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-30-40 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-30-40 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-30-40 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-30-40 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-30-40 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-30-50 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-30-50 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-30-50 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-30-50 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-30-50 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-30-60 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-30-60 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-30-60 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-30-60 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-30-60 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-30-70 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-30-70 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-30-70 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-30-70 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-30-70 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-30-80 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-30-80 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-30-80 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-30-80 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-30-80 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-30-90 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-30-90 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-30-90 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-30-90 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-30-90 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-30-100 {
+  from {
+    height: 30vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-30-100 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-30-100 {
+  from {
+    transform: translateY(30vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-30-100 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-30-100 {
+  from {
+    transform: translateX(30vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-40-0 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-40-0 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-40-0 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-40-0 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-40-0 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-40-10 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-40-10 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-40-10 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-40-10 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-40-10 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-40-20 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-40-20 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-40-20 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-40-20 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-40-20 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-40-30 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-40-30 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-40-30 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-40-30 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-40-30 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-40-40 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-40-40 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-40-40 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-40-40 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-40-40 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-40-50 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-40-50 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-40-50 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-40-50 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-40-50 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-40-60 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-40-60 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-40-60 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-40-60 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-40-60 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-40-70 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-40-70 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-40-70 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-40-70 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-40-70 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-40-80 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-40-80 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-40-80 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-40-80 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-40-80 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-40-90 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-40-90 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-40-90 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-40-90 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-40-90 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-40-100 {
+  from {
+    height: 40vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-40-100 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-40-100 {
+  from {
+    transform: translateY(40vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-40-100 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-40-100 {
+  from {
+    transform: translateX(40vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-50-0 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-50-0 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-50-0 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-50-0 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-50-0 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-50-10 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-50-10 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-50-10 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-50-10 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-50-10 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-50-20 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-50-20 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-50-20 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-50-20 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-50-20 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-50-30 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-50-30 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-50-30 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-50-30 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-50-30 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-50-40 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-50-40 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-50-40 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-50-40 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-50-40 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-50-50 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-50-50 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-50-50 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-50-50 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-50-50 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-50-60 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-50-60 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-50-60 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-50-60 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-50-60 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-50-70 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-50-70 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-50-70 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-50-70 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-50-70 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-50-80 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-50-80 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-50-80 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-50-80 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-50-80 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-50-90 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-50-90 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-50-90 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-50-90 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-50-90 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-50-100 {
+  from {
+    height: 50vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-50-100 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-50-100 {
+  from {
+    transform: translateY(50vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-50-100 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-50-100 {
+  from {
+    transform: translateX(50vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-60-0 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-60-0 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-60-0 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-60-0 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-60-0 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-60-10 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-60-10 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-60-10 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-60-10 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-60-10 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-60-20 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-60-20 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-60-20 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-60-20 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-60-20 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-60-30 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-60-30 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-60-30 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-60-30 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-60-30 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-60-40 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-60-40 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-60-40 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-60-40 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-60-40 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-60-50 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-60-50 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-60-50 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-60-50 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-60-50 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-60-60 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-60-60 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-60-60 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-60-60 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-60-60 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-60-70 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-60-70 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-60-70 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-60-70 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-60-70 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-60-80 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-60-80 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-60-80 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-60-80 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-60-80 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-60-90 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-60-90 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-60-90 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-60-90 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-60-90 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-60-100 {
+  from {
+    height: 60vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-60-100 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-60-100 {
+  from {
+    transform: translateY(60vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-60-100 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-60-100 {
+  from {
+    transform: translateX(60vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-70-0 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-70-0 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-70-0 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-70-0 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-70-0 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-70-10 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-70-10 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-70-10 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-70-10 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-70-10 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-70-20 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-70-20 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-70-20 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-70-20 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-70-20 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-70-30 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-70-30 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-70-30 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-70-30 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-70-30 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-70-40 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-70-40 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-70-40 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-70-40 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-70-40 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-70-50 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-70-50 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-70-50 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-70-50 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-70-50 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-70-60 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-70-60 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-70-60 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-70-60 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-70-60 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-70-70 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-70-70 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-70-70 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-70-70 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-70-70 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-70-80 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-70-80 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-70-80 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-70-80 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-70-80 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-70-90 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-70-90 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-70-90 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-70-90 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-70-90 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-70-100 {
+  from {
+    height: 70vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-70-100 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-70-100 {
+  from {
+    transform: translateY(70vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-70-100 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-70-100 {
+  from {
+    transform: translateX(70vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-80-0 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-80-0 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-80-0 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-80-0 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-80-0 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-80-10 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-80-10 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-80-10 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-80-10 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-80-10 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-80-20 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-80-20 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-80-20 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-80-20 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-80-20 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-80-30 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-80-30 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-80-30 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-80-30 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-80-30 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-80-40 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-80-40 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-80-40 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-80-40 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-80-40 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-80-50 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-80-50 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-80-50 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-80-50 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-80-50 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-80-60 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-80-60 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-80-60 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-80-60 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-80-60 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-80-70 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-80-70 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-80-70 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-80-70 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-80-70 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-80-80 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-80-80 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-80-80 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-80-80 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-80-80 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-80-90 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-80-90 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-80-90 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-80-90 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-80-90 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-80-100 {
+  from {
+    height: 80vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-80-100 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-80-100 {
+  from {
+    transform: translateY(80vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-80-100 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-80-100 {
+  from {
+    transform: translateX(80vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-90-0 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-90-0 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-90-0 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-90-0 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-90-0 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-90-10 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-90-10 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-90-10 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-90-10 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-90-10 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-90-20 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-90-20 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-90-20 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-90-20 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-90-20 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-90-30 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-90-30 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-90-30 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-90-30 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-90-30 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-90-40 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-90-40 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-90-40 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-90-40 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-90-40 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-90-50 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-90-50 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-90-50 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-90-50 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-90-50 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-90-60 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-90-60 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-90-60 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-90-60 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-90-60 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-90-70 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-90-70 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-90-70 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-90-70 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-90-70 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-90-80 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-90-80 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-90-80 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-90-80 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-90-80 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-90-90 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-90-90 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-90-90 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-90-90 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-90-90 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-90-100 {
+  from {
+    height: 90vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-90-100 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-90-100 {
+  from {
+    transform: translateY(90vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-90-100 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-90-100 {
+  from {
+    transform: translateX(90vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes grow-100-0 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 0vh;
+  }
+}
+@keyframes rise-100-0 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-0vh);
+  }
+}
+@keyframes fall-100-0 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes left-100-0 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-0vh);
+  }
+}
+@keyframes right-100-0 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(0vh);
+  }
+}
+@keyframes grow-100-10 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 10vh;
+  }
+}
+@keyframes rise-100-10 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-10vh);
+  }
+}
+@keyframes fall-100-10 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes left-100-10 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-10vh);
+  }
+}
+@keyframes right-100-10 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(10vh);
+  }
+}
+@keyframes grow-100-20 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 20vh;
+  }
+}
+@keyframes rise-100-20 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-20vh);
+  }
+}
+@keyframes fall-100-20 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes left-100-20 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-20vh);
+  }
+}
+@keyframes right-100-20 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(20vh);
+  }
+}
+@keyframes grow-100-30 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 30vh;
+  }
+}
+@keyframes rise-100-30 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-30vh);
+  }
+}
+@keyframes fall-100-30 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes left-100-30 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-30vh);
+  }
+}
+@keyframes right-100-30 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(30vh);
+  }
+}
+@keyframes grow-100-40 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 40vh;
+  }
+}
+@keyframes rise-100-40 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-40vh);
+  }
+}
+@keyframes fall-100-40 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes left-100-40 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-40vh);
+  }
+}
+@keyframes right-100-40 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(40vh);
+  }
+}
+@keyframes grow-100-50 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 50vh;
+  }
+}
+@keyframes rise-100-50 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-50vh);
+  }
+}
+@keyframes fall-100-50 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes left-100-50 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-50vh);
+  }
+}
+@keyframes right-100-50 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(50vh);
+  }
+}
+@keyframes grow-100-60 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 60vh;
+  }
+}
+@keyframes rise-100-60 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-60vh);
+  }
+}
+@keyframes fall-100-60 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes left-100-60 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-60vh);
+  }
+}
+@keyframes right-100-60 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(60vh);
+  }
+}
+@keyframes grow-100-70 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 70vh;
+  }
+}
+@keyframes rise-100-70 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-70vh);
+  }
+}
+@keyframes fall-100-70 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes left-100-70 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-70vh);
+  }
+}
+@keyframes right-100-70 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(70vh);
+  }
+}
+@keyframes grow-100-80 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 80vh;
+  }
+}
+@keyframes rise-100-80 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-80vh);
+  }
+}
+@keyframes fall-100-80 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes left-100-80 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-80vh);
+  }
+}
+@keyframes right-100-80 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(80vh);
+  }
+}
+@keyframes grow-100-90 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 90vh;
+  }
+}
+@keyframes rise-100-90 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-90vh);
+  }
+}
+@keyframes fall-100-90 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes left-100-90 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-90vh);
+  }
+}
+@keyframes right-100-90 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(90vh);
+  }
+}
+@keyframes grow-100-100 {
+  from {
+    height: 100vh;
+  }
+  to {
+    height: 100vh;
+  }
+}
+@keyframes rise-100-100 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(-100vh);
+  }
+}
+@keyframes fall-100-100 {
+  from {
+    transform: translateY(100vh);
+  }
+  to {
+    transform: translateY(100vh);
+  }
+}
+@keyframes left-100-100 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateX(-100vh);
+  }
+}
+@keyframes right-100-100 {
+  from {
+    transform: translateX(100vh);
+  }
+  to {
+    transform: translateY(100vh);
   }
 }
 h1 {
@@ -154633,15 +158513,25 @@ main.about ul.skills li img {
 main.about-me {
   overflow-x: hidden;
 }
+main.about-me.animate h1 {
+  position: absolute;
+  color: #343434;
+  top: 175px;
+  z-index: 2;
+  opacity: 0;
+  animation: 2s unfade2 forwards ease-out;
+}
+main.about-me.animate #me {
+  animation: 3s grow-70-100 forwards ease-out;
+}
+main.about-me.animate h3 {
+  animation: 2s rise-0-20 forwards ease-out;
+}
 main.about-me #me {
-  /* width: 100vw; */
   height: 70vh;
   object-fit: cover;
   mask-image: linear-gradient(to bottom, black 45%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-}
-main.about-me #me.animate {
-  animation: 3s grow-70-100 forwards ease-out;
 }
 main.about-me section {
   height: auto;

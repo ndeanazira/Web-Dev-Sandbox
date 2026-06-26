@@ -6,17 +6,31 @@
 
 main.about-me{
   overflow-x: hidden;
+  &.animate{
+    h1{
+      position: absolute;
+      color: #343434;
+      top: 175px;
+      z-index: 2;
+      opacity: 0;
+      animation: 2s unfade2 forwards ease-out;
+    }
+    #me{
+      animation: 3s grow-70-100 forwards ease-out;
+    }
+    h3{
+      animation: 2s rise-0-20 forwards ease-out;
+      
+    }
+    }
   #me{
-    /* width: 100vw; */
     height: 70vh;
     object-fit: cover;
 
      mask-image: linear-gradient(to bottom, black 45%, transparent 100%);
      -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
      
-    &.animate{
-      animation: 3s grow-70-100 forwards ease-out;
-    }
+    
   }
   section{
     height:auto;

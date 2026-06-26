@@ -67,14 +67,7 @@
   }
 }
 
-@for $i from 0 through 10{
-  $i:10*$i;
-  @debug($i);
-  @for $j from 0 through 10{
-      $j:10*$j;
-    @include mix-grow($i,$j);
-  }
-}
+
 
 @keyframes grow{
 	from{height: 0vh;}
@@ -94,22 +87,70 @@
 	100%{opacity: 0;}
 }
 
+@keyframes unfade2{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+
+@mixin mix-rise($init, $final){
+  
+  @keyframes rise-#{$init}-#{$final}{
+  	from{transform: translateY(#{$init}vh);}
+  	to{transform: translateY(-#{$final}vh);}
+  }
+}
 @keyframes rise{
 	from{transform: translateY(100vh);}
 	to{transform: translateY(0);}
 }
 
+@mixin mix-fall($init, $final){
+  
+  @keyframes fall-#{$init}-#{$final}{
+  	from{transform: translateY(#{$init}vh);}
+  	to{transform: translateY(#{$final}vh);}
+  }
+}
 @keyframes fall{
 	from{transform: translateY(0vh);}
 	to{transform: translateY(100vh);}
 }
 
+@mixin mix-right($init, $final){
+  
+  @keyframes right-#{$init}-#{$final}{
+  	from{transform: translateX(#{$init}vh);}
+  	to{transform: translateY(#{$final}vh);}
+  }
+}
 @keyframes right{
 	from{transform: translateX(0vw);}
 	to{transform: translateY(100vw);}
 }
 
+@mixin mix-left($init, $final){
+  
+  @keyframes left-#{$init}-#{$final}{
+  	from{transform: translateX(#{$init}vh);}
+  	to{transform: translateX(-#{$final}vh);}
+  }
+}
 @keyframes left{
 	from{transform: translateX(100vw);}
 	to{transform: translateX(100vw);}
+}
+
+@for $i from 0 through 10{
+  $i:10*$i;
+  @debug($i);
+  @for $j from 0 through 10{
+      $j:10*$j;
+    @include mix-grow($i,$j);
+    
+    @include mix-rise($i,$j);
+    @include mix-fall($i,$j);
+    @include mix-left($i,$j);
+    @include mix-right($i,$j);
+  }
 }
