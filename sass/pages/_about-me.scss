@@ -1,12 +1,20 @@
 @use "abstracts" as *;
 @use "abstracts/variables" as *;
 @use "sass:map";
+@use "components/shapes" as *;
+@use "sass:math";
     
 @debug map.get($color-level-theme, "secondary");
 
 main.about-me{
-  overflow-x: hidden;
-    section.intro{
+  /* overflow-x: hidden; */
+    section{
+      height:auto;
+      @extend .f-ctr;
+      @extend .wrap;
+      color: white;
+    
+    &.intro{
       
     h1{
       &.animate{
@@ -47,13 +55,43 @@ main.about-me{
     
   }
     }
-  section{
-    height:auto;
-    @extend .f-ctr;
-    @extend .wrap;
-    color: white;
-  }
-
+  
+    &.education{
+      min-height: 500px;
+      .spinning-circle{
+        height: 250px;
+        width: 250px;
+        @extend .circle !optional;
+        animation: spin 10s forwards infinite linear;
+        font-size: 50px;
+        
+        position: relative;
+        > *{
+          position: absolute;
+          height: 50px;
+          width: 50px;
+          @extend .circle;
+          animation: rev-spin 10s forwards infinite linear;
+          
+        &:nth-child(1){
+          top: -25px;
+          left: 100px;
+        }
+        &:nth-child(2){
+          top: #{(125+(125*math.sin(30deg)))}px;
+          left: #{(math.cos(30deg))}px;
+        }
+        &:nth-child(3){
+          top: #{(125+(125*math.sin(30deg)))-25}px;
+          left: #{(125+(125*math.cos(30deg)))-25}px;
+        }
+      }
+    }
+    
+    
+    
+    
+    } 
 
 ul{
   text-align: center !important;
@@ -155,5 +193,7 @@ ul > li{
     z-index: 2;
     width: 75%;
   }
+}
+
 }
 }

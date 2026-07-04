@@ -53,5 +53,10 @@
     color: $color-value;
   }
   
+  @for $i from 1 through 10{
+    .border-#{$i}-#{$color-name}{
+      border: #{$i}px solid #{$color-value};
+    }
+  }
 }
 /* COLORS END */
