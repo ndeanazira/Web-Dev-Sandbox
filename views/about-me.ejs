@@ -28,7 +28,7 @@
   <% for(let i=0;i<100;i=i+10){%>
   <div style="height:12px;" class="bg-#color#-<%=i%> text-#color#-<%=i%>  w-full">.</div>
   <% } %>
-  <section class="h-auto">
+  <section class="h-auto intro">
      <h1><i>Name here</i> | Full-Stack Developer & Systems Engineer</h1>
      <img id="me" src="/assets/About-Me/Me.png" alt="Me"/>
      <h3>Applying 5 years of low-level optimization and reverse-engineering discipline to modern full-stack web architecture.</h3>
@@ -151,15 +151,42 @@
   <script>
     
     $(window).on("scroll", (e)=>{
-      
       fullVh = window.scrollY/window.innerHeight;
+      const atTrapez = window.scrollY >= ($(".trapezium-container")[0].offsetTop - window.innerHeight);
+      
+      console.log(atTrapez);
+      console.log(`window.scrollY: ${window.scrollY} offsetTop: ${ $(".trapezium-container")[0].offsetTop - window.innerHeight}`);
+      console.log(fullVh);
+        
+        const elemArray_1 = [ 
+        $(".about-me h1"), $(".about-me #me"), $(".about-me h3"), $(".about-me p")];
   
-      if(fullVh>0.10){
-        $("main.about-me").addClass("animate");
-      }else{
-        $("main.about-me").removeClass("animate");
+      if(!atTrapez&&fullVh>0.10){
+        
+        elemArray_1.forEach((elem)=>elem.addClass("animate"));
       }
-    })
+    /*else if(atTrapez){
+      console.log("Yes")*/
+      for(i=0;i<6;i++){
+        
+        
+        let curTrapezium = $(".trapezium-container")[i];
+        console.log("curTrapezium.offsetTop: " + curTrapezium.offsetTop);
+        if(window.scrollY >= (curTrapezium.offsetTop-window.innerHeight)){
+          $(curTrapezium).addClass("animate");
+        }
+        else{
+          $(curTrapezium).removeClass("animate");
+        }
+      }
+    //}
+    /*else{
+        //elemArray_1.forEach((elem)=>elem.removeClass("animate"));
+        Array.from($("main.about-me *")).forEach((elem)=>$(elem).removeClass("animate"));
+    
+      }*/
+    });
+    
   </script>
   
 </main>

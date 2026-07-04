@@ -61,7 +61,7 @@
 /* DROPDOWN END   */
 
 @mixin mix-grow($init:initial, $final){
-  @keyframes grow-#{$init}-#{$final}{
+  @keyframes grow-#{minus-label($init)}-#{minus-label($final)}{
   	from{height: #{$init}vh;}
   	to{height: #{$final}vh;}
   }
@@ -92,10 +92,17 @@
 	100%{opacity: 1;}
 }
 
+@function minus-label($value, $symbol:"n"){
+  @if($value<0){ 
+    @return "n#{math.abs($value)}";
+    
+  }
+  @return $value;
+}
 
 @mixin mix-rise($init, $final){
   
-  @keyframes rise-#{$init}-#{$final}{
+  @keyframes rise-#{minus-label($init)}-#{minus-label($final)}{
   	from{transform: translateY(#{$init}vh);}
   	to{transform: translateY(-#{$final}vh);}
   }
@@ -107,7 +114,7 @@
 
 @mixin mix-fall($init, $final){
   
-  @keyframes fall-#{$init}-#{$final}{
+  @keyframes fall-#{minus-label($init)}-#{minus-label($final)}{
   	from{transform: translateY(#{$init}vh);}
   	to{transform: translateY(#{$final}vh);}
   }
@@ -119,9 +126,9 @@
 
 @mixin mix-right($init, $final){
   
-  @keyframes right-#{$init}-#{$final}{
+  @keyframes right-#{minus-label($init)}-#{minus-label($final)}{
   	from{transform: translateX(#{$init}vh);}
-  	to{transform: translateY(#{$final}vh);}
+  	to{transform: translateX(#{$final}vh);}
   }
 }
 @keyframes right{
@@ -131,7 +138,7 @@
 
 @mixin mix-left($init, $final){
   
-  @keyframes left-#{$init}-#{$final}{
+  @keyframes left-#{minus-label($init)}-#{minus-label($final)}{
   	from{transform: translateX(#{$init}vh);}
   	to{transform: translateX(-#{$final}vh);}
   }
@@ -141,10 +148,10 @@
 	to{transform: translateX(100vw);}
 }
 
-@for $i from 0 through 10{
+@for $i from -20 through 20{
   $i:10*$i;
   @debug($i);
-  @for $j from 0 through 10{
+  @for $j from -20 through 20{
       $j:10*$j;
     @include mix-grow($i,$j);
     

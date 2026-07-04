@@ -6,23 +6,37 @@
 
 main.about-me{
   overflow-x: hidden;
-  &.animate{
+    section.intro{
+      
     h1{
+      &.animate{
+        
       position: absolute;
       color: #343434;
       top: 175px;
       z-index: 2;
       opacity: 0;
       animation: 2s unfade2 forwards ease-out;
+      }
     }
     #me{
-      animation: 3s grow-70-100 forwards ease-out;
+      &.animate{
+        animation: 3s grow-70-100 forwards ease-out;
+        
+      }
     }
     h3{
-      animation: 2s rise-0-20 forwards ease-out;
-      
+      &.animate{
+        animation: 2s rise-0-30 forwards ease-out;
+      }
     }
+    
+    p{
+      &.animate{
+        animation: 2s 0.5s rise-0-30 forwards ease-out;
+      }
     }
+    
   #me{
     height: 70vh;
     object-fit: cover;
@@ -32,6 +46,7 @@ main.about-me{
      
     
   }
+    }
   section{
     height:auto;
     @extend .f-ctr;
@@ -105,6 +120,15 @@ ul > li{
   width : auto;
   position: relative !important;
   margin: 15px 0px;
+  
+  &.animate{
+    &:nth-child(2n){
+      animation: 0.75s right-n100-0 forwards linear;
+    }
+    &:nth-child(2n+1){
+      animation: 0.75s left-200-0 forwards linear;
+    }
+  }
 
   polygon{
     z-index: 1;
@@ -113,17 +137,17 @@ ul > li{
   
   
   &:nth-child(2n+1){
+    /* transform: translateX(100vw); */
     p{
       @include top-corner("right");
       text-align: right !important;
-      /* margin-left: 35px; */
     }
   }
   &:nth-child(2n){
+    /* transform: translateX(-100vw); */
     p{
       @include top-corner("left");
       text-align: left !important;
-      /* margin-right: 35px; */
     }
   }
   p{
