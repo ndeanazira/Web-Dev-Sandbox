@@ -37,7 +37,7 @@
 </p>
   </section>
   
-      <h3 style="display: block; color:white;">Skills</h3>
+      <h5>Skills</h5>
   <section class="f-spa wrap">
     <div class="card-#color#-10-r15-h35  skill-card">
       <h5 class="bg-#color#-20 text-#color#-50">Frontend</h5>
@@ -120,13 +120,23 @@
     <% } %>
 
   </section>
-  <section class="education">
     <h5>Education</h5>
-    <div class="spinning-circle border-3-#color#-40">
-      <img src="assets/About-Me/graduate-svgrepo-com.svg" alt="Degree" class="border-3-#color#-20 bg-#color#-10"/>
-      <img src="assets/About-Me/award-svgrepo-com.svg" alt="Award" class="border-3-#color#-20 bg-#color#-10"/>
-      <img src="assets/About-Me/school-svgrepo-com.svg" alt="A Level" class="border-3-#color#-20 bg-#color#-10"/>
+  <section class="education">
+    <div class="spinning-circle-container">
+      <div class="spinning-circle border-3-#color#-40">
+        <div class="border-3-#color#-20 bg-white">
+          <img id="edu-num-0" src="assets/About-Me/graduate-svgrepo-com.svg" alt="Degree"/>
+          </div>
+        <div class="border-3-#color#-20 bg-white">
+          <img id="edu-num-1" src="assets/About-Me/award-svgrepo-com.svg" alt="Award"/>
+          </div>
+        <div class="border-3-#color#-20 bg-white">
+          <img id="edu-num-2" src="assets/About-Me/school-svgrepo-com.svg" alt="A Level"/>
+          </div>
+      </div>
+      <p class="hidden"></p>
     </div>
+  
   </section>
   <script>
     
@@ -145,7 +155,7 @@
       "points", `0,0 0,${w} ${0.75*w},${h} ${w},0`
       );
       
-      console.log($(".trapezium-container:nth-child(2n) polygon").length);
+      
       
     $(".trapezium-container:nth-child(2n+1) polygon").attr(
       "points", `0,0 ${0.25*w},${h} ${w},${h} ${w},0`
@@ -158,37 +168,93 @@
       fullVh = window.scrollY/window.innerHeight;
       const atTrapez = window.scrollY >= ($(".trapezium-container")[0].offsetTop - window.innerHeight);
       
-      console.log(atTrapez);
-      console.log(`window.scrollY: ${window.scrollY} offsetTop: ${ $(".trapezium-container")[0].offsetTop - window.innerHeight}`);
-      console.log(fullVh);
-        
+  
         const elemArray_1 = [ 
-        $(".about-me h1"), $(".about-me #me"), $(".about-me h3"), $(".about-me p")];
+        $(".about-me h1"), $(".about-me #me"), $(".about-me h3"), $(".about-me section.intro p")];
   
       if(!atTrapez&&fullVh>0.10){
         
         elemArray_1.forEach((elem)=>elem.addClass("animate"));
       }
-    /*else if(atTrapez){
-      console.log("Yes")*/
-      for(i=0;i<6;i++){
+    
+      //if(window.scrollY< ($(".trapezium-container > *")[3]).offsetBottom){
         
-        
-        let curTrapezium = $(".trapezium-container")[i];
-        console.log("curTrapezium.offsetTop: " + curTrapezium.offsetTop);
-        if(window.scrollY >= (curTrapezium.offsetTop-window.innerHeight)){
-          $(curTrapezium).addClass("animate");
+        for(i=0;i<6;i++){
+          
+          
+          let curTrapezium = $(".trapezium-container")[i];
+          
+          if(window.scrollY >= (curTrapezium.offsetTop-window.innerHeight)){
+            $(curTrapezium).addClass("animate");
+          }
+          else{
+            $(curTrapezium).removeClass("animate");
+          }
         }
-        else{
-          $(curTrapezium).removeClass("animate");
-        }
+      //}
+      
+      //console.log(`window.scrollY: ${window.scrollY} offsetTop: ($(".education")[0]).offsetTop-500: ${($(".education")[0]).offsetTop-500}`)
+      
+      if(window.scrollY >= ($(".education")[0]).offsetTop-500){
+        console.log("Yes");
+          $(".education .spinning-circle-container").addClass("animate");
+      }else{
+          $(".education .spinning-circle-container").removeClass("animate");
       }
+      
     //}
     /*else{
         //elemArray_1.forEach((elem)=>elem.removeClass("animate"));
         Array.from($("main.about-me *")).forEach((elem)=>$(elem).removeClass("animate"));
     
       }*/
+      //if(window.scrollY >= $(".education"))
+    });
+    
+  </script>
+  <script>
+    const eduArray = ["1st Class Masters Degree in Automotive Engineering",
+                       "",
+                       "<ul><li>A - Maths</li><li>B - Physics</li><li>B - Biology</ul>"];
+                       
+    $(".spinning-circle-container > div").on("click", (e)=>{
+      let t = e.target;
+      let i;
+      
+      t = (t.tagName=="IMG")?t:($(t).children("img")[0]);
+      console.log(typeof(t.classList));
+      
+      //if(t.tagName == "IMG"){
+        i = t.id.replaceAll("edu-num-", "");
+        const tClassList = Array.from(t.classList);
+        tClassList?.includes("active")?$(t).removeClass("active"):$(t).addClass("active");
+        
+        const circleClassList = Array.from($(".spinning-circle-container")[0].classList);
+        
+        if(circleClassList?.includes("active")){
+          $(t).removeClass("active");
+          $("p").addClass("hidden");
+        }else{
+          $(t).addClass("active");
+          $("p").removeClass("hidden");
+        }
+        
+      //}
+      //else if(t.tagName=="DIV"){
+      //  i = $(t).children("img")[0].id.replaceAll("edu-n
+    
+        //t.classList.includes("active")?$(t).removeClass("active"):$(t).addClass("active");
+      //}
+      /*else{
+        return;
+      }*/
+      
+     $( $(".spinning-circle-container .show-edu")[i]).removeClass("show-edu");
+      //$(p)?.addClass("show-edu")
+      console.log(eduArray[i])
+  
+        i?$("p").removeClass("hidden"):$("p").addClass("hidden");
+        $(".spinning-circle-container p")[0].innerHTML = eduArray[i]
     });
     
   </script>

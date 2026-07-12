@@ -2,7 +2,7 @@ const dropdownMulti = $(".nav-btn.dropdown");
 
 // Array.from(dropdownMulti).forEach((dropdown)=>{
 	$(document).on("click", (e)=>{
-		console.log(e.target);
+		// console.log(e.target);
 		if((e.target.className.includes("dropdown")&&e.target.className.includes("nav-btn"))||e.target.tagName == "A"){
 		
 				$(e.target).removeClass("loaded");

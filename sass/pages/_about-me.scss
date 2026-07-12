@@ -1,5 +1,6 @@
 @use "abstracts" as *;
 @use "abstracts/variables" as *;
+@use "abstracts/animations" as *;
 @use "sass:map";
 @use "components/shapes" as *;
 @use "sass:math";
@@ -7,12 +8,17 @@
 @debug map.get($color-level-theme, "secondary");
 
 main.about-me{
-  /* overflow-x: hidden; */
+  overflow-x: clip;
     section{
       height:auto;
       @extend .f-ctr;
       @extend .wrap;
       color: white;
+      
+      h5{
+        display: block !important;
+        color:white;
+      }
     
     &.intro{
       
@@ -55,42 +61,91 @@ main.about-me{
     
   }
     }
+    
+    $big-spin-circle:250;
+    $small-spin-circle:50;
   
     &.education{
-      min-height: 500px;
+      h5{
+        margin-bottom: #{math.div($small-spin-circle,2)+15}px;
+      }
+      height: 350px;
+      /* overflow: hidden; */
+      
+      /* .spinning-circle-container.animate{
+        animation: mega-scale 1s linear both;
+      } */
+        
+      .spinning-circle-container{
+        transform: scale(7);
+        opacity: 0;
+        
+          &.animate{
+        opacity: 100;
+        animation: mega-scale 1s linear both;
+          
+        }
+      }
+        /* animation-timeline: view(block 0% 80%); */
+        /* animation-timeline: view(); */
+    
+        
+      /* &.animate{
+      } */
+  
       .spinning-circle{
-        height: 250px;
-        width: 250px;
+        position: relative;
+        height: #{$big-spin-circle}px;
+        width: #{$big-spin-circle}px;
         @extend .circle !optional;
         animation: spin 10s forwards infinite linear;
         font-size: 50px;
         
         position: relative;
-        > *{
+        > div{
           position: absolute;
-          height: 50px;
-          width: 50px;
+          height: #{$small-spin-circle}px;
+          width: #{$small-spin-circle}px;
           @extend .circle;
           animation: rev-spin 10s forwards infinite linear;
+          object-fit: cover;
+          
+          @extend .f-ctr;
+          
+          &:active{
+            background: black;
+          }
+        
+          > img{
+            height: 60%;
+          }
+          
+          >p{
+            display: none;
+            &.show-edu{
+              display: block;
+              position: absolute;
+              top: 150px;
+            }
+          }
+          
           
         &:nth-child(1){
-          top: -25px;
-          left: 100px;
+          top: -#{math.div($small-spin-circle, 2)}px;
+          left: #{math.div(($big-spin-circle)-($small-spin-circle),2)}px;
         }
         &:nth-child(2){
-          top: #{(125+(125*math.sin(30deg)))}px;
+          top: #{math.div($big-spin-circle, 2)+(math.div($big-spin-circle, 2)*math.sin(30deg))}px;
           left: #{(math.cos(30deg))}px;
         }
         &:nth-child(3){
-          top: #{(125+(125*math.sin(30deg)))-25}px;
-          left: #{(125+(125*math.cos(30deg)))-25}px;
+          top: #{(math.div($big-spin-circle, 2)+(math.div($big-spin-circle, 2)*math.sin(30deg)))-(math.div($small-spin-circle, 2))}px;
+          left: #{(math.div($big-spin-circle, 2)+(math.div($big-spin-circle, 2)*math.cos(30deg)))-(math.div($small-spin-circle, 2))}px;
         }
-      }
+      
     }
-    
-    
-    
-    
+    flex-flow: column;
+      }
     } 
 
 ul{
@@ -121,16 +176,16 @@ ul > li{
   position: relative;
   overflow: hidden !important;
   
-  h5{
+  /* h5{
     position: absolute;
     font-size: 15px;
     top: -27px;
-    /* background: #00000030; */
+    background: #00000030;
     
     width: 100%;
     height: 25px;
     @extend .f-ctr;
-  }
+  } */
   
   ul{
     width: 100%;
@@ -196,4 +251,9 @@ ul > li{
 }
 
 }
+}
+
+@keyframes mega-scale{
+  from{transform: scale(7);}
+  to{transform: scale(1);}
 }
