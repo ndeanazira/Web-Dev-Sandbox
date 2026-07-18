@@ -124,19 +124,19 @@
   <section class="education">
     <div class="spinning-circle-container">
       <div class="spinning-circle border-3-#color#-40">
-        <div class="border-3-#color#-20 bg-white">
+        <div class="edu-btn border-3-#color#-20 bg-white">
           <img id="edu-num-0" src="assets/About-Me/graduate-svgrepo-com.svg" alt="Degree"/>
           </div>
-        <div class="border-3-#color#-20 bg-white">
+        <div class="edu-btn border-3-#color#-20 bg-white">
           <img id="edu-num-1" src="assets/About-Me/award-svgrepo-com.svg" alt="Award"/>
           </div>
-        <div class="border-3-#color#-20 bg-white">
+        <div class="edu-btn border-3-#color#-20 bg-white">
           <img id="edu-num-2" src="assets/About-Me/school-svgrepo-com.svg" alt="A Level"/>
           </div>
       </div>
-      <p class="hidden"></p>
+      <i class="bi bi-arrow-left text-white"></i>
     </div>
-  
+      <p class=""></p>
   </section>
   <script>
     
@@ -195,12 +195,22 @@
       
       //console.log(`window.scrollY: ${window.scrollY} offsetTop: ($(".education")[0]).offsetTop-500: ${($(".education")[0]).offsetTop-500}`)
       
-      if(window.scrollY >= ($(".education")[0]).offsetTop-500){
-        console.log("Yes");
+      const scContainter = $(".education .spinning-circle-container");
+      const cClassList = Array.from(scContainter[0].classList);
+      console.log(cClassList);
+      //if(((window.scrollY >= ($(".education")[0])).offsetTop-500)&&!cClassList.includes("animated")){
+      
+      if((window.scrollY >= ($(".education")[0]).offsetTop-500)){
           $(".education .spinning-circle-container").addClass("animate");
+      setTimeout(()=>{
+        $(".education .spinning-circle-container")
+          .addClass("animated")
+          .removeClass("animate");
+      }, 1500);
       }else{
-          $(".education .spinning-circle-container").removeClass("animate");
+          $(".education .spinning-circle-container").removeClass("animate animated");
       }
+          
       
     //}
     /*else{
@@ -213,50 +223,36 @@
     
   </script>
   <script>
+                       
+    $(".spinning-circle-container > div").on("click", (e)=>{
     const eduArray = ["1st Class Masters Degree in Automotive Engineering",
                        "",
                        "<ul><li>A - Maths</li><li>B - Physics</li><li>B - Biology</ul>"];
-                       
-    $(".spinning-circle-container > div").on("click", (e)=>{
       let t = e.target;
-      let i;
       
+      //Make for t is equal to the button image element, when when div is pressed
       t = (t.tagName=="IMG")?t:($(t).children("img")[0]);
-      console.log(typeof(t.classList));
       
-      //if(t.tagName == "IMG"){
-        i = t.id.replaceAll("edu-num-", "");
-        const tClassList = Array.from(t.classList);
-        tClassList?.includes("active")?$(t).removeClass("active"):$(t).addClass("active");
-        
-        const circleClassList = Array.from($(".spinning-circle-container")[0].classList);
-        
-        if(circleClassList?.includes("active")){
-          $(t).removeClass("active");
-          $("p").addClass("hidden");
-        }else{
-          $(t).addClass("active");
-          $("p").removeClass("hidden");
-        }
-        
-      //}
-      //else if(t.tagName=="DIV"){
-      //  i = $(t).children("img")[0].id.replaceAll("edu-n
+      let i = t?.id?.replaceAll("edu-num-", "")??null;
+
+      $(".spinning-circle-container").removeClass("animate");
+      
+       $(".spinning-circle-container").addClass("show");
+       $(".education").addClass("show");
     
-        //t.classList.includes("active")?$(t).removeClass("active"):$(t).addClass("active");
-      //}
-      /*else{
-        return;
-      }*/
-      
-     $( $(".spinning-circle-container .show-edu")[i]).removeClass("show-edu");
-      //$(p)?.addClass("show-edu")
-      console.log(eduArray[i])
-  
-        i?$("p").removeClass("hidden"):$("p").addClass("hidden");
-        $(".spinning-circle-container p")[0].innerHTML = eduArray[i]
+    $(".education p")[0].innerHTML = eduArray?.[i]??""
+    console.log($(t).parent("i"));
+    $(".education i").addClass("border-3-#color#-40");
     });
     
+
+    $(".education i.bi.bi-arrow-left").on("click", (e)=>{
+        $(".spinning-circle-container").removeClass("show");
+        $(".education").removeClass("show");
+        $(".education p")[0].innerHTML = "";
+        $(e.target).removeClass("border-3-#color#-40");
+    });
+  
   </script>
   
 </main>

@@ -34,3 +34,60 @@
       {className:"", color:"fill-#color#-50", reflect:true,
       
       content:"Developed custom Python scripts for binary data mapping, reducing vehicle support integration time by 50%."}) %>
+      
+      
+      
+  <script>
+                       
+    $(".spinning-circle-container > div").on("click", (e)=>{
+    const eduArray = ["1st Class Masters Degree in Automotive Engineering",
+                       "",
+                       "<ul><li>A - Maths</li><li>B - Physics</li><li>B - Biology</ul>"];
+      let t = e.target;
+      
+      //Make for t is equal to the button image element, when when div is pressed
+      
+      const unPress = (t)=>{
+        $(".spinning-circle-container > div > div").removeClass("active border-3-white")
+        $(".spinning-circle-container > div > div").addClass("border-3-#color#-20")
+        $(t).parent("div").addClass("active border-3-white");
+        $(t).parent("div").removeClass("border-3-#color#-20");
+        $(".spinning-circle-container").addClass("show");
+        $(".education").addClass("show");
+        
+        //$(t).siblings("p").css("display", "block");
+      }
+      
+      
+      t = (t.tagName=="IMG")?t:($(t).children("img")[0]);
+      
+      let i = t?.id?.replaceAll("edu-num-", "")??null;
+      const tClassList = Array.from($(t).parent("div")[0]?.classList);
+      
+      $(".spinning-circle-container").removeClass("animate");
+      
+      if(tClassList.includes("active"))
+      {
+        $(".spinning-circle-container > div > div").removeClass("active border-3-white");
+        $(".spinning-circle-container > div > div").addClass("3-#color#-20");
+       //$(t).siblings("p").css("display", "none");
+       $(".spinning-circle-container").removeClass("show");
+       $(".education").removeClass("show");
+        i=null;
+      }else{
+        unPress();
+      }
+      
+    
+   $( $(".spinning-circle-container .show-edu")[i]).removeClass("show-edu");
+    //$(p)?.addClass("show-edu")
+    console.log(eduArray[i])
+
+      //i?$("p").removeClass("hidden"):$("p").addClass("hidden");
+    $(".education p")[0].innerHTML = eduArray?.[i]??""
+    });
+    
+
+    $("i.bi.bi-arrow-left").on("click", (e)=>unPress());
+    console.log($("i.bi.bi-arrow-left"));
+  </script>

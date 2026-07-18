@@ -1,11 +1,26 @@
 @use "abstracts" as *;
 @use "abstracts/variables" as *;
 @use "abstracts/animations" as *;
+@use "abstracts/sizes" as *;
+@use "abstracts/displays" as *;
 @use "sass:map";
 @use "components/shapes" as *;
 @use "sass:math";
     
 @debug map.get($color-level-theme, "secondary");
+
+@mixin top-corner($direction:"left"){
+  position: absolute;
+  top: 0px;
+  @if($direction=="left"){
+    left: 0px;
+  }@else if($direction=="right"){
+    right: 0px;
+  }
+  @else{
+    @error("$direction can either be left or right");
+  }
+}
 
 main.about-me{
   overflow-x: clip;
@@ -66,33 +81,97 @@ main.about-me{
     $small-spin-circle:50;
   
     &.education{
+      flex-wrap: nowrap !important;
       h5{
         margin-bottom: #{math.div($small-spin-circle,2)+15}px;
       }
       height: 350px;
-      /* overflow: hidden; */
       
-      /* .spinning-circle-container.animate{
-        animation: mega-scale 1s linear both;
-      } */
+      p{
+        width: 0px;
+      }
+      
+      &.show{
+        p{
+          display: block;
+          @extend .border-3-red-50;
+          
+          height: auto;
+          width: 150px;
+          /* min-width: 150px !important; */
+          transition: width 1s ease-in;
+          transform-origin: center right;
+        }
+       
+          .edu-btn{
+            opacity: 0;
+            transition: opacity 0.35s ease-in;
+          }
+          
+        i{
+          @extend .f-ctr;
+          font-size: 50px;
+          position: relative;
+          @include top-corner();
+          /* z-index: -1; */
+          background: black;
         
+        
+          @extend .circle;
+          height: #{$big-spin-circle}px;
+          width: #{$big-spin-circle}px;
+          
+          &:active{
+            background: white;
+            color: black;
+          }
+          
+          
+        }
+        
+        .spinning-circle-container{
+          animation: scale-100-50 1s ease-in forwards !important;
+          .spinning-circle{
+            border: none !important;
+            /* transition: border 0s 1s; */
+          }
+        }
+      }
+      
+      
       .spinning-circle-container{
+        
         transform: scale(7);
         opacity: 0;
         
-          &.animate{
-        opacity: 100;
-        animation: mega-scale 1s linear both;
-          
-        }
-      }
-        /* animation-timeline: view(block 0% 80%); */
-        /* animation-timeline: view(); */
-    
         
-      /* &.animate{
-      } */
-  
+        &.animate{
+        opacity: 100;
+        animation: mega-scale 1s linear forwards;
+        }
+        
+        &.animated{
+          opacity: 100 !important;
+          animation: none;
+          transform: scale(1);
+        }
+        
+        /* &.show{
+          animation: scale-100-50 1s ease-in forwards !important;
+        
+        } */
+        
+        &:not(.show){
+           >p, >i{
+            display: none !important;
+          }
+          >p{
+            transform: scale(200);
+          }
+        }
+        
+        
+        
       .spinning-circle{
         position: relative;
         height: #{$big-spin-circle}px;
@@ -143,10 +222,14 @@ main.about-me{
           left: #{(math.div($big-spin-circle, 2)+(math.div($big-spin-circle, 2)*math.cos(30deg)))-(math.div($small-spin-circle, 2))}px;
         }
       
-    }
+      }
     flex-flow: column;
       }
     } 
+
+
+
+}
 
 ul{
   text-align: center !important;
@@ -194,18 +277,6 @@ ul > li{
     overflow: hidden scroll;
   }
 }
-
-@mixin top-corner($direction:"left"){
-  position: absolute;
-  top: 0px;
-  @if($direction=="left"){
-    left: 0px;
-  }@else if($direction=="right"){
-    right: 0px;
-  }
-  @else{
-    @error("$direction can either be left or right");
-  }
 }
 
 .trapezium-container{
@@ -249,11 +320,14 @@ ul > li{
     width: 75%;
   }
 }
-
-}
 }
 
 @keyframes mega-scale{
   from{transform: scale(7);}
   to{transform: scale(1);}
+}
+
+@keyframes slide-n-shrink{
+  from{transform: scale(1) translateX(0vw);}
+  to{transform: scale(0.7) translateX(-30vw);}
 }
