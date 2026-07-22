@@ -236,9 +236,9 @@
       let i = t?.id?.replaceAll("edu-num-", "")??null;
 
       $(".spinning-circle-container").removeClass("animate");
-      
-       $(".spinning-circle-container").addClass("show");
-       $(".education").addClass("show");
+       $(".education")
+       .removeClass("hide")
+       .addClass("show");
     
     $(".education p")[0].innerHTML = eduArray?.[i]??""
     console.log($(t).parent("i"));
@@ -247,8 +247,9 @@
     
 
     $(".education i.bi.bi-arrow-left").on("click", (e)=>{
-        $(".spinning-circle-container").removeClass("show");
-        $(".education").removeClass("show");
+        $(".education")
+          .removeClass("show")
+          .addClass("hide");
         $(".education p")[0].innerHTML = "";
         $(e.target).removeClass("border-3-#color#-40");
     });

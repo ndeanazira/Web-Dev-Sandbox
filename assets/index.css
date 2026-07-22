@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 69px;
-  width: 69px;
-  left: min(calc( 43vw - 69px), 69px);
+  height: 196px;
+  width: 196px;
+  left: min(calc( 70vw - 196px), 196px);
 }
 .bubble-size-1 i {
-  font-size: 17.25px;
+  font-size: 49px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 89px;
-  width: 89px;
-  left: min(calc( 77vw - 89px), 89px);
+  height: 161px;
+  width: 161px;
+  left: min(calc( 6vw - 161px), 161px);
 }
 .bubble-size-2 i {
-  font-size: 22.25px;
+  font-size: 40.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 99px;
-  width: 99px;
-  left: min(calc( 14vw - 99px), 99px);
+  height: 105px;
+  width: 105px;
+  left: min(calc( 100vw - 105px), 105px);
 }
 .bubble-size-3 i {
-  font-size: 24.75px;
+  font-size: 26.25px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 83px;
-  width: 83px;
-  left: min(calc( 84vw - 83px), 83px);
+  height: 136px;
+  width: 136px;
+  left: min(calc( 9vw - 136px), 136px);
 }
 .bubble-size-4 i {
-  font-size: 20.75px;
+  font-size: 34px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -204,12 +204,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 36vw - 50px), 50px);
+  height: 102px;
+  width: 102px;
+  left: min(calc( 89vw - 102px), 102px);
 }
 .bubble-size-5 i {
-  font-size: 12.5px;
+  font-size: 25.5px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -226,7 +226,7 @@
 }
 
 /* FLEX DISPLAY TYPES START */
-.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section ul, main.about-me section .skill-card {
+.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section ul, main.about-me section .skill-card {
   display: flex;
   justify-content: center;
   align-items: center !important;
@@ -838,7 +838,7 @@
   border: 2px solid red;
 }
 
-.border-3-red-50, main.about-me section.education.show p {
+.border-3-red-50 {
   border: 3px solid red;
 }
 
@@ -156634,7 +156634,7 @@ nav .nav-btn:active {
   } */
 }
 
-.circle, main.about-me section.education.show i, main.about-me section.education .spinning-circle-container .spinning-circle, main.about-me section.education .spinning-circle-container .spinning-circle > div {
+.circle, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle, main.about-me section.education .spinning-circle-container .spinning-circle > div {
   border-radius: 100%;
 }
 
@@ -156690,87 +156690,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(37vw, -84vh);
+    transform: translate(95vw, -99vh);
   }
   25% {
-    transform: translate(17vw, -11vh);
+    transform: translate(57vw, -74vh);
   }
   50% {
-    transform: translate(40vw, -78vh);
+    transform: translate(37vw, -100vh);
   }
   75% {
-    transform: translate(88vw, -29vh);
+    transform: translate(46vw, -45vh);
   }
   100% {
-    transform: translate(29vw, -41vh);
+    transform: translate(93vw, -63vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(22vw, -79vh);
+    transform: translate(46vw, -3vh);
   }
   25% {
-    transform: translate(64vw, -99vh);
+    transform: translate(68vw, -48vh);
   }
   50% {
-    transform: translate(76vw, -84vh);
+    transform: translate(29vw, -30vh);
   }
   75% {
-    transform: translate(77vw, -59vh);
+    transform: translate(21vw, -96vh);
   }
   100% {
-    transform: translate(52vw, -34vh);
+    transform: translate(31vw, -8vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(33vw, -76vh);
+    transform: translate(14vw, -48vh);
   }
   25% {
-    transform: translate(75vw, -3vh);
+    transform: translate(28vw, -17vh);
   }
   50% {
-    transform: translate(70vw, -39vh);
+    transform: translate(42vw, -84vh);
   }
   75% {
-    transform: translate(79vw, -29vh);
+    transform: translate(36vw, -7vh);
   }
   100% {
-    transform: translate(53vw, -65vh);
+    transform: translate(69vw, -80vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(58vw, -99vh);
+    transform: translate(47vw, -51vh);
   }
   25% {
-    transform: translate(66vw, -1vh);
+    transform: translate(72vw, -70vh);
   }
   50% {
-    transform: translate(42vw, -65vh);
+    transform: translate(17vw, -35vh);
   }
   75% {
-    transform: translate(78vw, -46vh);
+    transform: translate(73vw, -32vh);
   }
   100% {
-    transform: translate(45vw, -71vh);
+    transform: translate(27vw, -46vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(52vw, -4vh);
+    transform: translate(47vw, -79vh);
   }
   25% {
-    transform: translate(59vw, -57vh);
+    transform: translate(35vw, -79vh);
   }
   50% {
-    transform: translate(95vw, -68vh);
+    transform: translate(93vw, -51vh);
   }
   75% {
-    transform: translate(46vw, -69vh);
+    transform: translate(98vw, -22vh);
   }
   100% {
-    transform: translate(30vw, -55vh);
+    transform: translate(73vw, -90vh);
   }
 }
 /** floating animation end **/
@@ -268290,17 +268290,19 @@ main.about-me section.education {
 main.about-me section.education p {
   width: 0px;
 }
-main.about-me section.education.show p {
+main.about-me section.education.show > p {
   display: block;
   height: auto;
-  width: 150px;
-  /* min-width: 150px !important; */
+  width: 150px !important;
   transition: width 1s ease-in;
   transform-origin: center right;
 }
 main.about-me section.education.show .edu-btn {
   opacity: 0;
   transition: opacity 0.35s ease-in;
+}
+main.about-me section.education.show {
+  /* Back Button */
 }
 main.about-me section.education.show i {
   font-size: 50px;
@@ -268320,9 +268322,45 @@ main.about-me section.education.show i:active {
 main.about-me section.education.show .spinning-circle-container {
   animation: scale-100-50 1s ease-in forwards !important;
 }
+main.about-me section.education.show .spinning-circle-container i {
+  font-size: 50px;
+  position: relative;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* z-index: -1; */
+  background: black;
+  height: 250px;
+  width: 250px;
+}
+main.about-me section.education.show .spinning-circle-container i:active {
+  background: white;
+  color: black;
+}
 main.about-me section.education.show .spinning-circle-container .spinning-circle {
   border: none !important;
   /* transition: border 0s 1s; */
+}
+main.about-me section.education.hide > p {
+  height: auto;
+  width: 0px !important;
+  transition: width 1s ease-in;
+  transform-origin: center right;
+}
+main.about-me section.education.hide i {
+  display: none !important;
+}
+main.about-me section.education.hide .spinning-circle-container {
+  display: block;
+  /* transform: scale(0.7) !important; */
+  animation: scale-70-100 1s ease-out forwards !important;
+}
+main.about-me section.education.hide .edu-btn {
+  opacity: 100;
+  transition: opacity 1s ease-out;
+}
+main.about-me section.education:not(.show):not(.hide) .spinning-circle-container > p, main.about-me section.education:not(.show):not(.hide) .spinning-circle-container i {
+  display: none !important;
 }
 main.about-me section.education .spinning-circle-container {
   transform: scale(7);
@@ -268338,16 +268376,7 @@ main.about-me section.education .spinning-circle-container.animated {
   transform: scale(1);
 }
 main.about-me section.education .spinning-circle-container {
-  /* &.show{
-    animation: scale-100-50 1s ease-in forwards !important;
-
-  } */
-}
-main.about-me section.education .spinning-circle-container:not(.show) > p, main.about-me section.education .spinning-circle-container:not(.show) > i {
-  display: none !important;
-}
-main.about-me section.education .spinning-circle-container:not(.show) > p {
-  transform: scale(200);
+  /**/
 }
 main.about-me section.education .spinning-circle-container .spinning-circle {
   position: relative;

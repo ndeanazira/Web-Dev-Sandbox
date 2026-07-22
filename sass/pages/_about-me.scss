@@ -6,9 +6,10 @@
 @use "sass:map";
 @use "components/shapes" as *;
 @use "sass:math";
-    
-@debug map.get($color-level-theme, "secondary");
 
+$big-spin-circle:250;
+$small-spin-circle:50;
+    
 @mixin top-corner($direction:"left"){
   position: absolute;
   top: 0px;
@@ -21,6 +22,29 @@
     @error("$direction can either be left or right");
   }
 }
+
+@mixin back-button(){
+
+  @extend .f-ctr;
+  font-size: 50px;
+  position: relative;
+  @include top-corner();
+  /* z-index: -1; */
+  background: black;
+
+
+  @extend .circle;
+  height: #{$big-spin-circle}px;
+  width: #{$big-spin-circle}px;
+  
+  &:active{
+    background: white;
+    color: black;
+  }
+  
+  
+}
+
 
 main.about-me{
   overflow-x: clip;
@@ -77,8 +101,6 @@ main.about-me{
   }
     }
     
-    $big-spin-circle:250;
-    $small-spin-circle:50;
   
     &.education{
       flex-wrap: nowrap !important;
@@ -92,14 +114,13 @@ main.about-me{
       }
       
       &.show{
-        p{
+        >p{
           display: block;
-          @extend .border-3-red-50;
+          //@extend .border-3-red-50;
           
           height: auto;
-          width: 150px;
-          /* min-width: 150px !important; */
-          transition: width 1s ease-in;
+          width: 150px !important;
+          transition: width 1s ease-in ;
           transform-origin: center right;
         }
        
@@ -108,7 +129,8 @@ main.about-me{
             transition: opacity 0.35s ease-in;
           }
           
-        i{
+          /* Back Button */
+          i{
           @extend .f-ctr;
           font-size: 50px;
           position: relative;
@@ -131,13 +153,45 @@ main.about-me{
         
         .spinning-circle-container{
           animation: scale-100-50 1s ease-in forwards !important;
+          i{
+            @include back-button();
+          }
           .spinning-circle{
             border: none !important;
             /* transition: border 0s 1s; */
           }
         }
       }
-      
+      &.hide{
+        >p{
+          height: auto;
+          width: 0px !important;
+          transition: width 1s ease-in ;
+          transform-origin: center right;
+        }
+        i{
+          display: none !important;
+        }
+        .spinning-circle-container{
+          display: block;
+          /* transform: scale(0.7) !important; */
+          animation: scale-70-100 1s ease-out forwards !important;
+        }
+        .edu-btn{
+          opacity: 100;
+          transition: opacity 1s ease-out;
+        }
+        
+      }
+     &:not(.show):not(.hide){
+         .spinning-circle-container{
+           
+           >p, i{
+            display: none !important;
+          }
+          
+         }
+        } 
       
       .spinning-circle-container{
         
@@ -156,19 +210,9 @@ main.about-me{
           transform: scale(1);
         }
         
-        /* &.show{
-          animation: scale-100-50 1s ease-in forwards !important;
+    
         
-        } */
-        
-        &:not(.show){
-           >p, >i{
-            display: none !important;
-          }
-          >p{
-            transform: scale(200);
-          }
-        }
+        /**/
         
         
         
