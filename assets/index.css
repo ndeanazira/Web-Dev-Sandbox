@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 196px;
-  width: 196px;
-  left: min(calc( 70vw - 196px), 196px);
+  height: 148px;
+  width: 148px;
+  left: min(calc( 78vw - 148px), 148px);
 }
 .bubble-size-1 i {
-  font-size: 49px;
+  font-size: 37px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 161px;
-  width: 161px;
-  left: min(calc( 6vw - 161px), 161px);
+  height: 86px;
+  width: 86px;
+  left: min(calc( 93vw - 86px), 86px);
 }
 .bubble-size-2 i {
-  font-size: 40.25px;
+  font-size: 21.5px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 105px;
-  width: 105px;
-  left: min(calc( 100vw - 105px), 105px);
+  height: 117px;
+  width: 117px;
+  left: min(calc( 50vw - 117px), 117px);
 }
 .bubble-size-3 i {
-  font-size: 26.25px;
+  font-size: 29.25px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 136px;
-  width: 136px;
-  left: min(calc( 9vw - 136px), 136px);
+  height: 176px;
+  width: 176px;
+  left: min(calc( 96vw - 176px), 176px);
 }
 .bubble-size-4 i {
-  font-size: 34px;
+  font-size: 44px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -204,12 +204,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 102px;
-  width: 102px;
-  left: min(calc( 89vw - 102px), 102px);
+  height: 194px;
+  width: 194px;
+  left: min(calc( 7vw - 194px), 194px);
 }
 .bubble-size-5 i {
-  font-size: 25.5px;
+  font-size: 48.5px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -226,12 +226,12 @@
 }
 
 /* FLEX DISPLAY TYPES START */
-.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section ul, main.about-me section .skill-card {
+.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section .skill-card, main.about-me section .skill-card h5, main.about-me section .skill-card ul {
   display: flex;
   justify-content: center;
   align-items: center !important;
 }
-.f-ctr.rev-flow, main.about-me section.rev-flow, main.about-me section.education.show i.rev-flow, main.about-me section.education .spinning-circle-container .spinning-circle > div.rev-flow, main.about-me section ul, main.about-me section.education.show i.skill-card, main.about-me section.education .spinning-circle-container .spinning-circle > div.skill-card, main.about-me section .skill-card {
+.f-ctr.rev-flow, main.about-me section.rev-flow, main.about-me section.education.show i.rev-flow, main.about-me section.education .spinning-circle-container .spinning-circle > div.rev-flow, main.about-me section .skill-card h5.rev-flow, main.about-me section.education.show i.skill-card, main.about-me section.education .spinning-circle-container .spinning-circle > div.skill-card, main.about-me section .skill-card, main.about-me section .skill-card h5.skill-card, main.about-me section .skill-card ul {
   flex-flow: column;
 }
 
@@ -240,7 +240,7 @@
   justify-content: center;
   align-items: start !important;
 }
-.f-ctr-st.rev-flow, main.about-me section ul.f-ctr-st, main.about-me section .f-ctr-st.skill-card {
+.f-ctr-st.rev-flow, main.about-me section .f-ctr-st.skill-card, main.about-me section .skill-card ul.f-ctr-st {
   flex-flow: column;
 }
 
@@ -249,7 +249,7 @@
   justify-content: center;
   align-items: end !important;
 }
-.f-ctr-ed.rev-flow, main.about-me section ul.f-ctr-ed, main.about-me section .f-ctr-ed.skill-card {
+.f-ctr-ed.rev-flow, main.about-me section .f-ctr-ed.skill-card, main.about-me section .skill-card ul.f-ctr-ed {
   flex-flow: column;
 }
 
@@ -258,7 +258,7 @@
   justify-content: center;
   align-items: space-between !important;
 }
-.f-ctr-spb.rev-flow, main.about-me section ul.f-ctr-spb, main.about-me section .f-ctr-spb.skill-card {
+.f-ctr-spb.rev-flow, main.about-me section .f-ctr-spb.skill-card, main.about-me section .skill-card ul.f-ctr-spb {
   flex-flow: column;
 }
 
@@ -267,7 +267,7 @@
   justify-content: center;
   align-items: space-around !important;
 }
-.f-ctr-spa.rev-flow, main.about-me section ul.f-ctr-spa, main.about-me section .f-ctr-spa.skill-card {
+.f-ctr-spa.rev-flow, main.about-me section .f-ctr-spa.skill-card, main.about-me section .skill-card ul.f-ctr-spa {
   flex-flow: column;
 }
 
@@ -276,7 +276,7 @@
   justify-content: center;
   align-items: space-evenly !important;
 }
-.f-ctr-spe.rev-flow, main.about-me section ul.f-ctr-spe, main.about-me section .f-ctr-spe.skill-card {
+.f-ctr-spe.rev-flow, main.about-me section .f-ctr-spe.skill-card, main.about-me section .skill-card ul.f-ctr-spe {
   flex-flow: column;
 }
 
@@ -285,7 +285,7 @@
   justify-content: start;
   align-items: center !important;
 }
-.f-st-ctr.rev-flow, main.about-me section ul.f-st-ctr, main.about-me section .f-st-ctr.skill-card {
+.f-st-ctr.rev-flow, main.about-me section .f-st-ctr.skill-card, main.about-me section .skill-card ul.f-st-ctr {
   flex-flow: column;
 }
 
@@ -294,7 +294,7 @@
   justify-content: start;
   align-items: start !important;
 }
-.f-st.rev-flow, main.about-me section ul.f-st, main.about-me section .f-st.skill-card {
+.f-st.rev-flow, main.about-me section .f-st.skill-card, main.about-me section .skill-card ul.f-st {
   flex-flow: column;
 }
 
@@ -303,7 +303,7 @@
   justify-content: start;
   align-items: end !important;
 }
-.f-st-ed.rev-flow, main.about-me section ul.f-st-ed, main.about-me section .f-st-ed.skill-card {
+.f-st-ed.rev-flow, main.about-me section .f-st-ed.skill-card, main.about-me section .skill-card ul.f-st-ed {
   flex-flow: column;
 }
 
@@ -312,7 +312,7 @@
   justify-content: start;
   align-items: space-between !important;
 }
-.f-st-spb.rev-flow, main.about-me section ul.f-st-spb, main.about-me section .f-st-spb.skill-card {
+.f-st-spb.rev-flow, main.about-me section .f-st-spb.skill-card, main.about-me section .skill-card ul.f-st-spb {
   flex-flow: column;
 }
 
@@ -321,7 +321,7 @@
   justify-content: start;
   align-items: space-around !important;
 }
-.f-st-spa.rev-flow, main.about-me section ul.f-st-spa, main.about-me section .f-st-spa.skill-card {
+.f-st-spa.rev-flow, main.about-me section .f-st-spa.skill-card, main.about-me section .skill-card ul.f-st-spa {
   flex-flow: column;
 }
 
@@ -330,7 +330,7 @@
   justify-content: start;
   align-items: space-evenly !important;
 }
-.f-st-spe.rev-flow, main.about-me section ul.f-st-spe, main.about-me section .f-st-spe.skill-card {
+.f-st-spe.rev-flow, main.about-me section .f-st-spe.skill-card, main.about-me section .skill-card ul.f-st-spe {
   flex-flow: column;
 }
 
@@ -339,7 +339,7 @@
   justify-content: end;
   align-items: center !important;
 }
-.f-ed-ctr.rev-flow, main.about-me section ul.f-ed-ctr, main.about-me section .f-ed-ctr.skill-card {
+.f-ed-ctr.rev-flow, main.about-me section .f-ed-ctr.skill-card, main.about-me section .skill-card ul.f-ed-ctr {
   flex-flow: column;
 }
 
@@ -348,7 +348,7 @@
   justify-content: end;
   align-items: start !important;
 }
-.f-ed-st.rev-flow, main.about-me section ul.f-ed-st, main.about-me section .f-ed-st.skill-card {
+.f-ed-st.rev-flow, main.about-me section .f-ed-st.skill-card, main.about-me section .skill-card ul.f-ed-st {
   flex-flow: column;
 }
 
@@ -357,7 +357,7 @@
   justify-content: end;
   align-items: end !important;
 }
-.f-ed.rev-flow, main.about-me section ul.f-ed, main.about-me section .f-ed.skill-card {
+.f-ed.rev-flow, main.about-me section .f-ed.skill-card, main.about-me section .skill-card ul.f-ed {
   flex-flow: column;
 }
 
@@ -366,7 +366,7 @@
   justify-content: end;
   align-items: space-between !important;
 }
-.f-ed-spb.rev-flow, main.about-me section ul.f-ed-spb, main.about-me section .f-ed-spb.skill-card {
+.f-ed-spb.rev-flow, main.about-me section .f-ed-spb.skill-card, main.about-me section .skill-card ul.f-ed-spb {
   flex-flow: column;
 }
 
@@ -375,7 +375,7 @@
   justify-content: end;
   align-items: space-around !important;
 }
-.f-ed-spa.rev-flow, main.about-me section ul.f-ed-spa, main.about-me section .f-ed-spa.skill-card {
+.f-ed-spa.rev-flow, main.about-me section .f-ed-spa.skill-card, main.about-me section .skill-card ul.f-ed-spa {
   flex-flow: column;
 }
 
@@ -384,7 +384,7 @@
   justify-content: end;
   align-items: space-evenly !important;
 }
-.f-ed-spe.rev-flow, main.about-me section ul.f-ed-spe, main.about-me section .f-ed-spe.skill-card {
+.f-ed-spe.rev-flow, main.about-me section .f-ed-spe.skill-card, main.about-me section .skill-card ul.f-ed-spe {
   flex-flow: column;
 }
 
@@ -393,7 +393,7 @@
   justify-content: space-between;
   align-items: center !important;
 }
-.f-spb-ctr.rev-flow, main.about-me section ul.f-spb-ctr, main.about-me section .f-spb-ctr.skill-card {
+.f-spb-ctr.rev-flow, main.about-me section .f-spb-ctr.skill-card, main.about-me section .skill-card ul.f-spb-ctr {
   flex-flow: column;
 }
 
@@ -402,7 +402,7 @@
   justify-content: space-between;
   align-items: start !important;
 }
-.f-spb-st.rev-flow, main.about-me section ul.f-spb-st, main.about-me section .f-spb-st.skill-card {
+.f-spb-st.rev-flow, main.about-me section .f-spb-st.skill-card, main.about-me section .skill-card ul.f-spb-st {
   flex-flow: column;
 }
 
@@ -411,7 +411,7 @@
   justify-content: space-between;
   align-items: end !important;
 }
-.f-spb-ed.rev-flow, main.about-me section ul.f-spb-ed, main.about-me section .f-spb-ed.skill-card {
+.f-spb-ed.rev-flow, main.about-me section .f-spb-ed.skill-card, main.about-me section .skill-card ul.f-spb-ed {
   flex-flow: column;
 }
 
@@ -420,7 +420,7 @@
   justify-content: space-between;
   align-items: space-between !important;
 }
-.f-spb.rev-flow, main.about-me section ul.f-spb, main.about-me section .f-spb.skill-card {
+.f-spb.rev-flow, main.about-me section .f-spb.skill-card, main.about-me section .skill-card ul.f-spb {
   flex-flow: column;
 }
 
@@ -429,7 +429,7 @@
   justify-content: space-between;
   align-items: space-around !important;
 }
-.f-spb-spa.rev-flow, main.about-me section ul.f-spb-spa, main.about-me section .f-spb-spa.skill-card {
+.f-spb-spa.rev-flow, main.about-me section .f-spb-spa.skill-card, main.about-me section .skill-card ul.f-spb-spa {
   flex-flow: column;
 }
 
@@ -438,7 +438,7 @@
   justify-content: space-between;
   align-items: space-evenly !important;
 }
-.f-spb-spe.rev-flow, main.about-me section ul.f-spb-spe, main.about-me section .f-spb-spe.skill-card {
+.f-spb-spe.rev-flow, main.about-me section .f-spb-spe.skill-card, main.about-me section .skill-card ul.f-spb-spe {
   flex-flow: column;
 }
 
@@ -447,7 +447,7 @@
   justify-content: space-around;
   align-items: center !important;
 }
-.f-spa-ctr.rev-flow, main.about-me section ul.f-spa-ctr, main.about-me section .f-spa-ctr.skill-card {
+.f-spa-ctr.rev-flow, main.about-me section .f-spa-ctr.skill-card, main.about-me section .skill-card ul.f-spa-ctr {
   flex-flow: column;
 }
 
@@ -456,7 +456,7 @@
   justify-content: space-around;
   align-items: start !important;
 }
-.f-spa-st.rev-flow, main.about-me section ul.f-spa-st, main.about-me section .f-spa-st.skill-card {
+.f-spa-st.rev-flow, main.about-me section .f-spa-st.skill-card, main.about-me section .skill-card ul.f-spa-st {
   flex-flow: column;
 }
 
@@ -465,7 +465,7 @@
   justify-content: space-around;
   align-items: end !important;
 }
-.f-spa-ed.rev-flow, main.about-me section ul.f-spa-ed, main.about-me section .f-spa-ed.skill-card {
+.f-spa-ed.rev-flow, main.about-me section .f-spa-ed.skill-card, main.about-me section .skill-card ul.f-spa-ed {
   flex-flow: column;
 }
 
@@ -474,7 +474,7 @@
   justify-content: space-around;
   align-items: space-between !important;
 }
-.f-spa-spb.rev-flow, main.about-me section ul.f-spa-spb, main.about-me section .f-spa-spb.skill-card {
+.f-spa-spb.rev-flow, main.about-me section .f-spa-spb.skill-card, main.about-me section .skill-card ul.f-spa-spb {
   flex-flow: column;
 }
 
@@ -483,7 +483,7 @@
   justify-content: space-around;
   align-items: space-around !important;
 }
-.f-spa.rev-flow, main.about-me section ul.f-spa, main.about-me section .f-spa.skill-card {
+.f-spa.rev-flow, main.about-me section .f-spa.skill-card, main.about-me section .skill-card ul.f-spa {
   flex-flow: column;
 }
 
@@ -492,7 +492,7 @@
   justify-content: space-around;
   align-items: space-evenly !important;
 }
-.f-spa-spe.rev-flow, main.about-me section ul.f-spa-spe, main.about-me section .f-spa-spe.skill-card {
+.f-spa-spe.rev-flow, main.about-me section .f-spa-spe.skill-card, main.about-me section .skill-card ul.f-spa-spe {
   flex-flow: column;
 }
 
@@ -501,7 +501,7 @@
   justify-content: space-evenly;
   align-items: center !important;
 }
-.f-spe-ctr.rev-flow, main.about-me section ul.f-spe-ctr, main.about-me section .f-spe-ctr.skill-card {
+.f-spe-ctr.rev-flow, main.about-me section .f-spe-ctr.skill-card, main.about-me section .skill-card ul.f-spe-ctr {
   flex-flow: column;
 }
 
@@ -510,7 +510,7 @@
   justify-content: space-evenly;
   align-items: start !important;
 }
-.f-spe-st.rev-flow, main.about-me section ul.f-spe-st, main.about-me section .f-spe-st.skill-card {
+.f-spe-st.rev-flow, main.about-me section .f-spe-st.skill-card, main.about-me section .skill-card ul.f-spe-st {
   flex-flow: column;
 }
 
@@ -519,7 +519,7 @@
   justify-content: space-evenly;
   align-items: end !important;
 }
-.f-spe-ed.rev-flow, main.about-me section ul.f-spe-ed, main.about-me section .f-spe-ed.skill-card {
+.f-spe-ed.rev-flow, main.about-me section .f-spe-ed.skill-card, main.about-me section .skill-card ul.f-spe-ed {
   flex-flow: column;
 }
 
@@ -528,7 +528,7 @@
   justify-content: space-evenly;
   align-items: space-between !important;
 }
-.f-spe-spb.rev-flow, main.about-me section ul.f-spe-spb, main.about-me section .f-spe-spb.skill-card {
+.f-spe-spb.rev-flow, main.about-me section .f-spe-spb.skill-card, main.about-me section .skill-card ul.f-spe-spb {
   flex-flow: column;
 }
 
@@ -537,7 +537,7 @@
   justify-content: space-evenly;
   align-items: space-around !important;
 }
-.f-spe-spa.rev-flow, main.about-me section ul.f-spe-spa, main.about-me section .f-spe-spa.skill-card {
+.f-spe-spa.rev-flow, main.about-me section .f-spe-spa.skill-card, main.about-me section .skill-card ul.f-spe-spa {
   flex-flow: column;
 }
 
@@ -546,7 +546,7 @@
   justify-content: space-evenly;
   align-items: space-evenly !important;
 }
-.f-spe.rev-flow, main.about-me section ul.f-spe, main.about-me section .f-spe.skill-card {
+.f-spe.rev-flow, main.about-me section .f-spe.skill-card, main.about-me section .skill-card ul.f-spe {
   flex-flow: column;
 }
 
@@ -156690,87 +156690,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(95vw, -99vh);
+    transform: translate(55vw, -36vh);
   }
   25% {
-    transform: translate(57vw, -74vh);
+    transform: translate(98vw, -77vh);
   }
   50% {
-    transform: translate(37vw, -100vh);
+    transform: translate(24vw, -87vh);
   }
   75% {
-    transform: translate(46vw, -45vh);
+    transform: translate(17vw, -82vh);
   }
   100% {
-    transform: translate(93vw, -63vh);
+    transform: translate(50vw, -4vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(46vw, -3vh);
+    transform: translate(72vw, -45vh);
   }
   25% {
-    transform: translate(68vw, -48vh);
+    transform: translate(94vw, -90vh);
   }
   50% {
-    transform: translate(29vw, -30vh);
+    transform: translate(31vw, -6vh);
   }
   75% {
-    transform: translate(21vw, -96vh);
+    transform: translate(43vw, -10vh);
   }
   100% {
-    transform: translate(31vw, -8vh);
+    transform: translate(29vw, -37vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(14vw, -48vh);
+    transform: translate(46vw, -6vh);
   }
   25% {
-    transform: translate(28vw, -17vh);
+    transform: translate(8vw, -28vh);
   }
   50% {
-    transform: translate(42vw, -84vh);
+    transform: translate(80vw, -61vh);
   }
   75% {
-    transform: translate(36vw, -7vh);
+    transform: translate(43vw, -29vh);
   }
   100% {
-    transform: translate(69vw, -80vh);
+    transform: translate(12vw, -27vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(47vw, -51vh);
+    transform: translate(10vw, -81vh);
   }
   25% {
-    transform: translate(72vw, -70vh);
+    transform: translate(18vw, -34vh);
   }
   50% {
-    transform: translate(17vw, -35vh);
+    transform: translate(91vw, -88vh);
   }
   75% {
-    transform: translate(73vw, -32vh);
+    transform: translate(93vw, -49vh);
   }
   100% {
-    transform: translate(27vw, -46vh);
+    transform: translate(35vw, -72vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(47vw, -79vh);
+    transform: translate(99vw, -65vh);
   }
   25% {
-    transform: translate(35vw, -79vh);
+    transform: translate(92vw, -64vh);
   }
   50% {
-    transform: translate(93vw, -51vh);
+    transform: translate(89vw, -76vh);
   }
   75% {
-    transform: translate(98vw, -22vh);
+    transform: translate(35vw, -55vh);
   }
   100% {
-    transform: translate(73vw, -90vh);
+    transform: translate(63vw, -11vh);
   }
 }
 /** floating animation end **/
@@ -268252,7 +268252,9 @@ main.about-me section {
   color: white;
 }
 main.about-me section h5 {
-  display: block !important;
+  display: block;
+  width: 100%;
+  padding: 2px;
   color: white;
 }
 main.about-me section.intro h1.animate {
@@ -268422,16 +268424,6 @@ main.about-me section.education .spinning-circle-container .spinning-circle > di
 main.about-me section.education .spinning-circle-container .spinning-circle {
   flex-flow: column;
 }
-main.about-me section ul {
-  text-align: center !important;
-  width: 100%;
-  padding: 0px;
-  font-weight: 100;
-}
-main.about-me section ul > li {
-  width: 100%;
-  list-style-position: inside;
-}
 main.about-me section .max-card-size {
   min-height: 175px;
   min-width: 175px;
@@ -268439,7 +268431,7 @@ main.about-me section .max-card-size {
 main.about-me section .skill-card {
   min-height: 175px;
   min-width: 175px;
-  position: relative;
+  /* position: relative; */
   overflow: hidden !important;
   /* h5{
     position: absolute;
@@ -268452,11 +268444,25 @@ main.about-me section .skill-card {
     @extend .f-ctr;
   } */
 }
+main.about-me section .skill-card h5 {
+  height: 35px;
+  margin: 0px;
+}
 main.about-me section .skill-card ul {
+  /* display: block; */
   width: 100%;
-  height: calc(100% - 25px);
-  padding-top: 25px;
+  height: 100% !important;
   overflow: hidden scroll;
+  text-align: center !important;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  font-weight: 500;
+  font-size: 13px;
+}
+main.about-me section .skill-card ul > li {
+  width: 100%;
+  list-style-position: inside;
 }
 main.about-me .trapezium-container {
   height: auto;
@@ -268506,13 +268512,5 @@ main.about-me .trapezium-container p {
   }
   to {
     transform: scale(1);
-  }
-}
-@keyframes slide-n-shrink {
-  from {
-    transform: scale(1) translateX(0vw);
-  }
-  to {
-    transform: scale(0.7) translateX(-30vw);
   }
 }

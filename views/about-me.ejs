@@ -1,4 +1,4 @@
-<!-- <style>
+<!-- <>
   section{
     border: 1px solid lightgreen;
   }
@@ -24,7 +24,7 @@
 "Client Relations: Provided high-level technical support and custom feature development for professional vehicle calibrators."
 ];
 %>
-<main style="border:1px solid white;" class="about-me">
+<main class="about-me">
   <% for(let i=0;i<100;i=i+10){%>
   <div style="height:12px;" class="bg-#color#-<%=i%> text-#color#-<%=i%>  w-full">.</div>
   <% } %>
@@ -40,7 +40,7 @@
       <h5>Skills</h5>
   <section class="f-spa wrap">
     <div class="card-#color#-10-r15-h35  skill-card">
-      <h5 class="bg-#color#-20 text-#color#-50">Frontend</h5>
+      <h5 class="bg-#color#-50 text-#color#-50">Frontend</h5>
       <ul class="text-#color#-90">
         <li>React (Hooks, Context)</li>
         <li>Next.js</li>
@@ -55,7 +55,7 @@
   
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-20 text-#color#-50">Backend & DB</h5>
+      <h5 class="bg-#color#-50 text-#color#-10">Backend & DB</h5>
       <ul class="text-#color#-90">
         <li>Node.js (Express)</li>
         <li>PHP</li>
@@ -70,7 +70,7 @@
   
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-20 text-#color#-50">Tools/Dev Ops</h5>
+      <h5 class="bg-#color#-50 text-#color#-50">Tools/Dev Ops</h5>
       <ul class="text-#color#-90">
         <li>Git</li>
         <li>Vercel</li>
@@ -82,7 +82,7 @@
     
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-20 text-#color#-50">Low Level & Others</h5>
+      <h5 class="bg-#color#-50 text-#color#-50">Low Level & Others</h5>
       <ul class="text-#color#-90">
         <li>linux</li>
         <li>windows</li>
@@ -100,7 +100,7 @@
     <h5>My Projects</h5>
     
      <p>Beyond my production-focused projects, I maintain a collection of laboratory experiments. This library documents my journey through vanilla JavaScript, PHP, and server-side logic, serving as a dedicated environment for stress-testing fundamentals and exploring SaaS architectural concepts</p>
-    <a href="/about" class="view-projects f-ctr" style="height:150px; width:150px; border:1px solid green; border-radius:100%; overflow: hidden;">
+    <a href="/about" class="view-projects f-ctr" style="height:150px; width:150px; er:1px solid green; border-radius:100%; overflow: hidden;">
       <img src="/assets/About-Me/view-projects.gif" alt="View Projects GIF" class="h-full w-full">
     </a>
     <div>Click Here to go view my projects</div>
@@ -211,14 +211,6 @@
           $(".education .spinning-circle-container").removeClass("animate animated");
       }
           
-      
-    //}
-    /*else{
-        //elemArray_1.forEach((elem)=>elem.removeClass("animate"));
-        Array.from($("main.about-me *")).forEach((elem)=>$(elem).removeClass("animate"));
-    
-      }*/
-      //if(window.scrollY >= $(".education"))
     });
     
   </script>

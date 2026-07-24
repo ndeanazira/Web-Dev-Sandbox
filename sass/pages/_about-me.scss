@@ -55,7 +55,9 @@ main.about-me{
       color: white;
       
       h5{
-        display: block !important;
+        display: block;
+        width: 100%;
+        padding: 2px;
         color:white;
       }
     
@@ -275,19 +277,8 @@ main.about-me{
 
 }
 
-ul{
-  text-align: center !important;
-  width: 100%;
-  padding: 0px;
-  @extend .f-ctr;
-  @extend .rev-flow;
-  font-weight: 100;
-}
 
-ul > li{
-  width: 100%;
-  list-style-position: inside;
-}
+
 
 .max-card-size{
   min-height: 175px;
@@ -300,7 +291,7 @@ ul > li{
   @extend .f-ctr;
   @extend .rev-flow;
   @extend .m-3;
-  position: relative;
+  /* position: relative; */
   overflow: hidden !important;
   
   /* h5{
@@ -314,11 +305,31 @@ ul > li{
     @extend .f-ctr;
   } */
   
+  h5{
+    height: 35px;
+    margin: 0px;
+    @extend .f-ctr !important;
+  }
+  
   ul{
+    /* display: block; */
     width: 100%;
-    height: calc(100% - 25px);
-    padding-top: 25px;
+    height: 100% !important;
+
     overflow: hidden scroll;
+    text-align: center !important;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    @extend .f-ctr;
+    @extend .rev-flow;
+    font-weight: 500;
+    font-size: 13px;
+    
+    >li{
+      width: 100%;
+      list-style-position: inside;
+    }
   }
 }
 }
@@ -369,9 +380,4 @@ ul > li{
 @keyframes mega-scale{
   from{transform: scale(7);}
   to{transform: scale(1);}
-}
-
-@keyframes slide-n-shrink{
-  from{transform: scale(1) translateX(0vw);}
-  to{transform: scale(0.7) translateX(-30vw);}
 }
