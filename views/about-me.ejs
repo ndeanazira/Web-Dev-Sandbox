@@ -36,11 +36,11 @@
      <p>First-class MEng Automotive Engineer with 5 years of experience in high-stakes embedded software and reverse engineering. Transitioning into Full-Stack Web Development with technical mastery in React, Next.js, and TypeScript. Expert at optimizing complex logic and reducing process times—seeking to apply low-level efficiency mindsets to modern web architecture.
 </p>
   </section>
-  
-      <h5>Skills</h5>
+  <hr/>
   <section class="f-spa wrap">
+      <h5>Skills</h5>
     <div class="card-#color#-10-r15-h35  skill-card">
-      <h5 class="bg-#color#-50 text-#color#-50">Frontend</h5>
+      <h6 class="bg-#color#-50 text-#color#-50">Frontend</h6>
       <ul class="text-#color#-90">
         <li>React (Hooks, Context)</li>
         <li>Next.js</li>
@@ -55,7 +55,7 @@
   
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-50 text-#color#-10">Backend & DB</h5>
+      <h6 class="bg-#color#-50 text-#color#-10">Backend & DB</h6>
       <ul class="text-#color#-90">
         <li>Node.js (Express)</li>
         <li>PHP</li>
@@ -70,7 +70,7 @@
   
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-50 text-#color#-50">Tools/Dev Ops</h5>
+      <h6 class="bg-#color#-50 text-#color#-50">Tools/Dev Ops</h6>
       <ul class="text-#color#-90">
         <li>Git</li>
         <li>Vercel</li>
@@ -82,7 +82,7 @@
     
     <div class="card-#color#-10-r15-h35  skill-card">
       
-      <h5 class="bg-#color#-50 text-#color#-50">Low Level & Others</h5>
+      <h6 class="bg-#color#-50 text-#color#-50">Low Level & Others</h6>
       <ul class="text-#color#-90">
         <li>linux</li>
         <li>windows</li>
@@ -95,17 +95,23 @@
     </div>
     
   </section>
-  
-  <section>
+  <hr/>
+  <section class="projects">
     <h5>My Projects</h5>
     
      <p>Beyond my production-focused projects, I maintain a collection of laboratory experiments. This library documents my journey through vanilla JavaScript, PHP, and server-side logic, serving as a dedicated environment for stress-testing fundamentals and exploring SaaS architectural concepts</p>
     <a href="/about" class="view-projects f-ctr" style="height:150px; width:150px; er:1px solid green; border-radius:100%; overflow: hidden;">
       <img src="/assets/About-Me/view-projects.gif" alt="View Projects GIF" class="h-full w-full">
     </a>
-    <div>Click Here to go view my projects</div>
+    <div>
+      <div>
+        Click Here to go view my projects
+      </div>
+        <img class="click-here" src="assets/Pictures/Click-Here-arrow.jpg" alt="Click Here"/>
+    
+    </div>
   </section>
-  
+  <hr/>
   <section>
     <h5>Professional Experience</h5>
     <%for(let i=0; i<experience.length;i++){ %>
@@ -120,8 +126,9 @@
     <% } %>
 
   </section>
-    <h5>Education</h5>
+  <hr/>
   <section class="education">
+    <h5>Education</h5>
     <div class="spinning-circle-container">
       <div class="spinning-circle border-3-#color#-40">
         <div class="edu-btn border-3-#color#-20 bg-white">
@@ -138,6 +145,7 @@
     </div>
       <p class=""></p>
   </section>
+  
   <script>
     
     const trapezium = $(".trapezium");
@@ -169,7 +177,7 @@
       const atTrapez = window.scrollY >= ($(".trapezium-container")[0].offsetTop - window.innerHeight);
       
   
-        const elemArray_1 = [ 
+        const elemArray_1 = [ $(".about-me section.intro"),
         $(".about-me h1"), $(".about-me #me"), $(".about-me h3"), $(".about-me section.intro p")];
   
       if(!atTrapez&&fullVh>0.10){

@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 148px;
-  width: 148px;
-  left: min(calc( 78vw - 148px), 148px);
+  height: 180px;
+  width: 180px;
+  left: min(calc( 62vw - 180px), 180px);
 }
 .bubble-size-1 i {
-  font-size: 37px;
+  font-size: 45px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 86px;
-  width: 86px;
-  left: min(calc( 93vw - 86px), 86px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 22vw - 50px), 50px);
 }
 .bubble-size-2 i {
-  font-size: 21.5px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 117px;
-  width: 117px;
-  left: min(calc( 50vw - 117px), 117px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 89vw - 50px), 50px);
 }
 .bubble-size-3 i {
-  font-size: 29.25px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 176px;
-  width: 176px;
-  left: min(calc( 96vw - 176px), 176px);
+  height: 94px;
+  width: 94px;
+  left: min(calc( 15vw - 94px), 94px);
 }
 .bubble-size-4 i {
-  font-size: 44px;
+  font-size: 23.5px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -204,12 +204,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 194px;
-  width: 194px;
-  left: min(calc( 7vw - 194px), 194px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 3vw - 50px), 50px);
 }
 .bubble-size-5 i {
-  font-size: 48.5px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-5 {
@@ -226,12 +226,12 @@
 }
 
 /* FLEX DISPLAY TYPES START */
-.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section .skill-card, main.about-me section .skill-card h5, main.about-me section .skill-card ul {
+.f-ctr, main.about-me section, main.about-me section.education.show i, main.about-me section.education.show .spinning-circle-container i, main.about-me section.education .spinning-circle-container .spinning-circle > div, main.about-me section .skill-card, main.about-me section .skill-card h6, main.about-me section .skill-card ul {
   display: flex;
   justify-content: center;
   align-items: center !important;
 }
-.f-ctr.rev-flow, main.about-me section.rev-flow, main.about-me section.education.show i.rev-flow, main.about-me section.education .spinning-circle-container .spinning-circle > div.rev-flow, main.about-me section .skill-card h5.rev-flow, main.about-me section.education.show i.skill-card, main.about-me section.education .spinning-circle-container .spinning-circle > div.skill-card, main.about-me section .skill-card, main.about-me section .skill-card h5.skill-card, main.about-me section .skill-card ul {
+.f-ctr.rev-flow, main.about-me section.rev-flow, main.about-me section.education.show i.rev-flow, main.about-me section.education .spinning-circle-container .spinning-circle > div.rev-flow, main.about-me section .skill-card h6.rev-flow, main.about-me section.education.show i.skill-card, main.about-me section.education .spinning-circle-container .spinning-circle > div.skill-card, main.about-me section .skill-card, main.about-me section .skill-card h6.skill-card, main.about-me section .skill-card ul {
   flex-flow: column;
 }
 
@@ -156690,87 +156690,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(55vw, -36vh);
+    transform: translate(60vw, -93vh);
   }
   25% {
-    transform: translate(98vw, -77vh);
+    transform: translate(62vw, -26vh);
   }
   50% {
-    transform: translate(24vw, -87vh);
+    transform: translate(73vw, -23vh);
   }
   75% {
-    transform: translate(17vw, -82vh);
+    transform: translate(50vw, -85vh);
   }
   100% {
-    transform: translate(50vw, -4vh);
+    transform: translate(71vw, -95vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(72vw, -45vh);
+    transform: translate(93vw, -18vh);
   }
   25% {
-    transform: translate(94vw, -90vh);
+    transform: translate(43vw, -17vh);
   }
   50% {
-    transform: translate(31vw, -6vh);
+    transform: translate(57vw, -20vh);
   }
   75% {
-    transform: translate(43vw, -10vh);
+    transform: translate(26vw, -70vh);
   }
   100% {
-    transform: translate(29vw, -37vh);
+    transform: translate(52vw, -51vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(46vw, -6vh);
+    transform: translate(11vw, -16vh);
   }
   25% {
-    transform: translate(8vw, -28vh);
+    transform: translate(52vw, -22vh);
   }
   50% {
-    transform: translate(80vw, -61vh);
+    transform: translate(58vw, -16vh);
   }
   75% {
-    transform: translate(43vw, -29vh);
+    transform: translate(62vw, -87vh);
   }
   100% {
-    transform: translate(12vw, -27vh);
+    transform: translate(21vw, -85vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(10vw, -81vh);
+    transform: translate(50vw, -21vh);
   }
   25% {
-    transform: translate(18vw, -34vh);
+    transform: translate(63vw, -71vh);
   }
   50% {
-    transform: translate(91vw, -88vh);
+    transform: translate(48vw, -8vh);
   }
   75% {
-    transform: translate(93vw, -49vh);
+    transform: translate(86vw, -23vh);
   }
   100% {
-    transform: translate(35vw, -72vh);
+    transform: translate(91vw, -1vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(99vw, -65vh);
+    transform: translate(3vw, -82vh);
   }
   25% {
-    transform: translate(92vw, -64vh);
+    transform: translate(3vw, -63vh);
   }
   50% {
-    transform: translate(89vw, -76vh);
+    transform: translate(69vw, -10vh);
   }
   75% {
-    transform: translate(35vw, -55vh);
+    transform: translate(80vw, -3vh);
   }
   100% {
-    transform: translate(63vw, -11vh);
+    transform: translate(51vw, -70vh);
   }
 }
 /** floating animation end **/
@@ -268244,18 +268244,26 @@ main.about ul.skills li img {
   height: 150px;
 }
 
+main.about-me hr {
+  width: 75vw;
+}
 main.about-me {
   overflow-x: clip;
 }
 main.about-me section {
   height: auto;
   color: white;
+  min-height: 500px;
 }
 main.about-me section h5 {
   display: block;
   width: 100%;
   padding: 2px;
-  color: white;
+  color: white !important;
+  font-size: 25px;
+}
+main.about-me section.intro.animate {
+  max-height: 100vh;
 }
 main.about-me section.intro h1.animate {
   position: absolute;
@@ -268281,10 +268289,16 @@ main.about-me section.intro #me {
   -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
 }
 main.about-me section.education {
+  /* display: block !important; */
+  position: relative;
   flex-wrap: nowrap !important;
 }
 main.about-me section.education h5 {
   margin-bottom: 40px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
 }
 main.about-me section.education {
   height: 350px;
@@ -268424,6 +268438,15 @@ main.about-me section.education .spinning-circle-container .spinning-circle > di
 main.about-me section.education .spinning-circle-container .spinning-circle {
   flex-flow: column;
 }
+main.about-me section.projects a {
+  height: 150px;
+  width: 150px;
+}
+main.about-me section.projects img.click-here {
+  width: 50px;
+  filter: invert(100%);
+  transform: rotate(-180deg);
+}
 main.about-me section .max-card-size {
   min-height: 175px;
   min-width: 175px;
@@ -268444,9 +268467,14 @@ main.about-me section .skill-card {
     @extend .f-ctr;
   } */
 }
-main.about-me section .skill-card h5 {
+main.about-me section .skill-card h6 {
+  /* display: block; */
+  width: 100%;
+  padding: 2px;
+  color: white;
   height: 35px;
   margin: 0px;
+  font-size: 15px;
 }
 main.about-me section .skill-card ul {
   /* display: block; */
