@@ -1,3 +1,5 @@
+@use "components/bubbles" as *;
+
 #pop-up-bg{
 	position: absolute;
 	top: 0px;
@@ -6,7 +8,6 @@
 	height: 100vh;
 	width: 100vw;
 }
-
 
 @mixin pop-up-mixin($length-local){
 	background: white;
@@ -29,9 +30,10 @@
 	.img-container{
 		width: calc($length-local / 3);
 		height: calc($length-local / 3);
-		overflow: hidden;
-		border-radius: 1000px;
-		animation: color-pulse-blue 5s linear infinite;
+	/*   overflow: hidden;
+	border-radius: 100%;
+	animation: color-pulse-blue 5s linear infinite; */
+	@include pulsing-circle-border();
 		#page-icon{
 			object-fit: cover;
 			width: 100%;

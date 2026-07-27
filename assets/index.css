@@ -48,12 +48,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 180px;
-  width: 180px;
-  left: min(calc( 62vw - 180px), 180px);
+  height: 50px;
+  width: 50px;
+  left: min(calc( 83vw - 50px), 50px);
 }
 .bubble-size-1 i {
-  font-size: 45px;
+  font-size: 12.5px;
 }
 
 .bubble-animation.bubble-animation-1 {
@@ -87,12 +87,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 22vw - 50px), 50px);
+  height: 153px;
+  width: 153px;
+  left: min(calc( 67vw - 153px), 153px);
 }
 .bubble-size-2 i {
-  font-size: 12.5px;
+  font-size: 38.25px;
 }
 
 .bubble-animation.bubble-animation-2 {
@@ -126,12 +126,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 50px;
-  width: 50px;
-  left: min(calc( 89vw - 50px), 50px);
+  height: 115px;
+  width: 115px;
+  left: min(calc( 10vw - 115px), 115px);
 }
 .bubble-size-3 i {
-  font-size: 12.5px;
+  font-size: 28.75px;
 }
 
 .bubble-animation.bubble-animation-3 {
@@ -165,12 +165,12 @@
   /* &:hover{
   	animation: bubble-inflate 
   } */
-  height: 94px;
-  width: 94px;
-  left: min(calc( 15vw - 94px), 94px);
+  height: 123px;
+  width: 123px;
+  left: min(calc( 94vw - 123px), 123px);
 }
 .bubble-size-4 i {
-  font-size: 23.5px;
+  font-size: 30.75px;
 }
 
 .bubble-animation.bubble-animation-4 {
@@ -206,7 +206,7 @@
   } */
   height: 50px;
   width: 50px;
-  left: min(calc( 3vw - 50px), 50px);
+  left: min(calc( 97vw - 50px), 50px);
 }
 .bubble-size-5 i {
   font-size: 12.5px;
@@ -570,44 +570,96 @@
   color: black;
 }
 
+.active-fill-red-100:active {
+  fill: black !important;
+}
+
+.active-bg-red-100:active {
+  background: black !important;
+}
+
+.active-text-red-100:active {
+  color: black !important;
+}
+
 .border-1-red-100 {
   border: 1px solid black;
+}
+
+.active-border-1-red-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-red-100 {
   border: 2px solid black;
 }
 
+.active-border-2-red-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-red-100 {
   border: 3px solid black;
+}
+
+.active-border-3-red-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-red-100 {
   border: 4px solid black;
 }
 
+.active-border-4-red-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-red-100 {
   border: 5px solid black;
+}
+
+.active-border-5-red-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-red-100 {
   border: 6px solid black;
 }
 
+.active-border-6-red-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-red-100 {
   border: 7px solid black;
+}
+
+.active-border-7-red-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-red-100 {
   border: 8px solid black;
 }
 
+.active-border-8-red-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-red-100 {
   border: 9px solid black;
 }
 
+.active-border-9-red-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-red-100 {
   border: 10px solid black;
+}
+
+.active-border-10-red-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-red-90 {
@@ -622,44 +674,96 @@
   color: #330000;
 }
 
+.active-fill-red-90:active {
+  fill: #330000 !important;
+}
+
+.active-bg-red-90:active {
+  background: #330000 !important;
+}
+
+.active-text-red-90:active {
+  color: #330000 !important;
+}
+
 .border-1-red-90 {
   border: 1px solid #330000;
+}
+
+.active-border-1-red-90:active {
+  border: 1px solid #330000 !important;
 }
 
 .border-2-red-90 {
   border: 2px solid #330000;
 }
 
+.active-border-2-red-90:active {
+  border: 2px solid #330000 !important;
+}
+
 .border-3-red-90 {
   border: 3px solid #330000;
+}
+
+.active-border-3-red-90:active {
+  border: 3px solid #330000 !important;
 }
 
 .border-4-red-90 {
   border: 4px solid #330000;
 }
 
+.active-border-4-red-90:active {
+  border: 4px solid #330000 !important;
+}
+
 .border-5-red-90 {
   border: 5px solid #330000;
+}
+
+.active-border-5-red-90:active {
+  border: 5px solid #330000 !important;
 }
 
 .border-6-red-90 {
   border: 6px solid #330000;
 }
 
+.active-border-6-red-90:active {
+  border: 6px solid #330000 !important;
+}
+
 .border-7-red-90 {
   border: 7px solid #330000;
+}
+
+.active-border-7-red-90:active {
+  border: 7px solid #330000 !important;
 }
 
 .border-8-red-90 {
   border: 8px solid #330000;
 }
 
+.active-border-8-red-90:active {
+  border: 8px solid #330000 !important;
+}
+
 .border-9-red-90 {
   border: 9px solid #330000;
 }
 
+.active-border-9-red-90:active {
+  border: 9px solid #330000 !important;
+}
+
 .border-10-red-90 {
   border: 10px solid #330000;
+}
+
+.active-border-10-red-90:active {
+  border: 10px solid #330000 !important;
 }
 
 .bg-red-80 {
@@ -674,44 +778,96 @@
   color: #660000;
 }
 
+.active-fill-red-80:active {
+  fill: #660000 !important;
+}
+
+.active-bg-red-80:active {
+  background: #660000 !important;
+}
+
+.active-text-red-80:active {
+  color: #660000 !important;
+}
+
 .border-1-red-80 {
   border: 1px solid #660000;
+}
+
+.active-border-1-red-80:active {
+  border: 1px solid #660000 !important;
 }
 
 .border-2-red-80 {
   border: 2px solid #660000;
 }
 
+.active-border-2-red-80:active {
+  border: 2px solid #660000 !important;
+}
+
 .border-3-red-80 {
   border: 3px solid #660000;
+}
+
+.active-border-3-red-80:active {
+  border: 3px solid #660000 !important;
 }
 
 .border-4-red-80 {
   border: 4px solid #660000;
 }
 
+.active-border-4-red-80:active {
+  border: 4px solid #660000 !important;
+}
+
 .border-5-red-80 {
   border: 5px solid #660000;
+}
+
+.active-border-5-red-80:active {
+  border: 5px solid #660000 !important;
 }
 
 .border-6-red-80 {
   border: 6px solid #660000;
 }
 
+.active-border-6-red-80:active {
+  border: 6px solid #660000 !important;
+}
+
 .border-7-red-80 {
   border: 7px solid #660000;
+}
+
+.active-border-7-red-80:active {
+  border: 7px solid #660000 !important;
 }
 
 .border-8-red-80 {
   border: 8px solid #660000;
 }
 
+.active-border-8-red-80:active {
+  border: 8px solid #660000 !important;
+}
+
 .border-9-red-80 {
   border: 9px solid #660000;
 }
 
+.active-border-9-red-80:active {
+  border: 9px solid #660000 !important;
+}
+
 .border-10-red-80 {
   border: 10px solid #660000;
+}
+
+.active-border-10-red-80:active {
+  border: 10px solid #660000 !important;
 }
 
 .bg-red-70 {
@@ -726,44 +882,96 @@
   color: #990000;
 }
 
+.active-fill-red-70:active {
+  fill: #990000 !important;
+}
+
+.active-bg-red-70:active {
+  background: #990000 !important;
+}
+
+.active-text-red-70:active {
+  color: #990000 !important;
+}
+
 .border-1-red-70 {
   border: 1px solid #990000;
+}
+
+.active-border-1-red-70:active {
+  border: 1px solid #990000 !important;
 }
 
 .border-2-red-70 {
   border: 2px solid #990000;
 }
 
+.active-border-2-red-70:active {
+  border: 2px solid #990000 !important;
+}
+
 .border-3-red-70 {
   border: 3px solid #990000;
+}
+
+.active-border-3-red-70:active {
+  border: 3px solid #990000 !important;
 }
 
 .border-4-red-70 {
   border: 4px solid #990000;
 }
 
+.active-border-4-red-70:active {
+  border: 4px solid #990000 !important;
+}
+
 .border-5-red-70 {
   border: 5px solid #990000;
+}
+
+.active-border-5-red-70:active {
+  border: 5px solid #990000 !important;
 }
 
 .border-6-red-70 {
   border: 6px solid #990000;
 }
 
+.active-border-6-red-70:active {
+  border: 6px solid #990000 !important;
+}
+
 .border-7-red-70 {
   border: 7px solid #990000;
+}
+
+.active-border-7-red-70:active {
+  border: 7px solid #990000 !important;
 }
 
 .border-8-red-70 {
   border: 8px solid #990000;
 }
 
+.active-border-8-red-70:active {
+  border: 8px solid #990000 !important;
+}
+
 .border-9-red-70 {
   border: 9px solid #990000;
 }
 
+.active-border-9-red-70:active {
+  border: 9px solid #990000 !important;
+}
+
 .border-10-red-70 {
   border: 10px solid #990000;
+}
+
+.active-border-10-red-70:active {
+  border: 10px solid #990000 !important;
 }
 
 .bg-red-60 {
@@ -778,44 +986,96 @@
   color: #cc0000;
 }
 
+.active-fill-red-60:active {
+  fill: #cc0000 !important;
+}
+
+.active-bg-red-60:active {
+  background: #cc0000 !important;
+}
+
+.active-text-red-60:active {
+  color: #cc0000 !important;
+}
+
 .border-1-red-60 {
   border: 1px solid #cc0000;
+}
+
+.active-border-1-red-60:active {
+  border: 1px solid #cc0000 !important;
 }
 
 .border-2-red-60 {
   border: 2px solid #cc0000;
 }
 
+.active-border-2-red-60:active {
+  border: 2px solid #cc0000 !important;
+}
+
 .border-3-red-60 {
   border: 3px solid #cc0000;
+}
+
+.active-border-3-red-60:active {
+  border: 3px solid #cc0000 !important;
 }
 
 .border-4-red-60 {
   border: 4px solid #cc0000;
 }
 
+.active-border-4-red-60:active {
+  border: 4px solid #cc0000 !important;
+}
+
 .border-5-red-60 {
   border: 5px solid #cc0000;
+}
+
+.active-border-5-red-60:active {
+  border: 5px solid #cc0000 !important;
 }
 
 .border-6-red-60 {
   border: 6px solid #cc0000;
 }
 
+.active-border-6-red-60:active {
+  border: 6px solid #cc0000 !important;
+}
+
 .border-7-red-60 {
   border: 7px solid #cc0000;
+}
+
+.active-border-7-red-60:active {
+  border: 7px solid #cc0000 !important;
 }
 
 .border-8-red-60 {
   border: 8px solid #cc0000;
 }
 
+.active-border-8-red-60:active {
+  border: 8px solid #cc0000 !important;
+}
+
 .border-9-red-60 {
   border: 9px solid #cc0000;
 }
 
+.active-border-9-red-60:active {
+  border: 9px solid #cc0000 !important;
+}
+
 .border-10-red-60 {
   border: 10px solid #cc0000;
+}
+
+.active-border-10-red-60:active {
+  border: 10px solid #cc0000 !important;
 }
 
 .bg-red-50 {
@@ -830,44 +1090,96 @@
   color: red;
 }
 
+.active-fill-red-50:active {
+  fill: red !important;
+}
+
+.active-bg-red-50:active {
+  background: red !important;
+}
+
+.active-text-red-50:active {
+  color: red !important;
+}
+
 .border-1-red-50 {
   border: 1px solid red;
+}
+
+.active-border-1-red-50:active {
+  border: 1px solid red !important;
 }
 
 .border-2-red-50 {
   border: 2px solid red;
 }
 
+.active-border-2-red-50:active {
+  border: 2px solid red !important;
+}
+
 .border-3-red-50 {
   border: 3px solid red;
+}
+
+.active-border-3-red-50:active {
+  border: 3px solid red !important;
 }
 
 .border-4-red-50 {
   border: 4px solid red;
 }
 
+.active-border-4-red-50:active {
+  border: 4px solid red !important;
+}
+
 .border-5-red-50 {
   border: 5px solid red;
+}
+
+.active-border-5-red-50:active {
+  border: 5px solid red !important;
 }
 
 .border-6-red-50 {
   border: 6px solid red;
 }
 
+.active-border-6-red-50:active {
+  border: 6px solid red !important;
+}
+
 .border-7-red-50 {
   border: 7px solid red;
+}
+
+.active-border-7-red-50:active {
+  border: 7px solid red !important;
 }
 
 .border-8-red-50 {
   border: 8px solid red;
 }
 
+.active-border-8-red-50:active {
+  border: 8px solid red !important;
+}
+
 .border-9-red-50 {
   border: 9px solid red;
 }
 
+.active-border-9-red-50:active {
+  border: 9px solid red !important;
+}
+
 .border-10-red-50 {
   border: 10px solid red;
+}
+
+.active-border-10-red-50:active {
+  border: 10px solid red !important;
 }
 
 .bg-red-40 {
@@ -882,44 +1194,96 @@
   color: #ff3333;
 }
 
+.active-fill-red-40:active {
+  fill: #ff3333 !important;
+}
+
+.active-bg-red-40:active {
+  background: #ff3333 !important;
+}
+
+.active-text-red-40:active {
+  color: #ff3333 !important;
+}
+
 .border-1-red-40 {
   border: 1px solid #ff3333;
+}
+
+.active-border-1-red-40:active {
+  border: 1px solid #ff3333 !important;
 }
 
 .border-2-red-40 {
   border: 2px solid #ff3333;
 }
 
+.active-border-2-red-40:active {
+  border: 2px solid #ff3333 !important;
+}
+
 .border-3-red-40 {
   border: 3px solid #ff3333;
+}
+
+.active-border-3-red-40:active {
+  border: 3px solid #ff3333 !important;
 }
 
 .border-4-red-40 {
   border: 4px solid #ff3333;
 }
 
+.active-border-4-red-40:active {
+  border: 4px solid #ff3333 !important;
+}
+
 .border-5-red-40 {
   border: 5px solid #ff3333;
+}
+
+.active-border-5-red-40:active {
+  border: 5px solid #ff3333 !important;
 }
 
 .border-6-red-40 {
   border: 6px solid #ff3333;
 }
 
+.active-border-6-red-40:active {
+  border: 6px solid #ff3333 !important;
+}
+
 .border-7-red-40 {
   border: 7px solid #ff3333;
+}
+
+.active-border-7-red-40:active {
+  border: 7px solid #ff3333 !important;
 }
 
 .border-8-red-40 {
   border: 8px solid #ff3333;
 }
 
+.active-border-8-red-40:active {
+  border: 8px solid #ff3333 !important;
+}
+
 .border-9-red-40 {
   border: 9px solid #ff3333;
 }
 
+.active-border-9-red-40:active {
+  border: 9px solid #ff3333 !important;
+}
+
 .border-10-red-40 {
   border: 10px solid #ff3333;
+}
+
+.active-border-10-red-40:active {
+  border: 10px solid #ff3333 !important;
 }
 
 .bg-red-30 {
@@ -934,44 +1298,96 @@
   color: #ff6666;
 }
 
+.active-fill-red-30:active {
+  fill: #ff6666 !important;
+}
+
+.active-bg-red-30:active {
+  background: #ff6666 !important;
+}
+
+.active-text-red-30:active {
+  color: #ff6666 !important;
+}
+
 .border-1-red-30 {
   border: 1px solid #ff6666;
+}
+
+.active-border-1-red-30:active {
+  border: 1px solid #ff6666 !important;
 }
 
 .border-2-red-30 {
   border: 2px solid #ff6666;
 }
 
+.active-border-2-red-30:active {
+  border: 2px solid #ff6666 !important;
+}
+
 .border-3-red-30 {
   border: 3px solid #ff6666;
+}
+
+.active-border-3-red-30:active {
+  border: 3px solid #ff6666 !important;
 }
 
 .border-4-red-30 {
   border: 4px solid #ff6666;
 }
 
+.active-border-4-red-30:active {
+  border: 4px solid #ff6666 !important;
+}
+
 .border-5-red-30 {
   border: 5px solid #ff6666;
+}
+
+.active-border-5-red-30:active {
+  border: 5px solid #ff6666 !important;
 }
 
 .border-6-red-30 {
   border: 6px solid #ff6666;
 }
 
+.active-border-6-red-30:active {
+  border: 6px solid #ff6666 !important;
+}
+
 .border-7-red-30 {
   border: 7px solid #ff6666;
+}
+
+.active-border-7-red-30:active {
+  border: 7px solid #ff6666 !important;
 }
 
 .border-8-red-30 {
   border: 8px solid #ff6666;
 }
 
+.active-border-8-red-30:active {
+  border: 8px solid #ff6666 !important;
+}
+
 .border-9-red-30 {
   border: 9px solid #ff6666;
 }
 
+.active-border-9-red-30:active {
+  border: 9px solid #ff6666 !important;
+}
+
 .border-10-red-30 {
   border: 10px solid #ff6666;
+}
+
+.active-border-10-red-30:active {
+  border: 10px solid #ff6666 !important;
 }
 
 .bg-red-20 {
@@ -986,44 +1402,96 @@
   color: #ff9999;
 }
 
+.active-fill-red-20:active {
+  fill: #ff9999 !important;
+}
+
+.active-bg-red-20:active {
+  background: #ff9999 !important;
+}
+
+.active-text-red-20:active {
+  color: #ff9999 !important;
+}
+
 .border-1-red-20 {
   border: 1px solid #ff9999;
+}
+
+.active-border-1-red-20:active {
+  border: 1px solid #ff9999 !important;
 }
 
 .border-2-red-20 {
   border: 2px solid #ff9999;
 }
 
+.active-border-2-red-20:active {
+  border: 2px solid #ff9999 !important;
+}
+
 .border-3-red-20 {
   border: 3px solid #ff9999;
+}
+
+.active-border-3-red-20:active {
+  border: 3px solid #ff9999 !important;
 }
 
 .border-4-red-20 {
   border: 4px solid #ff9999;
 }
 
+.active-border-4-red-20:active {
+  border: 4px solid #ff9999 !important;
+}
+
 .border-5-red-20 {
   border: 5px solid #ff9999;
+}
+
+.active-border-5-red-20:active {
+  border: 5px solid #ff9999 !important;
 }
 
 .border-6-red-20 {
   border: 6px solid #ff9999;
 }
 
+.active-border-6-red-20:active {
+  border: 6px solid #ff9999 !important;
+}
+
 .border-7-red-20 {
   border: 7px solid #ff9999;
+}
+
+.active-border-7-red-20:active {
+  border: 7px solid #ff9999 !important;
 }
 
 .border-8-red-20 {
   border: 8px solid #ff9999;
 }
 
+.active-border-8-red-20:active {
+  border: 8px solid #ff9999 !important;
+}
+
 .border-9-red-20 {
   border: 9px solid #ff9999;
 }
 
+.active-border-9-red-20:active {
+  border: 9px solid #ff9999 !important;
+}
+
 .border-10-red-20 {
   border: 10px solid #ff9999;
+}
+
+.active-border-10-red-20:active {
+  border: 10px solid #ff9999 !important;
 }
 
 .bg-red-10 {
@@ -1038,44 +1506,96 @@
   color: #ffcccc;
 }
 
+.active-fill-red-10:active {
+  fill: #ffcccc !important;
+}
+
+.active-bg-red-10:active {
+  background: #ffcccc !important;
+}
+
+.active-text-red-10:active {
+  color: #ffcccc !important;
+}
+
 .border-1-red-10 {
   border: 1px solid #ffcccc;
+}
+
+.active-border-1-red-10:active {
+  border: 1px solid #ffcccc !important;
 }
 
 .border-2-red-10 {
   border: 2px solid #ffcccc;
 }
 
+.active-border-2-red-10:active {
+  border: 2px solid #ffcccc !important;
+}
+
 .border-3-red-10 {
   border: 3px solid #ffcccc;
+}
+
+.active-border-3-red-10:active {
+  border: 3px solid #ffcccc !important;
 }
 
 .border-4-red-10 {
   border: 4px solid #ffcccc;
 }
 
+.active-border-4-red-10:active {
+  border: 4px solid #ffcccc !important;
+}
+
 .border-5-red-10 {
   border: 5px solid #ffcccc;
+}
+
+.active-border-5-red-10:active {
+  border: 5px solid #ffcccc !important;
 }
 
 .border-6-red-10 {
   border: 6px solid #ffcccc;
 }
 
+.active-border-6-red-10:active {
+  border: 6px solid #ffcccc !important;
+}
+
 .border-7-red-10 {
   border: 7px solid #ffcccc;
+}
+
+.active-border-7-red-10:active {
+  border: 7px solid #ffcccc !important;
 }
 
 .border-8-red-10 {
   border: 8px solid #ffcccc;
 }
 
+.active-border-8-red-10:active {
+  border: 8px solid #ffcccc !important;
+}
+
 .border-9-red-10 {
   border: 9px solid #ffcccc;
 }
 
+.active-border-9-red-10:active {
+  border: 9px solid #ffcccc !important;
+}
+
 .border-10-red-10 {
   border: 10px solid #ffcccc;
+}
+
+.active-border-10-red-10:active {
+  border: 10px solid #ffcccc !important;
 }
 
 .bg-blue-100 {
@@ -1090,44 +1610,96 @@
   color: black;
 }
 
+.active-fill-blue-100:active {
+  fill: black !important;
+}
+
+.active-bg-blue-100:active {
+  background: black !important;
+}
+
+.active-text-blue-100:active {
+  color: black !important;
+}
+
 .border-1-blue-100 {
   border: 1px solid black;
+}
+
+.active-border-1-blue-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-blue-100 {
   border: 2px solid black;
 }
 
+.active-border-2-blue-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-blue-100 {
   border: 3px solid black;
+}
+
+.active-border-3-blue-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-blue-100 {
   border: 4px solid black;
 }
 
+.active-border-4-blue-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-blue-100 {
   border: 5px solid black;
+}
+
+.active-border-5-blue-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-blue-100 {
   border: 6px solid black;
 }
 
+.active-border-6-blue-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-blue-100 {
   border: 7px solid black;
+}
+
+.active-border-7-blue-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-blue-100 {
   border: 8px solid black;
 }
 
+.active-border-8-blue-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-blue-100 {
   border: 9px solid black;
 }
 
+.active-border-9-blue-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-blue-100 {
   border: 10px solid black;
+}
+
+.active-border-10-blue-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-blue-90 {
@@ -1142,44 +1714,96 @@
   color: #000033;
 }
 
+.active-fill-blue-90:active {
+  fill: #000033 !important;
+}
+
+.active-bg-blue-90:active {
+  background: #000033 !important;
+}
+
+.active-text-blue-90:active {
+  color: #000033 !important;
+}
+
 .border-1-blue-90 {
   border: 1px solid #000033;
+}
+
+.active-border-1-blue-90:active {
+  border: 1px solid #000033 !important;
 }
 
 .border-2-blue-90 {
   border: 2px solid #000033;
 }
 
+.active-border-2-blue-90:active {
+  border: 2px solid #000033 !important;
+}
+
 .border-3-blue-90 {
   border: 3px solid #000033;
+}
+
+.active-border-3-blue-90:active {
+  border: 3px solid #000033 !important;
 }
 
 .border-4-blue-90 {
   border: 4px solid #000033;
 }
 
+.active-border-4-blue-90:active {
+  border: 4px solid #000033 !important;
+}
+
 .border-5-blue-90 {
   border: 5px solid #000033;
+}
+
+.active-border-5-blue-90:active {
+  border: 5px solid #000033 !important;
 }
 
 .border-6-blue-90 {
   border: 6px solid #000033;
 }
 
+.active-border-6-blue-90:active {
+  border: 6px solid #000033 !important;
+}
+
 .border-7-blue-90 {
   border: 7px solid #000033;
+}
+
+.active-border-7-blue-90:active {
+  border: 7px solid #000033 !important;
 }
 
 .border-8-blue-90 {
   border: 8px solid #000033;
 }
 
+.active-border-8-blue-90:active {
+  border: 8px solid #000033 !important;
+}
+
 .border-9-blue-90 {
   border: 9px solid #000033;
 }
 
+.active-border-9-blue-90:active {
+  border: 9px solid #000033 !important;
+}
+
 .border-10-blue-90 {
   border: 10px solid #000033;
+}
+
+.active-border-10-blue-90:active {
+  border: 10px solid #000033 !important;
 }
 
 .bg-blue-80 {
@@ -1194,44 +1818,96 @@
   color: #000066;
 }
 
+.active-fill-blue-80:active {
+  fill: #000066 !important;
+}
+
+.active-bg-blue-80:active {
+  background: #000066 !important;
+}
+
+.active-text-blue-80:active {
+  color: #000066 !important;
+}
+
 .border-1-blue-80 {
   border: 1px solid #000066;
+}
+
+.active-border-1-blue-80:active {
+  border: 1px solid #000066 !important;
 }
 
 .border-2-blue-80 {
   border: 2px solid #000066;
 }
 
+.active-border-2-blue-80:active {
+  border: 2px solid #000066 !important;
+}
+
 .border-3-blue-80 {
   border: 3px solid #000066;
+}
+
+.active-border-3-blue-80:active {
+  border: 3px solid #000066 !important;
 }
 
 .border-4-blue-80 {
   border: 4px solid #000066;
 }
 
+.active-border-4-blue-80:active {
+  border: 4px solid #000066 !important;
+}
+
 .border-5-blue-80 {
   border: 5px solid #000066;
+}
+
+.active-border-5-blue-80:active {
+  border: 5px solid #000066 !important;
 }
 
 .border-6-blue-80 {
   border: 6px solid #000066;
 }
 
+.active-border-6-blue-80:active {
+  border: 6px solid #000066 !important;
+}
+
 .border-7-blue-80 {
   border: 7px solid #000066;
+}
+
+.active-border-7-blue-80:active {
+  border: 7px solid #000066 !important;
 }
 
 .border-8-blue-80 {
   border: 8px solid #000066;
 }
 
+.active-border-8-blue-80:active {
+  border: 8px solid #000066 !important;
+}
+
 .border-9-blue-80 {
   border: 9px solid #000066;
 }
 
+.active-border-9-blue-80:active {
+  border: 9px solid #000066 !important;
+}
+
 .border-10-blue-80 {
   border: 10px solid #000066;
+}
+
+.active-border-10-blue-80:active {
+  border: 10px solid #000066 !important;
 }
 
 .bg-blue-70 {
@@ -1246,44 +1922,96 @@
   color: #000099;
 }
 
+.active-fill-blue-70:active {
+  fill: #000099 !important;
+}
+
+.active-bg-blue-70:active {
+  background: #000099 !important;
+}
+
+.active-text-blue-70:active {
+  color: #000099 !important;
+}
+
 .border-1-blue-70 {
   border: 1px solid #000099;
+}
+
+.active-border-1-blue-70:active {
+  border: 1px solid #000099 !important;
 }
 
 .border-2-blue-70 {
   border: 2px solid #000099;
 }
 
+.active-border-2-blue-70:active {
+  border: 2px solid #000099 !important;
+}
+
 .border-3-blue-70 {
   border: 3px solid #000099;
+}
+
+.active-border-3-blue-70:active {
+  border: 3px solid #000099 !important;
 }
 
 .border-4-blue-70 {
   border: 4px solid #000099;
 }
 
+.active-border-4-blue-70:active {
+  border: 4px solid #000099 !important;
+}
+
 .border-5-blue-70 {
   border: 5px solid #000099;
+}
+
+.active-border-5-blue-70:active {
+  border: 5px solid #000099 !important;
 }
 
 .border-6-blue-70 {
   border: 6px solid #000099;
 }
 
+.active-border-6-blue-70:active {
+  border: 6px solid #000099 !important;
+}
+
 .border-7-blue-70 {
   border: 7px solid #000099;
+}
+
+.active-border-7-blue-70:active {
+  border: 7px solid #000099 !important;
 }
 
 .border-8-blue-70 {
   border: 8px solid #000099;
 }
 
+.active-border-8-blue-70:active {
+  border: 8px solid #000099 !important;
+}
+
 .border-9-blue-70 {
   border: 9px solid #000099;
 }
 
+.active-border-9-blue-70:active {
+  border: 9px solid #000099 !important;
+}
+
 .border-10-blue-70 {
   border: 10px solid #000099;
+}
+
+.active-border-10-blue-70:active {
+  border: 10px solid #000099 !important;
 }
 
 .bg-blue-60 {
@@ -1298,44 +2026,96 @@
   color: #0000cc;
 }
 
+.active-fill-blue-60:active {
+  fill: #0000cc !important;
+}
+
+.active-bg-blue-60:active {
+  background: #0000cc !important;
+}
+
+.active-text-blue-60:active {
+  color: #0000cc !important;
+}
+
 .border-1-blue-60 {
   border: 1px solid #0000cc;
+}
+
+.active-border-1-blue-60:active {
+  border: 1px solid #0000cc !important;
 }
 
 .border-2-blue-60 {
   border: 2px solid #0000cc;
 }
 
+.active-border-2-blue-60:active {
+  border: 2px solid #0000cc !important;
+}
+
 .border-3-blue-60 {
   border: 3px solid #0000cc;
+}
+
+.active-border-3-blue-60:active {
+  border: 3px solid #0000cc !important;
 }
 
 .border-4-blue-60 {
   border: 4px solid #0000cc;
 }
 
+.active-border-4-blue-60:active {
+  border: 4px solid #0000cc !important;
+}
+
 .border-5-blue-60 {
   border: 5px solid #0000cc;
+}
+
+.active-border-5-blue-60:active {
+  border: 5px solid #0000cc !important;
 }
 
 .border-6-blue-60 {
   border: 6px solid #0000cc;
 }
 
+.active-border-6-blue-60:active {
+  border: 6px solid #0000cc !important;
+}
+
 .border-7-blue-60 {
   border: 7px solid #0000cc;
+}
+
+.active-border-7-blue-60:active {
+  border: 7px solid #0000cc !important;
 }
 
 .border-8-blue-60 {
   border: 8px solid #0000cc;
 }
 
+.active-border-8-blue-60:active {
+  border: 8px solid #0000cc !important;
+}
+
 .border-9-blue-60 {
   border: 9px solid #0000cc;
 }
 
+.active-border-9-blue-60:active {
+  border: 9px solid #0000cc !important;
+}
+
 .border-10-blue-60 {
   border: 10px solid #0000cc;
+}
+
+.active-border-10-blue-60:active {
+  border: 10px solid #0000cc !important;
 }
 
 .bg-blue-50 {
@@ -1350,44 +2130,96 @@
   color: blue;
 }
 
+.active-fill-blue-50:active {
+  fill: blue !important;
+}
+
+.active-bg-blue-50:active {
+  background: blue !important;
+}
+
+.active-text-blue-50:active {
+  color: blue !important;
+}
+
 .border-1-blue-50 {
   border: 1px solid blue;
+}
+
+.active-border-1-blue-50:active {
+  border: 1px solid blue !important;
 }
 
 .border-2-blue-50 {
   border: 2px solid blue;
 }
 
+.active-border-2-blue-50:active {
+  border: 2px solid blue !important;
+}
+
 .border-3-blue-50 {
   border: 3px solid blue;
+}
+
+.active-border-3-blue-50:active {
+  border: 3px solid blue !important;
 }
 
 .border-4-blue-50 {
   border: 4px solid blue;
 }
 
+.active-border-4-blue-50:active {
+  border: 4px solid blue !important;
+}
+
 .border-5-blue-50 {
   border: 5px solid blue;
+}
+
+.active-border-5-blue-50:active {
+  border: 5px solid blue !important;
 }
 
 .border-6-blue-50 {
   border: 6px solid blue;
 }
 
+.active-border-6-blue-50:active {
+  border: 6px solid blue !important;
+}
+
 .border-7-blue-50 {
   border: 7px solid blue;
+}
+
+.active-border-7-blue-50:active {
+  border: 7px solid blue !important;
 }
 
 .border-8-blue-50 {
   border: 8px solid blue;
 }
 
+.active-border-8-blue-50:active {
+  border: 8px solid blue !important;
+}
+
 .border-9-blue-50 {
   border: 9px solid blue;
 }
 
+.active-border-9-blue-50:active {
+  border: 9px solid blue !important;
+}
+
 .border-10-blue-50 {
   border: 10px solid blue;
+}
+
+.active-border-10-blue-50:active {
+  border: 10px solid blue !important;
 }
 
 .bg-blue-40 {
@@ -1402,44 +2234,96 @@
   color: #3333ff;
 }
 
+.active-fill-blue-40:active {
+  fill: #3333ff !important;
+}
+
+.active-bg-blue-40:active {
+  background: #3333ff !important;
+}
+
+.active-text-blue-40:active {
+  color: #3333ff !important;
+}
+
 .border-1-blue-40 {
   border: 1px solid #3333ff;
+}
+
+.active-border-1-blue-40:active {
+  border: 1px solid #3333ff !important;
 }
 
 .border-2-blue-40 {
   border: 2px solid #3333ff;
 }
 
+.active-border-2-blue-40:active {
+  border: 2px solid #3333ff !important;
+}
+
 .border-3-blue-40 {
   border: 3px solid #3333ff;
+}
+
+.active-border-3-blue-40:active {
+  border: 3px solid #3333ff !important;
 }
 
 .border-4-blue-40 {
   border: 4px solid #3333ff;
 }
 
+.active-border-4-blue-40:active {
+  border: 4px solid #3333ff !important;
+}
+
 .border-5-blue-40 {
   border: 5px solid #3333ff;
+}
+
+.active-border-5-blue-40:active {
+  border: 5px solid #3333ff !important;
 }
 
 .border-6-blue-40 {
   border: 6px solid #3333ff;
 }
 
+.active-border-6-blue-40:active {
+  border: 6px solid #3333ff !important;
+}
+
 .border-7-blue-40 {
   border: 7px solid #3333ff;
+}
+
+.active-border-7-blue-40:active {
+  border: 7px solid #3333ff !important;
 }
 
 .border-8-blue-40 {
   border: 8px solid #3333ff;
 }
 
+.active-border-8-blue-40:active {
+  border: 8px solid #3333ff !important;
+}
+
 .border-9-blue-40 {
   border: 9px solid #3333ff;
 }
 
+.active-border-9-blue-40:active {
+  border: 9px solid #3333ff !important;
+}
+
 .border-10-blue-40 {
   border: 10px solid #3333ff;
+}
+
+.active-border-10-blue-40:active {
+  border: 10px solid #3333ff !important;
 }
 
 .bg-blue-30 {
@@ -1454,44 +2338,96 @@
   color: #6666ff;
 }
 
+.active-fill-blue-30:active {
+  fill: #6666ff !important;
+}
+
+.active-bg-blue-30:active {
+  background: #6666ff !important;
+}
+
+.active-text-blue-30:active {
+  color: #6666ff !important;
+}
+
 .border-1-blue-30 {
   border: 1px solid #6666ff;
+}
+
+.active-border-1-blue-30:active {
+  border: 1px solid #6666ff !important;
 }
 
 .border-2-blue-30 {
   border: 2px solid #6666ff;
 }
 
+.active-border-2-blue-30:active {
+  border: 2px solid #6666ff !important;
+}
+
 .border-3-blue-30 {
   border: 3px solid #6666ff;
+}
+
+.active-border-3-blue-30:active {
+  border: 3px solid #6666ff !important;
 }
 
 .border-4-blue-30 {
   border: 4px solid #6666ff;
 }
 
+.active-border-4-blue-30:active {
+  border: 4px solid #6666ff !important;
+}
+
 .border-5-blue-30 {
   border: 5px solid #6666ff;
+}
+
+.active-border-5-blue-30:active {
+  border: 5px solid #6666ff !important;
 }
 
 .border-6-blue-30 {
   border: 6px solid #6666ff;
 }
 
+.active-border-6-blue-30:active {
+  border: 6px solid #6666ff !important;
+}
+
 .border-7-blue-30 {
   border: 7px solid #6666ff;
+}
+
+.active-border-7-blue-30:active {
+  border: 7px solid #6666ff !important;
 }
 
 .border-8-blue-30 {
   border: 8px solid #6666ff;
 }
 
+.active-border-8-blue-30:active {
+  border: 8px solid #6666ff !important;
+}
+
 .border-9-blue-30 {
   border: 9px solid #6666ff;
 }
 
+.active-border-9-blue-30:active {
+  border: 9px solid #6666ff !important;
+}
+
 .border-10-blue-30 {
   border: 10px solid #6666ff;
+}
+
+.active-border-10-blue-30:active {
+  border: 10px solid #6666ff !important;
 }
 
 .bg-blue-20 {
@@ -1506,44 +2442,96 @@
   color: #9999ff;
 }
 
+.active-fill-blue-20:active {
+  fill: #9999ff !important;
+}
+
+.active-bg-blue-20:active {
+  background: #9999ff !important;
+}
+
+.active-text-blue-20:active {
+  color: #9999ff !important;
+}
+
 .border-1-blue-20 {
   border: 1px solid #9999ff;
+}
+
+.active-border-1-blue-20:active {
+  border: 1px solid #9999ff !important;
 }
 
 .border-2-blue-20 {
   border: 2px solid #9999ff;
 }
 
+.active-border-2-blue-20:active {
+  border: 2px solid #9999ff !important;
+}
+
 .border-3-blue-20 {
   border: 3px solid #9999ff;
+}
+
+.active-border-3-blue-20:active {
+  border: 3px solid #9999ff !important;
 }
 
 .border-4-blue-20 {
   border: 4px solid #9999ff;
 }
 
+.active-border-4-blue-20:active {
+  border: 4px solid #9999ff !important;
+}
+
 .border-5-blue-20 {
   border: 5px solid #9999ff;
+}
+
+.active-border-5-blue-20:active {
+  border: 5px solid #9999ff !important;
 }
 
 .border-6-blue-20 {
   border: 6px solid #9999ff;
 }
 
+.active-border-6-blue-20:active {
+  border: 6px solid #9999ff !important;
+}
+
 .border-7-blue-20 {
   border: 7px solid #9999ff;
+}
+
+.active-border-7-blue-20:active {
+  border: 7px solid #9999ff !important;
 }
 
 .border-8-blue-20 {
   border: 8px solid #9999ff;
 }
 
+.active-border-8-blue-20:active {
+  border: 8px solid #9999ff !important;
+}
+
 .border-9-blue-20 {
   border: 9px solid #9999ff;
 }
 
+.active-border-9-blue-20:active {
+  border: 9px solid #9999ff !important;
+}
+
 .border-10-blue-20 {
   border: 10px solid #9999ff;
+}
+
+.active-border-10-blue-20:active {
+  border: 10px solid #9999ff !important;
 }
 
 .bg-blue-10 {
@@ -1558,44 +2546,96 @@
   color: #ccccff;
 }
 
+.active-fill-blue-10:active {
+  fill: #ccccff !important;
+}
+
+.active-bg-blue-10:active {
+  background: #ccccff !important;
+}
+
+.active-text-blue-10:active {
+  color: #ccccff !important;
+}
+
 .border-1-blue-10 {
   border: 1px solid #ccccff;
+}
+
+.active-border-1-blue-10:active {
+  border: 1px solid #ccccff !important;
 }
 
 .border-2-blue-10 {
   border: 2px solid #ccccff;
 }
 
+.active-border-2-blue-10:active {
+  border: 2px solid #ccccff !important;
+}
+
 .border-3-blue-10 {
   border: 3px solid #ccccff;
+}
+
+.active-border-3-blue-10:active {
+  border: 3px solid #ccccff !important;
 }
 
 .border-4-blue-10 {
   border: 4px solid #ccccff;
 }
 
+.active-border-4-blue-10:active {
+  border: 4px solid #ccccff !important;
+}
+
 .border-5-blue-10 {
   border: 5px solid #ccccff;
+}
+
+.active-border-5-blue-10:active {
+  border: 5px solid #ccccff !important;
 }
 
 .border-6-blue-10 {
   border: 6px solid #ccccff;
 }
 
+.active-border-6-blue-10:active {
+  border: 6px solid #ccccff !important;
+}
+
 .border-7-blue-10 {
   border: 7px solid #ccccff;
+}
+
+.active-border-7-blue-10:active {
+  border: 7px solid #ccccff !important;
 }
 
 .border-8-blue-10 {
   border: 8px solid #ccccff;
 }
 
+.active-border-8-blue-10:active {
+  border: 8px solid #ccccff !important;
+}
+
 .border-9-blue-10 {
   border: 9px solid #ccccff;
 }
 
+.active-border-9-blue-10:active {
+  border: 9px solid #ccccff !important;
+}
+
 .border-10-blue-10 {
   border: 10px solid #ccccff;
+}
+
+.active-border-10-blue-10:active {
+  border: 10px solid #ccccff !important;
 }
 
 .bg-green-100 {
@@ -1610,44 +2650,96 @@
   color: black;
 }
 
+.active-fill-green-100:active {
+  fill: black !important;
+}
+
+.active-bg-green-100:active {
+  background: black !important;
+}
+
+.active-text-green-100:active {
+  color: black !important;
+}
+
 .border-1-green-100 {
   border: 1px solid black;
+}
+
+.active-border-1-green-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-green-100 {
   border: 2px solid black;
 }
 
+.active-border-2-green-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-green-100 {
   border: 3px solid black;
+}
+
+.active-border-3-green-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-green-100 {
   border: 4px solid black;
 }
 
+.active-border-4-green-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-green-100 {
   border: 5px solid black;
+}
+
+.active-border-5-green-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-green-100 {
   border: 6px solid black;
 }
 
+.active-border-6-green-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-green-100 {
   border: 7px solid black;
+}
+
+.active-border-7-green-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-green-100 {
   border: 8px solid black;
 }
 
+.active-border-8-green-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-green-100 {
   border: 9px solid black;
 }
 
+.active-border-9-green-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-green-100 {
   border: 10px solid black;
+}
+
+.active-border-10-green-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-green-90 {
@@ -1662,44 +2754,96 @@
   color: black;
 }
 
+.active-fill-green-90:active {
+  fill: black !important;
+}
+
+.active-bg-green-90:active {
+  background: black !important;
+}
+
+.active-text-green-90:active {
+  color: black !important;
+}
+
 .border-1-green-90 {
   border: 1px solid black;
+}
+
+.active-border-1-green-90:active {
+  border: 1px solid black !important;
 }
 
 .border-2-green-90 {
   border: 2px solid black;
 }
 
+.active-border-2-green-90:active {
+  border: 2px solid black !important;
+}
+
 .border-3-green-90 {
   border: 3px solid black;
+}
+
+.active-border-3-green-90:active {
+  border: 3px solid black !important;
 }
 
 .border-4-green-90 {
   border: 4px solid black;
 }
 
+.active-border-4-green-90:active {
+  border: 4px solid black !important;
+}
+
 .border-5-green-90 {
   border: 5px solid black;
+}
+
+.active-border-5-green-90:active {
+  border: 5px solid black !important;
 }
 
 .border-6-green-90 {
   border: 6px solid black;
 }
 
+.active-border-6-green-90:active {
+  border: 6px solid black !important;
+}
+
 .border-7-green-90 {
   border: 7px solid black;
+}
+
+.active-border-7-green-90:active {
+  border: 7px solid black !important;
 }
 
 .border-8-green-90 {
   border: 8px solid black;
 }
 
+.active-border-8-green-90:active {
+  border: 8px solid black !important;
+}
+
 .border-9-green-90 {
   border: 9px solid black;
 }
 
+.active-border-9-green-90:active {
+  border: 9px solid black !important;
+}
+
 .border-10-green-90 {
   border: 10px solid black;
+}
+
+.active-border-10-green-90:active {
+  border: 10px solid black !important;
 }
 
 .bg-green-80 {
@@ -1714,44 +2858,96 @@
   color: black;
 }
 
+.active-fill-green-80:active {
+  fill: black !important;
+}
+
+.active-bg-green-80:active {
+  background: black !important;
+}
+
+.active-text-green-80:active {
+  color: black !important;
+}
+
 .border-1-green-80 {
   border: 1px solid black;
+}
+
+.active-border-1-green-80:active {
+  border: 1px solid black !important;
 }
 
 .border-2-green-80 {
   border: 2px solid black;
 }
 
+.active-border-2-green-80:active {
+  border: 2px solid black !important;
+}
+
 .border-3-green-80 {
   border: 3px solid black;
+}
+
+.active-border-3-green-80:active {
+  border: 3px solid black !important;
 }
 
 .border-4-green-80 {
   border: 4px solid black;
 }
 
+.active-border-4-green-80:active {
+  border: 4px solid black !important;
+}
+
 .border-5-green-80 {
   border: 5px solid black;
+}
+
+.active-border-5-green-80:active {
+  border: 5px solid black !important;
 }
 
 .border-6-green-80 {
   border: 6px solid black;
 }
 
+.active-border-6-green-80:active {
+  border: 6px solid black !important;
+}
+
 .border-7-green-80 {
   border: 7px solid black;
+}
+
+.active-border-7-green-80:active {
+  border: 7px solid black !important;
 }
 
 .border-8-green-80 {
   border: 8px solid black;
 }
 
+.active-border-8-green-80:active {
+  border: 8px solid black !important;
+}
+
 .border-9-green-80 {
   border: 9px solid black;
 }
 
+.active-border-9-green-80:active {
+  border: 9px solid black !important;
+}
+
 .border-10-green-80 {
   border: 10px solid black;
+}
+
+.active-border-10-green-80:active {
+  border: 10px solid black !important;
 }
 
 .bg-green-70 {
@@ -1766,44 +2962,96 @@
   color: #001a00;
 }
 
+.active-fill-green-70:active {
+  fill: #001a00 !important;
+}
+
+.active-bg-green-70:active {
+  background: #001a00 !important;
+}
+
+.active-text-green-70:active {
+  color: #001a00 !important;
+}
+
 .border-1-green-70 {
   border: 1px solid #001a00;
+}
+
+.active-border-1-green-70:active {
+  border: 1px solid #001a00 !important;
 }
 
 .border-2-green-70 {
   border: 2px solid #001a00;
 }
 
+.active-border-2-green-70:active {
+  border: 2px solid #001a00 !important;
+}
+
 .border-3-green-70 {
   border: 3px solid #001a00;
+}
+
+.active-border-3-green-70:active {
+  border: 3px solid #001a00 !important;
 }
 
 .border-4-green-70 {
   border: 4px solid #001a00;
 }
 
+.active-border-4-green-70:active {
+  border: 4px solid #001a00 !important;
+}
+
 .border-5-green-70 {
   border: 5px solid #001a00;
+}
+
+.active-border-5-green-70:active {
+  border: 5px solid #001a00 !important;
 }
 
 .border-6-green-70 {
   border: 6px solid #001a00;
 }
 
+.active-border-6-green-70:active {
+  border: 6px solid #001a00 !important;
+}
+
 .border-7-green-70 {
   border: 7px solid #001a00;
+}
+
+.active-border-7-green-70:active {
+  border: 7px solid #001a00 !important;
 }
 
 .border-8-green-70 {
   border: 8px solid #001a00;
 }
 
+.active-border-8-green-70:active {
+  border: 8px solid #001a00 !important;
+}
+
 .border-9-green-70 {
   border: 9px solid #001a00;
 }
 
+.active-border-9-green-70:active {
+  border: 9px solid #001a00 !important;
+}
+
 .border-10-green-70 {
   border: 10px solid #001a00;
+}
+
+.active-border-10-green-70:active {
+  border: 10px solid #001a00 !important;
 }
 
 .bg-green-60 {
@@ -1818,44 +3066,96 @@
   color: #004d00;
 }
 
+.active-fill-green-60:active {
+  fill: #004d00 !important;
+}
+
+.active-bg-green-60:active {
+  background: #004d00 !important;
+}
+
+.active-text-green-60:active {
+  color: #004d00 !important;
+}
+
 .border-1-green-60 {
   border: 1px solid #004d00;
+}
+
+.active-border-1-green-60:active {
+  border: 1px solid #004d00 !important;
 }
 
 .border-2-green-60 {
   border: 2px solid #004d00;
 }
 
+.active-border-2-green-60:active {
+  border: 2px solid #004d00 !important;
+}
+
 .border-3-green-60 {
   border: 3px solid #004d00;
+}
+
+.active-border-3-green-60:active {
+  border: 3px solid #004d00 !important;
 }
 
 .border-4-green-60 {
   border: 4px solid #004d00;
 }
 
+.active-border-4-green-60:active {
+  border: 4px solid #004d00 !important;
+}
+
 .border-5-green-60 {
   border: 5px solid #004d00;
+}
+
+.active-border-5-green-60:active {
+  border: 5px solid #004d00 !important;
 }
 
 .border-6-green-60 {
   border: 6px solid #004d00;
 }
 
+.active-border-6-green-60:active {
+  border: 6px solid #004d00 !important;
+}
+
 .border-7-green-60 {
   border: 7px solid #004d00;
+}
+
+.active-border-7-green-60:active {
+  border: 7px solid #004d00 !important;
 }
 
 .border-8-green-60 {
   border: 8px solid #004d00;
 }
 
+.active-border-8-green-60:active {
+  border: 8px solid #004d00 !important;
+}
+
 .border-9-green-60 {
   border: 9px solid #004d00;
 }
 
+.active-border-9-green-60:active {
+  border: 9px solid #004d00 !important;
+}
+
 .border-10-green-60 {
   border: 10px solid #004d00;
+}
+
+.active-border-10-green-60:active {
+  border: 10px solid #004d00 !important;
 }
 
 .bg-green-50 {
@@ -1870,44 +3170,96 @@
   color: green;
 }
 
+.active-fill-green-50:active {
+  fill: green !important;
+}
+
+.active-bg-green-50:active {
+  background: green !important;
+}
+
+.active-text-green-50:active {
+  color: green !important;
+}
+
 .border-1-green-50 {
   border: 1px solid green;
+}
+
+.active-border-1-green-50:active {
+  border: 1px solid green !important;
 }
 
 .border-2-green-50 {
   border: 2px solid green;
 }
 
+.active-border-2-green-50:active {
+  border: 2px solid green !important;
+}
+
 .border-3-green-50 {
   border: 3px solid green;
+}
+
+.active-border-3-green-50:active {
+  border: 3px solid green !important;
 }
 
 .border-4-green-50 {
   border: 4px solid green;
 }
 
+.active-border-4-green-50:active {
+  border: 4px solid green !important;
+}
+
 .border-5-green-50 {
   border: 5px solid green;
+}
+
+.active-border-5-green-50:active {
+  border: 5px solid green !important;
 }
 
 .border-6-green-50 {
   border: 6px solid green;
 }
 
+.active-border-6-green-50:active {
+  border: 6px solid green !important;
+}
+
 .border-7-green-50 {
   border: 7px solid green;
+}
+
+.active-border-7-green-50:active {
+  border: 7px solid green !important;
 }
 
 .border-8-green-50 {
   border: 8px solid green;
 }
 
+.active-border-8-green-50:active {
+  border: 8px solid green !important;
+}
+
 .border-9-green-50 {
   border: 9px solid green;
 }
 
+.active-border-9-green-50:active {
+  border: 9px solid green !important;
+}
+
 .border-10-green-50 {
   border: 10px solid green;
+}
+
+.active-border-10-green-50:active {
+  border: 10px solid green !important;
 }
 
 .bg-green-40 {
@@ -1922,44 +3274,96 @@
   color: #00b300;
 }
 
+.active-fill-green-40:active {
+  fill: #00b300 !important;
+}
+
+.active-bg-green-40:active {
+  background: #00b300 !important;
+}
+
+.active-text-green-40:active {
+  color: #00b300 !important;
+}
+
 .border-1-green-40 {
   border: 1px solid #00b300;
+}
+
+.active-border-1-green-40:active {
+  border: 1px solid #00b300 !important;
 }
 
 .border-2-green-40 {
   border: 2px solid #00b300;
 }
 
+.active-border-2-green-40:active {
+  border: 2px solid #00b300 !important;
+}
+
 .border-3-green-40 {
   border: 3px solid #00b300;
+}
+
+.active-border-3-green-40:active {
+  border: 3px solid #00b300 !important;
 }
 
 .border-4-green-40 {
   border: 4px solid #00b300;
 }
 
+.active-border-4-green-40:active {
+  border: 4px solid #00b300 !important;
+}
+
 .border-5-green-40 {
   border: 5px solid #00b300;
+}
+
+.active-border-5-green-40:active {
+  border: 5px solid #00b300 !important;
 }
 
 .border-6-green-40 {
   border: 6px solid #00b300;
 }
 
+.active-border-6-green-40:active {
+  border: 6px solid #00b300 !important;
+}
+
 .border-7-green-40 {
   border: 7px solid #00b300;
+}
+
+.active-border-7-green-40:active {
+  border: 7px solid #00b300 !important;
 }
 
 .border-8-green-40 {
   border: 8px solid #00b300;
 }
 
+.active-border-8-green-40:active {
+  border: 8px solid #00b300 !important;
+}
+
 .border-9-green-40 {
   border: 9px solid #00b300;
 }
 
+.active-border-9-green-40:active {
+  border: 9px solid #00b300 !important;
+}
+
 .border-10-green-40 {
   border: 10px solid #00b300;
+}
+
+.active-border-10-green-40:active {
+  border: 10px solid #00b300 !important;
 }
 
 .bg-green-30 {
@@ -1974,44 +3378,96 @@
   color: #00e600;
 }
 
+.active-fill-green-30:active {
+  fill: #00e600 !important;
+}
+
+.active-bg-green-30:active {
+  background: #00e600 !important;
+}
+
+.active-text-green-30:active {
+  color: #00e600 !important;
+}
+
 .border-1-green-30 {
   border: 1px solid #00e600;
+}
+
+.active-border-1-green-30:active {
+  border: 1px solid #00e600 !important;
 }
 
 .border-2-green-30 {
   border: 2px solid #00e600;
 }
 
+.active-border-2-green-30:active {
+  border: 2px solid #00e600 !important;
+}
+
 .border-3-green-30 {
   border: 3px solid #00e600;
+}
+
+.active-border-3-green-30:active {
+  border: 3px solid #00e600 !important;
 }
 
 .border-4-green-30 {
   border: 4px solid #00e600;
 }
 
+.active-border-4-green-30:active {
+  border: 4px solid #00e600 !important;
+}
+
 .border-5-green-30 {
   border: 5px solid #00e600;
+}
+
+.active-border-5-green-30:active {
+  border: 5px solid #00e600 !important;
 }
 
 .border-6-green-30 {
   border: 6px solid #00e600;
 }
 
+.active-border-6-green-30:active {
+  border: 6px solid #00e600 !important;
+}
+
 .border-7-green-30 {
   border: 7px solid #00e600;
+}
+
+.active-border-7-green-30:active {
+  border: 7px solid #00e600 !important;
 }
 
 .border-8-green-30 {
   border: 8px solid #00e600;
 }
 
+.active-border-8-green-30:active {
+  border: 8px solid #00e600 !important;
+}
+
 .border-9-green-30 {
   border: 9px solid #00e600;
 }
 
+.active-border-9-green-30:active {
+  border: 9px solid #00e600 !important;
+}
+
 .border-10-green-30 {
   border: 10px solid #00e600;
+}
+
+.active-border-10-green-30:active {
+  border: 10px solid #00e600 !important;
 }
 
 .bg-green-20 {
@@ -2026,44 +3482,96 @@
   color: #1aff1a;
 }
 
+.active-fill-green-20:active {
+  fill: #1aff1a !important;
+}
+
+.active-bg-green-20:active {
+  background: #1aff1a !important;
+}
+
+.active-text-green-20:active {
+  color: #1aff1a !important;
+}
+
 .border-1-green-20 {
   border: 1px solid #1aff1a;
+}
+
+.active-border-1-green-20:active {
+  border: 1px solid #1aff1a !important;
 }
 
 .border-2-green-20 {
   border: 2px solid #1aff1a;
 }
 
+.active-border-2-green-20:active {
+  border: 2px solid #1aff1a !important;
+}
+
 .border-3-green-20 {
   border: 3px solid #1aff1a;
+}
+
+.active-border-3-green-20:active {
+  border: 3px solid #1aff1a !important;
 }
 
 .border-4-green-20 {
   border: 4px solid #1aff1a;
 }
 
+.active-border-4-green-20:active {
+  border: 4px solid #1aff1a !important;
+}
+
 .border-5-green-20 {
   border: 5px solid #1aff1a;
+}
+
+.active-border-5-green-20:active {
+  border: 5px solid #1aff1a !important;
 }
 
 .border-6-green-20 {
   border: 6px solid #1aff1a;
 }
 
+.active-border-6-green-20:active {
+  border: 6px solid #1aff1a !important;
+}
+
 .border-7-green-20 {
   border: 7px solid #1aff1a;
+}
+
+.active-border-7-green-20:active {
+  border: 7px solid #1aff1a !important;
 }
 
 .border-8-green-20 {
   border: 8px solid #1aff1a;
 }
 
+.active-border-8-green-20:active {
+  border: 8px solid #1aff1a !important;
+}
+
 .border-9-green-20 {
   border: 9px solid #1aff1a;
 }
 
+.active-border-9-green-20:active {
+  border: 9px solid #1aff1a !important;
+}
+
 .border-10-green-20 {
   border: 10px solid #1aff1a;
+}
+
+.active-border-10-green-20:active {
+  border: 10px solid #1aff1a !important;
 }
 
 .bg-green-10 {
@@ -2078,44 +3586,96 @@
   color: #4dff4d;
 }
 
+.active-fill-green-10:active {
+  fill: #4dff4d !important;
+}
+
+.active-bg-green-10:active {
+  background: #4dff4d !important;
+}
+
+.active-text-green-10:active {
+  color: #4dff4d !important;
+}
+
 .border-1-green-10 {
   border: 1px solid #4dff4d;
+}
+
+.active-border-1-green-10:active {
+  border: 1px solid #4dff4d !important;
 }
 
 .border-2-green-10 {
   border: 2px solid #4dff4d;
 }
 
+.active-border-2-green-10:active {
+  border: 2px solid #4dff4d !important;
+}
+
 .border-3-green-10 {
   border: 3px solid #4dff4d;
+}
+
+.active-border-3-green-10:active {
+  border: 3px solid #4dff4d !important;
 }
 
 .border-4-green-10 {
   border: 4px solid #4dff4d;
 }
 
+.active-border-4-green-10:active {
+  border: 4px solid #4dff4d !important;
+}
+
 .border-5-green-10 {
   border: 5px solid #4dff4d;
+}
+
+.active-border-5-green-10:active {
+  border: 5px solid #4dff4d !important;
 }
 
 .border-6-green-10 {
   border: 6px solid #4dff4d;
 }
 
+.active-border-6-green-10:active {
+  border: 6px solid #4dff4d !important;
+}
+
 .border-7-green-10 {
   border: 7px solid #4dff4d;
+}
+
+.active-border-7-green-10:active {
+  border: 7px solid #4dff4d !important;
 }
 
 .border-8-green-10 {
   border: 8px solid #4dff4d;
 }
 
+.active-border-8-green-10:active {
+  border: 8px solid #4dff4d !important;
+}
+
 .border-9-green-10 {
   border: 9px solid #4dff4d;
 }
 
+.active-border-9-green-10:active {
+  border: 9px solid #4dff4d !important;
+}
+
 .border-10-green-10 {
   border: 10px solid #4dff4d;
+}
+
+.active-border-10-green-10:active {
+  border: 10px solid #4dff4d !important;
 }
 
 .bg-orange-100 {
@@ -2130,44 +3690,96 @@
   color: black;
 }
 
+.active-fill-orange-100:active {
+  fill: black !important;
+}
+
+.active-bg-orange-100:active {
+  background: black !important;
+}
+
+.active-text-orange-100:active {
+  color: black !important;
+}
+
 .border-1-orange-100 {
   border: 1px solid black;
+}
+
+.active-border-1-orange-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-orange-100 {
   border: 2px solid black;
 }
 
+.active-border-2-orange-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-orange-100 {
   border: 3px solid black;
+}
+
+.active-border-3-orange-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-orange-100 {
   border: 4px solid black;
 }
 
+.active-border-4-orange-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-orange-100 {
   border: 5px solid black;
+}
+
+.active-border-5-orange-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-orange-100 {
   border: 6px solid black;
 }
 
+.active-border-6-orange-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-orange-100 {
   border: 7px solid black;
+}
+
+.active-border-7-orange-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-orange-100 {
   border: 8px solid black;
 }
 
+.active-border-8-orange-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-orange-100 {
   border: 9px solid black;
 }
 
+.active-border-9-orange-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-orange-100 {
   border: 10px solid black;
+}
+
+.active-border-10-orange-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-orange-90 {
@@ -2182,44 +3794,96 @@
   color: #332100;
 }
 
+.active-fill-orange-90:active {
+  fill: #332100 !important;
+}
+
+.active-bg-orange-90:active {
+  background: #332100 !important;
+}
+
+.active-text-orange-90:active {
+  color: #332100 !important;
+}
+
 .border-1-orange-90 {
   border: 1px solid #332100;
+}
+
+.active-border-1-orange-90:active {
+  border: 1px solid #332100 !important;
 }
 
 .border-2-orange-90 {
   border: 2px solid #332100;
 }
 
+.active-border-2-orange-90:active {
+  border: 2px solid #332100 !important;
+}
+
 .border-3-orange-90 {
   border: 3px solid #332100;
+}
+
+.active-border-3-orange-90:active {
+  border: 3px solid #332100 !important;
 }
 
 .border-4-orange-90 {
   border: 4px solid #332100;
 }
 
+.active-border-4-orange-90:active {
+  border: 4px solid #332100 !important;
+}
+
 .border-5-orange-90 {
   border: 5px solid #332100;
+}
+
+.active-border-5-orange-90:active {
+  border: 5px solid #332100 !important;
 }
 
 .border-6-orange-90 {
   border: 6px solid #332100;
 }
 
+.active-border-6-orange-90:active {
+  border: 6px solid #332100 !important;
+}
+
 .border-7-orange-90 {
   border: 7px solid #332100;
+}
+
+.active-border-7-orange-90:active {
+  border: 7px solid #332100 !important;
 }
 
 .border-8-orange-90 {
   border: 8px solid #332100;
 }
 
+.active-border-8-orange-90:active {
+  border: 8px solid #332100 !important;
+}
+
 .border-9-orange-90 {
   border: 9px solid #332100;
 }
 
+.active-border-9-orange-90:active {
+  border: 9px solid #332100 !important;
+}
+
 .border-10-orange-90 {
   border: 10px solid #332100;
+}
+
+.active-border-10-orange-90:active {
+  border: 10px solid #332100 !important;
 }
 
 .bg-orange-80 {
@@ -2234,44 +3898,96 @@
   color: #664200;
 }
 
+.active-fill-orange-80:active {
+  fill: #664200 !important;
+}
+
+.active-bg-orange-80:active {
+  background: #664200 !important;
+}
+
+.active-text-orange-80:active {
+  color: #664200 !important;
+}
+
 .border-1-orange-80 {
   border: 1px solid #664200;
+}
+
+.active-border-1-orange-80:active {
+  border: 1px solid #664200 !important;
 }
 
 .border-2-orange-80 {
   border: 2px solid #664200;
 }
 
+.active-border-2-orange-80:active {
+  border: 2px solid #664200 !important;
+}
+
 .border-3-orange-80 {
   border: 3px solid #664200;
+}
+
+.active-border-3-orange-80:active {
+  border: 3px solid #664200 !important;
 }
 
 .border-4-orange-80 {
   border: 4px solid #664200;
 }
 
+.active-border-4-orange-80:active {
+  border: 4px solid #664200 !important;
+}
+
 .border-5-orange-80 {
   border: 5px solid #664200;
+}
+
+.active-border-5-orange-80:active {
+  border: 5px solid #664200 !important;
 }
 
 .border-6-orange-80 {
   border: 6px solid #664200;
 }
 
+.active-border-6-orange-80:active {
+  border: 6px solid #664200 !important;
+}
+
 .border-7-orange-80 {
   border: 7px solid #664200;
+}
+
+.active-border-7-orange-80:active {
+  border: 7px solid #664200 !important;
 }
 
 .border-8-orange-80 {
   border: 8px solid #664200;
 }
 
+.active-border-8-orange-80:active {
+  border: 8px solid #664200 !important;
+}
+
 .border-9-orange-80 {
   border: 9px solid #664200;
 }
 
+.active-border-9-orange-80:active {
+  border: 9px solid #664200 !important;
+}
+
 .border-10-orange-80 {
   border: 10px solid #664200;
+}
+
+.active-border-10-orange-80:active {
+  border: 10px solid #664200 !important;
 }
 
 .bg-orange-70 {
@@ -2286,44 +4002,96 @@
   color: #996300;
 }
 
+.active-fill-orange-70:active {
+  fill: #996300 !important;
+}
+
+.active-bg-orange-70:active {
+  background: #996300 !important;
+}
+
+.active-text-orange-70:active {
+  color: #996300 !important;
+}
+
 .border-1-orange-70 {
   border: 1px solid #996300;
+}
+
+.active-border-1-orange-70:active {
+  border: 1px solid #996300 !important;
 }
 
 .border-2-orange-70 {
   border: 2px solid #996300;
 }
 
+.active-border-2-orange-70:active {
+  border: 2px solid #996300 !important;
+}
+
 .border-3-orange-70 {
   border: 3px solid #996300;
+}
+
+.active-border-3-orange-70:active {
+  border: 3px solid #996300 !important;
 }
 
 .border-4-orange-70 {
   border: 4px solid #996300;
 }
 
+.active-border-4-orange-70:active {
+  border: 4px solid #996300 !important;
+}
+
 .border-5-orange-70 {
   border: 5px solid #996300;
+}
+
+.active-border-5-orange-70:active {
+  border: 5px solid #996300 !important;
 }
 
 .border-6-orange-70 {
   border: 6px solid #996300;
 }
 
+.active-border-6-orange-70:active {
+  border: 6px solid #996300 !important;
+}
+
 .border-7-orange-70 {
   border: 7px solid #996300;
+}
+
+.active-border-7-orange-70:active {
+  border: 7px solid #996300 !important;
 }
 
 .border-8-orange-70 {
   border: 8px solid #996300;
 }
 
+.active-border-8-orange-70:active {
+  border: 8px solid #996300 !important;
+}
+
 .border-9-orange-70 {
   border: 9px solid #996300;
 }
 
+.active-border-9-orange-70:active {
+  border: 9px solid #996300 !important;
+}
+
 .border-10-orange-70 {
   border: 10px solid #996300;
+}
+
+.active-border-10-orange-70:active {
+  border: 10px solid #996300 !important;
 }
 
 .bg-orange-60 {
@@ -2338,44 +4106,96 @@
   color: #cc8400;
 }
 
+.active-fill-orange-60:active {
+  fill: #cc8400 !important;
+}
+
+.active-bg-orange-60:active {
+  background: #cc8400 !important;
+}
+
+.active-text-orange-60:active {
+  color: #cc8400 !important;
+}
+
 .border-1-orange-60 {
   border: 1px solid #cc8400;
+}
+
+.active-border-1-orange-60:active {
+  border: 1px solid #cc8400 !important;
 }
 
 .border-2-orange-60 {
   border: 2px solid #cc8400;
 }
 
+.active-border-2-orange-60:active {
+  border: 2px solid #cc8400 !important;
+}
+
 .border-3-orange-60 {
   border: 3px solid #cc8400;
+}
+
+.active-border-3-orange-60:active {
+  border: 3px solid #cc8400 !important;
 }
 
 .border-4-orange-60 {
   border: 4px solid #cc8400;
 }
 
+.active-border-4-orange-60:active {
+  border: 4px solid #cc8400 !important;
+}
+
 .border-5-orange-60 {
   border: 5px solid #cc8400;
+}
+
+.active-border-5-orange-60:active {
+  border: 5px solid #cc8400 !important;
 }
 
 .border-6-orange-60 {
   border: 6px solid #cc8400;
 }
 
+.active-border-6-orange-60:active {
+  border: 6px solid #cc8400 !important;
+}
+
 .border-7-orange-60 {
   border: 7px solid #cc8400;
+}
+
+.active-border-7-orange-60:active {
+  border: 7px solid #cc8400 !important;
 }
 
 .border-8-orange-60 {
   border: 8px solid #cc8400;
 }
 
+.active-border-8-orange-60:active {
+  border: 8px solid #cc8400 !important;
+}
+
 .border-9-orange-60 {
   border: 9px solid #cc8400;
 }
 
+.active-border-9-orange-60:active {
+  border: 9px solid #cc8400 !important;
+}
+
 .border-10-orange-60 {
   border: 10px solid #cc8400;
+}
+
+.active-border-10-orange-60:active {
+  border: 10px solid #cc8400 !important;
 }
 
 .bg-orange-50 {
@@ -2390,44 +4210,96 @@
   color: orange;
 }
 
+.active-fill-orange-50:active {
+  fill: orange !important;
+}
+
+.active-bg-orange-50:active {
+  background: orange !important;
+}
+
+.active-text-orange-50:active {
+  color: orange !important;
+}
+
 .border-1-orange-50 {
   border: 1px solid orange;
+}
+
+.active-border-1-orange-50:active {
+  border: 1px solid orange !important;
 }
 
 .border-2-orange-50 {
   border: 2px solid orange;
 }
 
+.active-border-2-orange-50:active {
+  border: 2px solid orange !important;
+}
+
 .border-3-orange-50 {
   border: 3px solid orange;
+}
+
+.active-border-3-orange-50:active {
+  border: 3px solid orange !important;
 }
 
 .border-4-orange-50 {
   border: 4px solid orange;
 }
 
+.active-border-4-orange-50:active {
+  border: 4px solid orange !important;
+}
+
 .border-5-orange-50 {
   border: 5px solid orange;
+}
+
+.active-border-5-orange-50:active {
+  border: 5px solid orange !important;
 }
 
 .border-6-orange-50 {
   border: 6px solid orange;
 }
 
+.active-border-6-orange-50:active {
+  border: 6px solid orange !important;
+}
+
 .border-7-orange-50 {
   border: 7px solid orange;
+}
+
+.active-border-7-orange-50:active {
+  border: 7px solid orange !important;
 }
 
 .border-8-orange-50 {
   border: 8px solid orange;
 }
 
+.active-border-8-orange-50:active {
+  border: 8px solid orange !important;
+}
+
 .border-9-orange-50 {
   border: 9px solid orange;
 }
 
+.active-border-9-orange-50:active {
+  border: 9px solid orange !important;
+}
+
 .border-10-orange-50 {
   border: 10px solid orange;
+}
+
+.active-border-10-orange-50:active {
+  border: 10px solid orange !important;
 }
 
 .bg-orange-40 {
@@ -2442,44 +4314,96 @@
   color: #ffb733;
 }
 
+.active-fill-orange-40:active {
+  fill: #ffb733 !important;
+}
+
+.active-bg-orange-40:active {
+  background: #ffb733 !important;
+}
+
+.active-text-orange-40:active {
+  color: #ffb733 !important;
+}
+
 .border-1-orange-40 {
   border: 1px solid #ffb733;
+}
+
+.active-border-1-orange-40:active {
+  border: 1px solid #ffb733 !important;
 }
 
 .border-2-orange-40 {
   border: 2px solid #ffb733;
 }
 
+.active-border-2-orange-40:active {
+  border: 2px solid #ffb733 !important;
+}
+
 .border-3-orange-40 {
   border: 3px solid #ffb733;
+}
+
+.active-border-3-orange-40:active {
+  border: 3px solid #ffb733 !important;
 }
 
 .border-4-orange-40 {
   border: 4px solid #ffb733;
 }
 
+.active-border-4-orange-40:active {
+  border: 4px solid #ffb733 !important;
+}
+
 .border-5-orange-40 {
   border: 5px solid #ffb733;
+}
+
+.active-border-5-orange-40:active {
+  border: 5px solid #ffb733 !important;
 }
 
 .border-6-orange-40 {
   border: 6px solid #ffb733;
 }
 
+.active-border-6-orange-40:active {
+  border: 6px solid #ffb733 !important;
+}
+
 .border-7-orange-40 {
   border: 7px solid #ffb733;
+}
+
+.active-border-7-orange-40:active {
+  border: 7px solid #ffb733 !important;
 }
 
 .border-8-orange-40 {
   border: 8px solid #ffb733;
 }
 
+.active-border-8-orange-40:active {
+  border: 8px solid #ffb733 !important;
+}
+
 .border-9-orange-40 {
   border: 9px solid #ffb733;
 }
 
+.active-border-9-orange-40:active {
+  border: 9px solid #ffb733 !important;
+}
+
 .border-10-orange-40 {
   border: 10px solid #ffb733;
+}
+
+.active-border-10-orange-40:active {
+  border: 10px solid #ffb733 !important;
 }
 
 .bg-orange-30 {
@@ -2494,44 +4418,96 @@
   color: #ffc966;
 }
 
+.active-fill-orange-30:active {
+  fill: #ffc966 !important;
+}
+
+.active-bg-orange-30:active {
+  background: #ffc966 !important;
+}
+
+.active-text-orange-30:active {
+  color: #ffc966 !important;
+}
+
 .border-1-orange-30 {
   border: 1px solid #ffc966;
+}
+
+.active-border-1-orange-30:active {
+  border: 1px solid #ffc966 !important;
 }
 
 .border-2-orange-30 {
   border: 2px solid #ffc966;
 }
 
+.active-border-2-orange-30:active {
+  border: 2px solid #ffc966 !important;
+}
+
 .border-3-orange-30 {
   border: 3px solid #ffc966;
+}
+
+.active-border-3-orange-30:active {
+  border: 3px solid #ffc966 !important;
 }
 
 .border-4-orange-30 {
   border: 4px solid #ffc966;
 }
 
+.active-border-4-orange-30:active {
+  border: 4px solid #ffc966 !important;
+}
+
 .border-5-orange-30 {
   border: 5px solid #ffc966;
+}
+
+.active-border-5-orange-30:active {
+  border: 5px solid #ffc966 !important;
 }
 
 .border-6-orange-30 {
   border: 6px solid #ffc966;
 }
 
+.active-border-6-orange-30:active {
+  border: 6px solid #ffc966 !important;
+}
+
 .border-7-orange-30 {
   border: 7px solid #ffc966;
+}
+
+.active-border-7-orange-30:active {
+  border: 7px solid #ffc966 !important;
 }
 
 .border-8-orange-30 {
   border: 8px solid #ffc966;
 }
 
+.active-border-8-orange-30:active {
+  border: 8px solid #ffc966 !important;
+}
+
 .border-9-orange-30 {
   border: 9px solid #ffc966;
 }
 
+.active-border-9-orange-30:active {
+  border: 9px solid #ffc966 !important;
+}
+
 .border-10-orange-30 {
   border: 10px solid #ffc966;
+}
+
+.active-border-10-orange-30:active {
+  border: 10px solid #ffc966 !important;
 }
 
 .bg-orange-20 {
@@ -2546,44 +4522,96 @@
   color: #ffdb99;
 }
 
+.active-fill-orange-20:active {
+  fill: #ffdb99 !important;
+}
+
+.active-bg-orange-20:active {
+  background: #ffdb99 !important;
+}
+
+.active-text-orange-20:active {
+  color: #ffdb99 !important;
+}
+
 .border-1-orange-20 {
   border: 1px solid #ffdb99;
+}
+
+.active-border-1-orange-20:active {
+  border: 1px solid #ffdb99 !important;
 }
 
 .border-2-orange-20 {
   border: 2px solid #ffdb99;
 }
 
+.active-border-2-orange-20:active {
+  border: 2px solid #ffdb99 !important;
+}
+
 .border-3-orange-20 {
   border: 3px solid #ffdb99;
+}
+
+.active-border-3-orange-20:active {
+  border: 3px solid #ffdb99 !important;
 }
 
 .border-4-orange-20 {
   border: 4px solid #ffdb99;
 }
 
+.active-border-4-orange-20:active {
+  border: 4px solid #ffdb99 !important;
+}
+
 .border-5-orange-20 {
   border: 5px solid #ffdb99;
+}
+
+.active-border-5-orange-20:active {
+  border: 5px solid #ffdb99 !important;
 }
 
 .border-6-orange-20 {
   border: 6px solid #ffdb99;
 }
 
+.active-border-6-orange-20:active {
+  border: 6px solid #ffdb99 !important;
+}
+
 .border-7-orange-20 {
   border: 7px solid #ffdb99;
+}
+
+.active-border-7-orange-20:active {
+  border: 7px solid #ffdb99 !important;
 }
 
 .border-8-orange-20 {
   border: 8px solid #ffdb99;
 }
 
+.active-border-8-orange-20:active {
+  border: 8px solid #ffdb99 !important;
+}
+
 .border-9-orange-20 {
   border: 9px solid #ffdb99;
 }
 
+.active-border-9-orange-20:active {
+  border: 9px solid #ffdb99 !important;
+}
+
 .border-10-orange-20 {
   border: 10px solid #ffdb99;
+}
+
+.active-border-10-orange-20:active {
+  border: 10px solid #ffdb99 !important;
 }
 
 .bg-orange-10 {
@@ -2598,44 +4626,96 @@
   color: #ffedcc;
 }
 
+.active-fill-orange-10:active {
+  fill: #ffedcc !important;
+}
+
+.active-bg-orange-10:active {
+  background: #ffedcc !important;
+}
+
+.active-text-orange-10:active {
+  color: #ffedcc !important;
+}
+
 .border-1-orange-10 {
   border: 1px solid #ffedcc;
+}
+
+.active-border-1-orange-10:active {
+  border: 1px solid #ffedcc !important;
 }
 
 .border-2-orange-10 {
   border: 2px solid #ffedcc;
 }
 
+.active-border-2-orange-10:active {
+  border: 2px solid #ffedcc !important;
+}
+
 .border-3-orange-10 {
   border: 3px solid #ffedcc;
+}
+
+.active-border-3-orange-10:active {
+  border: 3px solid #ffedcc !important;
 }
 
 .border-4-orange-10 {
   border: 4px solid #ffedcc;
 }
 
+.active-border-4-orange-10:active {
+  border: 4px solid #ffedcc !important;
+}
+
 .border-5-orange-10 {
   border: 5px solid #ffedcc;
+}
+
+.active-border-5-orange-10:active {
+  border: 5px solid #ffedcc !important;
 }
 
 .border-6-orange-10 {
   border: 6px solid #ffedcc;
 }
 
+.active-border-6-orange-10:active {
+  border: 6px solid #ffedcc !important;
+}
+
 .border-7-orange-10 {
   border: 7px solid #ffedcc;
+}
+
+.active-border-7-orange-10:active {
+  border: 7px solid #ffedcc !important;
 }
 
 .border-8-orange-10 {
   border: 8px solid #ffedcc;
 }
 
+.active-border-8-orange-10:active {
+  border: 8px solid #ffedcc !important;
+}
+
 .border-9-orange-10 {
   border: 9px solid #ffedcc;
 }
 
+.active-border-9-orange-10:active {
+  border: 9px solid #ffedcc !important;
+}
+
 .border-10-orange-10 {
   border: 10px solid #ffedcc;
+}
+
+.active-border-10-orange-10:active {
+  border: 10px solid #ffedcc !important;
 }
 
 .bg-purple-100 {
@@ -2650,44 +4730,96 @@
   color: black;
 }
 
+.active-fill-purple-100:active {
+  fill: black !important;
+}
+
+.active-bg-purple-100:active {
+  background: black !important;
+}
+
+.active-text-purple-100:active {
+  color: black !important;
+}
+
 .border-1-purple-100 {
   border: 1px solid black;
+}
+
+.active-border-1-purple-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-purple-100 {
   border: 2px solid black;
 }
 
+.active-border-2-purple-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-purple-100 {
   border: 3px solid black;
+}
+
+.active-border-3-purple-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-purple-100 {
   border: 4px solid black;
 }
 
+.active-border-4-purple-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-purple-100 {
   border: 5px solid black;
+}
+
+.active-border-5-purple-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-purple-100 {
   border: 6px solid black;
 }
 
+.active-border-6-purple-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-purple-100 {
   border: 7px solid black;
+}
+
+.active-border-7-purple-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-purple-100 {
   border: 8px solid black;
 }
 
+.active-border-8-purple-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-purple-100 {
   border: 9px solid black;
 }
 
+.active-border-9-purple-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-purple-100 {
   border: 10px solid black;
+}
+
+.active-border-10-purple-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-purple-90 {
@@ -2702,44 +4834,96 @@
   color: black;
 }
 
+.active-fill-purple-90:active {
+  fill: black !important;
+}
+
+.active-bg-purple-90:active {
+  background: black !important;
+}
+
+.active-text-purple-90:active {
+  color: black !important;
+}
+
 .border-1-purple-90 {
   border: 1px solid black;
+}
+
+.active-border-1-purple-90:active {
+  border: 1px solid black !important;
 }
 
 .border-2-purple-90 {
   border: 2px solid black;
 }
 
+.active-border-2-purple-90:active {
+  border: 2px solid black !important;
+}
+
 .border-3-purple-90 {
   border: 3px solid black;
+}
+
+.active-border-3-purple-90:active {
+  border: 3px solid black !important;
 }
 
 .border-4-purple-90 {
   border: 4px solid black;
 }
 
+.active-border-4-purple-90:active {
+  border: 4px solid black !important;
+}
+
 .border-5-purple-90 {
   border: 5px solid black;
+}
+
+.active-border-5-purple-90:active {
+  border: 5px solid black !important;
 }
 
 .border-6-purple-90 {
   border: 6px solid black;
 }
 
+.active-border-6-purple-90:active {
+  border: 6px solid black !important;
+}
+
 .border-7-purple-90 {
   border: 7px solid black;
+}
+
+.active-border-7-purple-90:active {
+  border: 7px solid black !important;
 }
 
 .border-8-purple-90 {
   border: 8px solid black;
 }
 
+.active-border-8-purple-90:active {
+  border: 8px solid black !important;
+}
+
 .border-9-purple-90 {
   border: 9px solid black;
 }
 
+.active-border-9-purple-90:active {
+  border: 9px solid black !important;
+}
+
 .border-10-purple-90 {
   border: 10px solid black;
+}
+
+.active-border-10-purple-90:active {
+  border: 10px solid black !important;
 }
 
 .bg-purple-80 {
@@ -2754,44 +4938,96 @@
   color: black;
 }
 
+.active-fill-purple-80:active {
+  fill: black !important;
+}
+
+.active-bg-purple-80:active {
+  background: black !important;
+}
+
+.active-text-purple-80:active {
+  color: black !important;
+}
+
 .border-1-purple-80 {
   border: 1px solid black;
+}
+
+.active-border-1-purple-80:active {
+  border: 1px solid black !important;
 }
 
 .border-2-purple-80 {
   border: 2px solid black;
 }
 
+.active-border-2-purple-80:active {
+  border: 2px solid black !important;
+}
+
 .border-3-purple-80 {
   border: 3px solid black;
+}
+
+.active-border-3-purple-80:active {
+  border: 3px solid black !important;
 }
 
 .border-4-purple-80 {
   border: 4px solid black;
 }
 
+.active-border-4-purple-80:active {
+  border: 4px solid black !important;
+}
+
 .border-5-purple-80 {
   border: 5px solid black;
+}
+
+.active-border-5-purple-80:active {
+  border: 5px solid black !important;
 }
 
 .border-6-purple-80 {
   border: 6px solid black;
 }
 
+.active-border-6-purple-80:active {
+  border: 6px solid black !important;
+}
+
 .border-7-purple-80 {
   border: 7px solid black;
+}
+
+.active-border-7-purple-80:active {
+  border: 7px solid black !important;
 }
 
 .border-8-purple-80 {
   border: 8px solid black;
 }
 
+.active-border-8-purple-80:active {
+  border: 8px solid black !important;
+}
+
 .border-9-purple-80 {
   border: 9px solid black;
 }
 
+.active-border-9-purple-80:active {
+  border: 9px solid black !important;
+}
+
 .border-10-purple-80 {
   border: 10px solid black;
+}
+
+.active-border-10-purple-80:active {
+  border: 10px solid black !important;
 }
 
 .bg-purple-70 {
@@ -2806,44 +5042,96 @@
   color: #1a001a;
 }
 
+.active-fill-purple-70:active {
+  fill: #1a001a !important;
+}
+
+.active-bg-purple-70:active {
+  background: #1a001a !important;
+}
+
+.active-text-purple-70:active {
+  color: #1a001a !important;
+}
+
 .border-1-purple-70 {
   border: 1px solid #1a001a;
+}
+
+.active-border-1-purple-70:active {
+  border: 1px solid #1a001a !important;
 }
 
 .border-2-purple-70 {
   border: 2px solid #1a001a;
 }
 
+.active-border-2-purple-70:active {
+  border: 2px solid #1a001a !important;
+}
+
 .border-3-purple-70 {
   border: 3px solid #1a001a;
+}
+
+.active-border-3-purple-70:active {
+  border: 3px solid #1a001a !important;
 }
 
 .border-4-purple-70 {
   border: 4px solid #1a001a;
 }
 
+.active-border-4-purple-70:active {
+  border: 4px solid #1a001a !important;
+}
+
 .border-5-purple-70 {
   border: 5px solid #1a001a;
+}
+
+.active-border-5-purple-70:active {
+  border: 5px solid #1a001a !important;
 }
 
 .border-6-purple-70 {
   border: 6px solid #1a001a;
 }
 
+.active-border-6-purple-70:active {
+  border: 6px solid #1a001a !important;
+}
+
 .border-7-purple-70 {
   border: 7px solid #1a001a;
+}
+
+.active-border-7-purple-70:active {
+  border: 7px solid #1a001a !important;
 }
 
 .border-8-purple-70 {
   border: 8px solid #1a001a;
 }
 
+.active-border-8-purple-70:active {
+  border: 8px solid #1a001a !important;
+}
+
 .border-9-purple-70 {
   border: 9px solid #1a001a;
 }
 
+.active-border-9-purple-70:active {
+  border: 9px solid #1a001a !important;
+}
+
 .border-10-purple-70 {
   border: 10px solid #1a001a;
+}
+
+.active-border-10-purple-70:active {
+  border: 10px solid #1a001a !important;
 }
 
 .bg-purple-60 {
@@ -2858,44 +5146,96 @@
   color: #4d004d;
 }
 
+.active-fill-purple-60:active {
+  fill: #4d004d !important;
+}
+
+.active-bg-purple-60:active {
+  background: #4d004d !important;
+}
+
+.active-text-purple-60:active {
+  color: #4d004d !important;
+}
+
 .border-1-purple-60 {
   border: 1px solid #4d004d;
+}
+
+.active-border-1-purple-60:active {
+  border: 1px solid #4d004d !important;
 }
 
 .border-2-purple-60 {
   border: 2px solid #4d004d;
 }
 
+.active-border-2-purple-60:active {
+  border: 2px solid #4d004d !important;
+}
+
 .border-3-purple-60 {
   border: 3px solid #4d004d;
+}
+
+.active-border-3-purple-60:active {
+  border: 3px solid #4d004d !important;
 }
 
 .border-4-purple-60 {
   border: 4px solid #4d004d;
 }
 
+.active-border-4-purple-60:active {
+  border: 4px solid #4d004d !important;
+}
+
 .border-5-purple-60 {
   border: 5px solid #4d004d;
+}
+
+.active-border-5-purple-60:active {
+  border: 5px solid #4d004d !important;
 }
 
 .border-6-purple-60 {
   border: 6px solid #4d004d;
 }
 
+.active-border-6-purple-60:active {
+  border: 6px solid #4d004d !important;
+}
+
 .border-7-purple-60 {
   border: 7px solid #4d004d;
+}
+
+.active-border-7-purple-60:active {
+  border: 7px solid #4d004d !important;
 }
 
 .border-8-purple-60 {
   border: 8px solid #4d004d;
 }
 
+.active-border-8-purple-60:active {
+  border: 8px solid #4d004d !important;
+}
+
 .border-9-purple-60 {
   border: 9px solid #4d004d;
 }
 
+.active-border-9-purple-60:active {
+  border: 9px solid #4d004d !important;
+}
+
 .border-10-purple-60 {
   border: 10px solid #4d004d;
+}
+
+.active-border-10-purple-60:active {
+  border: 10px solid #4d004d !important;
 }
 
 .bg-purple-50 {
@@ -2910,44 +5250,96 @@
   color: purple;
 }
 
+.active-fill-purple-50:active {
+  fill: purple !important;
+}
+
+.active-bg-purple-50:active {
+  background: purple !important;
+}
+
+.active-text-purple-50:active {
+  color: purple !important;
+}
+
 .border-1-purple-50 {
   border: 1px solid purple;
+}
+
+.active-border-1-purple-50:active {
+  border: 1px solid purple !important;
 }
 
 .border-2-purple-50 {
   border: 2px solid purple;
 }
 
+.active-border-2-purple-50:active {
+  border: 2px solid purple !important;
+}
+
 .border-3-purple-50 {
   border: 3px solid purple;
+}
+
+.active-border-3-purple-50:active {
+  border: 3px solid purple !important;
 }
 
 .border-4-purple-50 {
   border: 4px solid purple;
 }
 
+.active-border-4-purple-50:active {
+  border: 4px solid purple !important;
+}
+
 .border-5-purple-50 {
   border: 5px solid purple;
+}
+
+.active-border-5-purple-50:active {
+  border: 5px solid purple !important;
 }
 
 .border-6-purple-50 {
   border: 6px solid purple;
 }
 
+.active-border-6-purple-50:active {
+  border: 6px solid purple !important;
+}
+
 .border-7-purple-50 {
   border: 7px solid purple;
+}
+
+.active-border-7-purple-50:active {
+  border: 7px solid purple !important;
 }
 
 .border-8-purple-50 {
   border: 8px solid purple;
 }
 
+.active-border-8-purple-50:active {
+  border: 8px solid purple !important;
+}
+
 .border-9-purple-50 {
   border: 9px solid purple;
 }
 
+.active-border-9-purple-50:active {
+  border: 9px solid purple !important;
+}
+
 .border-10-purple-50 {
   border: 10px solid purple;
+}
+
+.active-border-10-purple-50:active {
+  border: 10px solid purple !important;
 }
 
 .bg-purple-40 {
@@ -2962,44 +5354,96 @@
   color: #b300b3;
 }
 
+.active-fill-purple-40:active {
+  fill: #b300b3 !important;
+}
+
+.active-bg-purple-40:active {
+  background: #b300b3 !important;
+}
+
+.active-text-purple-40:active {
+  color: #b300b3 !important;
+}
+
 .border-1-purple-40 {
   border: 1px solid #b300b3;
+}
+
+.active-border-1-purple-40:active {
+  border: 1px solid #b300b3 !important;
 }
 
 .border-2-purple-40 {
   border: 2px solid #b300b3;
 }
 
+.active-border-2-purple-40:active {
+  border: 2px solid #b300b3 !important;
+}
+
 .border-3-purple-40 {
   border: 3px solid #b300b3;
+}
+
+.active-border-3-purple-40:active {
+  border: 3px solid #b300b3 !important;
 }
 
 .border-4-purple-40 {
   border: 4px solid #b300b3;
 }
 
+.active-border-4-purple-40:active {
+  border: 4px solid #b300b3 !important;
+}
+
 .border-5-purple-40 {
   border: 5px solid #b300b3;
+}
+
+.active-border-5-purple-40:active {
+  border: 5px solid #b300b3 !important;
 }
 
 .border-6-purple-40 {
   border: 6px solid #b300b3;
 }
 
+.active-border-6-purple-40:active {
+  border: 6px solid #b300b3 !important;
+}
+
 .border-7-purple-40 {
   border: 7px solid #b300b3;
+}
+
+.active-border-7-purple-40:active {
+  border: 7px solid #b300b3 !important;
 }
 
 .border-8-purple-40 {
   border: 8px solid #b300b3;
 }
 
+.active-border-8-purple-40:active {
+  border: 8px solid #b300b3 !important;
+}
+
 .border-9-purple-40 {
   border: 9px solid #b300b3;
 }
 
+.active-border-9-purple-40:active {
+  border: 9px solid #b300b3 !important;
+}
+
 .border-10-purple-40 {
   border: 10px solid #b300b3;
+}
+
+.active-border-10-purple-40:active {
+  border: 10px solid #b300b3 !important;
 }
 
 .bg-purple-30 {
@@ -3014,44 +5458,96 @@
   color: #e600e6;
 }
 
+.active-fill-purple-30:active {
+  fill: #e600e6 !important;
+}
+
+.active-bg-purple-30:active {
+  background: #e600e6 !important;
+}
+
+.active-text-purple-30:active {
+  color: #e600e6 !important;
+}
+
 .border-1-purple-30 {
   border: 1px solid #e600e6;
+}
+
+.active-border-1-purple-30:active {
+  border: 1px solid #e600e6 !important;
 }
 
 .border-2-purple-30 {
   border: 2px solid #e600e6;
 }
 
+.active-border-2-purple-30:active {
+  border: 2px solid #e600e6 !important;
+}
+
 .border-3-purple-30 {
   border: 3px solid #e600e6;
+}
+
+.active-border-3-purple-30:active {
+  border: 3px solid #e600e6 !important;
 }
 
 .border-4-purple-30 {
   border: 4px solid #e600e6;
 }
 
+.active-border-4-purple-30:active {
+  border: 4px solid #e600e6 !important;
+}
+
 .border-5-purple-30 {
   border: 5px solid #e600e6;
+}
+
+.active-border-5-purple-30:active {
+  border: 5px solid #e600e6 !important;
 }
 
 .border-6-purple-30 {
   border: 6px solid #e600e6;
 }
 
+.active-border-6-purple-30:active {
+  border: 6px solid #e600e6 !important;
+}
+
 .border-7-purple-30 {
   border: 7px solid #e600e6;
+}
+
+.active-border-7-purple-30:active {
+  border: 7px solid #e600e6 !important;
 }
 
 .border-8-purple-30 {
   border: 8px solid #e600e6;
 }
 
+.active-border-8-purple-30:active {
+  border: 8px solid #e600e6 !important;
+}
+
 .border-9-purple-30 {
   border: 9px solid #e600e6;
 }
 
+.active-border-9-purple-30:active {
+  border: 9px solid #e600e6 !important;
+}
+
 .border-10-purple-30 {
   border: 10px solid #e600e6;
+}
+
+.active-border-10-purple-30:active {
+  border: 10px solid #e600e6 !important;
 }
 
 .bg-purple-20 {
@@ -3066,44 +5562,96 @@
   color: #ff1aff;
 }
 
+.active-fill-purple-20:active {
+  fill: #ff1aff !important;
+}
+
+.active-bg-purple-20:active {
+  background: #ff1aff !important;
+}
+
+.active-text-purple-20:active {
+  color: #ff1aff !important;
+}
+
 .border-1-purple-20 {
   border: 1px solid #ff1aff;
+}
+
+.active-border-1-purple-20:active {
+  border: 1px solid #ff1aff !important;
 }
 
 .border-2-purple-20 {
   border: 2px solid #ff1aff;
 }
 
+.active-border-2-purple-20:active {
+  border: 2px solid #ff1aff !important;
+}
+
 .border-3-purple-20 {
   border: 3px solid #ff1aff;
+}
+
+.active-border-3-purple-20:active {
+  border: 3px solid #ff1aff !important;
 }
 
 .border-4-purple-20 {
   border: 4px solid #ff1aff;
 }
 
+.active-border-4-purple-20:active {
+  border: 4px solid #ff1aff !important;
+}
+
 .border-5-purple-20 {
   border: 5px solid #ff1aff;
+}
+
+.active-border-5-purple-20:active {
+  border: 5px solid #ff1aff !important;
 }
 
 .border-6-purple-20 {
   border: 6px solid #ff1aff;
 }
 
+.active-border-6-purple-20:active {
+  border: 6px solid #ff1aff !important;
+}
+
 .border-7-purple-20 {
   border: 7px solid #ff1aff;
+}
+
+.active-border-7-purple-20:active {
+  border: 7px solid #ff1aff !important;
 }
 
 .border-8-purple-20 {
   border: 8px solid #ff1aff;
 }
 
+.active-border-8-purple-20:active {
+  border: 8px solid #ff1aff !important;
+}
+
 .border-9-purple-20 {
   border: 9px solid #ff1aff;
 }
 
+.active-border-9-purple-20:active {
+  border: 9px solid #ff1aff !important;
+}
+
 .border-10-purple-20 {
   border: 10px solid #ff1aff;
+}
+
+.active-border-10-purple-20:active {
+  border: 10px solid #ff1aff !important;
 }
 
 .bg-purple-10 {
@@ -3118,44 +5666,96 @@
   color: #ff4dff;
 }
 
+.active-fill-purple-10:active {
+  fill: #ff4dff !important;
+}
+
+.active-bg-purple-10:active {
+  background: #ff4dff !important;
+}
+
+.active-text-purple-10:active {
+  color: #ff4dff !important;
+}
+
 .border-1-purple-10 {
   border: 1px solid #ff4dff;
+}
+
+.active-border-1-purple-10:active {
+  border: 1px solid #ff4dff !important;
 }
 
 .border-2-purple-10 {
   border: 2px solid #ff4dff;
 }
 
+.active-border-2-purple-10:active {
+  border: 2px solid #ff4dff !important;
+}
+
 .border-3-purple-10 {
   border: 3px solid #ff4dff;
+}
+
+.active-border-3-purple-10:active {
+  border: 3px solid #ff4dff !important;
 }
 
 .border-4-purple-10 {
   border: 4px solid #ff4dff;
 }
 
+.active-border-4-purple-10:active {
+  border: 4px solid #ff4dff !important;
+}
+
 .border-5-purple-10 {
   border: 5px solid #ff4dff;
+}
+
+.active-border-5-purple-10:active {
+  border: 5px solid #ff4dff !important;
 }
 
 .border-6-purple-10 {
   border: 6px solid #ff4dff;
 }
 
+.active-border-6-purple-10:active {
+  border: 6px solid #ff4dff !important;
+}
+
 .border-7-purple-10 {
   border: 7px solid #ff4dff;
+}
+
+.active-border-7-purple-10:active {
+  border: 7px solid #ff4dff !important;
 }
 
 .border-8-purple-10 {
   border: 8px solid #ff4dff;
 }
 
+.active-border-8-purple-10:active {
+  border: 8px solid #ff4dff !important;
+}
+
 .border-9-purple-10 {
   border: 9px solid #ff4dff;
 }
 
+.active-border-9-purple-10:active {
+  border: 9px solid #ff4dff !important;
+}
+
 .border-10-purple-10 {
   border: 10px solid #ff4dff;
+}
+
+.active-border-10-purple-10:active {
+  border: 10px solid #ff4dff !important;
 }
 
 .bg-grey-100 {
@@ -3170,44 +5770,96 @@
   color: rgb(0.5, 0.5, 0.5);
 }
 
+.active-fill-grey-100:active {
+  fill: rgb(0.5, 0.5, 0.5) !important;
+}
+
+.active-bg-grey-100:active {
+  background: rgb(0.5, 0.5, 0.5) !important;
+}
+
+.active-text-grey-100:active {
+  color: rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-1-grey-100 {
   border: 1px solid rgb(0.5, 0.5, 0.5);
+}
+
+.active-border-1-grey-100:active {
+  border: 1px solid rgb(0.5, 0.5, 0.5) !important;
 }
 
 .border-2-grey-100 {
   border: 2px solid rgb(0.5, 0.5, 0.5);
 }
 
+.active-border-2-grey-100:active {
+  border: 2px solid rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-3-grey-100 {
   border: 3px solid rgb(0.5, 0.5, 0.5);
+}
+
+.active-border-3-grey-100:active {
+  border: 3px solid rgb(0.5, 0.5, 0.5) !important;
 }
 
 .border-4-grey-100 {
   border: 4px solid rgb(0.5, 0.5, 0.5);
 }
 
+.active-border-4-grey-100:active {
+  border: 4px solid rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-5-grey-100 {
   border: 5px solid rgb(0.5, 0.5, 0.5);
+}
+
+.active-border-5-grey-100:active {
+  border: 5px solid rgb(0.5, 0.5, 0.5) !important;
 }
 
 .border-6-grey-100 {
   border: 6px solid rgb(0.5, 0.5, 0.5);
 }
 
+.active-border-6-grey-100:active {
+  border: 6px solid rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-7-grey-100 {
   border: 7px solid rgb(0.5, 0.5, 0.5);
+}
+
+.active-border-7-grey-100:active {
+  border: 7px solid rgb(0.5, 0.5, 0.5) !important;
 }
 
 .border-8-grey-100 {
   border: 8px solid rgb(0.5, 0.5, 0.5);
 }
 
+.active-border-8-grey-100:active {
+  border: 8px solid rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-9-grey-100 {
   border: 9px solid rgb(0.5, 0.5, 0.5);
 }
 
+.active-border-9-grey-100:active {
+  border: 9px solid rgb(0.5, 0.5, 0.5) !important;
+}
+
 .border-10-grey-100 {
   border: 10px solid rgb(0.5, 0.5, 0.5);
+}
+
+.active-border-10-grey-100:active {
+  border: 10px solid rgb(0.5, 0.5, 0.5) !important;
 }
 
 .bg-grey-90 {
@@ -3222,44 +5874,96 @@
   color: #1a1a1a;
 }
 
+.active-fill-grey-90:active {
+  fill: #1a1a1a !important;
+}
+
+.active-bg-grey-90:active {
+  background: #1a1a1a !important;
+}
+
+.active-text-grey-90:active {
+  color: #1a1a1a !important;
+}
+
 .border-1-grey-90 {
   border: 1px solid #1a1a1a;
+}
+
+.active-border-1-grey-90:active {
+  border: 1px solid #1a1a1a !important;
 }
 
 .border-2-grey-90 {
   border: 2px solid #1a1a1a;
 }
 
+.active-border-2-grey-90:active {
+  border: 2px solid #1a1a1a !important;
+}
+
 .border-3-grey-90 {
   border: 3px solid #1a1a1a;
+}
+
+.active-border-3-grey-90:active {
+  border: 3px solid #1a1a1a !important;
 }
 
 .border-4-grey-90 {
   border: 4px solid #1a1a1a;
 }
 
+.active-border-4-grey-90:active {
+  border: 4px solid #1a1a1a !important;
+}
+
 .border-5-grey-90 {
   border: 5px solid #1a1a1a;
+}
+
+.active-border-5-grey-90:active {
+  border: 5px solid #1a1a1a !important;
 }
 
 .border-6-grey-90 {
   border: 6px solid #1a1a1a;
 }
 
+.active-border-6-grey-90:active {
+  border: 6px solid #1a1a1a !important;
+}
+
 .border-7-grey-90 {
   border: 7px solid #1a1a1a;
+}
+
+.active-border-7-grey-90:active {
+  border: 7px solid #1a1a1a !important;
 }
 
 .border-8-grey-90 {
   border: 8px solid #1a1a1a;
 }
 
+.active-border-8-grey-90:active {
+  border: 8px solid #1a1a1a !important;
+}
+
 .border-9-grey-90 {
   border: 9px solid #1a1a1a;
 }
 
+.active-border-9-grey-90:active {
+  border: 9px solid #1a1a1a !important;
+}
+
 .border-10-grey-90 {
   border: 10px solid #1a1a1a;
+}
+
+.active-border-10-grey-90:active {
+  border: 10px solid #1a1a1a !important;
 }
 
 .bg-grey-80 {
@@ -3274,44 +5978,96 @@
   color: rgb(51.5, 51.5, 51.5);
 }
 
+.active-fill-grey-80:active {
+  fill: rgb(51.5, 51.5, 51.5) !important;
+}
+
+.active-bg-grey-80:active {
+  background: rgb(51.5, 51.5, 51.5) !important;
+}
+
+.active-text-grey-80:active {
+  color: rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-1-grey-80 {
   border: 1px solid rgb(51.5, 51.5, 51.5);
+}
+
+.active-border-1-grey-80:active {
+  border: 1px solid rgb(51.5, 51.5, 51.5) !important;
 }
 
 .border-2-grey-80 {
   border: 2px solid rgb(51.5, 51.5, 51.5);
 }
 
+.active-border-2-grey-80:active {
+  border: 2px solid rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-3-grey-80 {
   border: 3px solid rgb(51.5, 51.5, 51.5);
+}
+
+.active-border-3-grey-80:active {
+  border: 3px solid rgb(51.5, 51.5, 51.5) !important;
 }
 
 .border-4-grey-80 {
   border: 4px solid rgb(51.5, 51.5, 51.5);
 }
 
+.active-border-4-grey-80:active {
+  border: 4px solid rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-5-grey-80 {
   border: 5px solid rgb(51.5, 51.5, 51.5);
+}
+
+.active-border-5-grey-80:active {
+  border: 5px solid rgb(51.5, 51.5, 51.5) !important;
 }
 
 .border-6-grey-80 {
   border: 6px solid rgb(51.5, 51.5, 51.5);
 }
 
+.active-border-6-grey-80:active {
+  border: 6px solid rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-7-grey-80 {
   border: 7px solid rgb(51.5, 51.5, 51.5);
+}
+
+.active-border-7-grey-80:active {
+  border: 7px solid rgb(51.5, 51.5, 51.5) !important;
 }
 
 .border-8-grey-80 {
   border: 8px solid rgb(51.5, 51.5, 51.5);
 }
 
+.active-border-8-grey-80:active {
+  border: 8px solid rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-9-grey-80 {
   border: 9px solid rgb(51.5, 51.5, 51.5);
 }
 
+.active-border-9-grey-80:active {
+  border: 9px solid rgb(51.5, 51.5, 51.5) !important;
+}
+
 .border-10-grey-80 {
   border: 10px solid rgb(51.5, 51.5, 51.5);
+}
+
+.active-border-10-grey-80:active {
+  border: 10px solid rgb(51.5, 51.5, 51.5) !important;
 }
 
 .bg-grey-70 {
@@ -3326,44 +6082,96 @@
   color: #4d4d4d;
 }
 
+.active-fill-grey-70:active {
+  fill: #4d4d4d !important;
+}
+
+.active-bg-grey-70:active {
+  background: #4d4d4d !important;
+}
+
+.active-text-grey-70:active {
+  color: #4d4d4d !important;
+}
+
 .border-1-grey-70 {
   border: 1px solid #4d4d4d;
+}
+
+.active-border-1-grey-70:active {
+  border: 1px solid #4d4d4d !important;
 }
 
 .border-2-grey-70 {
   border: 2px solid #4d4d4d;
 }
 
+.active-border-2-grey-70:active {
+  border: 2px solid #4d4d4d !important;
+}
+
 .border-3-grey-70 {
   border: 3px solid #4d4d4d;
+}
+
+.active-border-3-grey-70:active {
+  border: 3px solid #4d4d4d !important;
 }
 
 .border-4-grey-70 {
   border: 4px solid #4d4d4d;
 }
 
+.active-border-4-grey-70:active {
+  border: 4px solid #4d4d4d !important;
+}
+
 .border-5-grey-70 {
   border: 5px solid #4d4d4d;
+}
+
+.active-border-5-grey-70:active {
+  border: 5px solid #4d4d4d !important;
 }
 
 .border-6-grey-70 {
   border: 6px solid #4d4d4d;
 }
 
+.active-border-6-grey-70:active {
+  border: 6px solid #4d4d4d !important;
+}
+
 .border-7-grey-70 {
   border: 7px solid #4d4d4d;
+}
+
+.active-border-7-grey-70:active {
+  border: 7px solid #4d4d4d !important;
 }
 
 .border-8-grey-70 {
   border: 8px solid #4d4d4d;
 }
 
+.active-border-8-grey-70:active {
+  border: 8px solid #4d4d4d !important;
+}
+
 .border-9-grey-70 {
   border: 9px solid #4d4d4d;
 }
 
+.active-border-9-grey-70:active {
+  border: 9px solid #4d4d4d !important;
+}
+
 .border-10-grey-70 {
   border: 10px solid #4d4d4d;
+}
+
+.active-border-10-grey-70:active {
+  border: 10px solid #4d4d4d !important;
 }
 
 .bg-grey-60 {
@@ -3378,44 +6186,96 @@
   color: rgb(102.5, 102.5, 102.5);
 }
 
+.active-fill-grey-60:active {
+  fill: rgb(102.5, 102.5, 102.5) !important;
+}
+
+.active-bg-grey-60:active {
+  background: rgb(102.5, 102.5, 102.5) !important;
+}
+
+.active-text-grey-60:active {
+  color: rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-1-grey-60 {
   border: 1px solid rgb(102.5, 102.5, 102.5);
+}
+
+.active-border-1-grey-60:active {
+  border: 1px solid rgb(102.5, 102.5, 102.5) !important;
 }
 
 .border-2-grey-60 {
   border: 2px solid rgb(102.5, 102.5, 102.5);
 }
 
+.active-border-2-grey-60:active {
+  border: 2px solid rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-3-grey-60 {
   border: 3px solid rgb(102.5, 102.5, 102.5);
+}
+
+.active-border-3-grey-60:active {
+  border: 3px solid rgb(102.5, 102.5, 102.5) !important;
 }
 
 .border-4-grey-60 {
   border: 4px solid rgb(102.5, 102.5, 102.5);
 }
 
+.active-border-4-grey-60:active {
+  border: 4px solid rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-5-grey-60 {
   border: 5px solid rgb(102.5, 102.5, 102.5);
+}
+
+.active-border-5-grey-60:active {
+  border: 5px solid rgb(102.5, 102.5, 102.5) !important;
 }
 
 .border-6-grey-60 {
   border: 6px solid rgb(102.5, 102.5, 102.5);
 }
 
+.active-border-6-grey-60:active {
+  border: 6px solid rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-7-grey-60 {
   border: 7px solid rgb(102.5, 102.5, 102.5);
+}
+
+.active-border-7-grey-60:active {
+  border: 7px solid rgb(102.5, 102.5, 102.5) !important;
 }
 
 .border-8-grey-60 {
   border: 8px solid rgb(102.5, 102.5, 102.5);
 }
 
+.active-border-8-grey-60:active {
+  border: 8px solid rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-9-grey-60 {
   border: 9px solid rgb(102.5, 102.5, 102.5);
 }
 
+.active-border-9-grey-60:active {
+  border: 9px solid rgb(102.5, 102.5, 102.5) !important;
+}
+
 .border-10-grey-60 {
   border: 10px solid rgb(102.5, 102.5, 102.5);
+}
+
+.active-border-10-grey-60:active {
+  border: 10px solid rgb(102.5, 102.5, 102.5) !important;
 }
 
 .bg-grey-50 {
@@ -3430,44 +6290,96 @@
   color: gray;
 }
 
+.active-fill-grey-50:active {
+  fill: gray !important;
+}
+
+.active-bg-grey-50:active {
+  background: gray !important;
+}
+
+.active-text-grey-50:active {
+  color: gray !important;
+}
+
 .border-1-grey-50 {
   border: 1px solid gray;
+}
+
+.active-border-1-grey-50:active {
+  border: 1px solid gray !important;
 }
 
 .border-2-grey-50 {
   border: 2px solid gray;
 }
 
+.active-border-2-grey-50:active {
+  border: 2px solid gray !important;
+}
+
 .border-3-grey-50 {
   border: 3px solid gray;
+}
+
+.active-border-3-grey-50:active {
+  border: 3px solid gray !important;
 }
 
 .border-4-grey-50 {
   border: 4px solid gray;
 }
 
+.active-border-4-grey-50:active {
+  border: 4px solid gray !important;
+}
+
 .border-5-grey-50 {
   border: 5px solid gray;
+}
+
+.active-border-5-grey-50:active {
+  border: 5px solid gray !important;
 }
 
 .border-6-grey-50 {
   border: 6px solid gray;
 }
 
+.active-border-6-grey-50:active {
+  border: 6px solid gray !important;
+}
+
 .border-7-grey-50 {
   border: 7px solid gray;
+}
+
+.active-border-7-grey-50:active {
+  border: 7px solid gray !important;
 }
 
 .border-8-grey-50 {
   border: 8px solid gray;
 }
 
+.active-border-8-grey-50:active {
+  border: 8px solid gray !important;
+}
+
 .border-9-grey-50 {
   border: 9px solid gray;
 }
 
+.active-border-9-grey-50:active {
+  border: 9px solid gray !important;
+}
+
 .border-10-grey-50 {
   border: 10px solid gray;
+}
+
+.active-border-10-grey-50:active {
+  border: 10px solid gray !important;
 }
 
 .bg-grey-40 {
@@ -3482,44 +6394,96 @@
   color: rgb(153.5, 153.5, 153.5);
 }
 
+.active-fill-grey-40:active {
+  fill: rgb(153.5, 153.5, 153.5) !important;
+}
+
+.active-bg-grey-40:active {
+  background: rgb(153.5, 153.5, 153.5) !important;
+}
+
+.active-text-grey-40:active {
+  color: rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-1-grey-40 {
   border: 1px solid rgb(153.5, 153.5, 153.5);
+}
+
+.active-border-1-grey-40:active {
+  border: 1px solid rgb(153.5, 153.5, 153.5) !important;
 }
 
 .border-2-grey-40 {
   border: 2px solid rgb(153.5, 153.5, 153.5);
 }
 
+.active-border-2-grey-40:active {
+  border: 2px solid rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-3-grey-40 {
   border: 3px solid rgb(153.5, 153.5, 153.5);
+}
+
+.active-border-3-grey-40:active {
+  border: 3px solid rgb(153.5, 153.5, 153.5) !important;
 }
 
 .border-4-grey-40 {
   border: 4px solid rgb(153.5, 153.5, 153.5);
 }
 
+.active-border-4-grey-40:active {
+  border: 4px solid rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-5-grey-40 {
   border: 5px solid rgb(153.5, 153.5, 153.5);
+}
+
+.active-border-5-grey-40:active {
+  border: 5px solid rgb(153.5, 153.5, 153.5) !important;
 }
 
 .border-6-grey-40 {
   border: 6px solid rgb(153.5, 153.5, 153.5);
 }
 
+.active-border-6-grey-40:active {
+  border: 6px solid rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-7-grey-40 {
   border: 7px solid rgb(153.5, 153.5, 153.5);
+}
+
+.active-border-7-grey-40:active {
+  border: 7px solid rgb(153.5, 153.5, 153.5) !important;
 }
 
 .border-8-grey-40 {
   border: 8px solid rgb(153.5, 153.5, 153.5);
 }
 
+.active-border-8-grey-40:active {
+  border: 8px solid rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-9-grey-40 {
   border: 9px solid rgb(153.5, 153.5, 153.5);
 }
 
+.active-border-9-grey-40:active {
+  border: 9px solid rgb(153.5, 153.5, 153.5) !important;
+}
+
 .border-10-grey-40 {
   border: 10px solid rgb(153.5, 153.5, 153.5);
+}
+
+.active-border-10-grey-40:active {
+  border: 10px solid rgb(153.5, 153.5, 153.5) !important;
 }
 
 .bg-grey-30 {
@@ -3534,44 +6498,96 @@
   color: #b3b3b3;
 }
 
+.active-fill-grey-30:active {
+  fill: #b3b3b3 !important;
+}
+
+.active-bg-grey-30:active {
+  background: #b3b3b3 !important;
+}
+
+.active-text-grey-30:active {
+  color: #b3b3b3 !important;
+}
+
 .border-1-grey-30 {
   border: 1px solid #b3b3b3;
+}
+
+.active-border-1-grey-30:active {
+  border: 1px solid #b3b3b3 !important;
 }
 
 .border-2-grey-30 {
   border: 2px solid #b3b3b3;
 }
 
+.active-border-2-grey-30:active {
+  border: 2px solid #b3b3b3 !important;
+}
+
 .border-3-grey-30 {
   border: 3px solid #b3b3b3;
+}
+
+.active-border-3-grey-30:active {
+  border: 3px solid #b3b3b3 !important;
 }
 
 .border-4-grey-30 {
   border: 4px solid #b3b3b3;
 }
 
+.active-border-4-grey-30:active {
+  border: 4px solid #b3b3b3 !important;
+}
+
 .border-5-grey-30 {
   border: 5px solid #b3b3b3;
+}
+
+.active-border-5-grey-30:active {
+  border: 5px solid #b3b3b3 !important;
 }
 
 .border-6-grey-30 {
   border: 6px solid #b3b3b3;
 }
 
+.active-border-6-grey-30:active {
+  border: 6px solid #b3b3b3 !important;
+}
+
 .border-7-grey-30 {
   border: 7px solid #b3b3b3;
+}
+
+.active-border-7-grey-30:active {
+  border: 7px solid #b3b3b3 !important;
 }
 
 .border-8-grey-30 {
   border: 8px solid #b3b3b3;
 }
 
+.active-border-8-grey-30:active {
+  border: 8px solid #b3b3b3 !important;
+}
+
 .border-9-grey-30 {
   border: 9px solid #b3b3b3;
 }
 
+.active-border-9-grey-30:active {
+  border: 9px solid #b3b3b3 !important;
+}
+
 .border-10-grey-30 {
   border: 10px solid #b3b3b3;
+}
+
+.active-border-10-grey-30:active {
+  border: 10px solid #b3b3b3 !important;
 }
 
 .bg-grey-20 {
@@ -3586,44 +6602,96 @@
   color: rgb(204.5, 204.5, 204.5);
 }
 
+.active-fill-grey-20:active {
+  fill: rgb(204.5, 204.5, 204.5) !important;
+}
+
+.active-bg-grey-20:active {
+  background: rgb(204.5, 204.5, 204.5) !important;
+}
+
+.active-text-grey-20:active {
+  color: rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-1-grey-20 {
   border: 1px solid rgb(204.5, 204.5, 204.5);
+}
+
+.active-border-1-grey-20:active {
+  border: 1px solid rgb(204.5, 204.5, 204.5) !important;
 }
 
 .border-2-grey-20 {
   border: 2px solid rgb(204.5, 204.5, 204.5);
 }
 
+.active-border-2-grey-20:active {
+  border: 2px solid rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-3-grey-20 {
   border: 3px solid rgb(204.5, 204.5, 204.5);
+}
+
+.active-border-3-grey-20:active {
+  border: 3px solid rgb(204.5, 204.5, 204.5) !important;
 }
 
 .border-4-grey-20 {
   border: 4px solid rgb(204.5, 204.5, 204.5);
 }
 
+.active-border-4-grey-20:active {
+  border: 4px solid rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-5-grey-20 {
   border: 5px solid rgb(204.5, 204.5, 204.5);
+}
+
+.active-border-5-grey-20:active {
+  border: 5px solid rgb(204.5, 204.5, 204.5) !important;
 }
 
 .border-6-grey-20 {
   border: 6px solid rgb(204.5, 204.5, 204.5);
 }
 
+.active-border-6-grey-20:active {
+  border: 6px solid rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-7-grey-20 {
   border: 7px solid rgb(204.5, 204.5, 204.5);
+}
+
+.active-border-7-grey-20:active {
+  border: 7px solid rgb(204.5, 204.5, 204.5) !important;
 }
 
 .border-8-grey-20 {
   border: 8px solid rgb(204.5, 204.5, 204.5);
 }
 
+.active-border-8-grey-20:active {
+  border: 8px solid rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-9-grey-20 {
   border: 9px solid rgb(204.5, 204.5, 204.5);
 }
 
+.active-border-9-grey-20:active {
+  border: 9px solid rgb(204.5, 204.5, 204.5) !important;
+}
+
 .border-10-grey-20 {
   border: 10px solid rgb(204.5, 204.5, 204.5);
+}
+
+.active-border-10-grey-20:active {
+  border: 10px solid rgb(204.5, 204.5, 204.5) !important;
 }
 
 .bg-grey-10 {
@@ -3638,44 +6706,96 @@
   color: #e6e6e6;
 }
 
+.active-fill-grey-10:active {
+  fill: #e6e6e6 !important;
+}
+
+.active-bg-grey-10:active {
+  background: #e6e6e6 !important;
+}
+
+.active-text-grey-10:active {
+  color: #e6e6e6 !important;
+}
+
 .border-1-grey-10 {
   border: 1px solid #e6e6e6;
+}
+
+.active-border-1-grey-10:active {
+  border: 1px solid #e6e6e6 !important;
 }
 
 .border-2-grey-10 {
   border: 2px solid #e6e6e6;
 }
 
+.active-border-2-grey-10:active {
+  border: 2px solid #e6e6e6 !important;
+}
+
 .border-3-grey-10 {
   border: 3px solid #e6e6e6;
+}
+
+.active-border-3-grey-10:active {
+  border: 3px solid #e6e6e6 !important;
 }
 
 .border-4-grey-10 {
   border: 4px solid #e6e6e6;
 }
 
+.active-border-4-grey-10:active {
+  border: 4px solid #e6e6e6 !important;
+}
+
 .border-5-grey-10 {
   border: 5px solid #e6e6e6;
+}
+
+.active-border-5-grey-10:active {
+  border: 5px solid #e6e6e6 !important;
 }
 
 .border-6-grey-10 {
   border: 6px solid #e6e6e6;
 }
 
+.active-border-6-grey-10:active {
+  border: 6px solid #e6e6e6 !important;
+}
+
 .border-7-grey-10 {
   border: 7px solid #e6e6e6;
+}
+
+.active-border-7-grey-10:active {
+  border: 7px solid #e6e6e6 !important;
 }
 
 .border-8-grey-10 {
   border: 8px solid #e6e6e6;
 }
 
+.active-border-8-grey-10:active {
+  border: 8px solid #e6e6e6 !important;
+}
+
 .border-9-grey-10 {
   border: 9px solid #e6e6e6;
 }
 
+.active-border-9-grey-10:active {
+  border: 9px solid #e6e6e6 !important;
+}
+
 .border-10-grey-10 {
   border: 10px solid #e6e6e6;
+}
+
+.active-border-10-grey-10:active {
+  border: 10px solid #e6e6e6 !important;
 }
 
 .bg-gold-100 {
@@ -3690,44 +6810,96 @@
   color: black;
 }
 
+.active-fill-gold-100:active {
+  fill: black !important;
+}
+
+.active-bg-gold-100:active {
+  background: black !important;
+}
+
+.active-text-gold-100:active {
+  color: black !important;
+}
+
 .border-1-gold-100 {
   border: 1px solid black;
+}
+
+.active-border-1-gold-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-gold-100 {
   border: 2px solid black;
 }
 
+.active-border-2-gold-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-gold-100 {
   border: 3px solid black;
+}
+
+.active-border-3-gold-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-gold-100 {
   border: 4px solid black;
 }
 
+.active-border-4-gold-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-gold-100 {
   border: 5px solid black;
+}
+
+.active-border-5-gold-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-gold-100 {
   border: 6px solid black;
 }
 
+.active-border-6-gold-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-gold-100 {
   border: 7px solid black;
+}
+
+.active-border-7-gold-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-gold-100 {
   border: 8px solid black;
 }
 
+.active-border-8-gold-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-gold-100 {
   border: 9px solid black;
 }
 
+.active-border-9-gold-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-gold-100 {
   border: 10px solid black;
+}
+
+.active-border-10-gold-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-gold-90 {
@@ -3742,44 +6914,96 @@
   color: #332b00;
 }
 
+.active-fill-gold-90:active {
+  fill: #332b00 !important;
+}
+
+.active-bg-gold-90:active {
+  background: #332b00 !important;
+}
+
+.active-text-gold-90:active {
+  color: #332b00 !important;
+}
+
 .border-1-gold-90 {
   border: 1px solid #332b00;
+}
+
+.active-border-1-gold-90:active {
+  border: 1px solid #332b00 !important;
 }
 
 .border-2-gold-90 {
   border: 2px solid #332b00;
 }
 
+.active-border-2-gold-90:active {
+  border: 2px solid #332b00 !important;
+}
+
 .border-3-gold-90 {
   border: 3px solid #332b00;
+}
+
+.active-border-3-gold-90:active {
+  border: 3px solid #332b00 !important;
 }
 
 .border-4-gold-90 {
   border: 4px solid #332b00;
 }
 
+.active-border-4-gold-90:active {
+  border: 4px solid #332b00 !important;
+}
+
 .border-5-gold-90 {
   border: 5px solid #332b00;
+}
+
+.active-border-5-gold-90:active {
+  border: 5px solid #332b00 !important;
 }
 
 .border-6-gold-90 {
   border: 6px solid #332b00;
 }
 
+.active-border-6-gold-90:active {
+  border: 6px solid #332b00 !important;
+}
+
 .border-7-gold-90 {
   border: 7px solid #332b00;
+}
+
+.active-border-7-gold-90:active {
+  border: 7px solid #332b00 !important;
 }
 
 .border-8-gold-90 {
   border: 8px solid #332b00;
 }
 
+.active-border-8-gold-90:active {
+  border: 8px solid #332b00 !important;
+}
+
 .border-9-gold-90 {
   border: 9px solid #332b00;
 }
 
+.active-border-9-gold-90:active {
+  border: 9px solid #332b00 !important;
+}
+
 .border-10-gold-90 {
   border: 10px solid #332b00;
+}
+
+.active-border-10-gold-90:active {
+  border: 10px solid #332b00 !important;
 }
 
 .bg-gold-80 {
@@ -3794,44 +7018,96 @@
   color: #665600;
 }
 
+.active-fill-gold-80:active {
+  fill: #665600 !important;
+}
+
+.active-bg-gold-80:active {
+  background: #665600 !important;
+}
+
+.active-text-gold-80:active {
+  color: #665600 !important;
+}
+
 .border-1-gold-80 {
   border: 1px solid #665600;
+}
+
+.active-border-1-gold-80:active {
+  border: 1px solid #665600 !important;
 }
 
 .border-2-gold-80 {
   border: 2px solid #665600;
 }
 
+.active-border-2-gold-80:active {
+  border: 2px solid #665600 !important;
+}
+
 .border-3-gold-80 {
   border: 3px solid #665600;
+}
+
+.active-border-3-gold-80:active {
+  border: 3px solid #665600 !important;
 }
 
 .border-4-gold-80 {
   border: 4px solid #665600;
 }
 
+.active-border-4-gold-80:active {
+  border: 4px solid #665600 !important;
+}
+
 .border-5-gold-80 {
   border: 5px solid #665600;
+}
+
+.active-border-5-gold-80:active {
+  border: 5px solid #665600 !important;
 }
 
 .border-6-gold-80 {
   border: 6px solid #665600;
 }
 
+.active-border-6-gold-80:active {
+  border: 6px solid #665600 !important;
+}
+
 .border-7-gold-80 {
   border: 7px solid #665600;
+}
+
+.active-border-7-gold-80:active {
+  border: 7px solid #665600 !important;
 }
 
 .border-8-gold-80 {
   border: 8px solid #665600;
 }
 
+.active-border-8-gold-80:active {
+  border: 8px solid #665600 !important;
+}
+
 .border-9-gold-80 {
   border: 9px solid #665600;
 }
 
+.active-border-9-gold-80:active {
+  border: 9px solid #665600 !important;
+}
+
 .border-10-gold-80 {
   border: 10px solid #665600;
+}
+
+.active-border-10-gold-80:active {
+  border: 10px solid #665600 !important;
 }
 
 .bg-gold-70 {
@@ -3846,44 +7122,96 @@
   color: #998100;
 }
 
+.active-fill-gold-70:active {
+  fill: #998100 !important;
+}
+
+.active-bg-gold-70:active {
+  background: #998100 !important;
+}
+
+.active-text-gold-70:active {
+  color: #998100 !important;
+}
+
 .border-1-gold-70 {
   border: 1px solid #998100;
+}
+
+.active-border-1-gold-70:active {
+  border: 1px solid #998100 !important;
 }
 
 .border-2-gold-70 {
   border: 2px solid #998100;
 }
 
+.active-border-2-gold-70:active {
+  border: 2px solid #998100 !important;
+}
+
 .border-3-gold-70 {
   border: 3px solid #998100;
+}
+
+.active-border-3-gold-70:active {
+  border: 3px solid #998100 !important;
 }
 
 .border-4-gold-70 {
   border: 4px solid #998100;
 }
 
+.active-border-4-gold-70:active {
+  border: 4px solid #998100 !important;
+}
+
 .border-5-gold-70 {
   border: 5px solid #998100;
+}
+
+.active-border-5-gold-70:active {
+  border: 5px solid #998100 !important;
 }
 
 .border-6-gold-70 {
   border: 6px solid #998100;
 }
 
+.active-border-6-gold-70:active {
+  border: 6px solid #998100 !important;
+}
+
 .border-7-gold-70 {
   border: 7px solid #998100;
+}
+
+.active-border-7-gold-70:active {
+  border: 7px solid #998100 !important;
 }
 
 .border-8-gold-70 {
   border: 8px solid #998100;
 }
 
+.active-border-8-gold-70:active {
+  border: 8px solid #998100 !important;
+}
+
 .border-9-gold-70 {
   border: 9px solid #998100;
 }
 
+.active-border-9-gold-70:active {
+  border: 9px solid #998100 !important;
+}
+
 .border-10-gold-70 {
   border: 10px solid #998100;
+}
+
+.active-border-10-gold-70:active {
+  border: 10px solid #998100 !important;
 }
 
 .bg-gold-60 {
@@ -3898,44 +7226,96 @@
   color: #ccac00;
 }
 
+.active-fill-gold-60:active {
+  fill: #ccac00 !important;
+}
+
+.active-bg-gold-60:active {
+  background: #ccac00 !important;
+}
+
+.active-text-gold-60:active {
+  color: #ccac00 !important;
+}
+
 .border-1-gold-60 {
   border: 1px solid #ccac00;
+}
+
+.active-border-1-gold-60:active {
+  border: 1px solid #ccac00 !important;
 }
 
 .border-2-gold-60 {
   border: 2px solid #ccac00;
 }
 
+.active-border-2-gold-60:active {
+  border: 2px solid #ccac00 !important;
+}
+
 .border-3-gold-60 {
   border: 3px solid #ccac00;
+}
+
+.active-border-3-gold-60:active {
+  border: 3px solid #ccac00 !important;
 }
 
 .border-4-gold-60 {
   border: 4px solid #ccac00;
 }
 
+.active-border-4-gold-60:active {
+  border: 4px solid #ccac00 !important;
+}
+
 .border-5-gold-60 {
   border: 5px solid #ccac00;
+}
+
+.active-border-5-gold-60:active {
+  border: 5px solid #ccac00 !important;
 }
 
 .border-6-gold-60 {
   border: 6px solid #ccac00;
 }
 
+.active-border-6-gold-60:active {
+  border: 6px solid #ccac00 !important;
+}
+
 .border-7-gold-60 {
   border: 7px solid #ccac00;
+}
+
+.active-border-7-gold-60:active {
+  border: 7px solid #ccac00 !important;
 }
 
 .border-8-gold-60 {
   border: 8px solid #ccac00;
 }
 
+.active-border-8-gold-60:active {
+  border: 8px solid #ccac00 !important;
+}
+
 .border-9-gold-60 {
   border: 9px solid #ccac00;
 }
 
+.active-border-9-gold-60:active {
+  border: 9px solid #ccac00 !important;
+}
+
 .border-10-gold-60 {
   border: 10px solid #ccac00;
+}
+
+.active-border-10-gold-60:active {
+  border: 10px solid #ccac00 !important;
 }
 
 .bg-gold-50 {
@@ -3950,44 +7330,96 @@
   color: gold;
 }
 
+.active-fill-gold-50:active {
+  fill: gold !important;
+}
+
+.active-bg-gold-50:active {
+  background: gold !important;
+}
+
+.active-text-gold-50:active {
+  color: gold !important;
+}
+
 .border-1-gold-50 {
   border: 1px solid gold;
+}
+
+.active-border-1-gold-50:active {
+  border: 1px solid gold !important;
 }
 
 .border-2-gold-50 {
   border: 2px solid gold;
 }
 
+.active-border-2-gold-50:active {
+  border: 2px solid gold !important;
+}
+
 .border-3-gold-50 {
   border: 3px solid gold;
+}
+
+.active-border-3-gold-50:active {
+  border: 3px solid gold !important;
 }
 
 .border-4-gold-50 {
   border: 4px solid gold;
 }
 
+.active-border-4-gold-50:active {
+  border: 4px solid gold !important;
+}
+
 .border-5-gold-50 {
   border: 5px solid gold;
+}
+
+.active-border-5-gold-50:active {
+  border: 5px solid gold !important;
 }
 
 .border-6-gold-50 {
   border: 6px solid gold;
 }
 
+.active-border-6-gold-50:active {
+  border: 6px solid gold !important;
+}
+
 .border-7-gold-50 {
   border: 7px solid gold;
+}
+
+.active-border-7-gold-50:active {
+  border: 7px solid gold !important;
 }
 
 .border-8-gold-50 {
   border: 8px solid gold;
 }
 
+.active-border-8-gold-50:active {
+  border: 8px solid gold !important;
+}
+
 .border-9-gold-50 {
   border: 9px solid gold;
 }
 
+.active-border-9-gold-50:active {
+  border: 9px solid gold !important;
+}
+
 .border-10-gold-50 {
   border: 10px solid gold;
+}
+
+.active-border-10-gold-50:active {
+  border: 10px solid gold !important;
 }
 
 .bg-gold-40 {
@@ -4002,44 +7434,96 @@
   color: #ffdf33;
 }
 
+.active-fill-gold-40:active {
+  fill: #ffdf33 !important;
+}
+
+.active-bg-gold-40:active {
+  background: #ffdf33 !important;
+}
+
+.active-text-gold-40:active {
+  color: #ffdf33 !important;
+}
+
 .border-1-gold-40 {
   border: 1px solid #ffdf33;
+}
+
+.active-border-1-gold-40:active {
+  border: 1px solid #ffdf33 !important;
 }
 
 .border-2-gold-40 {
   border: 2px solid #ffdf33;
 }
 
+.active-border-2-gold-40:active {
+  border: 2px solid #ffdf33 !important;
+}
+
 .border-3-gold-40 {
   border: 3px solid #ffdf33;
+}
+
+.active-border-3-gold-40:active {
+  border: 3px solid #ffdf33 !important;
 }
 
 .border-4-gold-40 {
   border: 4px solid #ffdf33;
 }
 
+.active-border-4-gold-40:active {
+  border: 4px solid #ffdf33 !important;
+}
+
 .border-5-gold-40 {
   border: 5px solid #ffdf33;
+}
+
+.active-border-5-gold-40:active {
+  border: 5px solid #ffdf33 !important;
 }
 
 .border-6-gold-40 {
   border: 6px solid #ffdf33;
 }
 
+.active-border-6-gold-40:active {
+  border: 6px solid #ffdf33 !important;
+}
+
 .border-7-gold-40 {
   border: 7px solid #ffdf33;
+}
+
+.active-border-7-gold-40:active {
+  border: 7px solid #ffdf33 !important;
 }
 
 .border-8-gold-40 {
   border: 8px solid #ffdf33;
 }
 
+.active-border-8-gold-40:active {
+  border: 8px solid #ffdf33 !important;
+}
+
 .border-9-gold-40 {
   border: 9px solid #ffdf33;
 }
 
+.active-border-9-gold-40:active {
+  border: 9px solid #ffdf33 !important;
+}
+
 .border-10-gold-40 {
   border: 10px solid #ffdf33;
+}
+
+.active-border-10-gold-40:active {
+  border: 10px solid #ffdf33 !important;
 }
 
 .bg-gold-30 {
@@ -4054,44 +7538,96 @@
   color: #ffe766;
 }
 
+.active-fill-gold-30:active {
+  fill: #ffe766 !important;
+}
+
+.active-bg-gold-30:active {
+  background: #ffe766 !important;
+}
+
+.active-text-gold-30:active {
+  color: #ffe766 !important;
+}
+
 .border-1-gold-30 {
   border: 1px solid #ffe766;
+}
+
+.active-border-1-gold-30:active {
+  border: 1px solid #ffe766 !important;
 }
 
 .border-2-gold-30 {
   border: 2px solid #ffe766;
 }
 
+.active-border-2-gold-30:active {
+  border: 2px solid #ffe766 !important;
+}
+
 .border-3-gold-30 {
   border: 3px solid #ffe766;
+}
+
+.active-border-3-gold-30:active {
+  border: 3px solid #ffe766 !important;
 }
 
 .border-4-gold-30 {
   border: 4px solid #ffe766;
 }
 
+.active-border-4-gold-30:active {
+  border: 4px solid #ffe766 !important;
+}
+
 .border-5-gold-30 {
   border: 5px solid #ffe766;
+}
+
+.active-border-5-gold-30:active {
+  border: 5px solid #ffe766 !important;
 }
 
 .border-6-gold-30 {
   border: 6px solid #ffe766;
 }
 
+.active-border-6-gold-30:active {
+  border: 6px solid #ffe766 !important;
+}
+
 .border-7-gold-30 {
   border: 7px solid #ffe766;
+}
+
+.active-border-7-gold-30:active {
+  border: 7px solid #ffe766 !important;
 }
 
 .border-8-gold-30 {
   border: 8px solid #ffe766;
 }
 
+.active-border-8-gold-30:active {
+  border: 8px solid #ffe766 !important;
+}
+
 .border-9-gold-30 {
   border: 9px solid #ffe766;
 }
 
+.active-border-9-gold-30:active {
+  border: 9px solid #ffe766 !important;
+}
+
 .border-10-gold-30 {
   border: 10px solid #ffe766;
+}
+
+.active-border-10-gold-30:active {
+  border: 10px solid #ffe766 !important;
 }
 
 .bg-gold-20 {
@@ -4106,44 +7642,96 @@
   color: #ffef99;
 }
 
+.active-fill-gold-20:active {
+  fill: #ffef99 !important;
+}
+
+.active-bg-gold-20:active {
+  background: #ffef99 !important;
+}
+
+.active-text-gold-20:active {
+  color: #ffef99 !important;
+}
+
 .border-1-gold-20 {
   border: 1px solid #ffef99;
+}
+
+.active-border-1-gold-20:active {
+  border: 1px solid #ffef99 !important;
 }
 
 .border-2-gold-20 {
   border: 2px solid #ffef99;
 }
 
+.active-border-2-gold-20:active {
+  border: 2px solid #ffef99 !important;
+}
+
 .border-3-gold-20 {
   border: 3px solid #ffef99;
+}
+
+.active-border-3-gold-20:active {
+  border: 3px solid #ffef99 !important;
 }
 
 .border-4-gold-20 {
   border: 4px solid #ffef99;
 }
 
+.active-border-4-gold-20:active {
+  border: 4px solid #ffef99 !important;
+}
+
 .border-5-gold-20 {
   border: 5px solid #ffef99;
+}
+
+.active-border-5-gold-20:active {
+  border: 5px solid #ffef99 !important;
 }
 
 .border-6-gold-20 {
   border: 6px solid #ffef99;
 }
 
+.active-border-6-gold-20:active {
+  border: 6px solid #ffef99 !important;
+}
+
 .border-7-gold-20 {
   border: 7px solid #ffef99;
+}
+
+.active-border-7-gold-20:active {
+  border: 7px solid #ffef99 !important;
 }
 
 .border-8-gold-20 {
   border: 8px solid #ffef99;
 }
 
+.active-border-8-gold-20:active {
+  border: 8px solid #ffef99 !important;
+}
+
 .border-9-gold-20 {
   border: 9px solid #ffef99;
 }
 
+.active-border-9-gold-20:active {
+  border: 9px solid #ffef99 !important;
+}
+
 .border-10-gold-20 {
   border: 10px solid #ffef99;
+}
+
+.active-border-10-gold-20:active {
+  border: 10px solid #ffef99 !important;
 }
 
 .bg-gold-10 {
@@ -4158,44 +7746,96 @@
   color: #fff7cc;
 }
 
+.active-fill-gold-10:active {
+  fill: #fff7cc !important;
+}
+
+.active-bg-gold-10:active {
+  background: #fff7cc !important;
+}
+
+.active-text-gold-10:active {
+  color: #fff7cc !important;
+}
+
 .border-1-gold-10 {
   border: 1px solid #fff7cc;
+}
+
+.active-border-1-gold-10:active {
+  border: 1px solid #fff7cc !important;
 }
 
 .border-2-gold-10 {
   border: 2px solid #fff7cc;
 }
 
+.active-border-2-gold-10:active {
+  border: 2px solid #fff7cc !important;
+}
+
 .border-3-gold-10 {
   border: 3px solid #fff7cc;
+}
+
+.active-border-3-gold-10:active {
+  border: 3px solid #fff7cc !important;
 }
 
 .border-4-gold-10 {
   border: 4px solid #fff7cc;
 }
 
+.active-border-4-gold-10:active {
+  border: 4px solid #fff7cc !important;
+}
+
 .border-5-gold-10 {
   border: 5px solid #fff7cc;
+}
+
+.active-border-5-gold-10:active {
+  border: 5px solid #fff7cc !important;
 }
 
 .border-6-gold-10 {
   border: 6px solid #fff7cc;
 }
 
+.active-border-6-gold-10:active {
+  border: 6px solid #fff7cc !important;
+}
+
 .border-7-gold-10 {
   border: 7px solid #fff7cc;
+}
+
+.active-border-7-gold-10:active {
+  border: 7px solid #fff7cc !important;
 }
 
 .border-8-gold-10 {
   border: 8px solid #fff7cc;
 }
 
+.active-border-8-gold-10:active {
+  border: 8px solid #fff7cc !important;
+}
+
 .border-9-gold-10 {
   border: 9px solid #fff7cc;
 }
 
+.active-border-9-gold-10:active {
+  border: 9px solid #fff7cc !important;
+}
+
 .border-10-gold-10 {
   border: 10px solid #fff7cc;
+}
+
+.active-border-10-gold-10:active {
+  border: 10px solid #fff7cc !important;
 }
 
 .bg-pink-100 {
@@ -4210,44 +7850,96 @@
   color: rgb(192, 0, 33.5238095238);
 }
 
+.active-fill-pink-100:active {
+  fill: rgb(192, 0, 33.5238095238) !important;
+}
+
+.active-bg-pink-100:active {
+  background: rgb(192, 0, 33.5238095238) !important;
+}
+
+.active-text-pink-100:active {
+  color: rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-1-pink-100 {
   border: 1px solid rgb(192, 0, 33.5238095238);
+}
+
+.active-border-1-pink-100:active {
+  border: 1px solid rgb(192, 0, 33.5238095238) !important;
 }
 
 .border-2-pink-100 {
   border: 2px solid rgb(192, 0, 33.5238095238);
 }
 
+.active-border-2-pink-100:active {
+  border: 2px solid rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-3-pink-100 {
   border: 3px solid rgb(192, 0, 33.5238095238);
+}
+
+.active-border-3-pink-100:active {
+  border: 3px solid rgb(192, 0, 33.5238095238) !important;
 }
 
 .border-4-pink-100 {
   border: 4px solid rgb(192, 0, 33.5238095238);
 }
 
+.active-border-4-pink-100:active {
+  border: 4px solid rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-5-pink-100 {
   border: 5px solid rgb(192, 0, 33.5238095238);
+}
+
+.active-border-5-pink-100:active {
+  border: 5px solid rgb(192, 0, 33.5238095238) !important;
 }
 
 .border-6-pink-100 {
   border: 6px solid rgb(192, 0, 33.5238095238);
 }
 
+.active-border-6-pink-100:active {
+  border: 6px solid rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-7-pink-100 {
   border: 7px solid rgb(192, 0, 33.5238095238);
+}
+
+.active-border-7-pink-100:active {
+  border: 7px solid rgb(192, 0, 33.5238095238) !important;
 }
 
 .border-8-pink-100 {
   border: 8px solid rgb(192, 0, 33.5238095238);
 }
 
+.active-border-8-pink-100:active {
+  border: 8px solid rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-9-pink-100 {
   border: 9px solid rgb(192, 0, 33.5238095238);
 }
 
+.active-border-9-pink-100:active {
+  border: 9px solid rgb(192, 0, 33.5238095238) !important;
+}
+
 .border-10-pink-100 {
   border: 10px solid rgb(192, 0, 33.5238095238);
+}
+
+.active-border-10-pink-100:active {
+  border: 10px solid rgb(192, 0, 33.5238095238) !important;
 }
 
 .bg-pink-90 {
@@ -4262,44 +7954,96 @@
   color: rgb(243, 0, 42.4285714286);
 }
 
+.active-fill-pink-90:active {
+  fill: rgb(243, 0, 42.4285714286) !important;
+}
+
+.active-bg-pink-90:active {
+  background: rgb(243, 0, 42.4285714286) !important;
+}
+
+.active-text-pink-90:active {
+  color: rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-1-pink-90 {
   border: 1px solid rgb(243, 0, 42.4285714286);
+}
+
+.active-border-1-pink-90:active {
+  border: 1px solid rgb(243, 0, 42.4285714286) !important;
 }
 
 .border-2-pink-90 {
   border: 2px solid rgb(243, 0, 42.4285714286);
 }
 
+.active-border-2-pink-90:active {
+  border: 2px solid rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-3-pink-90 {
   border: 3px solid rgb(243, 0, 42.4285714286);
+}
+
+.active-border-3-pink-90:active {
+  border: 3px solid rgb(243, 0, 42.4285714286) !important;
 }
 
 .border-4-pink-90 {
   border: 4px solid rgb(243, 0, 42.4285714286);
 }
 
+.active-border-4-pink-90:active {
+  border: 4px solid rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-5-pink-90 {
   border: 5px solid rgb(243, 0, 42.4285714286);
+}
+
+.active-border-5-pink-90:active {
+  border: 5px solid rgb(243, 0, 42.4285714286) !important;
 }
 
 .border-6-pink-90 {
   border: 6px solid rgb(243, 0, 42.4285714286);
 }
 
+.active-border-6-pink-90:active {
+  border: 6px solid rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-7-pink-90 {
   border: 7px solid rgb(243, 0, 42.4285714286);
+}
+
+.active-border-7-pink-90:active {
+  border: 7px solid rgb(243, 0, 42.4285714286) !important;
 }
 
 .border-8-pink-90 {
   border: 8px solid rgb(243, 0, 42.4285714286);
 }
 
+.active-border-8-pink-90:active {
+  border: 8px solid rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-9-pink-90 {
   border: 9px solid rgb(243, 0, 42.4285714286);
 }
 
+.active-border-9-pink-90:active {
+  border: 9px solid rgb(243, 0, 42.4285714286) !important;
+}
+
 .border-10-pink-90 {
   border: 10px solid rgb(243, 0, 42.4285714286);
+}
+
+.active-border-10-pink-90:active {
+  border: 10px solid rgb(243, 0, 42.4285714286) !important;
 }
 
 .bg-pink-80 {
@@ -4314,44 +8058,96 @@
   color: rgb(255, 39, 76.7142857143);
 }
 
+.active-fill-pink-80:active {
+  fill: rgb(255, 39, 76.7142857143) !important;
+}
+
+.active-bg-pink-80:active {
+  background: rgb(255, 39, 76.7142857143) !important;
+}
+
+.active-text-pink-80:active {
+  color: rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-1-pink-80 {
   border: 1px solid rgb(255, 39, 76.7142857143);
+}
+
+.active-border-1-pink-80:active {
+  border: 1px solid rgb(255, 39, 76.7142857143) !important;
 }
 
 .border-2-pink-80 {
   border: 2px solid rgb(255, 39, 76.7142857143);
 }
 
+.active-border-2-pink-80:active {
+  border: 2px solid rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-3-pink-80 {
   border: 3px solid rgb(255, 39, 76.7142857143);
+}
+
+.active-border-3-pink-80:active {
+  border: 3px solid rgb(255, 39, 76.7142857143) !important;
 }
 
 .border-4-pink-80 {
   border: 4px solid rgb(255, 39, 76.7142857143);
 }
 
+.active-border-4-pink-80:active {
+  border: 4px solid rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-5-pink-80 {
   border: 5px solid rgb(255, 39, 76.7142857143);
+}
+
+.active-border-5-pink-80:active {
+  border: 5px solid rgb(255, 39, 76.7142857143) !important;
 }
 
 .border-6-pink-80 {
   border: 6px solid rgb(255, 39, 76.7142857143);
 }
 
+.active-border-6-pink-80:active {
+  border: 6px solid rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-7-pink-80 {
   border: 7px solid rgb(255, 39, 76.7142857143);
+}
+
+.active-border-7-pink-80:active {
+  border: 7px solid rgb(255, 39, 76.7142857143) !important;
 }
 
 .border-8-pink-80 {
   border: 8px solid rgb(255, 39, 76.7142857143);
 }
 
+.active-border-8-pink-80:active {
+  border: 8px solid rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-9-pink-80 {
   border: 9px solid rgb(255, 39, 76.7142857143);
 }
 
+.active-border-9-pink-80:active {
+  border: 9px solid rgb(255, 39, 76.7142857143) !important;
+}
+
 .border-10-pink-80 {
   border: 10px solid rgb(255, 39, 76.7142857143);
+}
+
+.active-border-10-pink-80:active {
+  border: 10px solid rgb(255, 39, 76.7142857143) !important;
 }
 
 .bg-pink-70 {
@@ -4366,44 +8162,96 @@
   color: rgb(255, 90, 118.8095238095);
 }
 
+.active-fill-pink-70:active {
+  fill: rgb(255, 90, 118.8095238095) !important;
+}
+
+.active-bg-pink-70:active {
+  background: rgb(255, 90, 118.8095238095) !important;
+}
+
+.active-text-pink-70:active {
+  color: rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-1-pink-70 {
   border: 1px solid rgb(255, 90, 118.8095238095);
+}
+
+.active-border-1-pink-70:active {
+  border: 1px solid rgb(255, 90, 118.8095238095) !important;
 }
 
 .border-2-pink-70 {
   border: 2px solid rgb(255, 90, 118.8095238095);
 }
 
+.active-border-2-pink-70:active {
+  border: 2px solid rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-3-pink-70 {
   border: 3px solid rgb(255, 90, 118.8095238095);
+}
+
+.active-border-3-pink-70:active {
+  border: 3px solid rgb(255, 90, 118.8095238095) !important;
 }
 
 .border-4-pink-70 {
   border: 4px solid rgb(255, 90, 118.8095238095);
 }
 
+.active-border-4-pink-70:active {
+  border: 4px solid rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-5-pink-70 {
   border: 5px solid rgb(255, 90, 118.8095238095);
+}
+
+.active-border-5-pink-70:active {
+  border: 5px solid rgb(255, 90, 118.8095238095) !important;
 }
 
 .border-6-pink-70 {
   border: 6px solid rgb(255, 90, 118.8095238095);
 }
 
+.active-border-6-pink-70:active {
+  border: 6px solid rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-7-pink-70 {
   border: 7px solid rgb(255, 90, 118.8095238095);
+}
+
+.active-border-7-pink-70:active {
+  border: 7px solid rgb(255, 90, 118.8095238095) !important;
 }
 
 .border-8-pink-70 {
   border: 8px solid rgb(255, 90, 118.8095238095);
 }
 
+.active-border-8-pink-70:active {
+  border: 8px solid rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-9-pink-70 {
   border: 9px solid rgb(255, 90, 118.8095238095);
 }
 
+.active-border-9-pink-70:active {
+  border: 9px solid rgb(255, 90, 118.8095238095) !important;
+}
+
 .border-10-pink-70 {
   border: 10px solid rgb(255, 90, 118.8095238095);
+}
+
+.active-border-10-pink-70:active {
+  border: 10px solid rgb(255, 90, 118.8095238095) !important;
 }
 
 .bg-pink-60 {
@@ -4418,44 +8266,96 @@
   color: rgb(255, 141, 160.9047619048);
 }
 
+.active-fill-pink-60:active {
+  fill: rgb(255, 141, 160.9047619048) !important;
+}
+
+.active-bg-pink-60:active {
+  background: rgb(255, 141, 160.9047619048) !important;
+}
+
+.active-text-pink-60:active {
+  color: rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-1-pink-60 {
   border: 1px solid rgb(255, 141, 160.9047619048);
+}
+
+.active-border-1-pink-60:active {
+  border: 1px solid rgb(255, 141, 160.9047619048) !important;
 }
 
 .border-2-pink-60 {
   border: 2px solid rgb(255, 141, 160.9047619048);
 }
 
+.active-border-2-pink-60:active {
+  border: 2px solid rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-3-pink-60 {
   border: 3px solid rgb(255, 141, 160.9047619048);
+}
+
+.active-border-3-pink-60:active {
+  border: 3px solid rgb(255, 141, 160.9047619048) !important;
 }
 
 .border-4-pink-60 {
   border: 4px solid rgb(255, 141, 160.9047619048);
 }
 
+.active-border-4-pink-60:active {
+  border: 4px solid rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-5-pink-60 {
   border: 5px solid rgb(255, 141, 160.9047619048);
+}
+
+.active-border-5-pink-60:active {
+  border: 5px solid rgb(255, 141, 160.9047619048) !important;
 }
 
 .border-6-pink-60 {
   border: 6px solid rgb(255, 141, 160.9047619048);
 }
 
+.active-border-6-pink-60:active {
+  border: 6px solid rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-7-pink-60 {
   border: 7px solid rgb(255, 141, 160.9047619048);
+}
+
+.active-border-7-pink-60:active {
+  border: 7px solid rgb(255, 141, 160.9047619048) !important;
 }
 
 .border-8-pink-60 {
   border: 8px solid rgb(255, 141, 160.9047619048);
 }
 
+.active-border-8-pink-60:active {
+  border: 8px solid rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-9-pink-60 {
   border: 9px solid rgb(255, 141, 160.9047619048);
 }
 
+.active-border-9-pink-60:active {
+  border: 9px solid rgb(255, 141, 160.9047619048) !important;
+}
+
 .border-10-pink-60 {
   border: 10px solid rgb(255, 141, 160.9047619048);
+}
+
+.active-border-10-pink-60:active {
+  border: 10px solid rgb(255, 141, 160.9047619048) !important;
 }
 
 .bg-pink-50 {
@@ -4470,44 +8370,96 @@
   color: pink;
 }
 
+.active-fill-pink-50:active {
+  fill: pink !important;
+}
+
+.active-bg-pink-50:active {
+  background: pink !important;
+}
+
+.active-text-pink-50:active {
+  color: pink !important;
+}
+
 .border-1-pink-50 {
   border: 1px solid pink;
+}
+
+.active-border-1-pink-50:active {
+  border: 1px solid pink !important;
 }
 
 .border-2-pink-50 {
   border: 2px solid pink;
 }
 
+.active-border-2-pink-50:active {
+  border: 2px solid pink !important;
+}
+
 .border-3-pink-50 {
   border: 3px solid pink;
+}
+
+.active-border-3-pink-50:active {
+  border: 3px solid pink !important;
 }
 
 .border-4-pink-50 {
   border: 4px solid pink;
 }
 
+.active-border-4-pink-50:active {
+  border: 4px solid pink !important;
+}
+
 .border-5-pink-50 {
   border: 5px solid pink;
+}
+
+.active-border-5-pink-50:active {
+  border: 5px solid pink !important;
 }
 
 .border-6-pink-50 {
   border: 6px solid pink;
 }
 
+.active-border-6-pink-50:active {
+  border: 6px solid pink !important;
+}
+
 .border-7-pink-50 {
   border: 7px solid pink;
+}
+
+.active-border-7-pink-50:active {
+  border: 7px solid pink !important;
 }
 
 .border-8-pink-50 {
   border: 8px solid pink;
 }
 
+.active-border-8-pink-50:active {
+  border: 8px solid pink !important;
+}
+
 .border-9-pink-50 {
   border: 9px solid pink;
 }
 
+.active-border-9-pink-50:active {
+  border: 9px solid pink !important;
+}
+
 .border-10-pink-50 {
   border: 10px solid pink;
+}
+
+.active-border-10-pink-50:active {
+  border: 10px solid pink !important;
 }
 
 .bg-pink-40 {
@@ -4522,44 +8474,96 @@
   color: rgb(255, 243, 245.0952380952);
 }
 
+.active-fill-pink-40:active {
+  fill: rgb(255, 243, 245.0952380952) !important;
+}
+
+.active-bg-pink-40:active {
+  background: rgb(255, 243, 245.0952380952) !important;
+}
+
+.active-text-pink-40:active {
+  color: rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-1-pink-40 {
   border: 1px solid rgb(255, 243, 245.0952380952);
+}
+
+.active-border-1-pink-40:active {
+  border: 1px solid rgb(255, 243, 245.0952380952) !important;
 }
 
 .border-2-pink-40 {
   border: 2px solid rgb(255, 243, 245.0952380952);
 }
 
+.active-border-2-pink-40:active {
+  border: 2px solid rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-3-pink-40 {
   border: 3px solid rgb(255, 243, 245.0952380952);
+}
+
+.active-border-3-pink-40:active {
+  border: 3px solid rgb(255, 243, 245.0952380952) !important;
 }
 
 .border-4-pink-40 {
   border: 4px solid rgb(255, 243, 245.0952380952);
 }
 
+.active-border-4-pink-40:active {
+  border: 4px solid rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-5-pink-40 {
   border: 5px solid rgb(255, 243, 245.0952380952);
+}
+
+.active-border-5-pink-40:active {
+  border: 5px solid rgb(255, 243, 245.0952380952) !important;
 }
 
 .border-6-pink-40 {
   border: 6px solid rgb(255, 243, 245.0952380952);
 }
 
+.active-border-6-pink-40:active {
+  border: 6px solid rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-7-pink-40 {
   border: 7px solid rgb(255, 243, 245.0952380952);
+}
+
+.active-border-7-pink-40:active {
+  border: 7px solid rgb(255, 243, 245.0952380952) !important;
 }
 
 .border-8-pink-40 {
   border: 8px solid rgb(255, 243, 245.0952380952);
 }
 
+.active-border-8-pink-40:active {
+  border: 8px solid rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-9-pink-40 {
   border: 9px solid rgb(255, 243, 245.0952380952);
 }
 
+.active-border-9-pink-40:active {
+  border: 9px solid rgb(255, 243, 245.0952380952) !important;
+}
+
 .border-10-pink-40 {
   border: 10px solid rgb(255, 243, 245.0952380952);
+}
+
+.active-border-10-pink-40:active {
+  border: 10px solid rgb(255, 243, 245.0952380952) !important;
 }
 
 .bg-pink-30 {
@@ -4574,44 +8578,96 @@
   color: white;
 }
 
+.active-fill-pink-30:active {
+  fill: white !important;
+}
+
+.active-bg-pink-30:active {
+  background: white !important;
+}
+
+.active-text-pink-30:active {
+  color: white !important;
+}
+
 .border-1-pink-30 {
   border: 1px solid white;
+}
+
+.active-border-1-pink-30:active {
+  border: 1px solid white !important;
 }
 
 .border-2-pink-30 {
   border: 2px solid white;
 }
 
+.active-border-2-pink-30:active {
+  border: 2px solid white !important;
+}
+
 .border-3-pink-30 {
   border: 3px solid white;
+}
+
+.active-border-3-pink-30:active {
+  border: 3px solid white !important;
 }
 
 .border-4-pink-30 {
   border: 4px solid white;
 }
 
+.active-border-4-pink-30:active {
+  border: 4px solid white !important;
+}
+
 .border-5-pink-30 {
   border: 5px solid white;
+}
+
+.active-border-5-pink-30:active {
+  border: 5px solid white !important;
 }
 
 .border-6-pink-30 {
   border: 6px solid white;
 }
 
+.active-border-6-pink-30:active {
+  border: 6px solid white !important;
+}
+
 .border-7-pink-30 {
   border: 7px solid white;
+}
+
+.active-border-7-pink-30:active {
+  border: 7px solid white !important;
 }
 
 .border-8-pink-30 {
   border: 8px solid white;
 }
 
+.active-border-8-pink-30:active {
+  border: 8px solid white !important;
+}
+
 .border-9-pink-30 {
   border: 9px solid white;
 }
 
+.active-border-9-pink-30:active {
+  border: 9px solid white !important;
+}
+
 .border-10-pink-30 {
   border: 10px solid white;
+}
+
+.active-border-10-pink-30:active {
+  border: 10px solid white !important;
 }
 
 .bg-pink-20 {
@@ -4626,44 +8682,96 @@
   color: white;
 }
 
+.active-fill-pink-20:active {
+  fill: white !important;
+}
+
+.active-bg-pink-20:active {
+  background: white !important;
+}
+
+.active-text-pink-20:active {
+  color: white !important;
+}
+
 .border-1-pink-20 {
   border: 1px solid white;
+}
+
+.active-border-1-pink-20:active {
+  border: 1px solid white !important;
 }
 
 .border-2-pink-20 {
   border: 2px solid white;
 }
 
+.active-border-2-pink-20:active {
+  border: 2px solid white !important;
+}
+
 .border-3-pink-20 {
   border: 3px solid white;
+}
+
+.active-border-3-pink-20:active {
+  border: 3px solid white !important;
 }
 
 .border-4-pink-20 {
   border: 4px solid white;
 }
 
+.active-border-4-pink-20:active {
+  border: 4px solid white !important;
+}
+
 .border-5-pink-20 {
   border: 5px solid white;
+}
+
+.active-border-5-pink-20:active {
+  border: 5px solid white !important;
 }
 
 .border-6-pink-20 {
   border: 6px solid white;
 }
 
+.active-border-6-pink-20:active {
+  border: 6px solid white !important;
+}
+
 .border-7-pink-20 {
   border: 7px solid white;
+}
+
+.active-border-7-pink-20:active {
+  border: 7px solid white !important;
 }
 
 .border-8-pink-20 {
   border: 8px solid white;
 }
 
+.active-border-8-pink-20:active {
+  border: 8px solid white !important;
+}
+
 .border-9-pink-20 {
   border: 9px solid white;
 }
 
+.active-border-9-pink-20:active {
+  border: 9px solid white !important;
+}
+
 .border-10-pink-20 {
   border: 10px solid white;
+}
+
+.active-border-10-pink-20:active {
+  border: 10px solid white !important;
 }
 
 .bg-pink-10 {
@@ -4678,44 +8786,96 @@
   color: white;
 }
 
+.active-fill-pink-10:active {
+  fill: white !important;
+}
+
+.active-bg-pink-10:active {
+  background: white !important;
+}
+
+.active-text-pink-10:active {
+  color: white !important;
+}
+
 .border-1-pink-10 {
   border: 1px solid white;
+}
+
+.active-border-1-pink-10:active {
+  border: 1px solid white !important;
 }
 
 .border-2-pink-10 {
   border: 2px solid white;
 }
 
+.active-border-2-pink-10:active {
+  border: 2px solid white !important;
+}
+
 .border-3-pink-10 {
   border: 3px solid white;
+}
+
+.active-border-3-pink-10:active {
+  border: 3px solid white !important;
 }
 
 .border-4-pink-10 {
   border: 4px solid white;
 }
 
+.active-border-4-pink-10:active {
+  border: 4px solid white !important;
+}
+
 .border-5-pink-10 {
   border: 5px solid white;
+}
+
+.active-border-5-pink-10:active {
+  border: 5px solid white !important;
 }
 
 .border-6-pink-10 {
   border: 6px solid white;
 }
 
+.active-border-6-pink-10:active {
+  border: 6px solid white !important;
+}
+
 .border-7-pink-10 {
   border: 7px solid white;
+}
+
+.active-border-7-pink-10:active {
+  border: 7px solid white !important;
 }
 
 .border-8-pink-10 {
   border: 8px solid white;
 }
 
+.active-border-8-pink-10:active {
+  border: 8px solid white !important;
+}
+
 .border-9-pink-10 {
   border: 9px solid white;
 }
 
+.active-border-9-pink-10:active {
+  border: 9px solid white !important;
+}
+
 .border-10-pink-10 {
   border: 10px solid white;
+}
+
+.active-border-10-pink-10:active {
+  border: 10px solid white !important;
 }
 
 .bg-brown-100 {
@@ -4730,44 +8890,96 @@
   color: black;
 }
 
+.active-fill-brown-100:active {
+  fill: black !important;
+}
+
+.active-bg-brown-100:active {
+  background: black !important;
+}
+
+.active-text-brown-100:active {
+  color: black !important;
+}
+
 .border-1-brown-100 {
   border: 1px solid black;
+}
+
+.active-border-1-brown-100:active {
+  border: 1px solid black !important;
 }
 
 .border-2-brown-100 {
   border: 2px solid black;
 }
 
+.active-border-2-brown-100:active {
+  border: 2px solid black !important;
+}
+
 .border-3-brown-100 {
   border: 3px solid black;
+}
+
+.active-border-3-brown-100:active {
+  border: 3px solid black !important;
 }
 
 .border-4-brown-100 {
   border: 4px solid black;
 }
 
+.active-border-4-brown-100:active {
+  border: 4px solid black !important;
+}
+
 .border-5-brown-100 {
   border: 5px solid black;
+}
+
+.active-border-5-brown-100:active {
+  border: 5px solid black !important;
 }
 
 .border-6-brown-100 {
   border: 6px solid black;
 }
 
+.active-border-6-brown-100:active {
+  border: 6px solid black !important;
+}
+
 .border-7-brown-100 {
   border: 7px solid black;
+}
+
+.active-border-7-brown-100:active {
+  border: 7px solid black !important;
 }
 
 .border-8-brown-100 {
   border: 8px solid black;
 }
 
+.active-border-8-brown-100:active {
+  border: 8px solid black !important;
+}
+
 .border-9-brown-100 {
   border: 9px solid black;
 }
 
+.active-border-9-brown-100:active {
+  border: 9px solid black !important;
+}
+
 .border-10-brown-100 {
   border: 10px solid black;
+}
+
+.active-border-10-brown-100:active {
+  border: 10px solid black !important;
 }
 
 .bg-brown-90 {
@@ -4782,44 +8994,96 @@
   color: rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-fill-brown-90:active {
+  fill: rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
+.active-bg-brown-90:active {
+  background: rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
+.active-text-brown-90:active {
+  color: rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-1-brown-90 {
   border: 1px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
+}
+
+.active-border-1-brown-90:active {
+  border: 1px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
 }
 
 .border-2-brown-90 {
   border: 2px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-border-2-brown-90:active {
+  border: 2px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-3-brown-90 {
   border: 3px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
+}
+
+.active-border-3-brown-90:active {
+  border: 3px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
 }
 
 .border-4-brown-90 {
   border: 4px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-border-4-brown-90:active {
+  border: 4px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-5-brown-90 {
   border: 5px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
+}
+
+.active-border-5-brown-90:active {
+  border: 5px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
 }
 
 .border-6-brown-90 {
   border: 6px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-border-6-brown-90:active {
+  border: 6px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-7-brown-90 {
   border: 7px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
+}
+
+.active-border-7-brown-90:active {
+  border: 7px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
 }
 
 .border-8-brown-90 {
   border: 8px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-border-8-brown-90:active {
+  border: 8px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-9-brown-90 {
   border: 9px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
 }
 
+.active-border-9-brown-90:active {
+  border: 9px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
+}
+
 .border-10-brown-90 {
   border: 10px solid rgb(2.3913043478, 0.6086956522, 0.6086956522);
+}
+
+.active-border-10-brown-90:active {
+  border: 10px solid rgb(2.3913043478, 0.6086956522, 0.6086956522) !important;
 }
 
 .bg-brown-80 {
@@ -4834,44 +9098,96 @@
   color: rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-fill-brown-80:active {
+  fill: rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
+.active-bg-brown-80:active {
+  background: rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
+.active-text-brown-80:active {
+  color: rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-1-brown-80 {
   border: 1px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
+}
+
+.active-border-1-brown-80:active {
+  border: 1px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
 }
 
 .border-2-brown-80 {
   border: 2px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-border-2-brown-80:active {
+  border: 2px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-3-brown-80 {
   border: 3px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
+}
+
+.active-border-3-brown-80:active {
+  border: 3px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
 }
 
 .border-4-brown-80 {
   border: 4px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-border-4-brown-80:active {
+  border: 4px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-5-brown-80 {
   border: 5px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
+}
+
+.active-border-5-brown-80:active {
+  border: 5px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
 }
 
 .border-6-brown-80 {
   border: 6px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-border-6-brown-80:active {
+  border: 6px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-7-brown-80 {
   border: 7px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
+}
+
+.active-border-7-brown-80:active {
+  border: 7px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
 }
 
 .border-8-brown-80 {
   border: 8px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-border-8-brown-80:active {
+  border: 8px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-9-brown-80 {
   border: 9px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
 }
 
+.active-border-9-brown-80:active {
+  border: 9px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
+}
+
 .border-10-brown-80 {
   border: 10px solid rgb(43.0434782609, 10.9565217391, 10.9565217391);
+}
+
+.active-border-10-brown-80:active {
+  border: 10px solid rgb(43.0434782609, 10.9565217391, 10.9565217391) !important;
 }
 
 .bg-brown-70 {
@@ -4886,44 +9202,96 @@
   color: rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-fill-brown-70:active {
+  fill: rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
+.active-bg-brown-70:active {
+  background: rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
+.active-text-brown-70:active {
+  color: rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-1-brown-70 {
   border: 1px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
+}
+
+.active-border-1-brown-70:active {
+  border: 1px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
 }
 
 .border-2-brown-70 {
   border: 2px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-border-2-brown-70:active {
+  border: 2px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-3-brown-70 {
   border: 3px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
+}
+
+.active-border-3-brown-70:active {
+  border: 3px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
 }
 
 .border-4-brown-70 {
   border: 4px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-border-4-brown-70:active {
+  border: 4px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-5-brown-70 {
   border: 5px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
+}
+
+.active-border-5-brown-70:active {
+  border: 5px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
 }
 
 .border-6-brown-70 {
   border: 6px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-border-6-brown-70:active {
+  border: 6px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-7-brown-70 {
   border: 7px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
+}
+
+.active-border-7-brown-70:active {
+  border: 7px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
 }
 
 .border-8-brown-70 {
   border: 8px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-border-8-brown-70:active {
+  border: 8px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-9-brown-70 {
   border: 9px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
 }
 
+.active-border-9-brown-70:active {
+  border: 9px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
+}
+
 .border-10-brown-70 {
   border: 10px solid rgb(83.6956521739, 21.3043478261, 21.3043478261);
+}
+
+.active-border-10-brown-70:active {
+  border: 10px solid rgb(83.6956521739, 21.3043478261, 21.3043478261) !important;
 }
 
 .bg-brown-60 {
@@ -4938,44 +9306,96 @@
   color: rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-fill-brown-60:active {
+  fill: rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
+.active-bg-brown-60:active {
+  background: rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
+.active-text-brown-60:active {
+  color: rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-1-brown-60 {
   border: 1px solid rgb(124.347826087, 31.652173913, 31.652173913);
+}
+
+.active-border-1-brown-60:active {
+  border: 1px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
 }
 
 .border-2-brown-60 {
   border: 2px solid rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-border-2-brown-60:active {
+  border: 2px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-3-brown-60 {
   border: 3px solid rgb(124.347826087, 31.652173913, 31.652173913);
+}
+
+.active-border-3-brown-60:active {
+  border: 3px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
 }
 
 .border-4-brown-60 {
   border: 4px solid rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-border-4-brown-60:active {
+  border: 4px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-5-brown-60 {
   border: 5px solid rgb(124.347826087, 31.652173913, 31.652173913);
+}
+
+.active-border-5-brown-60:active {
+  border: 5px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
 }
 
 .border-6-brown-60 {
   border: 6px solid rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-border-6-brown-60:active {
+  border: 6px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-7-brown-60 {
   border: 7px solid rgb(124.347826087, 31.652173913, 31.652173913);
+}
+
+.active-border-7-brown-60:active {
+  border: 7px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
 }
 
 .border-8-brown-60 {
   border: 8px solid rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-border-8-brown-60:active {
+  border: 8px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-9-brown-60 {
   border: 9px solid rgb(124.347826087, 31.652173913, 31.652173913);
 }
 
+.active-border-9-brown-60:active {
+  border: 9px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
+}
+
 .border-10-brown-60 {
   border: 10px solid rgb(124.347826087, 31.652173913, 31.652173913);
+}
+
+.active-border-10-brown-60:active {
+  border: 10px solid rgb(124.347826087, 31.652173913, 31.652173913) !important;
 }
 
 .bg-brown-50 {
@@ -4990,44 +9410,96 @@
   color: brown;
 }
 
+.active-fill-brown-50:active {
+  fill: brown !important;
+}
+
+.active-bg-brown-50:active {
+  background: brown !important;
+}
+
+.active-text-brown-50:active {
+  color: brown !important;
+}
+
 .border-1-brown-50 {
   border: 1px solid brown;
+}
+
+.active-border-1-brown-50:active {
+  border: 1px solid brown !important;
 }
 
 .border-2-brown-50 {
   border: 2px solid brown;
 }
 
+.active-border-2-brown-50:active {
+  border: 2px solid brown !important;
+}
+
 .border-3-brown-50 {
   border: 3px solid brown;
+}
+
+.active-border-3-brown-50:active {
+  border: 3px solid brown !important;
 }
 
 .border-4-brown-50 {
   border: 4px solid brown;
 }
 
+.active-border-4-brown-50:active {
+  border: 4px solid brown !important;
+}
+
 .border-5-brown-50 {
   border: 5px solid brown;
+}
+
+.active-border-5-brown-50:active {
+  border: 5px solid brown !important;
 }
 
 .border-6-brown-50 {
   border: 6px solid brown;
 }
 
+.active-border-6-brown-50:active {
+  border: 6px solid brown !important;
+}
+
 .border-7-brown-50 {
   border: 7px solid brown;
+}
+
+.active-border-7-brown-50:active {
+  border: 7px solid brown !important;
 }
 
 .border-8-brown-50 {
   border: 8px solid brown;
 }
 
+.active-border-8-brown-50:active {
+  border: 8px solid brown !important;
+}
+
 .border-9-brown-50 {
   border: 9px solid brown;
 }
 
+.active-border-9-brown-50:active {
+  border: 9px solid brown !important;
+}
+
 .border-10-brown-50 {
   border: 10px solid brown;
+}
+
+.active-border-10-brown-50:active {
+  border: 10px solid brown !important;
 }
 
 .bg-brown-40 {
@@ -5042,44 +9514,96 @@
   color: rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-fill-brown-40:active {
+  fill: rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
+.active-bg-brown-40:active {
+  background: rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
+.active-text-brown-40:active {
+  color: rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-1-brown-40 {
   border: 1px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
+}
+
+.active-border-1-brown-40:active {
+  border: 1px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
 }
 
 .border-2-brown-40 {
   border: 2px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-border-2-brown-40:active {
+  border: 2px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-3-brown-40 {
   border: 3px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
+}
+
+.active-border-3-brown-40:active {
+  border: 3px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
 }
 
 .border-4-brown-40 {
   border: 4px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-border-4-brown-40:active {
+  border: 4px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-5-brown-40 {
   border: 5px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
+}
+
+.active-border-5-brown-40:active {
+  border: 5px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
 }
 
 .border-6-brown-40 {
   border: 6px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-border-6-brown-40:active {
+  border: 6px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-7-brown-40 {
   border: 7px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
+}
+
+.active-border-7-brown-40:active {
+  border: 7px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
 }
 
 .border-8-brown-40 {
   border: 8px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-border-8-brown-40:active {
+  border: 8px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-9-brown-40 {
   border: 9px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
 }
 
+.active-border-9-brown-40:active {
+  border: 9px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
+}
+
 .border-10-brown-40 {
   border: 10px solid rgb(203.8695652174, 54.1304347826, 54.1304347826);
+}
+
+.active-border-10-brown-40:active {
+  border: 10px solid rgb(203.8695652174, 54.1304347826, 54.1304347826) !important;
 }
 
 .bg-brown-30 {
@@ -5094,44 +9618,96 @@
   color: rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-fill-brown-30:active {
+  fill: rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
+.active-bg-brown-30:active {
+  background: rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
+.active-text-brown-30:active {
+  color: rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-1-brown-30 {
   border: 1px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
+}
+
+.active-border-1-brown-30:active {
+  border: 1px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
 }
 
 .border-2-brown-30 {
   border: 2px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-border-2-brown-30:active {
+  border: 2px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-3-brown-30 {
   border: 3px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
+}
+
+.active-border-3-brown-30:active {
+  border: 3px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
 }
 
 .border-4-brown-30 {
   border: 4px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-border-4-brown-30:active {
+  border: 4px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-5-brown-30 {
   border: 5px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
+}
+
+.active-border-5-brown-30:active {
+  border: 5px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
 }
 
 .border-6-brown-30 {
   border: 6px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-border-6-brown-30:active {
+  border: 6px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-7-brown-30 {
   border: 7px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
+}
+
+.active-border-7-brown-30:active {
+  border: 7px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
 }
 
 .border-8-brown-30 {
   border: 8px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-border-8-brown-30:active {
+  border: 8px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-9-brown-30 {
   border: 9px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
 }
 
+.active-border-9-brown-30:active {
+  border: 9px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
+}
+
 .border-10-brown-30 {
   border: 10px solid rgb(214.2173913043, 94.7826086957, 94.7826086957);
+}
+
+.active-border-10-brown-30:active {
+  border: 10px solid rgb(214.2173913043, 94.7826086957, 94.7826086957) !important;
 }
 
 .bg-brown-20 {
@@ -5146,44 +9722,96 @@
   color: rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-fill-brown-20:active {
+  fill: rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
+.active-bg-brown-20:active {
+  background: rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
+.active-text-brown-20:active {
+  color: rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-1-brown-20 {
   border: 1px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
+}
+
+.active-border-1-brown-20:active {
+  border: 1px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
 }
 
 .border-2-brown-20 {
   border: 2px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-border-2-brown-20:active {
+  border: 2px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-3-brown-20 {
   border: 3px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
+}
+
+.active-border-3-brown-20:active {
+  border: 3px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
 }
 
 .border-4-brown-20 {
   border: 4px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-border-4-brown-20:active {
+  border: 4px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-5-brown-20 {
   border: 5px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
+}
+
+.active-border-5-brown-20:active {
+  border: 5px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
 }
 
 .border-6-brown-20 {
   border: 6px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-border-6-brown-20:active {
+  border: 6px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-7-brown-20 {
   border: 7px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
+}
+
+.active-border-7-brown-20:active {
+  border: 7px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
 }
 
 .border-8-brown-20 {
   border: 8px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-border-8-brown-20:active {
+  border: 8px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-9-brown-20 {
   border: 9px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
 }
 
+.active-border-9-brown-20:active {
+  border: 9px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
+}
+
 .border-10-brown-20 {
   border: 10px solid rgb(224.5652173913, 135.4347826087, 135.4347826087);
+}
+
+.active-border-10-brown-20:active {
+  border: 10px solid rgb(224.5652173913, 135.4347826087, 135.4347826087) !important;
 }
 
 .bg-brown-10 {
@@ -5198,44 +9826,96 @@
   color: rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-fill-brown-10:active {
+  fill: rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
+.active-bg-brown-10:active {
+  background: rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
+.active-text-brown-10:active {
+  color: rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-1-brown-10 {
   border: 1px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
+}
+
+.active-border-1-brown-10:active {
+  border: 1px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
 }
 
 .border-2-brown-10 {
   border: 2px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-border-2-brown-10:active {
+  border: 2px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-3-brown-10 {
   border: 3px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
+}
+
+.active-border-3-brown-10:active {
+  border: 3px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
 }
 
 .border-4-brown-10 {
   border: 4px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-border-4-brown-10:active {
+  border: 4px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-5-brown-10 {
   border: 5px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
+}
+
+.active-border-5-brown-10:active {
+  border: 5px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
 }
 
 .border-6-brown-10 {
   border: 6px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-border-6-brown-10:active {
+  border: 6px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-7-brown-10 {
   border: 7px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
+}
+
+.active-border-7-brown-10:active {
+  border: 7px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
 }
 
 .border-8-brown-10 {
   border: 8px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-border-8-brown-10:active {
+  border: 8px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-9-brown-10 {
   border: 9px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
 }
 
+.active-border-9-brown-10:active {
+  border: 9px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
+}
+
 .border-10-brown-10 {
   border: 10px solid rgb(234.9130434783, 176.0869565217, 176.0869565217);
+}
+
+.active-border-10-brown-10:active {
+  border: 10px solid rgb(234.9130434783, 176.0869565217, 176.0869565217) !important;
 }
 
 /* COLORS END */
@@ -5339,8 +10019,11 @@
 #pop-up .img-container-wrapper .img-container {
   width: calc((100vw - 15px) / 3);
   height: calc((100vw - 15px) / 3);
+  /*   overflow: hidden;
+  border-radius: 100%;
+  animation: color-pulse-blue 5s linear infinite; */
   overflow: hidden;
-  border-radius: 1000px;
+  border-radius: 100%;
   animation: color-pulse-blue 5s linear infinite;
 }
 #pop-up .img-container-wrapper .img-container #page-icon {
@@ -156690,87 +161373,87 @@ nav .nav-btn:active {
 /** floating animation start **/
 @keyframes bubble-flow-1 {
   0% {
-    transform: translate(60vw, -93vh);
+    transform: translate(60vw, -85vh);
   }
   25% {
-    transform: translate(62vw, -26vh);
+    transform: translate(69vw, -56vh);
   }
   50% {
-    transform: translate(73vw, -23vh);
+    transform: translate(47vw, -67vh);
   }
   75% {
-    transform: translate(50vw, -85vh);
+    transform: translate(45vw, -65vh);
   }
   100% {
-    transform: translate(71vw, -95vh);
+    transform: translate(51vw, -21vh);
   }
 }
 @keyframes bubble-flow-2 {
   0% {
-    transform: translate(93vw, -18vh);
+    transform: translate(74vw, -22vh);
   }
   25% {
-    transform: translate(43vw, -17vh);
+    transform: translate(21vw, -61vh);
   }
   50% {
-    transform: translate(57vw, -20vh);
+    transform: translate(64vw, -76vh);
   }
   75% {
-    transform: translate(26vw, -70vh);
+    transform: translate(74vw, -23vh);
   }
   100% {
-    transform: translate(52vw, -51vh);
+    transform: translate(35vw, -98vh);
   }
 }
 @keyframes bubble-flow-3 {
   0% {
-    transform: translate(11vw, -16vh);
+    transform: translate(88vw, -15vh);
   }
   25% {
-    transform: translate(52vw, -22vh);
+    transform: translate(79vw, -76vh);
   }
   50% {
-    transform: translate(58vw, -16vh);
+    transform: translate(2vw, -52vh);
   }
   75% {
-    transform: translate(62vw, -87vh);
+    transform: translate(1vw, -80vh);
   }
   100% {
-    transform: translate(21vw, -85vh);
+    transform: translate(35vw, -6vh);
   }
 }
 @keyframes bubble-flow-4 {
   0% {
-    transform: translate(50vw, -21vh);
+    transform: translate(53vw, -48vh);
   }
   25% {
-    transform: translate(63vw, -71vh);
+    transform: translate(25vw, -2vh);
   }
   50% {
-    transform: translate(48vw, -8vh);
+    transform: translate(59vw, -12vh);
   }
   75% {
-    transform: translate(86vw, -23vh);
+    transform: translate(54vw, -94vh);
   }
   100% {
-    transform: translate(91vw, -1vh);
+    transform: translate(50vw, -11vh);
   }
 }
 @keyframes bubble-flow-5 {
   0% {
-    transform: translate(3vw, -82vh);
+    transform: translate(65vw, -53vh);
   }
   25% {
-    transform: translate(3vw, -63vh);
+    transform: translate(85vw, -14vh);
   }
   50% {
-    transform: translate(69vw, -10vh);
+    transform: translate(70vw, -41vh);
   }
   75% {
-    transform: translate(80vw, -3vh);
+    transform: translate(23vw, -60vh);
   }
   100% {
-    transform: translate(51vw, -70vh);
+    transform: translate(34vw, -15vh);
   }
 }
 /** floating animation end **/
@@ -268098,8 +272781,11 @@ h2 {
   #pop-up .img-container-wrapper .img-container {
     width: 33.3333333333vh;
     height: 33.3333333333vh;
+    /*   overflow: hidden;
+    border-radius: 100%;
+    animation: color-pulse-blue 5s linear infinite; */
     overflow: hidden;
-    border-radius: 1000px;
+    border-radius: 100%;
     animation: color-pulse-blue 5s linear infinite;
   }
   #pop-up .img-container-wrapper .img-container #page-icon {
@@ -268268,6 +272954,7 @@ main.about-me section.intro.animate {
 main.about-me section.intro h1.animate {
   position: absolute;
   color: #343434;
+  background: rgba(255, 255, 255, 0.5019607843);
   top: 175px;
   z-index: 2;
   opacity: 0;
@@ -268332,7 +273019,7 @@ main.about-me section.education.show i {
   width: 250px;
 }
 main.about-me section.education.show i:active {
-  background: white;
+  /* background: white; */
   color: black;
 }
 main.about-me section.education.show .spinning-circle-container {
@@ -268441,6 +273128,9 @@ main.about-me section.education .spinning-circle-container .spinning-circle {
 main.about-me section.projects a {
   height: 150px;
   width: 150px;
+  overflow: hidden;
+  border-radius: 100%;
+  animation: color-pulse-blue 5s linear infinite;
 }
 main.about-me section.projects img.click-here {
   width: 50px;

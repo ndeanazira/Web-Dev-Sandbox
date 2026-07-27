@@ -59,6 +59,12 @@
 		}
 	}
 }
+
+@mixin pulsing-circle-border($color:blue){
+  overflow: hidden;
+  border-radius: 100%;
+  animation: color-pulse-#{$color} 5s linear infinite;  
+}
 	
 .bubble-inflation{
 	animation: bubble-inflate 1.5s;
